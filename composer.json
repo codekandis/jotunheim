@@ -1,0 +1,46 @@
+{
+	"name": "codekandis/jotunheim",
+	"description": "`codekandis/jotunheim` is a small ECMAScript® library providing prototype extensions and module classes for several common purposes.",
+	"keywords": [
+		"ecma",
+		"script",
+		"prototype",
+		"extensions",
+		"modules",
+		"classes",
+		"exceptions",
+		"dom",
+		"events",
+		"collections",
+		"filter",
+		"data binding",
+		"ajax",
+		"http",
+		"requests",
+		"responses",
+		"pages",
+		"routing",
+		"controls"
+	],
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christian Ramelow",
+			"email": "info@codekandis.net",
+			"homepage": "https://codekandis.net",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "info@codekandis.net",
+		"issues": "https://github.com/codekandis/jotunheim/issues",
+		"docs": "https://github.com/codekandis/jotunheim/blob/master/README.md",
+		"source": "https://github.com/codekandis/jotunheim/tree/master"
+	},
+	"require": {},
+	"require-dev": {
+		"roave/security-advisories": "dev-master"
+	}
+}
