@@ -2,6 +2,7 @@
 
 import './Dom/Document.js';
 import './Dom/HtmlElement.js';
+import './Dom/KeyboardEvent.js';
 import './Dom/NodeList.js';
 import './Net/FileList.js';
 import './Net/Http/Headers/Headers.js';
