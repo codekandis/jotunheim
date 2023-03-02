@@ -17,6 +17,15 @@ import { ValidFileSelectedEvent } from './ValidFileSelectedEvent.js';
 export class FileDropZoneControl extends Abstract
 {
 	/**
+	 * Represents the control type.
+	 * @returns {String}
+	 */
+	static get CONTROL_TYPE()
+	{
+		return 'FILE_DROP_ZONE_CONTROL';
+	}
+
+	/**
 	 * Stores the drop zone.
 	 * @type {HTMLElement}
 	 */
