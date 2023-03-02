@@ -367,4 +367,13 @@ export class Collection extends Abstract
 	{
 		return [ ...this ];
 	}
+
+	/**
+	 * Gets the JSON representation of the collection.
+	 * @return {*[]} The JSON representation of the collection.
+	 */
+	toJSON()
+	{
+		return [ ...this ].toJSON();
+	}
 }
