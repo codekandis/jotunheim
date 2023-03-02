@@ -21,6 +21,24 @@
  */
 
 /**
+ * Determines if a method exists in the object.
+ * @method hasMethod
+ * @memberOf {Object.prototype}
+ * @param {String} name The name of the method.
+ * @returns {Boolean} True if the method exists, otherwise false.
+ */
+Object.defineProperty(
+	Object.prototype,
+	'hasMethod',
+	{
+		value: function ( name )
+		       {
+			       return 'function' === typeof this[ name ];
+		       }
+	}
+);
+
+/**
  * Gets the keys of the object.
  * @method keys
  * @memberOf {Object.prototype}
