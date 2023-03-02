@@ -2,6 +2,7 @@
 
 import { Abstract } from '../Types/Abstract.js';
 import { InvalidIndexException } from '../Types/InvalidIndexException.js';
+import { InvalidTypeException } from '../Types/InvalidTypeException.js';
 
 /**
  * Represents the handler of any collection item iteration.
@@ -55,6 +56,36 @@ export class Collection extends Abstract
 		super();
 
 		this.add( ...items );
+	}
+
+	/**
+	 * Static constructor method.
+	 * @param {...*[]} arrays The arrays to create the collection from.
+	 * @returns {Collection<*>} The created collection.
+	 * @throws {InvalidTypeException} The type of at least one of the passed arrays is not `array`.
+	 * @constructor
+	 */
+	static fromArray( ...arrays )
+	{
+		arrays.forEach(
+			( fetchedArray ) =>
+			{
+				if ( false === Array.isArray( fetchedArray ) )
+				{
+					throw InvalidTypeException.with_type( 'array', typeof fetchedArray );
+				}
+			}
+		);
+
+		const collection = new Collection();
+		arrays.forEach(
+			( fetchedArray ) =>
+			{
+				collection.add( ...fetchedArray );
+			}
+		);
+
+		return collection;
 	}
 
 	/**
