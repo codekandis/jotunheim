@@ -719,3 +719,28 @@ Object.defineProperty(
 		       }
 	}
 );
+
+/**
+ * Gets the JSON representation of the array.
+ * @method toJSON
+ * @memberOf Array.prototype
+ * @returns {*[]} The JSON representation of the array.
+ */
+Object.defineProperty(
+	Array.prototype,
+	'toJSON',
+	{
+		value: function ()
+		       {
+			       return [ ...this ]
+				       .map(
+					       ( fetchedItem ) =>
+					       {
+						       return false === fetchedItem.hasMethod( 'toJSON' )
+							       ? fetchedItem
+							       : fetchedItem.toJSON();
+					       }
+				       );
+		       }
+	}
+);
