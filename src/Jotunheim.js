@@ -10,6 +10,7 @@ import './Net/Http/Headers/Headers.js';
 import './Net/Url.js';
 import { Abstract } from './Types/Abstract.js';
 import './Types/Array.js';
+import './Types/Date.js';
 import './Types/Event.js';
 import './Types/Generator.js';
 import './Types/Object.js';
