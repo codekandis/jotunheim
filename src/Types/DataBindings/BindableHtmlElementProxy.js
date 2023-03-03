@@ -4,29 +4,29 @@ import { DomHelper } from '../../Dom/DomHelper.js';
 import { BindableProxy } from './BindableProxy.js';
 
 /**
- * Represents a bindable HTML form field proxy.
+ * Represents a bindable HTML element proxy.
  * @author Christian Ramelow <info@codekandis.net>
  */
-export class BindableHtmlFormFieldProxy extends BindableProxy
+export class BindableHtmlElementProxy extends BindableProxy
 {
 	/**
 	 * Constructor method.
-	 * @param {HTMLElement} formField The HTML form field to proxy.
+	 * @param {HTMLElement} formField The HTML HTML element to proxy.
 	 */
 	constructor( formField )
 	{
-		super( formField, BindableHtmlFormFieldProxy.#bindEventHandlersToBindableProxy );
+		super( formField, BindableHtmlElementProxy.#bindEventHandlersToBindableProxy );
 	}
 
 	/**
 	 * Static constructor method.
-	 * @param {String} selector The CSS selector specifying the HTML form field element to proxy.
-	 * @returns {BindableHtmlFormFieldProxy}
+	 * @param {String} selector The CSS selector specifying the HTML HTML element element to proxy.
+	 * @returns {BindableHtmlElementProxy}
 	 * @constructor
 	 */
 	static with_selector( selector )
 	{
-		return new BindableHtmlFormFieldProxy(
+		return new BindableHtmlElementProxy(
 			DomHelper.querySelector( selector )
 		);
 	}
