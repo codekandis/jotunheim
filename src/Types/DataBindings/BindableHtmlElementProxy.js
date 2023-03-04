@@ -11,7 +11,7 @@ export class BindableHtmlElementProxy extends BindableProxy
 {
 	/**
 	 * Constructor method.
-	 * @param {HTMLElement} formField The HTML HTML element to proxy.
+	 * @param {HTMLElement} formField The HTML element to proxy.
 	 */
 	constructor( formField )
 	{
@@ -20,7 +20,7 @@ export class BindableHtmlElementProxy extends BindableProxy
 
 	/**
 	 * Static constructor method.
-	 * @param {String} selector The CSS selector specifying the HTML HTML element element to proxy.
+	 * @param {String} selector The CSS selector specifying the HTML element to proxy.
 	 * @returns {BindableHtmlElementProxy}
 	 * @constructor
 	 */

@@ -1,6 +1,7 @@
 'use strict';
 
 import { Abstract } from '../Abstract.js';
+import { InvalidPropertyException } from '../InvalidPropertyException.js';
 import { DataBindingInitializationDirection } from './DataBindingInitializationDirection.js';
 import { PropertyChangedEvent } from './PropertyChangedEvent.js';
 
@@ -53,16 +54,20 @@ export class DataBinding extends Abstract
 	#_isBindablePropertyChangeLocked = false;
 
 	/**
-	 * Constructor method
+	 * Constructor method.
 	 * @param {Object} binder The binder.
 	 * @param {String} binderPropertyName The name of the binder's bound property.
 	 * @param {Object} bindable The bindable.
 	 * @param {String} bindablePropertyName The name of the bindable's bound property.
 	 * @param {String} initializationDirection The direction of the initial property update.
+	 * @throws {InvalidPropertyException} The property of the binder does not exist.
+	 * @throws {InvalidPropertyException} The property of the bindable does not exist.
 	 */
 	constructor( binder, binderPropertyName, bindable, bindablePropertyName, initializationDirection = DataBindingInitializationDirection.BINDER )
 	{
 		super();
+
+		this.guard( binder, binderPropertyName, bindable, bindablePropertyName );
 
 		this.#_binder                   = binder;
 		this.#_binderPropertyName       = binderPropertyName;
@@ -107,6 +112,28 @@ export class DataBinding extends Abstract
 	get bindablePropertyName()
 	{
 		return this.#_bindablePropertyName;
+	}
+
+	/**
+	 * Guards if all specified properties exist.
+	 * @param {Object} binder The binder.
+	 * @param {String} binderPropertyName The name of the binder's bound property.
+	 * @param {Object} bindable The bindable.
+	 * @param {String} bindablePropertyName The name of the bindable's bound property.
+	 * @throws {InvalidPropertyException} The property of the binder does not exist.
+	 * @throws {InvalidPropertyException} The property of the bindable does not exist.
+	 */
+	guard( binder, binderPropertyName, bindable, bindablePropertyName )
+	{
+		if ( false === binder.hasProperty( binderPropertyName ) )
+		{
+			throw InvalidPropertyException.with_property( binderPropertyName );
+		}
+
+		if ( false === bindable.hasProperty( bindablePropertyName ) )
+		{
+			throw InvalidPropertyException.with_property( bindablePropertyName );
+		}
 	}
 
 	/**
@@ -203,6 +230,7 @@ export class DataBinding extends Abstract
 	/**
 	 * Will be invoked when the binder's property changed event will be dispatched.
 	 * @param {PropertyChangedEvent} propertyChangedEvent The binder's dispatched property changed event.
+	 * @param {PropertyEventArguments} propertyChangedEvent.detail.eventArguments
 	 */
 	#binder_propertyChanged = ( propertyChangedEvent ) =>
 	{
@@ -220,6 +248,7 @@ export class DataBinding extends Abstract
 	/**
 	 * Will be invoked when the bindable's property changed event will be dispatched.
 	 * @param {PropertyChangedEvent} propertyChangedEvent The bindable's dispatched property changed event.
+	 * @param {PropertyEventArguments} propertyChangedEvent.detail.eventArguments
 	 */
 	#bindable_propertyChanged = ( propertyChangedEvent ) =>
 	{
