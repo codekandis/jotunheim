@@ -21,9 +21,33 @@
  */
 
 /**
- * Determines if a method exists in the object.
+ * Determines if a property exists in the object. The determination is based on the type of the given member. The type must not be `symbol`, `function` and `undefined`.
+ * @method hasProperty
+ * @memberOf Object.prototype
+ * @param {...string} name The name of the property.
+ * @returns {Boolean} True if the property exists, otherwise false.
+ */
+Object.defineProperty(
+	Object.prototype,
+	'hasProperty',
+	{
+		value: function ( name )
+		       {
+			       const invalidTypes = [
+				       'function',
+				       'symbol',
+				       'undefined'
+			       ];
+
+			       return false === invalidTypes.includes( typeof this[ name ] );
+		       }
+	}
+);
+
+/**
+ * Determines if a method exists in the object. The determination is based on the type of the given member. The type must be `function`.
  * @method hasMethod
- * @memberOf {Object.prototype}
+ * @memberOf Object.prototype
  * @param {String} name The name of the method.
  * @returns {Boolean} True if the method exists, otherwise false.
  */
@@ -41,7 +65,7 @@ Object.defineProperty(
 /**
  * Gets the keys of the object.
  * @method keys
- * @memberOf {Object.prototype}
+ * @memberOf Object.prototype
  * @returns {String[]} The keys of the object.
  */
 Object.defineProperty(
