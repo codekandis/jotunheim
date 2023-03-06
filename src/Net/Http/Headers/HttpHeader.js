@@ -47,7 +47,7 @@ export class HttpHeader extends Abstract
 	{
 		const preparedHttpHeader = httpHeaderString.split( ':' );
 
-		return new HttpHeader( preparedHttpHeader[ 0 ], preparedHttpHeader[ 1 ] );
+		return new this( preparedHttpHeader[ 0 ], preparedHttpHeader[ 1 ] );
 	}
 
 	/**
@@ -58,7 +58,7 @@ export class HttpHeader extends Abstract
 	 */
 	static fromHttpHeader( httpHeader )
 	{
-		return new HttpHeader( httpHeader.name, httpHeader.value );
+		return new this( httpHeader.name, httpHeader.value );
 	}
 
 	/**

@@ -26,6 +26,6 @@ export class HttpResponseHeader extends HttpHeader
 	 */
 	static from_httpResponseHeader( httpResponseHeader )
 	{
-		return new HttpResponseHeader( httpResponseHeader.name, httpResponseHeader.value );
+		return new this( httpResponseHeader.name, httpResponseHeader.value );
 	}
 }

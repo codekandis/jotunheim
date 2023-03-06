@@ -10,7 +10,7 @@ export class AbstractMouseEvent extends MouseEvent
 {
 	/**
 	 * Gets the name of the event.
-	 * @returns {String} The name of the event.
+	 * @type {String}
 	 */
 	static get EVENT_NAME()
 	{

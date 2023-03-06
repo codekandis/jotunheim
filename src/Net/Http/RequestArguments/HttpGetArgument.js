@@ -26,6 +26,6 @@ export class HttpGetArgument extends HttpArgument
 	 */
 	static fromHttpGetArgument( httpGetArgument )
 	{
-		return new HttpGetArgument( httpGetArgument.name, httpGetArgument.value )
+		return new this( httpGetArgument.name, httpGetArgument.value )
 	}
 }

@@ -16,7 +16,7 @@ export class InvalidIndexException extends LogicException
 	 */
 	static with_index( index )
 	{
-		return new InvalidIndexException(
+		return new this(
 			String.format`The index \`${ 0 }\` is invalid.`( index )
 		);
 	}

@@ -9,8 +9,8 @@ import { HttpRequestHeader } from '../HttpRequestHeader.js';
 export class SecFetchUserHttpRequestHeader extends HttpRequestHeader
 {
 	/**
-	 * Gets the name of the HTTP request header.
-	 * @returns {String} The name of the HTTP request header.
+	 * Represents the name of the HTTP request header.
+	 * @type {String}
 	 */
 	static get NAME()
 	{

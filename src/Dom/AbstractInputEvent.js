@@ -10,7 +10,7 @@ export class AbstractInputEvent extends InputEvent
 {
 	/**
 	 * Gets the name of the event.
-	 * @returns {String} The name of the event.
+	 * @type {String}
 	 */
 	static get EVENT_NAME()
 	{

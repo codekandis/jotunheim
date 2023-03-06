@@ -10,7 +10,7 @@ export class BooleanString extends AbstractStatic
 {
 	/**
 	 * Represents the string representation of the boolean value `false`.
-	 * @returns {String} The string representation of the boolean value `false`.
+	 * @type {String}
 	 */
 	static get FALSE()
 	{
@@ -19,7 +19,7 @@ export class BooleanString extends AbstractStatic
 
 	/**
 	 * Represents the string representation of the boolean value `true`.
-	 * @returns {String} The boolean string representation of the boolean value `true`.
+	 * @type {String}
 	 */
 	static get TRUE()
 	{

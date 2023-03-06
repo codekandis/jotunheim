@@ -17,7 +17,7 @@ export class InvalidTypeException extends LogicException
 	 */
 	static with_type( expectedType, type )
 	{
-		return new InvalidTypeException(
+		return new this(
 			String.format`The type \`${ 1 }\` is invalid. \`${ 0 }\` expected.`( expectedType, type )
 		);
 	}

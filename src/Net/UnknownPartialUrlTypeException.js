@@ -16,7 +16,7 @@ export class UnknownPartialUrlTypeException extends LogicException
 	 */
 	static with_partialUrlType( partialUrlType )
 	{
-		return new UnknownPartialUrlTypeException(
+		return new this(
 			String.format`The partial URL \`${ 0 }\` is invalid.`( partialUrlType )
 		);
 	}

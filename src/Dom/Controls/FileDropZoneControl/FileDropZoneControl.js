@@ -18,7 +18,7 @@ export class FileDropZoneControl extends Abstract
 {
 	/**
 	 * Represents the control type.
-	 * @returns {String}
+	 * @type {String}
 	 */
 	static get CONTROL_TYPE()
 	{

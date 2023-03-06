@@ -17,7 +17,7 @@ export class MethodIsAbstractException extends LogicException
 	 */
 	static with_classNameAndMethodName( className, methodName )
 	{
-		return new MethodIsAbstractException(
+		return new this(
 			String.format`The method \`${ 0 }::${ 1 }()\` is declared abstract and therefore must be defined.`( className, methodName )
 		)
 	}
@@ -31,7 +31,7 @@ export class MethodIsAbstractException extends LogicException
 	 */
 	static with_classNameAndMethod( className, method )
 	{
-		return MethodIsAbstractException.with_classNameAndMethodName( className, method.name );
+		return this.with_classNameAndMethodName( className, method.name );
 	}
 
 	/**
@@ -43,7 +43,7 @@ export class MethodIsAbstractException extends LogicException
 	 */
 	static with_objectAndMethodName( object, methodName )
 	{
-		return MethodIsAbstractException.with_classNameAndMethodName( object.__proto__.constructor.name, methodName );
+		return this.with_classNameAndMethodName( object.__proto__.constructor.name, methodName );
 	}
 
 	/**
@@ -55,6 +55,6 @@ export class MethodIsAbstractException extends LogicException
 	 */
 	static with_objectAndMethod( object, method )
 	{
-		return MethodIsAbstractException.with_classNameAndMethodName( object.__proto__.constructor.name, method.name );
+		return this.with_classNameAndMethodName( object.__proto__.constructor.name, method.name );
 	}
 }
