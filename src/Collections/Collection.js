@@ -401,7 +401,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Gets the JSON representation of the collection.
-	 * @return {*[]} The JSON representation of the collection.
+	 * @returns {*[]} The JSON representation of the collection.
 	 */
 	toJSON()
 	{
