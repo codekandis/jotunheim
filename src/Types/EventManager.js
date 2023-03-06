@@ -40,7 +40,7 @@ export class EventManager extends Abstract
 
 	/**
 	 * Creates the event managing function.
-	 * @return {Function} The event managing function.
+	 * @returns {Function} The event managing function.
 	 */
 	#createManagingFunction()
 	{
