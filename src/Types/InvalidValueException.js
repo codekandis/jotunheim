@@ -16,7 +16,7 @@ export class InvalidValueException extends LogicException
 	 */
 	static with_value( value )
 	{
-		return new InvalidValueException(
+		return new this(
 			String.format`The value \`${ 0 }\` is invalid.`( value )
 		);
 	}

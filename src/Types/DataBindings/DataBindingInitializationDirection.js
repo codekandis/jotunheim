@@ -10,7 +10,7 @@ export class DataBindingInitializationDirection extends AbstractStatic
 {
 	/**
 	 * Specifies that the binder's property is the initial value.
-	 * @returns {String} The binder's property is the initial value.
+	 * @type {String}
 	 */
 	static get BINDER()
 	{
@@ -19,7 +19,7 @@ export class DataBindingInitializationDirection extends AbstractStatic
 
 	/**
 	 * Specifies that the bindable's property is the initial value.
-	 * @returns {String} The bindable's property is the initial value.
+	 * @type {String}
 	 */
 	static get BINDABLE()
 	{

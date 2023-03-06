@@ -16,7 +16,7 @@ export class DomSelectorNotResolvableException extends Exception
 	 */
 	static with_selector( selector )
 	{
-		return new DomSelectorNotResolvableException(
+		return new this(
 			String.format`The selector \`${ 0 }\` cannot be resolved.`( selector )
 		);
 	}

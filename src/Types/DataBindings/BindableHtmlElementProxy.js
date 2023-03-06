@@ -26,7 +26,7 @@ export class BindableHtmlElementProxy extends BindableProxy
 	 */
 	static with_selector( selector )
 	{
-		return new BindableHtmlElementProxy(
+		return new this(
 			DomHelper.querySelector( selector )
 		);
 	}

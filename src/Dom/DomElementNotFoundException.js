@@ -16,7 +16,7 @@ export class DomElementNotFoundException extends LogicException
 	 */
 	static with_unresolvableSelector( selector )
 	{
-		return new DomElementNotFoundException(
+		return new this(
 			String.format`The selector \`${ 0 }\` cannot be resolved.`( selector )
 		);
 	}
@@ -29,7 +29,7 @@ export class DomElementNotFoundException extends LogicException
 	 */
 	static with_element( element )
 	{
-		return new DomElementNotFoundException(
+		return new this(
 			String.format`The element \`${ 0 }\` does not exist.`( element )
 		);
 	}

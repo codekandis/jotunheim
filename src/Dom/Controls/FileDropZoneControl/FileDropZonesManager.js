@@ -4,7 +4,6 @@ import { Collection } from '../../../Collections/Collection.js';
 import { Abstract } from '../../../Types/Abstract.js';
 import { DomHelper } from '../../DomHelper.js';
 import { FileDropZoneControl } from './FileDropZoneControl.js';
-import { FileDropZoneControlSelector } from './FileDropZoneControlSelector.js';
 
 /**
  * Represents a file drop zones manager which creates and manages all file drop zone controls in the document.
@@ -35,7 +34,7 @@ export class FileDropZonesManager extends Abstract
 		this.#_dropZones.add(
 			...DomHelper
 				.querySelectorAll(
-					FileDropZoneControlSelector.FILE_DROP_ZONE_CONTROL, null, false
+					FileDropZoneControl.CONTROL_TYPE, null, false
 				)
 				.map(
 					( node ) =>

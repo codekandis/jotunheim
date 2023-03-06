@@ -16,7 +16,7 @@ export class InvalidDebugModeException extends LogicException
 	 */
 	static with_debugMode( debugMode )
 	{
-		return new InvalidDebugModeException(
+		return new this(
 			String.format`The debug mode \`${ 0 }\` is invalid.`( debugMode )
 		);
 	}

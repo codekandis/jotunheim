@@ -3,68 +3,116 @@
 import { AbstractStatic } from '../../../Types/AbstractStatic.js';
 
 /**
- *
+ * Represents the CSS selectors of the tab control.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class TabControlSelector extends AbstractStatic
 {
+	/**
+	 * Gets the CSS selector of the tab control.
+	 * @type {String}
+	 */
 	static get TAB_CONTROL()
 	{
 		return '[data-control-type=\'TAB_CONTROL\']';
 	}
 
-	static get TAB_CONTROL_HEADERS_SECTION()
+	/**
+	 * Gets the CSS selector of the tab control headers section.
+	 * @type {String}
+	 */
+	static get TAB_CONTROL_HEADERS()
 	{
-		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_HEADERS']`( TabControlSelector.TAB_CONTROL );
+		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_HEADERS']`( this.TAB_CONTROL );
 	}
 
-	static get TAB_CONTROL_PAGES_SECTION()
+	/**
+	 * Gets the CSS selector of the tab control pages section.
+	 * @type {String}
+	 */
+	static get TAB_CONTROL_PAGES()
 	{
-		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_PAGES']`( TabControlSelector.TAB_CONTROL );
+		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_PAGES']`( this.TAB_CONTROL );
 	}
 
-	static get TAB_PAGE()
+	/**
+	 * Gets the CSS selector of the tab control pages.
+	 * @type {String}
+	 */
+	static get TAB_CONTROL_PAGE()
 	{
-		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_PAGE']`( TabControlSelector.TAB_CONTROL_PAGES_SECTION );
+		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_PAGE']`( this.TAB_CONTROL_PAGES );
 	}
 
-	static get TAB_PAGE_UNINITIALIZED_HEADERS()
+	/**
+	 * Gets the CSS selector of the tab control uninitialized headers.
+	 * @type {String}
+	 */
+	static get TAB_CONTROL_UNINITIALIZED_HEADERS()
 	{
-		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_PAGE_HEADER']`( TabControlSelector.TAB_PAGE );
+		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_PAGE_HEADER']`( this.TAB_CONTROL_PAGE );
 	}
 
-	static get TAB_PAGE_INITIALIZED_HEADERS()
+	/**
+	 * Gets the CSS selector of the tab control initialized headers.
+	 * @type {String}
+	 */
+	static get TAB_CONTROL_INITIALIZED_HEADERS()
 	{
-		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_PAGE_HEADER']`( TabControlSelector.TAB_CONTROL_HEADERS_SECTION );
+		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_PAGE_HEADER']`( this.TAB_CONTROL_HEADERS );
 	}
 
-	static get TAB_PAGE_INITIALIZED_ACTIVATED_HEADERS()
+	/**
+	 * Gets the CSS selector of the tab control initialized and activated headers.
+	 * @type {String}
+	 */
+	static get TAB_CONTROL_INITIALIZED_ACTIVATED_HEADERS()
 	{
-		return String.format`${ 0 }[data-is-activated='TRUE']`( TabControlSelector.TAB_PAGE_INITIALIZED_HEADERS );
+		return String.format`${ 0 }[data-is-activated='TRUE']`( this.TAB_CONTROL_INITIALIZED_HEADERS );
 	}
 
-	static get TAB_PAGE_INITIALIZED_DEACTIVATED_HEADERS()
+	/**
+	 * Gets the CSS selector of the tab control initialized and deactivated headers.
+	 * @type {String}
+	 */
+	static get TAB_CONTROL_INITIALIZED_DEACTIVATED_HEADERS()
 	{
-		return String.format`${ 0 }[data-is-activated='FALSE']`( TabControlSelector.TAB_PAGE_INITIALIZED_HEADERS );
+		return String.format`${ 0 }[data-is-activated='FALSE']`( this.TAB_CONTROL_INITIALIZED_HEADERS );
 	}
 
-	static get TAB_PAGE_ACTIVATORS()
+	/**
+	 * Gets the CSS selector of the tab control activators.
+	 * @type {String}
+	 */
+	static get TAB_CONTROL_ACTIVATORS()
 	{
-		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_PAGE_ACTIVATOR']`( TabControlSelector.TAB_PAGE );
+		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_PAGE_ACTIVATOR']`( this.TAB_CONTROL_PAGE );
 	}
 
-	static get TAB_PAGE_UNCHECKED_ACTIVATORS()
+	/**
+	 * Gets the CSS selector of the tab control unchecked activators.
+	 * @type {String}
+	 */
+	static get TAB_CONTROL_UNCHECKED_ACTIVATORS()
 	{
-		return String.format`${ 0 }:not(:checked)`( TabControlSelector.TAB_PAGE_ACTIVATORS );
+		return String.format`${ 0 }:not(:checked)`( this.TAB_CONTROL_ACTIVATORS );
 	}
 
-	static get TAB_PAGE_CHECKED_ACTIVATORS()
+	/**
+	 * Gets the CSS selector of the tab control checked activators.
+	 * @type {String}
+	 */
+	static get TAB_CONTROL_CHECKED_ACTIVATORS()
 	{
-		return String.format`${ 0 }:checked`( TabControlSelector.TAB_PAGE_ACTIVATORS );
+		return String.format`${ 0 }:checked`( this.TAB_CONTROL_ACTIVATORS );
 	}
 
-	static get TAB_PAGE_CONTENT()
+	/**
+	 * Gets the CSS selector of the tab control content.
+	 * @type {String}
+	 */
+	static get TAB_CONTROL_CONTENT()
 	{
-		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_PAGE_CONTENT']`( TabControlSelector.TAB_PAGE );
+		return String.format`${ 0 } > [data-control-type='TAB_CONTROL_PAGE_CONTENT']`( this.TAB_CONTROL_PAGE );
 	}
 }

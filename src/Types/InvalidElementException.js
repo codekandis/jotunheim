@@ -16,7 +16,7 @@ export class InvalidElementException extends LogicException
 	 */
 	static with_element( element )
 	{
-		return new InvalidElementException(
+		return new this(
 			String.format`The element \`${ 0 }\` is invalid.`( element )
 		);
 	}

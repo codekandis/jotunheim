@@ -16,7 +16,7 @@ export class InvalidPropertyException extends LogicException
 	 */
 	static with_property( property )
 	{
-		return new InvalidPropertyException(
+		return new this(
 			String.format`The property \`${ 0 }\` is invalid.`( property )
 		);
 	}

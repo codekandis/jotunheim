@@ -9,8 +9,8 @@ import { HttpResponseHeader } from '../HttpResponseHeader.js';
 export class NelHttpResponseHeader extends HttpResponseHeader
 {
 	/**
-	 * Gets the name of the HTTP response header.
-	 * @returns {String} The name of the HTTP response header.
+	 * Represents the name of the HTTP response header.
+	 * @type {String}
 	 */
 	static get NAME()
 	{

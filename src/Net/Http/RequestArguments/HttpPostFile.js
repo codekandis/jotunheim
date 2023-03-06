@@ -51,7 +51,7 @@ export class HttpPostFile extends Abstract
 	 */
 	static fromHttpPostFile( httpPostFile )
 	{
-		return new HttpPostFile( httpPostFile.name, httpPostFile.filename, httpPostFile.file )
+		return new this( httpPostFile.name, httpPostFile.filename, httpPostFile.file )
 	}
 
 	/**

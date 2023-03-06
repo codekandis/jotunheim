@@ -43,7 +43,7 @@ export class HttpArgument extends Abstract
 	 */
 	static fromHttpArgument( httpArgument )
 	{
-		return new HttpArgument( httpArgument.name, httpArgument.value )
+		return new this( httpArgument.name, httpArgument.value )
 	}
 
 	/**

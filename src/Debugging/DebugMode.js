@@ -10,8 +10,8 @@ import { InvalidDebugModeException } from './InvalidDebugModeException.js';
 export class DebugMode extends AbstractStatic
 {
 	/**
-	 * Represents the disabled debug mode.
-	 * @returns {String} The disabled debug mode.
+	 * Represents the debug mode `DISABLED`.
+	 * @type {String}
 	 */
 	static get DISABLED()
 	{
@@ -19,8 +19,8 @@ export class DebugMode extends AbstractStatic
 	}
 
 	/**
-	 * Represents the enabled debug mode.
-	 * @returns {String} The enabled debug mode.
+	 * Represents the debug mode `ENABLED`.
+	 * @type {String}
 	 */
 	static get ENABLED()
 	{
@@ -31,15 +31,15 @@ export class DebugMode extends AbstractStatic
 	 * Stores the debug mode.
 	 * @type {String}
 	 */
-	static #_mode = DebugMode.DISABLED;
+	static #_mode = this.DISABLED;
 
 	/**
 	 * Stores any valid debug mode.
 	 * @type {String[]}
 	 */
 	static #_validDebugModes = [
-		DebugMode.DISABLED,
-		DebugMode.ENABLED
+		this.DISABLED,
+		this.ENABLED
 	];
 
 	/**
@@ -48,7 +48,7 @@ export class DebugMode extends AbstractStatic
 	 */
 	static get mode()
 	{
-		return DebugMode.#_mode;
+		return this.#_mode;
 	}
 
 	/**
@@ -57,12 +57,12 @@ export class DebugMode extends AbstractStatic
 	 */
 	static set mode( value )
 	{
-		if ( false === DebugMode.#_validDebugModes.includes( value ) )
+		if ( false === this.#_validDebugModes.includes( value ) )
 		{
 			throw InvalidDebugModeException.with_debugMode( value );
 		}
 
-		DebugMode.#_mode = value;
+		this.#_mode = value;
 	}
 
 	/**
@@ -70,7 +70,7 @@ export class DebugMode extends AbstractStatic
 	 */
 	static disable()
 	{
-		DebugMode.mode = DebugMode.DISABLED;
+		this.mode = this.DISABLED;
 	}
 
 	/**
@@ -78,6 +78,6 @@ export class DebugMode extends AbstractStatic
 	 */
 	static enable()
 	{
-		DebugMode.mode = DebugMode.ENABLED;
+		this.mode = this.ENABLED;
 	}
 }

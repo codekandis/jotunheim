@@ -10,7 +10,7 @@ export class ContentType extends AbstractStatic
 {
 	/**
 	 * Represents the content type `application/json`.
-	 * @returns {String} the content type `application/json`.
+	 * @type {String}
 	 */
 	static get APPLICATION_JSON()
 	{
@@ -19,7 +19,7 @@ export class ContentType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/json; charset=utf-8`.
-	 * @returns {String} the content type `application/json; charset=utf-8`.
+	 * @type {String}
 	 */
 	static get APPLICATION_JSON_UTF8()
 	{
@@ -28,7 +28,7 @@ export class ContentType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-www-form-urlencoded`.
-	 * @returns {String} the content type `application/x-www-form-urlencoded`.
+	 * @type {String}
 	 */
 	static get APPLICATION_X_WWW_FORM_URLENCODED()
 	{
@@ -37,7 +37,7 @@ export class ContentType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xml`.
-	 * @returns {String} the content type `application/xml`.
+	 * @type {String}
 	 */
 	static get APPLICATION_XML()
 	{
@@ -46,7 +46,7 @@ export class ContentType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xml; charset=utf-8`.
-	 * @returns {String} the content type `application/xml; charset=utf-8`.
+	 * @type {String}
 	 */
 	static get APPLICATION_XML_UTF8()
 	{
@@ -55,7 +55,7 @@ export class ContentType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/html`.
-	 * @returns {String} the content type `text/html`.
+	 * @type {String}
 	 */
 	static get TEXT_HTML()
 	{
@@ -64,7 +64,7 @@ export class ContentType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/html; charset=utf-8`.
-	 * @returns {String} the content type `text/html; charset=utf-8`.
+	 * @type {String}
 	 */
 	static get TEXT_HTML_UTF8()
 	{
@@ -73,7 +73,7 @@ export class ContentType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/plain`.
-	 * @returns {String} the content type `text/plain`.
+	 * @type {String}
 	 */
 	static get TEXT_PLAIN()
 	{
@@ -82,7 +82,7 @@ export class ContentType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/plain; charset=utf-8`.
-	 * @returns {String} the content type `text/plain; charset=utf-8`.
+	 * @type {String}
 	 */
 	static get TEXT_PLAIN_UTF8()
 	{
@@ -91,7 +91,7 @@ export class ContentType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xml`.
-	 * @returns {String} the content type `application/xml`.
+	 * @type {String}
 	 */
 	static get TEXT_XML()
 	{
@@ -100,7 +100,7 @@ export class ContentType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xml; charset=utf-8`.
-	 * @returns {String} the content type `application/xml; charset=utf-8`.
+	 * @type {String}
 	 */
 	static get TEXT_XML_UTF8()
 	{

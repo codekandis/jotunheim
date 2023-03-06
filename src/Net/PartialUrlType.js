@@ -10,7 +10,7 @@ export class PartialUrlType extends AbstractStatic
 {
 	/**
 	 * Specifies the protocol of the URL.
-	 * @returns {String} The protocol of the URL.
+	 * @type {String}
 	 */
 	static get PROTOCOL()
 	{
@@ -19,7 +19,7 @@ export class PartialUrlType extends AbstractStatic
 
 	/**
 	 * Specifies the username of the URL.
-	 * @returns {String} The username of the URL.
+	 * @type {String}
 	 */
 	static get USERNAME()
 	{
@@ -28,7 +28,7 @@ export class PartialUrlType extends AbstractStatic
 
 	/**
 	 * Specifies the password of the URL.
-	 * @returns {String} The password of the URL.
+	 * @type {String}
 	 */
 	static get PASSWORD()
 	{
@@ -37,7 +37,7 @@ export class PartialUrlType extends AbstractStatic
 
 	/**
 	 * Specifies the host name of the URL.
-	 * @returns {String} The host name of the URL.
+	 * @type {String}
 	 */
 	static get HOSTNAME()
 	{
@@ -46,7 +46,7 @@ export class PartialUrlType extends AbstractStatic
 
 	/**
 	 * Specifies the port of the URL.
-	 * @returns {String} The port of the URL.
+	 * @type {String}
 	 */
 	static get PORT()
 	{
@@ -55,7 +55,7 @@ export class PartialUrlType extends AbstractStatic
 
 	/**
 	 * Specifies the path name of the URL.
-	 * @returns {String} The path name of the URL.
+	 * @type {String}
 	 */
 	static get PATHNAME()
 	{
@@ -64,7 +64,7 @@ export class PartialUrlType extends AbstractStatic
 
 	/**
 	 * Specifies the query string of the URL.
-	 * @returns {String} The query string of the URL.
+	 * @type {String}
 	 */
 	static get SEARCH()
 	{
@@ -73,7 +73,7 @@ export class PartialUrlType extends AbstractStatic
 
 	/**
 	 * Specifies the hash of the URL.
-	 * @returns {String} The hash of the URL.
+	 * @type {String}
 	 */
 	static get HASH()
 	{

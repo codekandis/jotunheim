@@ -26,6 +26,6 @@ export class HttpPostArgument extends HttpArgument
 	 */
 	static fromHttpPostArgument( httpPostArgument )
 	{
-		return new HttpPostArgument( httpPostArgument.name, httpPostArgument.value )
+		return new this( httpPostArgument.name, httpPostArgument.value )
 	}
 }
