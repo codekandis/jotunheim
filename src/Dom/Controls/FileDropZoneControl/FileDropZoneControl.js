@@ -26,6 +26,17 @@ export class FileDropZoneControl extends Abstract
 	}
 
 	/**
+	 * Represents the control template of the file selection dialog.
+	 * @type {String_ReplacementHandler}
+	 */
+	static get #FILE_SELECTION_DIALOG_CONTROL_TEMPLATE()
+	{
+		return String.format`
+			<input data-control-type="FILE_DROP_ZONE_SELECTION_DIALOG" type="file" style="display: none"/>
+		`;
+	}
+
+	/**
 	 * Stores the drop zone.
 	 * @type {HTMLElement}
 	 */
@@ -76,8 +87,6 @@ export class FileDropZoneControl extends Abstract
 		super();
 
 		this.#_dropZone = dropZone;
-
-		this.#initialize();
 	}
 
 	/**
@@ -162,19 +171,6 @@ export class FileDropZoneControl extends Abstract
 	}
 
 	/**
-	 * Initializes the control.
-	 */
-	#initialize()
-	{
-		this.#addAdditionalDefaultAttributes();
-		this.#determineAcceptedFileTypes();
-		this.#determineIsMultipleFile();
-		this.#createFileSelectionDialog();
-		this.#addFileSelectionDialog();
-		this.#addEventHandlers();
-	}
-
-	/**
 	 * Adds additional default attributes.
 	 */
 	#addAdditionalDefaultAttributes()
@@ -211,7 +207,7 @@ export class FileDropZoneControl extends Abstract
 		this.#_fileSelectionDialog =
 			/** @type HTMLInputElement */
 			DomHelper.createElementFromString(
-				'<input data-control-type="FILE_DROP_ZONE_SELECTION_DIALOG" type="file"/>'
+				this.constructor.#FILE_SELECTION_DIALOG_CONTROL_TEMPLATE()
 			);
 
 		if ( [] !== this.#_acceptedFileTypes )
@@ -220,8 +216,6 @@ export class FileDropZoneControl extends Abstract
 		}
 
 		this.#_fileSelectionDialog.multiple = this.#_isMultipleFile;
-
-		this.#_fileSelectionDialog.style.display = 'none';
 	}
 
 	/**
@@ -331,5 +325,18 @@ export class FileDropZoneControl extends Abstract
 				return isFileValid;
 			}
 		);
+	}
+
+	/**
+	 * Appends the control.
+	 */
+	append()
+	{
+		this.#addAdditionalDefaultAttributes();
+		this.#determineAcceptedFileTypes();
+		this.#determineIsMultipleFile();
+		this.#createFileSelectionDialog();
+		this.#addFileSelectionDialog();
+		this.#addEventHandlers();
 	}
 }
