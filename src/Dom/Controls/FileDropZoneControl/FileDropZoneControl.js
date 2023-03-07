@@ -145,7 +145,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the multiple file rejected event.
-	 * @returns {Function} The multiple file rejected event.
+	 * @type {Function}
 	 */
 	get multipleFileRejectedEvent()
 	{
@@ -154,7 +154,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the invalid file selected event.
-	 * @returns {Function} The invalid file selected event.
+	 * @type {Function}
 	 */
 	get invalidFileSelectedEvent()
 	{
@@ -163,7 +163,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the multiple file rejected event.
-	 * @returns {Function} The multiple file rejected event.
+	 * @type {Function}
 	 */
 	get validFileSelectedEvent()
 	{

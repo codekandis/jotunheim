@@ -40,7 +40,7 @@ export class AbstractBindable extends Abstract
 
 	/**
 	 * Gets the property changing event.
-	 * @returns {Function} The property changing event.
+	 * @returns {Function}
 	 */
 	get propertyChangingEvent()
 	{
@@ -49,7 +49,7 @@ export class AbstractBindable extends Abstract
 
 	/**
 	 * Gets the property changed event.
-	 * @returns {Function} The property changed event.
+	 * @returns {Function}
 	 */
 	get propertyChangedEvent()
 	{
