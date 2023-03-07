@@ -6,6 +6,7 @@ import './Dom/KeyboardEvent.js';
 import './Dom/MouseEvent.js';
 import './Dom/NodeList.js';
 import './Io/FileList.js';
+import './Io/FileReader.js';
 import './Net/Http/Headers/Headers.js';
 import './Net/Url.js';
 import { Abstract } from './Types/Abstract.js';
