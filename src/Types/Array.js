@@ -572,7 +572,7 @@ Object.defineProperty(
 				       throw  InvalidIndexException.with_index( index );
 			       }
 
-			       return 0 !== this.length
+			       return 0 === this.length
 				       ? undefined
 				       : this[ index ];
 		       }
