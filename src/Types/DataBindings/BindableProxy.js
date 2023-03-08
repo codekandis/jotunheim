@@ -68,6 +68,26 @@ export class BindableProxy extends AbstractBindable
 	}
 
 	/**
+	 * Determines if a property exists in the object. The determination is based on the type of the given member. The type must not be `symbol`, `function` and `undefined`.
+	 * @param {String} name The name of the property.
+	 * @returns {Boolean} True if the property exists, otherwise false.
+	 */
+	hasProperty( name )
+	{
+		return this.#_delegatedObject.hasProperty( name );
+	}
+
+	/**
+	 * Determines if a method exists in the object. The determination is based on the type of the given member. The type must be `function`.
+	 * @param {String} name The name of the method.
+	 * @returns {Boolean} True if the method exists, otherwise false.
+	 */
+	hasMethod( name )
+	{
+		return this.#_delegatedObject.hasMethod( name );
+	}
+
+	/**
 	 * Gets the value of the bindable proxy's or the proxied delegate's member specified by their member name.
 	 * @param {Object} bindableProxy The bindable proxy.
 	 * @param {String} memberName The name of the member to get its value.
