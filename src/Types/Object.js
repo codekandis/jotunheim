@@ -24,7 +24,7 @@
  * Determines if a property exists in the object. The determination is based on the type of the given member. The type must not be `symbol`, `function` and `undefined`.
  * @method hasProperty
  * @memberOf Object.prototype
- * @param {...string} name The name of the property.
+ * @param {String} name The name of the property.
  * @returns {Boolean} True if the property exists, otherwise false.
  */
 Object.defineProperty(
