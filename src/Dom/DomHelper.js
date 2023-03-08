@@ -225,6 +225,72 @@ export class DomHelper extends AbstractStatic
 	}
 
 	/**
+	 * Removes an event handler from an HTML element.
+	 * @param {Object} element The HTML element to remove the event handler from.
+	 * @param {String} eventName The name of the event to remove the event handler from.
+	 * @param {Event_EventHandler} eventHandler The event handler to remove.
+	 */
+	static removeEventHandler( element, eventName, eventHandler )
+	{
+		element.removeEventListener( eventName, eventHandler );
+	}
+
+	/**
+	 * Removes event handlers from events of an HTML element specified by a variadic amount of event handler mappings.
+	 * @param {Object} element The HTML element to remove the event handlers from.
+	 * @param {...EventHandlerMapping} eventHandlerMappings The event handler mappings.
+	 */
+	static removeEventHandlers( element, ...eventHandlerMappings )
+	{
+		eventHandlerMappings.forEach(
+			( eventHandlerMapping ) =>
+			{
+				eventHandlerMapping.eventHandlers.forEach(
+					( eventHandler ) =>
+					{
+						DomHelper.removeEventHandler( element, eventHandlerMapping.eventName, eventHandler );
+					}
+				);
+			}
+		);
+	}
+
+	/**
+	 * Removes an event handler from all HTML elements specified by a CSS selector.
+	 * @param {String} selector The CSS selector specifying the HTML elements to remove the event handlers from.
+	 * @param {String} eventName The name of the event to remove the event handler from.
+	 * @param {Event_EventHandler} eventHandler The event handler to remove.
+	 */
+	static removeEventHandlerBySelector( selector, eventName, eventHandler )
+	{
+		document
+			.querySelectorAll( selector )
+			.forEach(
+				( element ) =>
+				{
+					DomHelper.removeEventHandler( element, eventName, eventHandler );
+				}
+			);
+	}
+
+	/**
+	 * Removes event handlers from events of an HTML element specified by a CSS selector and by a variadic amount of event handler mappings.
+	 * @param {String} selector The CSS selector specifying the HTML elements to remove the event handlers from.
+	 * @param {...EventHandlerMapping} eventHandlerMappings The event handler mappings.
+	 */
+	static removeEventHandlersBySelector( selector, ...eventHandlerMappings )
+	{
+		document
+			.querySelectorAll( selector )
+			.forEach(
+				( element ) =>
+				{
+					DomHelper.removeEventHandlers( element, ...eventHandlerMappings );
+				}
+			);
+	}
+
+	/**
 	 * Appends a variadic amount of children to an HTML element's child nodes.
 	 * @param {HTMLElement} element The HTML element to append the children to.
 	 * @param {...HTMLElement} children The children to append.

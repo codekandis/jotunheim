@@ -35,30 +35,47 @@ export class EventManager extends Abstract
 		this.#_eventClass = eventClass;
 		this.#_sender     = sender;
 
-		return this.#createManagingFunction();
+		this.#initialize();
+
+		return this.#addEventHandlers;
 	}
 
 	/**
-	 * Creates the event managing function.
-	 * @returns {Function} The event managing function.
+	 * Initializes the event manager.
 	 */
-	#createManagingFunction()
+	#initialize()
 	{
-		const managingFunction    = ( ...eventHandlers ) =>
-		{
-			DomHelper.addEventHandlers(
-				this.#_sender,
-				new EventHandlerMapping( this.#_eventClass.EVENT_NAME, ...eventHandlers )
-			);
-		};
-		managingFunction.dispatch = this.#dispatch;
-
-		return managingFunction;
+		this.#addEventHandlers.dispatch = this.#dispatch;
+		this.#addEventHandlers.remove   = this.#remove;
 	}
 
 	/**
-	 * Dispatches the event.
-	 * @param {?EventArguments} eventArguments The arguments of the event.
+	 * Adds a variadic amount of event handlers to the managed event.
+	 * @param {...Function<Event>} eventHandlers The event handlers to add.
+	 */
+	#addEventHandlers = ( ...eventHandlers ) =>
+	{
+		DomHelper.addEventHandlers(
+			this.#_sender,
+			new EventHandlerMapping( this.#_eventClass.EVENT_NAME, ...eventHandlers )
+		);
+	}
+
+	/**
+	 * Removes a variadic amount of event handlers from a managed event.
+	 * @param {...Function<Event>} eventHandlers The event handlers to remove.
+	 */
+	#remove = ( ...eventHandlers ) =>
+	{
+		DomHelper.removeEventHandlers(
+			this.#_sender,
+			new EventHandlerMapping( this.#_eventClass.EVENT_NAME, ...eventHandlers )
+		);
+	}
+
+	/**
+	 * Dispatches the managed event.
+	 * @param {?EventArguments} eventArguments The arguments of the managed event.
 	 */
 	#dispatch = ( eventArguments ) =>
 	{
