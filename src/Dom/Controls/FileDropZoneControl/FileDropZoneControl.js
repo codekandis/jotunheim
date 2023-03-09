@@ -26,21 +26,43 @@ export class FileDropZoneControl extends Abstract
 	}
 
 	/**
+	 * Represents the control template.
+	 * @type {String_ReplacementHandler}
+	 */
+	static get #CONTROL_TEMPLATE()
+	{
+		return String.format`
+            <div data-control-type="FILE_DROP_ZONE"/>
+        `;
+	}
+
+	/**
 	 * Represents the control template of the file selection dialog.
 	 * @type {String_ReplacementHandler}
 	 */
 	static get #FILE_SELECTION_DIALOG_CONTROL_TEMPLATE()
 	{
 		return String.format`
-			<input data-control-type="FILE_DROP_ZONE_SELECTION_DIALOG" type="file" style="display: none"/>
+			<input data-control-type="FILE_DROP_ZONE_SELECTION_DIALOG" type="file" style="${ 0 }"/>
 		`;
+	}
+
+	/**
+	 * Represents the styles of the control.
+	 * @return {String[]}
+	 */
+	static get #FILE_SELECTION_DIALOG_CONTROL_STYLES()
+	{
+		return [
+			'display: none !important;'
+		];
 	}
 
 	/**
 	 * Stores the drop zone.
 	 * @type {HTMLElement}
 	 */
-	#_dropZone;
+	#_fileDropZone;
 
 	/**
 	 * Stores the multiple files dropped on or selected with the file drop zone while multiple files are disallowed.
@@ -80,22 +102,13 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Constructor method.
-	 * @param {HTMLElement} dropZone The drop zone of the control.
+	 * @param {HTMLElement} fileDropZone The drop zone of the control.
 	 */
-	constructor( dropZone )
+	constructor( fileDropZone )
 	{
 		super();
 
-		this.#_dropZone = dropZone;
-	}
-
-	/**
-	 * Gets the wrapped drop zone.
-	 * @returns {HTMLElement} The wrapped drop zone.
-	 */
-	get dropZone()
-	{
-		return this.#_dropZone;
+		this.#_fileDropZone = fileDropZone;
 	}
 
 	/**
@@ -175,7 +188,7 @@ export class FileDropZoneControl extends Abstract
 	 */
 	#addAdditionalDefaultAttributes()
 	{
-		this.#_dropZone.setAttribute( 'data-is-dragover', BooleanString.FALSE );
+		this.#_fileDropZone.setAttribute( 'data-is-dragover', BooleanString.FALSE );
 	}
 
 	/**
@@ -183,7 +196,7 @@ export class FileDropZoneControl extends Abstract
 	 */
 	#determineAcceptedFileTypes()
 	{
-		const acceptedFileTypes  = this.#_dropZone.getAttribute( 'data-accepted-file-types' );
+		const acceptedFileTypes  = this.#_fileDropZone.getAttribute( 'data-accepted-file-types' );
 		this.#_acceptedFileTypes = null === acceptedFileTypes || '' === acceptedFileTypes
 			? []
 			: acceptedFileTypes
@@ -196,7 +209,7 @@ export class FileDropZoneControl extends Abstract
 	 */
 	#determineIsMultipleFile()
 	{
-		this.#_isMultipleFile = BooleanString.TRUE === this.#_dropZone.getAttribute( 'data-is-multiple-file' );
+		this.#_isMultipleFile = BooleanString.TRUE === this.#_fileDropZone.getAttribute( 'data-is-multiple-file' );
 	}
 
 	/**
@@ -207,7 +220,9 @@ export class FileDropZoneControl extends Abstract
 		this.#_fileSelectionDialog =
 			/** @type HTMLInputElement */
 			DomHelper.createElementFromString(
-				this.constructor.#FILE_SELECTION_DIALOG_CONTROL_TEMPLATE()
+				this.constructor.#FILE_SELECTION_DIALOG_CONTROL_TEMPLATE(
+					this.constructor.#FILE_SELECTION_DIALOG_CONTROL_STYLES.join( ';' )
+				)
 			);
 
 		if ( [] !== this.#_acceptedFileTypes )
@@ -230,11 +245,11 @@ export class FileDropZoneControl extends Abstract
 		};
 		const settingIsDraggedOverEventHandler    = ( event ) =>
 		{
-			this.#_dropZone.setAttribute( 'data-is-dragover', BooleanString.TRUE );
+			this.#_fileDropZone.setAttribute( 'data-is-dragover', BooleanString.TRUE );
 		};
 		const settingIsNotDraggedOverEventHandler = ( event ) =>
 		{
-			this.#_dropZone.setAttribute( 'data-is-dragover', BooleanString.FALSE );
+			this.#_fileDropZone.setAttribute( 'data-is-dragover', BooleanString.FALSE );
 		};
 		const openSelectionDialogEventHandler     = ( event ) =>
 		{
@@ -249,14 +264,18 @@ export class FileDropZoneControl extends Abstract
 			this.#addSelectedFiles( event.target.files );
 		};
 
-		this.#_dropZone.dragEvent( propagationStoppingEventHandler );
-		this.#_dropZone.dragStartEvent( propagationStoppingEventHandler );
-		this.#_dropZone.dragEndEvent( propagationStoppingEventHandler, settingIsNotDraggedOverEventHandler );
-		this.#_dropZone.dragOverEvent( propagationStoppingEventHandler, settingIsDraggedOverEventHandler );
-		this.#_dropZone.dragEnterEvent( propagationStoppingEventHandler, settingIsDraggedOverEventHandler );
-		this.#_dropZone.dragLeaveEvent( propagationStoppingEventHandler, settingIsNotDraggedOverEventHandler );
-		this.#_dropZone.dropEvent( propagationStoppingEventHandler, settingIsNotDraggedOverEventHandler, determineDroppedFilesEventHandler );
-		this.#_dropZone.clickEvent( propagationStoppingEventHandler, openSelectionDialogEventHandler );
+		this.#_fileDropZone.dragEvent( propagationStoppingEventHandler );
+		this.#_fileDropZone.dragStartEvent( propagationStoppingEventHandler );
+		this.#_fileDropZone.dragEndEvent( propagationStoppingEventHandler, settingIsNotDraggedOverEventHandler );
+		this.#_fileDropZone.dragOverEvent( propagationStoppingEventHandler, settingIsDraggedOverEventHandler );
+		this.#_fileDropZone.dragEnterEvent( propagationStoppingEventHandler, settingIsDraggedOverEventHandler );
+		this.#_fileDropZone.dragLeaveEvent( propagationStoppingEventHandler, settingIsNotDraggedOverEventHandler );
+		this.#_fileDropZone.dropEvent(
+			propagationStoppingEventHandler,
+			settingIsNotDraggedOverEventHandler,
+			determineDroppedFilesEventHandler
+		);
+		this.#_fileDropZone.clickEvent( propagationStoppingEventHandler, openSelectionDialogEventHandler );
 		this.#_fileSelectionDialog.changeEvent( determineDialogFilesEventHandler );
 	}
 
@@ -265,7 +284,7 @@ export class FileDropZoneControl extends Abstract
 	 */
 	#addFileSelectionDialog()
 	{
-		DomHelper.appendChildren( this.#_dropZone, this.#_fileSelectionDialog );
+		DomHelper.appendChildren( this.#_fileDropZone, this.#_fileSelectionDialog );
 	}
 
 	/**
@@ -310,7 +329,6 @@ export class FileDropZoneControl extends Abstract
 
 				const eventArguments = new FileEventArguments( file );
 
-				let event;
 				if ( false === isFileValid )
 				{
 					this.#_invalidSelectedFiles.add( file );
@@ -325,6 +343,22 @@ export class FileDropZoneControl extends Abstract
 				return isFileValid;
 			}
 		);
+	}
+
+	/**
+	 * Shows the control.
+	 */
+	show()
+	{
+		this.#_fileDropZone.style.setProperty( 'display', 'block', 'important' );
+	}
+
+	/**
+	 * Hides the control.
+	 */
+	hide()
+	{
+		this.#_fileDropZone.style.setProperty( 'display', 'none', 'important' );
 	}
 
 	/**
