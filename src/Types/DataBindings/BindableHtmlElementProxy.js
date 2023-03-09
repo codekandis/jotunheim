@@ -39,12 +39,27 @@ export class BindableHtmlElementProxy extends BindableProxy
 	{
 		const eventHandler = ( event ) =>
 		{
-			bindableProxy._dispatchPropertyChangedEvent(
-				'checkbox' === bindableProxy.delegatedObject.type
-					? 'checked' :
-					'value',
-				bindableProxy.proxy
-			);
+			let propertyName = 'value';
+
+			switch ( bindableProxy.delegatedObject.type )
+			{
+				case 'checkbox':
+				{
+					propertyName = 'checked';
+
+					break;
+				}
+				case 'datetime-local':
+				case 'date':
+				case 'time':
+				{
+					propertyName = 'valueAsDate';
+
+					break;
+				}
+			}
+
+			bindableProxy._dispatchPropertyChangedEvent( propertyName, bindableProxy.proxy );
 		};
 
 		bindableProxy.delegatedObject.inputEvent( eventHandler );
