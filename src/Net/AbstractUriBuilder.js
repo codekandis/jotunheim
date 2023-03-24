@@ -28,9 +28,10 @@ export class AbstractUriBuilder extends Abstract
 	/**
 	 * Builds an absolute URI specified by the name of a relative URI.
 	 * @param {String} uriName The name of the relative URI.
+	 * @param {...String} replacements The additional replacements of the URI.
 	 * @returns {URL} The build absolute URI.
 	 */
-	build( uriName )
+	build( uriName, ...replacements )
 	{
 		return new URL(
 			String.format`${ 0 }://${ 1 }:${ 2 }${ 3 }${ 4 }`(
@@ -38,7 +39,7 @@ export class AbstractUriBuilder extends Abstract
 				this.#_uriMappings.host,
 				this.#_uriMappings.port,
 				this.#_uriMappings.baseUri,
-				this.#_uriMappings.getRelativeUri( uriName )
+				this.#_uriMappings.getRelativeUri( uriName )( replacements )
 			)
 		);
 	}
