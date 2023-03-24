@@ -30,6 +30,43 @@ Object.defineProperty(
 );
 
 /**
+ * Formats a string with a variadic amount of placeholders and their respective replacements.
+ * @method format
+ * @memberOf String
+ * @static
+ * @param {String} template The template with the placeholders to format.
+ * @param {...String} placeholders The placeholders to replace.
+ * @returns {String_ReplacementHandler} The replacement handler.
+ */
+Object.defineProperty(
+	String,
+	'format',
+	{
+		value: function ( template, ...placeholders )
+		       {
+			       return ( ...replacements ) =>
+			       {
+				       const result = [ template[ 0 ] ];
+
+				       placeholders.forEach(
+					       ( fetchedPlaceholderValue, fetchedPlaceholderIndex ) =>
+					       {
+						       if ( false === Number.isSafeInteger( fetchedPlaceholderValue ) )
+						       {
+							       throw InvalidIndexException.with_index( fetchedPlaceholderValue );
+						       }
+
+						       result.add( replacements[ fetchedPlaceholderValue ], template[ fetchedPlaceholderIndex + 1 ] );
+					       }
+				       );
+
+				       return result.join( String.empty );
+			       };
+		       }
+	}
+);
+
+/**
  * Trims a variadic amount of strings from the start and end of the string.
  * @method trimStrings
  * @memberOf String.prototype
@@ -135,38 +172,32 @@ Object.defineProperty(
 );
 
 /**
- * Formats a string with a variadic amount of placeholders and their respective replacements.
- * @method format
- * @memberOf String
- * @static
- * @param {String} template The template with the placeholders to format.
- * @param {...String} placeholders The placeholders to replace.
- * @returns {String_ReplacementHandler} The replacement handler.
+ * Replaces all HTML special characters with their HTML equivalents.
+ * @method replaceHtmlSpecialChars
+ * @memberOf String.prototype
+ * @returns {String} The string with the HTML special characters replaced.
  */
 Object.defineProperty(
-	String,
-	'format',
+	String.prototype,
+	'replaceHtmlSpecialChars',
 	{
-		value: function ( template, ...placeholders )
+		value: function ()
 		       {
-			       return ( ...replacements ) =>
-			       {
-				       const result = [ template[ 0 ] ];
-
-				       placeholders.forEach(
-					       ( fetchedPlaceholderValue, fetchedPlaceholderIndex ) =>
-					       {
-						       if ( false === Number.isSafeInteger( fetchedPlaceholderValue ) )
-						       {
-							       throw InvalidIndexException.with_index( fetchedPlaceholderValue );
-						       }
-
-						       result.add( replacements[ fetchedPlaceholderValue ], template[ fetchedPlaceholderIndex + 1 ] );
-					       }
-				       );
-
-				       return result.join( String.empty );
+			       const map = {
+				       '&': '&amp;',
+				       '<': '&lt;',
+				       '>': '&gt;',
+				       '"': '&quot;',
+				       "'": '&#039;'
 			       };
+
+			       return this.replace(
+				       /[&<>"']/g,
+				       function ( match )
+				       {
+					       return map[ match ];
+				       }
+			       );
 		       }
 	}
 );
