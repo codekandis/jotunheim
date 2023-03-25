@@ -447,7 +447,7 @@ export class HttpRequest extends Abstract
 			);
 		}
 
-		return await fetch( request )
+		return await window.fetch( request )
 			.then(
 				async ( response ) =>
 				{
