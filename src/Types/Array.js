@@ -232,7 +232,7 @@ Object.defineProperty(
 			       let correctiveElementIndexOffset = 0;
 
 			       indices
-				       .numericSort()
+				       .sortNumeric()
 				       .forEach(
 					       ( fetchedIndex ) =>
 					       {
