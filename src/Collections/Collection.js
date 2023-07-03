@@ -130,6 +130,14 @@ export class Collection extends Abstract
 	}
 
 	/**
+	 * Clears the collection.
+	 */
+	clear()
+	{
+		this.__items.length = 0;
+	}
+
+	/**
 	 * Determines if the collection includes a specific item.
 	 * @param {*} item The item to search for.
 	 * @returns {Boolean} True if the items is included in the collection, otherwise false.
