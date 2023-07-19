@@ -89,8 +89,8 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Gets the amount of items in the collection.
-	 * @returns {Number} The amount of items in the collection.
+	 * Gets the number of items in the collection.
+	 * @returns {Number} The number of items in the collection.
 	 */
 	get length()
 	{
@@ -228,7 +228,7 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Removes the first occurences of a varidadic amount of items from the collection.
+	 * Removes the first occurences of a variadic amount of items from the collection.
 	 * @param {...*} items The items to remove.
 	 */
 	remove( ...items )
@@ -246,7 +246,7 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Removes all occurences of a varidadic amount of items from the array.
+	 * Removes all occurences of a variadic amount of items from the array.
 	 * @param {...*} items The items to remove.
 	 */
 	removeAll( ...items )
@@ -316,7 +316,7 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Gets the indices of all occurences of any item specified by a vadiadic amount of predicates.
+	 * Gets the indices of all occurences of any item specified by a variadic amount of predicates.
 	 * @param {...Collection_ItemPredicateHandler} predicates The predicates to determine the items.
 	 * @returns {Collection<Number>} The indices of the items, if found, otherwise an empty array.
 	 */

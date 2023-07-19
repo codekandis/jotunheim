@@ -49,8 +49,8 @@ export class HttpResponseHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Gets the amount of HTTP response headers in the collection.
-	 * @returns {Number} The amount of HTTP response headers in the collection.
+	 * Gets the number of HTTP response headers in the collection.
+	 * @returns {Number} The number of HTTP response headers in the collection.
 	 */
 	get length()
 	{
@@ -186,7 +186,7 @@ export class HttpResponseHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Removes the first occurences of a varidadic amount of HTTP response headers from the HTTP response header collection.
+	 * Removes the first occurences of a variadic amount of HTTP response headers from the HTTP response header collection.
 	 * @param {...HttpResponseHeader} httpResponseHeaders The HTTP response headers to remove.
 	 */
 	remove( ...httpResponseHeaders )
@@ -213,7 +213,7 @@ export class HttpResponseHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Removes all occurences of a varidadic amount of HTTP response headers from the HTTP response header collection.
+	 * Removes all occurences of a variadic amount of HTTP response headers from the HTTP response header collection.
 	 * @param {...HttpResponseHeader} httpResponseHeaders The HTTP response headers to remove.
 	 */
 	removeAll( ...httpResponseHeaders )
@@ -310,7 +310,7 @@ export class HttpResponseHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP response header specified by a vadiadic amount of predicates.
+	 * Gets the indices of all occurences of any HTTP response header specified by a variadic amount of predicates.
 	 * @param {...HttpResponseHeaderCollection_HttpResponseHeaderPredicateHandler} predicates The predicates to determine the HTTP response headers.
 	 * @returns {Collection<Number>} The indices of the HTTP response headers, if found, otherwise an empty collection.
 	 */
@@ -320,7 +320,7 @@ export class HttpResponseHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP response header specified by a vadiadic amount of HTTP response header names.
+	 * Gets the indices of all occurences of any HTTP response header specified by a variadic amount of HTTP response header names.
 	 * @param {...String} httpResponseHeaderNames The HTTP response header names to determine the HTTP response headers.
 	 * @returns {Collection<Number>} The indices of the HTTP response headers, if found, otherwise an empty collection.
 	 */

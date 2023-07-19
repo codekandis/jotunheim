@@ -50,8 +50,8 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Gets the amount of HTTP POST files in the collection.
-	 * @returns {Number} The amount of HTTP POST files in the collection.
+	 * Gets the number of HTTP POST files in the collection.
+	 * @returns {Number} The number of HTTP POST files in the collection.
 	 */
 	get length()
 	{
@@ -228,7 +228,7 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Removes the first occurences of a varidadic amount of HTTP POST files from the HTTP POST file collection.
+	 * Removes the first occurences of a variadic amount of HTTP POST files from the HTTP POST file collection.
 	 * @param {...HttpPostFile} httpPostFiles The HTTP POST files to remove.
 	 */
 	remove( ...httpPostFiles )
@@ -259,7 +259,7 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Removes all occurences of a varidadic amount of HTTP POST files from the HTTP POST file collection.
+	 * Removes all occurences of a variadic amount of HTTP POST files from the HTTP POST file collection.
 	 * @param {...HttpPostFile} httpPostFiles The HTTP POST files to remove.
 	 */
 	removeAll( ...httpPostFiles )
@@ -370,7 +370,7 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP POST file specified by a vadiadic amount of predicates.
+	 * Gets the indices of all occurences of any HTTP POST file specified by a variadic amount of predicates.
 	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicates The predicates to determine the HTTP POST files.
 	 * @returns {Collection<Number>} The indices of the HTTP POST files, if found, otherwise an empty collection.
 	 */
@@ -380,7 +380,7 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP POST file specified by a vadiadic amount of HTTP POST file names.
+	 * Gets the indices of all occurences of any HTTP POST file specified by a variadic amount of HTTP POST file names.
 	 * @param {...String} httpPostFileNames The HTTP POST file names to determine the HTTP POST files.
 	 * @returns {Collection<Number>} The indices of the HTTP POST files, if found, otherwise an empty collection.
 	 */

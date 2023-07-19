@@ -250,7 +250,7 @@ Object.defineProperty(
 );
 
 /**
- * Removes the first occurences of a varidadic amount of elements from the array.
+ * Removes the first occurences of a variadic amount of elements from the array.
  * @method remove
  * @memberOf Array.prototype
  * @param {...*} elements The elements to remove.
@@ -313,7 +313,7 @@ Object.defineProperty(
 );
 
 /**
- * Removes all occurences of a varidadic amount of elements from the array.
+ * Removes all occurences of a variadic amount of elements from the array.
  * @method removeAll
  * @memberOf Array.prototype
  * @param {...*} elements The elements to remove.
@@ -518,7 +518,7 @@ Object.defineProperty(
 );
 
 /**
- * Gets the indices of all occurences of any element specified by a vadiadic amount of predicates.
+ * Gets the indices of all occurences of any element specified by a variadic amount of predicates.
  * @method findAllIndicesOfBy
  * @memberOf Array.prototype
  * @param {...Array_ElementPredicateHandler} predicates The predicates to determine the elements.

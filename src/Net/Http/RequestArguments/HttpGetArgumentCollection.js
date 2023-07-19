@@ -49,8 +49,8 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Gets the amount of HTTP GET arguments in the collection.
-	 * @returns {Number} The amount of HTTP GET arguments in the collection.
+	 * Gets the number of HTTP GET arguments in the collection.
+	 * @returns {Number} The number of HTTP GET arguments in the collection.
 	 */
 	get length()
 	{
@@ -195,7 +195,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Removes the first occurences of a varidadic amount of HTTP GET arguments from the HTTP GET argument collection.
+	 * Removes the first occurences of a variadic amount of HTTP GET arguments from the HTTP GET argument collection.
 	 * @param {...HttpGetArgument} httpGetArguments The HTTP GET arguments to remove.
 	 */
 	remove( ...httpGetArguments )
@@ -222,7 +222,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Removes all occurences of a varidadic amount of HTTP GET arguments from the HTTP GET argument collection.
+	 * Removes all occurences of a variadic amount of HTTP GET arguments from the HTTP GET argument collection.
 	 * @param {...HttpGetArgument} httpGetArguments The HTTP GET arguments to remove.
 	 */
 	removeAll( ...httpGetArguments )
@@ -319,7 +319,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP GET argument specified by a vadiadic amount of predicates.
+	 * Gets the indices of all occurences of any HTTP GET argument specified by a variadic amount of predicates.
 	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicates The predicates to determine the HTTP GET arguments.
 	 * @returns {Collection<Number>} The indices of the HTTP GET arguments, if found, otherwise an empty collection.
 	 */
@@ -329,7 +329,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP GET argument specified by a vadiadic amount of HTTP GET argument names.
+	 * Gets the indices of all occurences of any HTTP GET argument specified by a variadic amount of HTTP GET argument names.
 	 * @param {...String} httpGetArgumentNames The HTTP GET argument names to determine the HTTP GET arguments.
 	 * @returns {Collection<Number>} The indices of the HTTP GET arguments, if found, otherwise an empty collection.
 	 */

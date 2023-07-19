@@ -65,7 +65,6 @@ Object.defineProperty(
  * @memberOf Date.prototype
  * @param {Date} date The date to compare with.
  * @returns {Number} -1 if the date is lower than the passed date, 0 if both dates are equal, 1 if the date is greater than the passed date.
- * @static
  */
 Object.defineProperty(
 	Date.prototype,

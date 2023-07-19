@@ -50,8 +50,8 @@ export class HttpHeaderCollection extends Collection
 	}
 
 	/**
-	 * Gets the amount of HTTP headers in the collection.
-	 * @returns {Number} The amount of HTTP headers in the collection.
+	 * Gets the number of HTTP headers in the collection.
+	 * @returns {Number} The number of HTTP headers in the collection.
 	 */
 	get length()
 	{
@@ -228,7 +228,7 @@ export class HttpHeaderCollection extends Collection
 	}
 
 	/**
-	 * Removes the first occurences of a varidadic amount of HTTP headers from the HTTP header collection.
+	 * Removes the first occurences of a variadic amount of HTTP headers from the HTTP header collection.
 	 * @param {...HttpHeader} httpHeaders The HTTP headers to remove.
 	 */
 	remove( ...httpHeaders )
@@ -259,7 +259,7 @@ export class HttpHeaderCollection extends Collection
 	}
 
 	/**
-	 * Removes all occurences of a varidadic amount of HTTP headers from the HTTP header collection.
+	 * Removes all occurences of a variadic amount of HTTP headers from the HTTP header collection.
 	 * @param {...HttpHeader} httpHeaders The HTTP headers to remove.
 	 */
 	removeAll( ...httpHeaders )
@@ -370,7 +370,7 @@ export class HttpHeaderCollection extends Collection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP header specified by a vadiadic amount of predicates.
+	 * Gets the indices of all occurences of any HTTP header specified by a variadic amount of predicates.
 	 * @param {...HttpHeaderCollection_HttpHeaderPredicateHandler} predicates The predicates to determine the HTTP headers.
 	 * @returns {Collection<Number>} The indices of the HTTP headers, if found, otherwise an empty collection.
 	 */
@@ -380,7 +380,7 @@ export class HttpHeaderCollection extends Collection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP header specified by a vadiadic amount of HTTP header names.
+	 * Gets the indices of all occurences of any HTTP header specified by a variadic amount of HTTP header names.
 	 * @param {...String} httpHeaderNames The HTTP header names to determine the HTTP headers.
 	 * @returns {Collection<Number>} The indices of the HTTP headers, if found, otherwise an empty collection.
 	 */

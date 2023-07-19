@@ -49,8 +49,8 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the amount of HTTP POST arguments in the collection.
-	 * @returns {Number} The amount of HTTP POST arguments in the collection.
+	 * Posts the number of HTTP POST arguments in the collection.
+	 * @returns {Number} The number of HTTP POST arguments in the collection.
 	 */
 	get length()
 	{
@@ -195,7 +195,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Removes the first occurences of a varidadic amount of HTTP POST arguments from the HTTP POST argument collection.
+	 * Removes the first occurences of a variadic amount of HTTP POST arguments from the HTTP POST argument collection.
 	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST arguments to remove.
 	 */
 	remove( ...httpPostArguments )
@@ -222,7 +222,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Removes all occurences of a varidadic amount of HTTP POST arguments from the HTTP POST argument collection.
+	 * Removes all occurences of a variadic amount of HTTP POST arguments from the HTTP POST argument collection.
 	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST arguments to remove.
 	 */
 	removeAll( ...httpPostArguments )
@@ -319,7 +319,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the indices of all occurences of any HTTP POST argument specified by a vadiadic amount of predicates.
+	 * Posts the indices of all occurences of any HTTP POST argument specified by a variadic amount of predicates.
 	 * @param {...HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicates The predicates to determine the HTTP POST arguments.
 	 * @returns {Collection<Number>} The indices of the HTTP POST arguments, if found, otherwise an empty collection.
 	 */
@@ -329,7 +329,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the indices of all occurences of any HTTP POST argument specified by a vadiadic amount of HTTP POST argument names.
+	 * Posts the indices of all occurences of any HTTP POST argument specified by a variadic amount of HTTP POST argument names.
 	 * @param {...String} httpPostArgumentNames The HTTP POST argument names to determine the HTTP POST arguments.
 	 * @returns {Collection<Number>} The indices of the HTTP POST arguments, if found, otherwise an empty collection.
 	 */

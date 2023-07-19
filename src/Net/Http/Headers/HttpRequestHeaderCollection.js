@@ -49,8 +49,8 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Gets the amount of HTTP request headers in the collection.
-	 * @returns {Number} The amount of HTTP request headers in the collection.
+	 * Gets the number of HTTP request headers in the collection.
+	 * @returns {Number} The number of HTTP request headers in the collection.
 	 */
 	get length()
 	{
@@ -186,7 +186,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Removes the first occurences of a varidadic amount of HTTP request headers from the HTTP request header collection.
+	 * Removes the first occurences of a variadic amount of HTTP request headers from the HTTP request header collection.
 	 * @param {...HttpRequestHeader} httpRequestHeaders The HTTP request headers to remove.
 	 */
 	remove( ...httpRequestHeaders )
@@ -213,7 +213,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Removes all occurences of a varidadic amount of HTTP request headers from the HTTP request header collection.
+	 * Removes all occurences of a variadic amount of HTTP request headers from the HTTP request header collection.
 	 * @param {...HttpRequestHeader} httpRequestHeaders The HTTP request headers to remove.
 	 */
 	removeAll( ...httpRequestHeaders )
@@ -310,7 +310,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP request header specified by a vadiadic amount of predicates.
+	 * Gets the indices of all occurences of any HTTP request header specified by a variadic amount of predicates.
 	 * @param {...HttpRequestHeaderCollection_HttpRequestHeaderPredicateHandler} predicates The predicates to determine the HTTP request headers.
 	 * @returns {Collection<Number>} The indices of the HTTP request headers, if found, otherwise an empty collection.
 	 */
@@ -320,7 +320,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP request header specified by a vadiadic amount of HTTP request header names.
+	 * Gets the indices of all occurences of any HTTP request header specified by a variadic amount of HTTP request header names.
 	 * @param {...String} httpRequestHeaderNames The HTTP request header names to determine the HTTP request headers.
 	 * @returns {Collection<Number>} The indices of the HTTP request headers, if found, otherwise an empty collection.
 	 */
