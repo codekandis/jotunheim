@@ -110,7 +110,7 @@ export class HttpRequest extends Abstract
 				? this.#_uri.href
 				: String.format`${ 0 }?${ 1 }${ 2 }`(
 					this.#_uri.getLeftPart( PartialUrlType.PATHNAME ),
-					this.#_getArguments.fullHttpArgumentsString,
+					this.#_getArguments.fullHttpGetArgumentsString,
 					this.#_uri.hash
 				)
 		);
