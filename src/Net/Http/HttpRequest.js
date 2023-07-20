@@ -2,7 +2,7 @@
 
 import { Abstract } from '../../Types/Abstract.js';
 import { PartialUrlType } from '../PartialUrlType.js';
-import { ContentType } from './ContentType.js';
+import { MimeType } from '../../Io/MimeType.js';
 import { HeadersToHttpResponseHeaderCollectionConverter } from './Headers/HeadersToHttpResponseHeaderCollectionConverter.js';
 import { HttpRequestHeaderCollection } from './Headers/HttpRequestHeaderCollection.js';
 import { ContentTypeHttpRequestHeader } from './Headers/RequestHeaders/ContentTypeHttpRequestHeader.js';
@@ -259,7 +259,7 @@ export class HttpRequest extends Abstract
 	{
 		this.headers.removeByHeaderNames( ContentTypeHttpRequestHeader.NAME );
 		this.headers.add(
-			new ContentTypeHttpRequestHeader( ContentType.APPLICATION_X_WWW_FORM_URLENCODED )
+			new ContentTypeHttpRequestHeader( MimeType.APPLICATION_X_WWW_FORM_URLENCODED )
 		);
 
 		requestOptions.body = new URLSearchParams();
