@@ -1,0 +1,65 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [keep a changelog][xtlink-keep-a-changelog]
+and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
+
+## [0.1.0] - 2023-07-21
+
+### Added
+
+* descriptive exceptions
+* additional JavaScript prototype properties and methods
+  * object property and method determination, iteration, binding and merging
+  * array iteration, manipulation, filtering, sorting and JSON serialization
+  * string template formatting, trimming and HTML special chars replacment
+  * generator iteration
+  * node list mapping
+  * date comparison and JSON deserialization
+  * file Base64 (de-)serialization
+  * file list iteration and mapping
+  * headers iteration and mapping
+  * HTML element manipulation
+  * HTTP headers iteration and mapping
+  * URL determination
+* encapsulated events
+  * made vanilla JavaScript events available as properties with full vanilla JavaScript compatibility
+    * keyboard
+    * mouse
+    * touch
+    * form controls
+    * file reader
+  * specific event arguments for every event
+* data bindings
+* abstract base classes
+  * static
+  * instantiatable
+* DOM
+  * traversion and manipulation via a DOM helper
+* collections
+  * iteration, manipulation, filtering, sorting and JSON (de-)serialization
+* charset enumeration
+* enhanced AJAX capabilites
+  * HTTP headers
+  * HTTP headers converter
+  * HTTP headers collections
+  * HTTP request with more manageable options
+  * HTTP GET, POST and FILE arguments
+  * HTTP response with more manageable states
+  * HTTP redirector
+  * URI builder
+* controls
+    * file drop zone control
+    * tab control
+* `CODE_OF_CONDUCT.md`
+* `LICENSE`
+* `README.md`
+* `CHANGELOG.md`
+
+[0.1.0]: https://github.com/codekandis/jotunheim/tree/0.1.0
+
+
+
+[xtlink-keep-a-changelog]: http://keepachangelog.com/en/1.1.0/
+[xtlink-semantic-versioning]: http://semver.org/spec/v2.0.0.html
