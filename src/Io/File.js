@@ -11,7 +11,7 @@ import { FileNotReadableException } from './FileNotReadableException.js';
  * Gets the Base64 data URI representation of the file content.
  * @method toBase64DataUri
  * @memberOf File.prototype
- * @return {String} The Base64 encoded data URI.
+ * @returns {String} The Base64 encoded data URI.
  */
 Object.defineProperty(
 	File.prototype,
@@ -48,7 +48,7 @@ Object.defineProperty(
  * Gets the Base64 representation of the file content.
  * @method toBase64
  * @memberOf File.prototype
- * @return {String} The Base64 encoded file content.
+ * @returns {String} The Base64 encoded file content.
  */
 Object.defineProperty(
 	File.prototype,

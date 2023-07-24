@@ -16602,7 +16602,7 @@ export class MimeType extends AbstractStatic
 	 * Creates a content type with a specific charset.
 	 * @param {String} contentType The content type.
 	 * @param {String} charset The charset.
-	 * @return {String} The content type with the charset.
+	 * @returns {String} The content type with the charset.
 	 * @throws InvalidCharSetException The charset is empty.
 	 */
 	static with_charset( contentType, charset )
