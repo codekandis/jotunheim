@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.1.1] - 2023-07-31
+
+### Fixed
+
+* return type of `Array.prototype.includesBy()` on empty arrays.
+* JSDoc
+
+[0.1.1]: https://github.com/codekandis/jotunheim/compare/0.1.0..0.1.1
+
+---
 ## [0.1.0] - 2023-07-21
 
 ### Added
