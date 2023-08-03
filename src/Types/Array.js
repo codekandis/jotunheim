@@ -39,24 +39,24 @@ import { InvalidIndexException } from './InvalidIndexException.js';
  */
 
 /**
- * Determines if the array includes an element specified by a variadic amount of predicates.
+ * Determines if the array includes an element specified by a variadic amount of predicate handlers.
  * @method includesBy
  * @memberOf Array.prototype
- * @param {...Array_ElementPredicateHandler} predicates The predicates to determine the element.
+ * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
  * @returns {Boolean} True if the element is included in the array, otherwise false.
  */
 Object.defineProperty(
 	Array.prototype,
 	'includesBy',
 	{
-		value: function ( ...predicates )
+		value: function ( ...predicateHandlers )
 		       {
 			       let isValid = false;
 
 			       this.every(
 				       ( fetchedElement, fetchedElementIndex ) =>
 				       {
-					       isValid = predicates.every(
+					       isValid = predicateHandlers.every(
 						       ( fetchedPredicate ) =>
 						       {
 							       return fetchedPredicate( fetchedElement, fetchedElementIndex );
@@ -152,19 +152,19 @@ Object.defineProperty(
 );
 
 /**
- * Replaces the first occurences of elements in the array specified by a variadic amount of predicates with a specified element.
+ * Replaces the first occurences of elements in the array specified by a variadic amount of predicate handlers with a specified element.
  * @method replaceBy
  * @memberOf Array.prototype
  * @param {*} elementReplacement The new element to replace the element with.
- * @param {...Array_ElementPredicateHandler} predicates The predicates to determine the element.
+ * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
  */
 Object.defineProperty(
 	Array.prototype,
 	'replaceBy',
 	{
-		value: function ( elementReplacement, ...predicates )
+		value: function ( elementReplacement, ...predicateHandlers )
 		       {
-			       const index = this.findFirstIndexOfBy( ...predicates );
+			       const index = this.findFirstIndexOfBy( ...predicateHandlers );
 
 			       if ( undefined !== index )
 			       {
@@ -196,21 +196,21 @@ Object.defineProperty(
 );
 
 /**
- * Replaces all occurences of an element in the array specified by a variadic amount of predicates.
+ * Replaces all occurences of an element in the array specified by a variadic amount of predicate handlers.
  * @method replaceAllBy
  * @memberOf Array.prototype
  * @param {*} elementReplacement The new element to replace the elements with.
- * @param {...Array_ElementPredicateHandler} predicates The predicates to determine the elements.
+ * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the elements.
  */
 Object.defineProperty(
 	Array.prototype,
 	'replaceAllBy',
 	{
-		value: function ( elementReplacement, ...predicates )
+		value: function ( elementReplacement, ...predicateHandlers )
 		       {
 			       this.replaceAt(
 				       elementReplacement,
-				       ...this.findAllIndicesOfBy( ...predicates )
+				       ...this.findAllIndicesOfBy( ...predicateHandlers )
 			       );
 		       }
 	}
@@ -279,21 +279,21 @@ Object.defineProperty(
 );
 
 /**
- * Removes the first occurence of an element from the array specified by a variadic amount of predicates.
+ * Removes the first occurence of an element from the array specified by a variadic amount of predicate handlers.
  * @method removeBy
  * @memberOf Array.prototype
- * @param {...Array_ElementPredicateHandler} predicates The predicates to determine the element.
+ * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
  */
 Object.defineProperty(
 	Array.prototype,
 	'removeBy',
 	{
-		value: function ( ...predicates )
+		value: function ( ...predicateHandlers )
 		       {
 			       this.every(
 				       ( fetchedElement, fetchedElementIndex ) =>
 				       {
-					       const isValid = predicates.every(
+					       const isValid = predicateHandlers.every(
 						       ( fetchedPredicate ) =>
 						       {
 							       return fetchedPredicate( fetchedElement, fetchedElementIndex );
@@ -344,23 +344,23 @@ Object.defineProperty(
 );
 
 /**
- * Removes all occurences of elements from the array specified by a variadic amount of predicates.
+ * Removes all occurences of elements from the array specified by a variadic amount of predicate handlers.
  * @method removeAllBy
  * @memberOf Array.prototype
- * @param {...Array_ElementPredicateHandler} predicates The predicates to determine the elements.
+ * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the elements.
  */
 Object.defineProperty(
 	Array.prototype,
 	'removeAllBy',
 	{
-		value: function ( ...predicates )
+		value: function ( ...predicateHandlers )
 		       {
 			       const indices = [];
 
 			       this.forEach(
 				       ( fetchedElement, fetchedElementIndex ) =>
 				       {
-					       const isValid = predicates.every(
+					       const isValid = predicateHandlers.every(
 						       ( fetchedPredicate ) =>
 						       {
 							       return fetchedPredicate( fetchedElement, fetchedElementIndex );
@@ -402,22 +402,22 @@ Object.defineProperty(
 );
 
 /**
- * Gets the first index of an element specified by a variadic amount of predicates.
+ * Gets the first index of an element specified by a variadic amount of predicate handlers.
  * @method findFirstIndexOfBy
  * @memberOf Array.prototype
- * @param {...Array_ElementPredicateHandler} predicates The predicates to determine the element.
+ * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
  * @returns {undefined|Number} The first index of the element, if found, otherwise undefined.
  */
 Object.defineProperty(
 	Array.prototype,
 	'findFirstIndexOfBy',
 	{
-		value: function ( ...predicates )
+		value: function ( ...predicateHandlers )
 		       {
 			       const index = this.findIndex(
 				       ( fetchedElement, fetchedElementIndex ) =>
 				       {
-					       return predicates.every(
+					       return predicateHandlers.every(
 						       ( fetchedPredicate ) =>
 						       {
 							       return fetchedPredicate( fetchedElement, fetchedElementIndex );
@@ -456,22 +456,22 @@ Object.defineProperty(
 );
 
 /**
- * Gets the last index of an element specified by a variadic amount of predicates.
+ * Gets the last index of an element specified by a variadic amount of predicate handlers.
  * @method findLastIndexOfBy
  * @memberOf Array.prototype
- * @param {...Array_ElementPredicateHandler} predicates The predicates to determine the element.
+ * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
  * @returns {undefined|Number} The last index of the element, if found, otherwise undefined.
  */
 Object.defineProperty(
 	Array.prototype,
 	'findLastIndexOfBy',
 	{
-		value: function ( ...predicates )
+		value: function ( ...predicateHandlers )
 		       {
 			       const index = this.findLastIndex(
 				       ( fetchedElement, fetchedElementIndex ) =>
 				       {
-					       return predicates.every(
+					       return predicateHandlers.every(
 						       ( fetchedPredicate ) =>
 						       {
 							       return fetchedPredicate( fetchedElement, fetchedElementIndex );
@@ -518,24 +518,24 @@ Object.defineProperty(
 );
 
 /**
- * Gets the indices of all occurences of any element specified by a variadic amount of predicates.
+ * Gets the indices of all occurences of any element specified by a variadic amount of predicate handlers.
  * @method findAllIndicesOfBy
  * @memberOf Array.prototype
- * @param {...Array_ElementPredicateHandler} predicates The predicates to determine the elements.
+ * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the elements.
  * @returns {Number[]} The indices of the elements, if found, otherwise an empty array.
  */
 Object.defineProperty(
 	Array.prototype,
 	'findAllIndicesOfBy',
 	{
-		value: function ( ...predicates )
+		value: function ( ...predicateHandlers )
 		       {
 			       const indices = [];
 
 			       this.forEach(
 				       ( fetchedElement, fetchedElementIndex ) =>
 				       {
-					       const isValid = predicates.every(
+					       const isValid = predicateHandlers.every(
 						       ( fetchedPredicate ) =>
 						       {
 							       return fetchedPredicate( fetchedElement, fetchedElementIndex );
@@ -580,22 +580,22 @@ Object.defineProperty(
 );
 
 /**
- * Gets the first element from the array specified by a variadic amount of predicates.
+ * Gets the first element from the array specified by a variadic amount of predicate handlers.
  * @method findFirstOrUndefinedBy
  * @memberOf Array.prototype
- * @param {...Array_ElementPredicateHandler} predicates The predicates to determine the element.
+ * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
  * @returns {undefined|*} The first element, if found, otherwise undefined.
  */
 Object.defineProperty(
 	Array.prototype,
 	'findFirstOrUndefinedBy',
 	{
-		value: function ( ...predicates )
+		value: function ( ...predicateHandlers )
 		       {
 			       const index = this.findIndex(
 				       ( fetchedElement, fetchedElementIndex ) =>
 				       {
-					       return predicates.every(
+					       return predicateHandlers.every(
 						       ( fetchedPredicate ) =>
 						       {
 							       return fetchedPredicate( fetchedElement, fetchedElementIndex );
@@ -612,22 +612,22 @@ Object.defineProperty(
 );
 
 /**
- * Gets the last element from the array specified by a variadic amount of predicates.
+ * Gets the last element from the array specified by a variadic amount of predicate handlers.
  * @method findLastOrUndefinedBy
  * @memberOf Array.prototype
- * @param {...Array_ElementPredicateHandler} predicates The predicates to determine the element.
+ * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
  * @returns {undefined|*} The last element, if found, otherwise undefined.
  */
 Object.defineProperty(
 	Array.prototype,
 	'findLastOrUndefinedBy',
 	{
-		value: function ( ...predicates )
+		value: function ( ...predicateHandlers )
 		       {
 			       const index = this.findLastIndex(
 				       ( fetchedElement, fetchedElementIndex ) =>
 				       {
-					       return predicates.every(
+					       return predicateHandlers.every(
 						       ( fetchedPredicate ) =>
 						       {
 							       return fetchedPredicate( fetchedElement, fetchedElementIndex );
@@ -644,24 +644,24 @@ Object.defineProperty(
 );
 
 /**
- * Gets all elements from the array specified by a variadic amount of predicates.
+ * Gets all elements from the array specified by a variadic amount of predicate handlers.
  * @method findAllBy
  * @memberOf Array.prototype
- * @param {...Array_ElementPredicateHandler} predicates The predicates to determine the elements.
+ * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the elements.
  * @returns {*[]} The elements, if found, otherwise an empty array.
  */
 Object.defineProperty(
 	Array.prototype,
 	'findAllBy',
 	{
-		value: function ( ...predicates )
+		value: function ( ...predicateHandlers )
 		       {
 			       const elements = [];
 
 			       this.forEach(
 				       ( fetchedElement, fetchedElementIndex ) =>
 				       {
-					       const isValid = predicates.every(
+					       const isValid = predicateHandlers.every(
 						       ( fetchedPredicate ) =>
 						       {
 							       return fetchedPredicate( fetchedElement, fetchedElementIndex );
@@ -703,7 +703,7 @@ Object.defineProperty(
 );
 
 /**
- * Sorts the array specified by a comparison handler.
+ * Sorts the array specified by a comparison handler. The array will not be sorted in place.
  * @method sortBy
  * @memberOf Array.prototype
  * @param {Array_ElementComparisonHandler} comparisonHandler The comparison handler used to compare the elements.
