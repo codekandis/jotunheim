@@ -768,6 +768,27 @@ Object.defineProperty(
 );
 
 /**
+ * Concatenates the elements of the array by a specific delimiter string and by a variadic amount of predicate handlers.
+ * @method joinBy
+ * @memberOf Array.prototype
+ * @param {String} delimiter The delimiter used to concatenate the elements.
+ * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers used to determine the elements.
+ * @returns {String} The concatenated string.
+ */
+Object.defineProperty(
+	Array.prototype,
+	'joinBy',
+	{
+		value: function ( delimiter, ...predicateHandlers )
+		       {
+			       return this
+				       .findAllBy( ...predicateHandlers )
+				       .join( delimiter );
+		       }
+	}
+);
+
+/**
  * Gets the JSON representation of the array.
  * @method toJSON
  * @memberOf Array.prototype
