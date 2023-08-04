@@ -125,6 +125,16 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
+	 * Adds a variadic amount of HTTP GET arguments to the HTTP GET argument collection by a specific predicate handler.
+	 * @param {HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandler The predicate handler to determine the HTTP GET arguments to add.
+	 * @param {...HttpGetArgument} httpGetArguments The HTTP GET arguments to add.
+	 */
+	addBy( predicateHandler, ...httpGetArguments )
+	{
+		super.addBy( predicateHandler, ...httpGetArguments );
+	}
+
+	/**
 	 * Replaces all HTTP GET arguments in the HTTP GET argument collection specified by their indices.
 	 * @param {HttpGetArgument} httpGetArgumentReplacement The new HTTP GET argument to replace the HTTP GET arguments with.
 	 * @param {...Number} indices The indices of the HTTP GET arguments to replace.

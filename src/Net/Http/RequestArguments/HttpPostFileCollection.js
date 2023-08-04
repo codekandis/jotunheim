@@ -139,6 +139,16 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
+	 * Adds a variadic amount of HTTP POST files to the HTTP POST file collection by a specific predicate handler.
+	 * @param {HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandler The predicate handler to determine the HTTP POST files to add.
+	 * @param {...HttpPostFile} httpPostFiles The HTTP POST files to add.
+	 */
+	addBy( predicateHandler, ...httpPostFiles )
+	{
+		super.addBy( predicateHandler, ...httpPostFiles );
+	}
+
+	/**
 	 * Replaces all HTTP POST files in the HTTP POST file collection specified by their indices.
 	 * @param {HttpPostFile} httpPostFileReplacement The new HTTP POST file to replace the HTTP POST files with.
 	 * @param {...Number} indices The indices of the HTTP POST files to replace.

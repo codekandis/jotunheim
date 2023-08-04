@@ -139,6 +139,16 @@ export class HttpHeaderCollection extends Collection
 	}
 
 	/**
+	 * Adds a variadic amount of HTTP headers to the HTTP header collection by a specific predicate handler.
+	 * @param {HttpHeaderCollection_HttpHeaderPredicateHandler} predicateHandler The predicate handler to determine the HTTP headers to add.
+	 * @param {...HttpHeader} httpHeaders The HTTP headers to add.
+	 */
+	addBy( predicateHandler, ...httpHeaders )
+	{
+		super.addBy( predicateHandler, ...httpHeaders );
+	}
+
+	/**
 	 * Replaces all HTTP headers in the HTTP header collection specified by their indices.
 	 * @param {HttpHeader} httpHeaderReplacement The new HTTP header to replace the HTTP headers with.
 	 * @param {...Number} indices The indices of the HTTP headers to replace.

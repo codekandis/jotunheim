@@ -125,6 +125,16 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
+	 * Adds a variadic amount of HTTP POST arguments to the HTTP POST argument collection by a specific predicate handler.
+	 * @param {HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicateHandler The predicate handler to determine the HTTP POST arguments to add.
+	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST arguments to add.
+	 */
+	addBy( predicateHandler, ...httpPostArguments )
+	{
+		super.addBy( predicateHandler, ...httpPostArguments );
+	}
+
+	/**
 	 * Replaces all HTTP POST arguments in the HTTP POST argument collection specified by their indices.
 	 * @param {HttpPostArgument} httpPostArgumentReplacement The new HTTP POST argument to replace the HTTP POST arguments with.
 	 * @param {...Number} indices The indices of the HTTP POST arguments to replace.

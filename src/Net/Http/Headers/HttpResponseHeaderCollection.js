@@ -116,6 +116,16 @@ export class HttpResponseHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
+	 * Adds a variadic amount of HTTP response headers to the HTTP response header collection by a specific predicate handler.
+	 * @param {HttpResponseHeaderCollection_HttpResponseHeaderPredicateHandler} predicateHandler The predicate handler to determine the HTTP response headers to add.
+	 * @param {...HttpResponseHeader} httpResponseHeaders The HTTP response headers to add.
+	 */
+	addBy( predicateHandler, ...httpResponseHeaders )
+	{
+		super.addBy( predicateHandler, ...httpResponseHeaders );
+	}
+
+	/**
 	 * Replaces all HTTP response headers in the HTTP response header collection specified by their indices.
 	 * @param {HttpResponseHeader} httpResponseHeaderReplacement The new HTTP response header to replace the HTTP response headers with.
 	 * @param {...Number} indices The indices of the HTTP response headers to replace.

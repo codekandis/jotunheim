@@ -139,6 +139,16 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
+	 * Adds a variadic amount of HTTP arguments to the HTTP argument collection by a specific predicate handler.
+	 * @param {HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandler The predicate handler to determine the HTTP arguments to add.
+	 * @param {...HttpArgument} httpArguments The HTTP arguments to add.
+	 */
+	addBy( predicateHandler, ...httpArguments )
+	{
+		super.addBy( predicateHandler, ...httpArguments );
+	}
+
+	/**
 	 * Replaces all HTTP arguments in the HTTP argument collection specified by their indices.
 	 * @param {HttpArgument} httpArgumentReplacement The new HTTP argument to replace the HTTP arguments with.
 	 * @param {...Number} indices The indices of the HTTP arguments to replace.

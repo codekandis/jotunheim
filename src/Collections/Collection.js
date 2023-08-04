@@ -167,6 +167,18 @@ export class Collection extends Abstract
 	}
 
 	/**
+	 * Adds a variadic amount of items to the collection by a specific predicate handler.
+	 * @param {Collection_ItemPredicateHandler} predicateHandler The predicate handler to determine the items to add.
+	 * @param {...*} items The items to add.
+	 */
+	addBy( predicateHandler, ...items )
+	{
+		this.__items.add(
+			...items.findAllBy( predicateHandler )
+		);
+	}
+
+	/**
 	 * Replaces all items in the collection specified by their indices.
 	 * @param {*} itemReplacement The new item to replace the items with.
 	 * @param {...Number} indices The indices of the items to replace.
