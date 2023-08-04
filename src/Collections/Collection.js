@@ -148,13 +148,13 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Determines if the collection includes an item specified by a variadic amount of predicates.
-	 * @param {...Collection_ItemPredicateHandler} predicates The predicates to determine the item.
+	 * Determines if the collection includes an item specified by a variadic amount of predicate handlers.
+	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
 	 * @returns {Boolean} True if the item is included in the collection, otherwise false.
 	 */
-	includesBy( ...predicates )
+	includesBy( ...predicateHandlers )
 	{
-		return this.__items.includesBy( ...predicates );
+		return this.__items.includesBy( ...predicateHandlers );
 	}
 
 	/**
@@ -164,6 +164,18 @@ export class Collection extends Abstract
 	add( ...items )
 	{
 		this.__items.add( ...items );
+	}
+
+	/**
+	 * Adds a variadic amount of items to the collection by a specific predicate handler.
+	 * @param {Collection_ItemPredicateHandler} predicateHandler The predicate handler to determine the items to add.
+	 * @param {...*} items The items to add.
+	 */
+	addBy( predicateHandler, ...items )
+	{
+		this.__items.add(
+			...items.findAllBy( predicateHandler )
+		);
 	}
 
 	/**
@@ -188,13 +200,13 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Replaces the first occurences of items in the array specified by a variadic amount of predicates with a specified item.
+	 * Replaces the first occurences of items in the array specified by a variadic amount of predicate handlers with a specified item.
 	 * @param {*} itemReplacement The new item to replace the item with.
-	 * @param {...Collection_ItemPredicateHandler} predicates The predicates to determine the item.
+	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
 	 */
-	replaceBy( itemReplacement, ...predicates )
+	replaceBy( itemReplacement, ...predicateHandlers )
 	{
-		this.__items.replaceBy( itemReplacement, ...predicates );
+		this.__items.replaceBy( itemReplacement, ...predicateHandlers );
 	}
 
 	/**
@@ -208,13 +220,13 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Replaces all occurences of an item in the array specified by a variadic amount of predicates.
+	 * Replaces all occurences of an item in the array specified by a variadic amount of predicate handlers.
 	 * @param {*} itemReplacement The new item to replace the items with.
-	 * @param {...Collection_ItemPredicateHandler} predicates The predicates to determine the items.
+	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the items.
 	 */
-	replaceAllBy( itemReplacement, ...predicates )
+	replaceAllBy( itemReplacement, ...predicateHandlers )
 	{
-		this.__items.replaceAllBy( itemReplacement, ...predicates );
+		this.__items.replaceAllBy( itemReplacement, ...predicateHandlers );
 	}
 
 	/**
@@ -237,12 +249,12 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Removes the first occurence of an item from the array specified by a variadic amount of predicates.
-	 * @param {...Collection_ItemPredicateHandler} predicates The predicates to determine the item.
+	 * Removes the first occurence of an item from the array specified by a variadic amount of predicate handlers.
+	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
 	 */
-	removeBy( ...predicates )
+	removeBy( ...predicateHandlers )
 	{
-		this.__items.removeBy( ...predicates );
+		this.__items.removeBy( ...predicateHandlers );
 	}
 
 	/**
@@ -255,12 +267,12 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Removes all occurences of items from the array specified by a variadic amount of predicates.
-	 * @param {...Collection_ItemPredicateHandler} predicates The predicates to determine the items.
+	 * Removes all occurences of items from the array specified by a variadic amount of predicate handlers.
+	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the items.
 	 */
-	removeAllBy( ...predicates )
+	removeAllBy( ...predicateHandlers )
 	{
-		this.__items.removeAllBy( ...predicates );
+		this.__items.removeAllBy( ...predicateHandlers );
 	}
 
 	/**
@@ -274,13 +286,13 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Gets the first index of an item specified by a variadic amount of predicates.
-	 * @param {...Collection_ItemPredicateHandler} predicates The predicates to determine the item.
+	 * Gets the first index of an item specified by a variadic amount of predicate handlers.
+	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
 	 * @returns {undefined|Number} The first index of the item, if found, otherwise undefined.
 	 */
-	findFirstIndexOfBy( ...predicates )
+	findFirstIndexOfBy( ...predicateHandlers )
 	{
-		return this.__items.findFirstIndexOfBy( ...predicates );
+		return this.__items.findFirstIndexOfBy( ...predicateHandlers );
 	}
 
 	/**
@@ -294,13 +306,13 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Gets the last index of an item specified by a variadic amount of predicates.
-	 * @param {...Collection_ItemPredicateHandler} predicates The predicates to determine the item.
+	 * Gets the last index of an item specified by a variadic amount of predicate handlers.
+	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
 	 * @returns {undefined|Number} The last index of the item, if found, otherwise undefined.
 	 */
-	findLastIndexOfBy( ...predicates )
+	findLastIndexOfBy( ...predicateHandlers )
 	{
-		return this.__items.findLastIndexOfBy( ...predicates );
+		return this.__items.findLastIndexOfBy( ...predicateHandlers );
 	}
 
 	/**
@@ -316,14 +328,14 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Gets the indices of all occurences of any item specified by a variadic amount of predicates.
-	 * @param {...Collection_ItemPredicateHandler} predicates The predicates to determine the items.
+	 * Gets the indices of all occurences of any item specified by a variadic amount of predicate handlers.
+	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the items.
 	 * @returns {Collection<Number>} The indices of the items, if found, otherwise an empty array.
 	 */
-	findAllIndicesOfBy( ...predicates )
+	findAllIndicesOfBy( ...predicateHandlers )
 	{
 		return new Collection(
-			...this.__items.findAllIndicesOfBy( ...predicates )
+			...this.__items.findAllIndicesOfBy( ...predicateHandlers )
 		);
 	}
 
@@ -338,34 +350,34 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Gets the first item from the array specified by a variadic amount of predicates.
-	 * @param {...Collection_ItemPredicateHandler} predicates The predicates to determine the item.
+	 * Gets the first item from the array specified by a variadic amount of predicate handlers.
+	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
 	 * @returns {undefined|*} The first item, if found, otherwise undefined.
 	 */
-	findFirstOrUndefinedBy( ...predicates )
+	findFirstOrUndefinedBy( ...predicateHandlers )
 	{
-		return this.__items.findFirstOrUndefinedBy( ...predicates );
+		return this.__items.findFirstOrUndefinedBy( ...predicateHandlers );
 	}
 
 	/**
-	 * Gets the last item from the array specified by a variadic amount of predicates.
-	 * @param {...Collection_ItemPredicateHandler} predicates The predicates to determine the item.
+	 * Gets the last item from the array specified by a variadic amount of predicate handlers.
+	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
 	 * @returns {undefined|*} The last item, if found, otherwise undefined.
 	 */
-	findLastOrUndefinedBy( ...predicates )
+	findLastOrUndefinedBy( ...predicateHandlers )
 	{
-		return this.__items.findLastOrUndefinedBy( ...predicates );
+		return this.__items.findLastOrUndefinedBy( ...predicateHandlers );
 	}
 
 	/**
-	 * Gets all items from the array specified by a variadic amount of predicates.
-	 * @param {...Collection_ItemPredicateHandler} predicates The predicates to determine the items.
+	 * Gets all items from the array specified by a variadic amount of predicate handlers.
+	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the items.
 	 * @returns {Collection<*>} The items, if found, otherwise an empty array.
 	 */
-	findAllBy( ...predicates )
+	findAllBy( ...predicateHandlers )
 	{
 		return new Collection(
-			...this.__items.findAllBy( ...predicates )
+			...this.__items.findAllBy( ...predicateHandlers )
 		);
 	}
 
@@ -387,15 +399,37 @@ export class Collection extends Abstract
 	}
 
 	/**
-	 * Maps all elements of the collection into a new collection.
+	 * Maps all items of the collection into a new collection.
 	 * @param {Collection_ItemTransformationHandler} transformationHandler The transformation handler used to map the collection.
-	 * @returns {Collection<*>} The collection containing the transformed elements.
+	 * @returns {Collection<*>} The collection containing the transformed items.
 	 */
 	map( transformationHandler )
 	{
 		return new Collection(
 			...this.__items.map( transformationHandler )
 		);
+	}
+
+	/**
+	 * Concatenates the items of the collection by a specific delimiter string and by a variadic amount of transformation handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the mapped items.
+	 * @param {...Collection_ItemTransformationHandler} transformationHandlers The transformation handlers used to transform the items.
+	 * @returns {String} The concatenated string.
+	 */
+	joinMapped( delimiter, ...transformationHandlers )
+	{
+		return this.__items.joinMapped( delimiter, ...transformationHandlers );
+	}
+
+	/**
+	 * Concatenates the items of the collection by a specific delimiter string and by a variadic amount of predicate handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the items.
+	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers used to determine the items.
+	 * @returns {String} The concatenated string.
+	 */
+	joinBy( delimiter, ...predicateHandlers )
+	{
+		return this.__items.joinBy( delimiter, ...predicateHandlers );
 	}
 
 	/**

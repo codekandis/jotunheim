@@ -69,7 +69,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Creates the default predicate to compare specified HTTP GET arguments with a fetched HTTP GET argument of the HTTP GET argument collection for equality by their HTTP GET argument names.
 	 * @param {...HttpGetArgument} httpGetArguments The HTTP GET argument to compare the fetched HTTP GET argument with.
-	 * @returns {HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} The HTTP GET argument name equality predicates.
+	 * @returns {HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} The HTTP GET argument name equality predicate handlers.
 	 */
 	_createArgumentNameEqualityPredicate( ...httpGetArguments )
 	{
@@ -79,7 +79,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Creates the default predicate to compare specified HTTP GET argument names with a fetched HTTP GET argument of the HTTP GET argument collection for equality by their HTTP GET argument names.
 	 * @param {...String} httpGetArgumentNames The HTTP GET argument names to compare the fetched HTTP GET arguments with.
-	 * @returns {HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} The HTTP GET argument name equality predicates.
+	 * @returns {HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} The HTTP GET argument name equality predicate handlers.
 	 */
 	_createArgumentNameEqualityPredicateFromArgumentNames( ...httpGetArgumentNames )
 	{
@@ -106,13 +106,13 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Determines if the HTTP GET argument collection includes an HTTP GET argument specified by a variadic amount of predicates.
-	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicates The predicates to determine the HTTP GET argument.
+	 * Determines if the HTTP GET argument collection includes an HTTP GET argument specified by a variadic amount of predicate handlers.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET argument.
 	 * @returns {Boolean} True if the HTTP GET argument is included in the HTTP GET argument collection, otherwise false.
 	 */
-	includesBy( ...predicates )
+	includesBy( ...predicateHandlers )
 	{
-		return super.includesBy( ...predicates );
+		return super.includesBy( ...predicateHandlers );
 	}
 
 	/**
@@ -122,6 +122,16 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	add( ...httpGetArguments )
 	{
 		super.add( ...httpGetArguments );
+	}
+
+	/**
+	 * Adds a variadic amount of HTTP GET arguments to the HTTP GET argument collection by a specific predicate handler.
+	 * @param {HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandler The predicate handler to determine the HTTP GET arguments to add.
+	 * @param {...HttpGetArgument} httpGetArguments The HTTP GET arguments to add.
+	 */
+	addBy( predicateHandler, ...httpGetArguments )
+	{
+		super.addBy( predicateHandler, ...httpGetArguments );
 	}
 
 	/**
@@ -146,13 +156,13 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Replaces the first occurences of HTTP GET arguments in the HTTP GET argument collection specified by a variadic amount of predicates with a specified HTTP GET argument.
+	 * Replaces the first occurences of HTTP GET arguments in the HTTP GET argument collection specified by a variadic amount of predicate handlers with a specified HTTP GET argument.
 	 * @param {HttpGetArgument} httpGetArgumentReplacement The new HTTP GET argument to replace the HTTP GET argument with.
-	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicates The predicates to determine the HTTP GET argument.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET argument.
 	 */
-	replaceBy( httpGetArgumentReplacement, ...predicates )
+	replaceBy( httpGetArgumentReplacement, ...predicateHandlers )
 	{
-		super.replaceBy( httpGetArgumentReplacement, ...predicates );
+		super.replaceBy( httpGetArgumentReplacement, ...predicateHandlers );
 	}
 
 	/**
@@ -166,13 +176,13 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Replaces all occurences of an HTTP GET argument in the HTTP GET argument collection specified by a variadic amount of predicates.
+	 * Replaces all occurences of an HTTP GET argument in the HTTP GET argument collection specified by a variadic amount of predicate handlers.
 	 * @param {HttpGetArgument} httpGetArgumentReplacement The new HTTP GET argument to replace the HTTP GET arguments with.
-	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicates The predicates to determine the HTTP GET arguments.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET arguments.
 	 */
-	replaceAllBy( httpGetArgumentReplacement, ...predicates )
+	replaceAllBy( httpGetArgumentReplacement, ...predicateHandlers )
 	{
-		super.replaceAllBy( httpGetArgumentReplacement, ...predicates );
+		super.replaceAllBy( httpGetArgumentReplacement, ...predicateHandlers );
 	}
 
 	/**
@@ -204,12 +214,12 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Removes the first occurence of an HTTP GET argument from the HTTP GET argument collection specified by a variadic amount of predicates.
-	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicates The predicates to determine the HTTP GET argument.
+	 * Removes the first occurence of an HTTP GET argument from the HTTP GET argument collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET argument.
 	 */
-	removeBy( ...predicates )
+	removeBy( ...predicateHandlers )
 	{
-		super.removeBy( ...predicates );
+		super.removeBy( ...predicateHandlers );
 	}
 
 	/**
@@ -231,12 +241,12 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Removes all occurences of HTTP GET arguments from the HTTP GET argument collection specified by a variadic amount of predicates.
-	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicates The predicates to determine the HTTP GET arguments.
+	 * Removes all occurences of HTTP GET arguments from the HTTP GET argument collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET arguments.
 	 */
-	removeAllBy( ...predicates )
+	removeAllBy( ...predicateHandlers )
 	{
-		super.removeAllBy( ...predicates );
+		super.removeAllBy( ...predicateHandlers );
 	}
 
 	/**
@@ -259,13 +269,13 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Gets the first index of an HTTP GET argument specified by a variadic amount of predicates.
-	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicates The predicates to determine the HTTP GET argument.
+	 * Gets the first index of an HTTP GET argument specified by a variadic amount of predicate handlers.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET argument.
 	 * @returns {undefined|Number} The first index of the HTTP GET argument, if found, otherwise undefined.
 	 */
-	findFirstIndexOfBy( ...predicates )
+	findFirstIndexOfBy( ...predicateHandlers )
 	{
-		return super.findFirstIndexOfBy( ...predicates );
+		return super.findFirstIndexOfBy( ...predicateHandlers );
 	}
 
 	/**
@@ -289,13 +299,13 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Gets the last index of an HTTP GET argument specified by a variadic amount of predicates.
-	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicates The predicates to determine the HTTP GET argument.
+	 * Gets the last index of an HTTP GET argument specified by a variadic amount of predicate handlers.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET argument.
 	 * @returns {undefined|Number} The last index of the HTTP GET argument, if found, otherwise undefined.
 	 */
-	findLastIndexOfBy( ...predicates )
+	findLastIndexOfBy( ...predicateHandlers )
 	{
-		return super.findLastIndexOfBy( ...predicates );
+		return super.findLastIndexOfBy( ...predicateHandlers );
 	}
 
 	/**
@@ -319,13 +329,13 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP GET argument specified by a variadic amount of predicates.
-	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicates The predicates to determine the HTTP GET arguments.
+	 * Gets the indices of all occurences of any HTTP GET argument specified by a variadic amount of predicate handlers.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET arguments.
 	 * @returns {Collection<Number>} The indices of the HTTP GET arguments, if found, otherwise an empty collection.
 	 */
-	findAllIndicesOfBy( ...predicates )
+	findAllIndicesOfBy( ...predicateHandlers )
 	{
-		super.findAllIndicesOfBy( ...predicates );
+		super.findAllIndicesOfBy( ...predicateHandlers );
 	}
 
 	/**
@@ -349,13 +359,13 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Gets the first HTTP GET argument from the HTTP GET argument collection specified by a variadic amount of predicates.
-	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicates The predicates to determine the HTTP GET argument.
+	 * Gets the first HTTP GET argument from the HTTP GET argument collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET argument.
 	 * @returns {undefined|HttpGetArgument} The first HTTP GET argument, if found, otherwise undefined.
 	 */
-	findFirstOrUndefinedBy( ...predicates )
+	findFirstOrUndefinedBy( ...predicateHandlers )
 	{
-		return super.findFirstOrUndefinedBy( ...predicates );
+		return super.findFirstOrUndefinedBy( ...predicateHandlers );
 	}
 
 	/**
@@ -369,13 +379,13 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Gets the last HTTP GET argument from the HTTP GET argument collection specified by a variadic amount of predicates.
-	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicates The predicates to determine the HTTP GET argument.
+	 * Gets the last HTTP GET argument from the HTTP GET argument collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET argument.
 	 * @returns {undefined|HttpGetArgument} The last HTTP GET argument, if found, otherwise undefined.
 	 */
-	findLastOrUndefinedBy( ...predicates )
+	findLastOrUndefinedBy( ...predicateHandlers )
 	{
-		return super.findLastOrUndefinedBy( ...predicates );
+		return super.findLastOrUndefinedBy( ...predicateHandlers );
 	}
 
 	/**
@@ -389,13 +399,13 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Gets all HTTP GET arguments from the HTTP GET argument collection specified by a variadic amount of predicates.
-	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicates The predicates to determine the HTTP GET arguments.
+	 * Gets all HTTP GET arguments from the HTTP GET argument collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET arguments.
 	 * @returns {HttpGetArgumentCollection<HttpGetArgument>} The HTTP GET arguments, if found, otherwise an empty HTTP GET argument collection.
 	 */
-	findAllBy( ...predicates )
+	findAllBy( ...predicateHandlers )
 	{
-		return super.findAllBy( ...predicates );
+		return super.findAllBy( ...predicateHandlers );
 	}
 
 	/**
@@ -426,13 +436,35 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Maps all elements of the HTTP GET argument collection into a new collection.
+	 * Maps all HTTP GET arguments of the HTTP GET argument collection into a new collection.
 	 * @param {HttpGetArgumentCollection_HttpGetArgumentTransformationHandler} transformationHandler The transformation handler used to map the HTTP GET argument collection.
 	 * @returns {Collection<*>} The collection containing the transformed HTTP GET arguments.
 	 */
 	map( transformationHandler )
 	{
 		return super.map( transformationHandler );
+	}
+
+	/**
+	 * Concatenates the HTTP GET arguments of the HTTP GET arguments collection by a specific delimiter string and by a variadic amount of transformation handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the mapped HTTP GET arguments.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentTransformationHandler} transformationHandlers The transformation handlers used to transform the HTTP GET arguments.
+	 * @returns {String} The concatenated string.
+	 */
+	joinMapped( delimiter, ...transformationHandlers )
+	{
+		return super.joinMapped( delimiter, ...transformationHandlers );
+	}
+
+	/**
+	 * Concatenates the HTTP GET arguments of the HTTP GET argument collection by a specific delimiter string and by a variadic amount of predicate handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the HTTP GET arguments.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers used to determine the HTTP GET arguments.
+	 * @returns {String} The concatenated string.
+	 */
+	joinBy( delimiter, ...predicateHandlers )
+	{
+		return this.__items.joinBy( delimiter, ...predicateHandlers );
 	}
 
 	/**

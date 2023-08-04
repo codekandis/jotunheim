@@ -1,7 +1,7 @@
 'use strict';
 
-import { AbstractStatic } from '../Types/AbstractStatic.js';
 import { InvalidCharSetException } from '../Text/InvalidCharSetException.js';
+import { AbstractStatic } from '../Types/AbstractStatic.js';
 
 /**
  * Represents an enumeration of MIME types.

@@ -33,6 +33,20 @@ import { MouseOverEvent } from './MouseOverEvent.js';
 import { MouseUpEvent } from './MouseUpEvent.js';
 
 /**
+ * Stores arbitrary data related to the HTML element.
+ * @property {*} #_data
+ * @memberOf HTMLElement.prototype
+ */
+Object.defineProperty(
+	HTMLElement.prototype,
+	'data',
+	{
+		value:    null,
+		writable: true
+	}
+);
+
+/**
  * Removes all child nodes from the HTML element.
  * @method empty
  * @memberOf HTMLElement.prototype

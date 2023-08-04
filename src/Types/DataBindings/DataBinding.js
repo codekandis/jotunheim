@@ -148,13 +148,13 @@ export class DataBinding extends Abstract
 		{
 			case DataBindingInitializationDirection.BINDER:
 			{
-				this.#updateBinderProperty();
+				this.#updateBindableProperty();
 
 				break;
 			}
 			case DataBindingInitializationDirection.BINDABLE:
 			{
-				this.#updateBindableProperty();
+				this.#updateBinderProperty();
 
 				break;
 			}

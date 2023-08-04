@@ -61,7 +61,7 @@ export class HttpArgumentCollection extends Collection
 	/**
 	 * Creates the default predicate to compare specified HTTP arguments with a fetched HTTP argument of the HTTP argument collection for equality by their HTTP argument names.
 	 * @param {...HttpArgument} httpArguments The HTTP argument to compare the fetched HTTP argument with.
-	 * @returns {HttpArgumentCollection_HttpArgumentPredicateHandler} The HTTP argument name equality predicates.
+	 * @returns {HttpArgumentCollection_HttpArgumentPredicateHandler} The HTTP argument name equality predicate handlers.
 	 */
 	_createArgumentNameEqualityPredicate( ...httpArguments )
 	{
@@ -79,7 +79,7 @@ export class HttpArgumentCollection extends Collection
 	/**
 	 * Creates the default predicate to compare specified HTTP argument names with a fetched HTTP argument of the HTTP argument collection for equality by their HTTP argument names.
 	 * @param {...String} httpArgumentNames The HTTP argument names to compare the fetched HTTP arguments with.
-	 * @returns {HttpArgumentCollection_HttpArgumentPredicateHandler} The HTTP argument name equality predicates.
+	 * @returns {HttpArgumentCollection_HttpArgumentPredicateHandler} The HTTP argument name equality predicate handlers.
 	 */
 	_createArgumentNameEqualityPredicateFromArgumentNames( ...httpArgumentNames )
 	{
@@ -120,13 +120,13 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Determines if the HTTP argument collection includes an HTTP argument specified by a variadic amount of predicates.
-	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicates The predicates to determine the HTTP argument.
+	 * Determines if the HTTP argument collection includes an HTTP argument specified by a variadic amount of predicate handlers.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP argument.
 	 * @returns {Boolean} True if the HTTP argument is included in the HTTP argument collection, otherwise false.
 	 */
-	includesBy( ...predicates )
+	includesBy( ...predicateHandlers )
 	{
-		return undefined !== this.findFirstOrUndefinedBy( ...predicates );
+		return undefined !== this.findFirstOrUndefinedBy( ...predicateHandlers );
 	}
 
 	/**
@@ -136,6 +136,16 @@ export class HttpArgumentCollection extends Collection
 	add( ...httpArguments )
 	{
 		super.add( ...httpArguments );
+	}
+
+	/**
+	 * Adds a variadic amount of HTTP arguments to the HTTP argument collection by a specific predicate handler.
+	 * @param {HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandler The predicate handler to determine the HTTP arguments to add.
+	 * @param {...HttpArgument} httpArguments The HTTP arguments to add.
+	 */
+	addBy( predicateHandler, ...httpArguments )
+	{
+		super.addBy( predicateHandler, ...httpArguments );
 	}
 
 	/**
@@ -160,13 +170,13 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Replaces the first occurences of HTTP arguments in the HTTP argument collection specified by a variadic amount of predicates with a specified HTTP argument.
+	 * Replaces the first occurences of HTTP arguments in the HTTP argument collection specified by a variadic amount of predicate handlers with a specified HTTP argument.
 	 * @param {HttpArgument} httpArgumentReplacement The new HTTP argument to replace the HTTP argument with.
-	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicates The predicates to determine the HTTP argument.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP argument.
 	 */
-	replaceBy( httpArgumentReplacement, ...predicates )
+	replaceBy( httpArgumentReplacement, ...predicateHandlers )
 	{
-		super.replaceBy( httpArgumentReplacement, ...predicates );
+		super.replaceBy( httpArgumentReplacement, ...predicateHandlers );
 	}
 
 	/**
@@ -183,13 +193,13 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Replaces all occurences of an HTTP argument in the HTTP argument collection specified by a variadic amount of predicates.
+	 * Replaces all occurences of an HTTP argument in the HTTP argument collection specified by a variadic amount of predicate handlers.
 	 * @param {HttpArgument} httpArgumentReplacement The new HTTP argument to replace the HTTP arguments with.
-	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicates The predicates to determine the HTTP arguments.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP arguments.
 	 */
-	replaceAllBy( httpArgumentReplacement, ...predicates )
+	replaceAllBy( httpArgumentReplacement, ...predicateHandlers )
 	{
-		super.replaceAllBy( httpArgumentReplacement, ...predicates );
+		super.replaceAllBy( httpArgumentReplacement, ...predicateHandlers );
 	}
 
 	/**
@@ -239,12 +249,12 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Removes the first occurence of an HTTP argument from the HTTP argument collection specified by a variadic amount of predicates.
-	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicates The predicates to determine the HTTP argument.
+	 * Removes the first occurence of an HTTP argument from the HTTP argument collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP argument.
 	 */
-	removeBy( ...predicates )
+	removeBy( ...predicateHandlers )
 	{
-		super.removeBy( ...predicates );
+		super.removeBy( ...predicateHandlers );
 	}
 
 	/**
@@ -270,12 +280,12 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Removes all occurences of HTTP arguments from the HTTP argument collection specified by a variadic amount of predicates.
-	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicates The predicates to determine the HTTP arguments.
+	 * Removes all occurences of HTTP arguments from the HTTP argument collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP arguments.
 	 */
-	removeAllBy( ...predicates )
+	removeAllBy( ...predicateHandlers )
 	{
-		super.removeAllBy( ...predicates );
+		super.removeAllBy( ...predicateHandlers );
 	}
 
 	/**
@@ -302,13 +312,13 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Gets the first index of an HTTP argument specified by a variadic amount of predicates.
-	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicates The predicates to determine the HTTP argument.
+	 * Gets the first index of an HTTP argument specified by a variadic amount of predicate handlers.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP argument.
 	 * @returns {undefined|Number} The first index of the HTTP argument, if found, otherwise undefined.
 	 */
-	findFirstIndexOfBy( ...predicates )
+	findFirstIndexOfBy( ...predicateHandlers )
 	{
-		return super.findFirstIndexOfBy( ...predicates );
+		return super.findFirstIndexOfBy( ...predicateHandlers );
 	}
 
 	/**
@@ -336,13 +346,13 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Gets the last index of an HTTP argument specified by a variadic amount of predicates.
-	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicates The predicates to determine the HTTP argument.
+	 * Gets the last index of an HTTP argument specified by a variadic amount of predicate handlers.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP argument.
 	 * @returns {undefined|Number} The last index of the HTTP argument, if found, otherwise undefined.
 	 */
-	findLastIndexOfBy( ...predicates )
+	findLastIndexOfBy( ...predicateHandlers )
 	{
-		return super.findLastIndexOfBy( ...predicates );
+		return super.findLastIndexOfBy( ...predicateHandlers );
 	}
 
 	/**
@@ -370,13 +380,13 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP argument specified by a variadic amount of predicates.
-	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicates The predicates to determine the HTTP arguments.
+	 * Gets the indices of all occurences of any HTTP argument specified by a variadic amount of predicate handlers.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP arguments.
 	 * @returns {Collection<Number>} The indices of the HTTP arguments, if found, otherwise an empty collection.
 	 */
-	findAllIndicesOfBy( ...predicates )
+	findAllIndicesOfBy( ...predicateHandlers )
 	{
-		super.findAllIndicesOfBy( ...predicates );
+		super.findAllIndicesOfBy( ...predicateHandlers );
 	}
 
 	/**
@@ -402,13 +412,13 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Gets the first HTTP argument from the HTTP argument collection specified by a variadic amount of predicates.
-	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicates The predicates to determine the HTTP argument.
+	 * Gets the first HTTP argument from the HTTP argument collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP argument.
 	 * @returns {undefined|HttpArgument} The first HTTP argument, if found, otherwise undefined.
 	 */
-	findFirstOrUndefinedBy( ...predicates )
+	findFirstOrUndefinedBy( ...predicateHandlers )
 	{
-		return super.findFirstOrUndefinedBy( ...predicates );
+		return super.findFirstOrUndefinedBy( ...predicateHandlers );
 	}
 
 	/**
@@ -424,13 +434,13 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Gets the last HTTP argument from the HTTP argument collection specified by a variadic amount of predicates.
-	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicates The predicates to determine the HTTP argument.
+	 * Gets the last HTTP argument from the HTTP argument collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP argument.
 	 * @returns {undefined|HttpArgument} The last HTTP argument, if found, otherwise undefined.
 	 */
-	findLastOrUndefinedBy( ...predicates )
+	findLastOrUndefinedBy( ...predicateHandlers )
 	{
-		return super.findLastOrUndefinedBy( ...predicates );
+		return super.findLastOrUndefinedBy( ...predicateHandlers );
 	}
 
 	/**
@@ -446,14 +456,14 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Gets all HTTP arguments from the HTTP argument collection specified by a variadic amount of predicates.
-	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicates The predicates to determine the HTTP arguments.
+	 * Gets all HTTP arguments from the HTTP argument collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP arguments.
 	 * @returns {HttpArgumentCollection<HttpArgument>} The HTTP arguments, if found, otherwise an empty HTTP argument collection.
 	 */
-	findAllBy( ...predicates )
+	findAllBy( ...predicateHandlers )
 	{
 		return new HttpArgumentCollection(
-			...super.findAllBy( ...predicates )
+			...super.findAllBy( ...predicateHandlers )
 		);
 	}
 
@@ -483,11 +493,11 @@ export class HttpArgumentCollection extends Collection
 	 */
 	sortBy( comparisonHandler )
 	{
-		this.__items.sort( comparisonHandler );
+		super.sortBy( comparisonHandler );
 	}
 
 	/**
-	 * Maps all elements of the HTTP argument collection into a new collection.
+	 * Maps all HTTP arguments of the HTTP argument collection into a new collection.
 	 * @param {HttpArgumentCollection_HttpArgumentTransformationHandler} transformationHandler The transformation handler used to map the HTTP argument collection.
 	 * @returns {Collection<*>} The collection containing the transformed HTTP arguments.
 	 */
@@ -497,11 +507,33 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
+	 * Concatenates the HTTP arguments of the HTTP arguments collection by a specific delimiter string and by a variadic amount of transformation handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the mapped HTTP arguments.
+	 * @param {...HttpArgumentCollection_HttpArgumentTransformationHandler} transformationHandlers The transformation handlers used to transform the HTTP arguments.
+	 * @returns {String} The concatenated string.
+	 */
+	joinMapped( delimiter, ...transformationHandlers )
+	{
+		return super.joinMapped( delimiter, ...transformationHandlers );
+	}
+
+	/**
+	 * Concatenates the HTTP arguments of the HTTP argument collection by a specific delimiter string and by a variadic amount of predicate handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the HTTP arguments.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers used to determine the HTTP arguments.
+	 * @returns {String} The concatenated string.
+	 */
+	joinBy( delimiter, ...predicateHandlers )
+	{
+		return this.__items.joinBy( delimiter, ...predicateHandlers );
+	}
+
+	/**
 	 * Gets the array representation of the HTTP argument collection.
 	 * @returns {HttpArgument[]} The array representation of the HTTP argument collection.
 	 */
 	toArray()
 	{
-		return [ ...this ];
+		return super.toArray();
 	}
 }

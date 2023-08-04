@@ -61,7 +61,7 @@ export class HttpPostFileCollection extends Collection
 	/**
 	 * Creates the default predicate to compare specified HTTP POST files with a fetched HTTP POST file of the HTTP POST file collection for equality by their HTTP POST file names.
 	 * @param {...HttpPostFile} httpPostFiles The HTTP POST file to compare the fetched HTTP POST file with.
-	 * @returns {HttpPostFileCollection_HttpPostFilePredicateHandler} The HTTP POST file name equality predicates.
+	 * @returns {HttpPostFileCollection_HttpPostFilePredicateHandler} The HTTP POST file name equality predicate handlers.
 	 */
 	_createPostFileNameEqualityPredicate( ...httpPostFiles )
 	{
@@ -79,7 +79,7 @@ export class HttpPostFileCollection extends Collection
 	/**
 	 * Creates the default predicate to compare specified HTTP POST file names with a fetched HTTP POST file of the HTTP POST file collection for equality by their HTTP POST file names.
 	 * @param {...String} httpPostFileNames The HTTP POST file names to compare the fetched HTTP POST files with.
-	 * @returns {HttpPostFileCollection_HttpPostFilePredicateHandler} The HTTP POST file name equality predicates.
+	 * @returns {HttpPostFileCollection_HttpPostFilePredicateHandler} The HTTP POST file name equality predicate handlers.
 	 */
 	_createPostFileNameEqualityPredicateFromPostFileNames( ...httpPostFileNames )
 	{
@@ -120,13 +120,13 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Determines if the HTTP POST file collection includes an HTTP POST file specified by a variadic amount of predicates.
-	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicates The predicates to determine the HTTP POST file.
+	 * Determines if the HTTP POST file collection includes an HTTP POST file specified by a variadic amount of predicate handlers.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST file.
 	 * @returns {Boolean} True if the HTTP POST file is included in the HTTP POST file collection, otherwise false.
 	 */
-	includesBy( ...predicates )
+	includesBy( ...predicateHandlers )
 	{
-		return undefined !== this.findFirstOrUndefinedBy( ...predicates );
+		return undefined !== this.findFirstOrUndefinedBy( ...predicateHandlers );
 	}
 
 	/**
@@ -136,6 +136,16 @@ export class HttpPostFileCollection extends Collection
 	add( ...httpPostFiles )
 	{
 		super.add( ...httpPostFiles );
+	}
+
+	/**
+	 * Adds a variadic amount of HTTP POST files to the HTTP POST file collection by a specific predicate handler.
+	 * @param {HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandler The predicate handler to determine the HTTP POST files to add.
+	 * @param {...HttpPostFile} httpPostFiles The HTTP POST files to add.
+	 */
+	addBy( predicateHandler, ...httpPostFiles )
+	{
+		super.addBy( predicateHandler, ...httpPostFiles );
 	}
 
 	/**
@@ -160,13 +170,13 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Replaces the first occurences of HTTP POST files in the HTTP POST file collection specified by a variadic amount of predicates with a specified HTTP POST file.
+	 * Replaces the first occurences of HTTP POST files in the HTTP POST file collection specified by a variadic amount of predicate handlers with a specified HTTP POST file.
 	 * @param {HttpPostFile} httpPostFileReplacement The new HTTP POST file to replace the HTTP POST file with.
-	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicates The predicates to determine the HTTP POST file.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST file.
 	 */
-	replaceBy( httpPostFileReplacement, ...predicates )
+	replaceBy( httpPostFileReplacement, ...predicateHandlers )
 	{
-		super.replaceBy( httpPostFileReplacement, ...predicates );
+		super.replaceBy( httpPostFileReplacement, ...predicateHandlers );
 	}
 
 	/**
@@ -183,13 +193,13 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Replaces all occurences of an HTTP POST file in the HTTP POST file collection specified by a variadic amount of predicates.
+	 * Replaces all occurences of an HTTP POST file in the HTTP POST file collection specified by a variadic amount of predicate handlers.
 	 * @param {HttpPostFile} httpPostFileReplacement The new HTTP POST file to replace the HTTP POST files with.
-	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicates The predicates to determine the HTTP POST files.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST files.
 	 */
-	replaceAllBy( httpPostFileReplacement, ...predicates )
+	replaceAllBy( httpPostFileReplacement, ...predicateHandlers )
 	{
-		super.replaceAllBy( httpPostFileReplacement, ...predicates );
+		super.replaceAllBy( httpPostFileReplacement, ...predicateHandlers );
 	}
 
 	/**
@@ -239,12 +249,12 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Removes the first occurence of an HTTP POST file from the HTTP POST file collection specified by a variadic amount of predicates.
-	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicates The predicates to determine the HTTP POST file.
+	 * Removes the first occurence of an HTTP POST file from the HTTP POST file collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST file.
 	 */
-	removeBy( ...predicates )
+	removeBy( ...predicateHandlers )
 	{
-		super.removeBy( ...predicates );
+		super.removeBy( ...predicateHandlers );
 	}
 
 	/**
@@ -270,12 +280,12 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Removes all occurences of HTTP POST files from the HTTP POST file collection specified by a variadic amount of predicates.
-	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicates The predicates to determine the HTTP POST files.
+	 * Removes all occurences of HTTP POST files from the HTTP POST file collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST files.
 	 */
-	removeAllBy( ...predicates )
+	removeAllBy( ...predicateHandlers )
 	{
-		super.removeAllBy( ...predicates );
+		super.removeAllBy( ...predicateHandlers );
 	}
 
 	/**
@@ -302,13 +312,13 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Gets the first index of an HTTP POST file specified by a variadic amount of predicates.
-	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicates The predicates to determine the HTTP POST file.
+	 * Gets the first index of an HTTP POST file specified by a variadic amount of predicate handlers.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST file.
 	 * @returns {undefined|Number} The first index of the HTTP POST file, if found, otherwise undefined.
 	 */
-	findFirstIndexOfBy( ...predicates )
+	findFirstIndexOfBy( ...predicateHandlers )
 	{
-		return super.findFirstIndexOfBy( ...predicates );
+		return super.findFirstIndexOfBy( ...predicateHandlers );
 	}
 
 	/**
@@ -336,13 +346,13 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Gets the last index of an HTTP POST file specified by a variadic amount of predicates.
-	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicates The predicates to determine the HTTP POST file.
+	 * Gets the last index of an HTTP POST file specified by a variadic amount of predicate handlers.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST file.
 	 * @returns {undefined|Number} The last index of the HTTP POST file, if found, otherwise undefined.
 	 */
-	findLastIndexOfBy( ...predicates )
+	findLastIndexOfBy( ...predicateHandlers )
 	{
-		return super.findLastIndexOfBy( ...predicates );
+		return super.findLastIndexOfBy( ...predicateHandlers );
 	}
 
 	/**
@@ -370,13 +380,13 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP POST file specified by a variadic amount of predicates.
-	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicates The predicates to determine the HTTP POST files.
+	 * Gets the indices of all occurences of any HTTP POST file specified by a variadic amount of predicate handlers.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST files.
 	 * @returns {Collection<Number>} The indices of the HTTP POST files, if found, otherwise an empty collection.
 	 */
-	findAllIndicesOfBy( ...predicates )
+	findAllIndicesOfBy( ...predicateHandlers )
 	{
-		super.findAllIndicesOfBy( ...predicates );
+		super.findAllIndicesOfBy( ...predicateHandlers );
 	}
 
 	/**
@@ -402,13 +412,13 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Gets the first HTTP POST file from the HTTP POST file collection specified by a variadic amount of predicates.
-	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicates The predicates to determine the HTTP POST file.
+	 * Gets the first HTTP POST file from the HTTP POST file collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST file.
 	 * @returns {undefined|HttpPostFile} The first HTTP POST file, if found, otherwise undefined.
 	 */
-	findFirstOrUndefinedBy( ...predicates )
+	findFirstOrUndefinedBy( ...predicateHandlers )
 	{
-		return super.findFirstOrUndefinedBy( ...predicates );
+		return super.findFirstOrUndefinedBy( ...predicateHandlers );
 	}
 
 	/**
@@ -424,13 +434,13 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Gets the last HTTP POST file from the HTTP POST file collection specified by a variadic amount of predicates.
-	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicates The predicates to determine the HTTP POST file.
+	 * Gets the last HTTP POST file from the HTTP POST file collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST file.
 	 * @returns {undefined|HttpPostFile} The last HTTP POST file, if found, otherwise undefined.
 	 */
-	findLastOrUndefinedBy( ...predicates )
+	findLastOrUndefinedBy( ...predicateHandlers )
 	{
-		return super.findLastOrUndefinedBy( ...predicates );
+		return super.findLastOrUndefinedBy( ...predicateHandlers );
 	}
 
 	/**
@@ -446,14 +456,14 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
-	 * Gets all HTTP POST files from the HTTP POST file collection specified by a variadic amount of predicates.
-	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicates The predicates to determine the HTTP POST files.
+	 * Gets all HTTP POST files from the HTTP POST file collection specified by a variadic amount of predicate handlers.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST files.
 	 * @returns {HttpPostFileCollection<HttpPostFile>} The HTTP POST files, if found, otherwise an empty HTTP POST file collection.
 	 */
-	findAllBy( ...predicates )
+	findAllBy( ...predicateHandlers )
 	{
 		return new HttpPostFileCollection(
-			...super.findAllBy( ...predicates )
+			...super.findAllBy( ...predicateHandlers )
 		);
 	}
 
@@ -483,11 +493,11 @@ export class HttpPostFileCollection extends Collection
 	 */
 	sortBy( comparisonHandler )
 	{
-		this.__items.sort( comparisonHandler );
+		super.sortBy( comparisonHandler );
 	}
 
 	/**
-	 * Maps all elements of the HTTP POST file collection into a new collection.
+	 * Maps all HTTP POST files of the HTTP POST file collection into a new collection.
 	 * @param {HttpPostFileCollection_HttpPostFileTransformationHandler} transformationHandler The transformation handler used to map the HTTP POST file collection.
 	 * @returns {Collection<*>} The collection containing the transformed HTTP POST files.
 	 */
@@ -497,11 +507,33 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
+	 * Concatenates the HTTP POST files of the HTTP POST files collection by a specific delimiter string and by a variadic amount of transformation handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the mapped HTTP POST files.
+	 * @param {...HttpPostFileCollection_HttpPostFileTransformationHandler} transformationHandlers The transformation handlers used to transform the HTTP POST files.
+	 * @returns {String} The concatenated string.
+	 */
+	joinMapped( delimiter, ...transformationHandlers )
+	{
+		return super.joinMapped( delimiter, ...transformationHandlers );
+	}
+
+	/**
+	 * Concatenates the HTTP POST files of the HTTP POST file collection by a specific delimiter string and by a variadic amount of predicate handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the HTTP POST files.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers used to determine the HTTP POST files.
+	 * @returns {String} The concatenated string.
+	 */
+	joinBy( delimiter, ...predicateHandlers )
+	{
+		return this.__items.joinBy( delimiter, ...predicateHandlers );
+	}
+
+	/**
 	 * Gets the array representation of the HTTP POST file collection.
 	 * @returns {HttpPostFile[]} The array representation of the HTTP POST file collection.
 	 */
 	toArray()
 	{
-		return [ ...this ];
+		return super.toArray();
 	}
 }
