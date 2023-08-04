@@ -741,6 +741,33 @@ Object.defineProperty(
 );
 
 /**
+ * Concatenates the elements of the array by a specific delimiter string and by a variadic amount of transformation handlers.
+ * @method joinMapped
+ * @memberOf Array.prototype
+ * @param {String} delimiter The delimiter used to concatenate the mapped elements.
+ * @param {...Array_ElementTransformationHandler} transformationHandlers The transformation handlers used to transform the elements.
+ * @returns {String} The concatenated string.
+ */
+Object.defineProperty(
+	Array.prototype,
+	'joinMapped',
+	{
+		value: function ( delimiter, ...transformationHandlers )
+		       {
+			       let transformedArray = this;
+			       transformationHandlers.forEach(
+				       ( fetchedTransformationHandler ) =>
+				       {
+					       transformedArray = transformedArray.map( fetchedTransformationHandler );
+				       }
+			       );
+
+			       return transformedArray.join( delimiter );
+		       }
+	}
+);
+
+/**
  * Gets the JSON representation of the array.
  * @method toJSON
  * @memberOf Array.prototype
