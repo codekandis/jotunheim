@@ -448,6 +448,17 @@ export class HttpResponseHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
+	 * Concatenates the HTTP response headers of the HTTP response header collection by a specific delimiter string and by a variadic amount of predicate handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the HTTP response headers.
+	 * @param {...HttpResponseHeaderCollection_HttpResponseHeaderPredicateHandler} predicateHandlers The predicate handlers used to determine the HTTP response headers.
+	 * @returns {String} The concatenated string.
+	 */
+	joinBy( delimiter, ...predicateHandlers )
+	{
+		return this.__items.joinBy( delimiter, ...predicateHandlers );
+	}
+
+	/**
 	 * Gets the array representation of the HTTP response header collection.
 	 * @returns {HttpResponseHeader[]} The array representation of the HTTP response header collection.
 	 */

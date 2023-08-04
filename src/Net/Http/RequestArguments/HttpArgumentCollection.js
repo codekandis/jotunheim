@@ -518,6 +518,17 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
+	 * Concatenates the HTTP arguments of the HTTP argument collection by a specific delimiter string and by a variadic amount of predicate handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the HTTP arguments.
+	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers used to determine the HTTP arguments.
+	 * @returns {String} The concatenated string.
+	 */
+	joinBy( delimiter, ...predicateHandlers )
+	{
+		return this.__items.joinBy( delimiter, ...predicateHandlers );
+	}
+
+	/**
 	 * Gets the array representation of the HTTP argument collection.
 	 * @returns {HttpArgument[]} The array representation of the HTTP argument collection.
 	 */

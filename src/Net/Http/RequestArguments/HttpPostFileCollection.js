@@ -518,6 +518,17 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
+	 * Concatenates the HTTP POST files of the HTTP POST file collection by a specific delimiter string and by a variadic amount of predicate handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the HTTP POST files.
+	 * @param {...HttpPostFileCollection_HttpPostFilePredicateHandler} predicateHandlers The predicate handlers used to determine the HTTP POST files.
+	 * @returns {String} The concatenated string.
+	 */
+	joinBy( delimiter, ...predicateHandlers )
+	{
+		return this.__items.joinBy( delimiter, ...predicateHandlers );
+	}
+
+	/**
 	 * Gets the array representation of the HTTP POST file collection.
 	 * @returns {HttpPostFile[]} The array representation of the HTTP POST file collection.
 	 */

@@ -457,6 +457,17 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
+	 * Concatenates the HTTP POST arguments of the HTTP POST argument collection by a specific delimiter string and by a variadic amount of predicate handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the HTTP POST arguments.
+	 * @param {...HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicateHandlers The predicate handlers used to determine the HTTP POST arguments.
+	 * @returns {String} The concatenated string.
+	 */
+	joinBy( delimiter, ...predicateHandlers )
+	{
+		return this.__items.joinBy( delimiter, ...predicateHandlers );
+	}
+
+	/**
 	 * Posts the array representation of the HTTP POST argument collection.
 	 * @returns {HttpPostArgument[]} The array representation of the HTTP POST argument collection.
 	 */

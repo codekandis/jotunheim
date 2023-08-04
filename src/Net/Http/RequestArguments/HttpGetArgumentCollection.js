@@ -457,6 +457,17 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
+	 * Concatenates the HTTP GET arguments of the HTTP GET argument collection by a specific delimiter string and by a variadic amount of predicate handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the HTTP GET arguments.
+	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers used to determine the HTTP GET arguments.
+	 * @returns {String} The concatenated string.
+	 */
+	joinBy( delimiter, ...predicateHandlers )
+	{
+		return this.__items.joinBy( delimiter, ...predicateHandlers );
+	}
+
+	/**
 	 * Gets the array representation of the HTTP GET argument collection.
 	 * @returns {HttpGetArgument[]} The array representation of the HTTP GET argument collection.
 	 */
