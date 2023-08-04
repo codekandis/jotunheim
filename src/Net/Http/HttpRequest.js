@@ -1,8 +1,8 @@
 'use strict';
 
+import { MimeType } from '../../Io/MimeType.js';
 import { Abstract } from '../../Types/Abstract.js';
 import { PartialUrlType } from '../PartialUrlType.js';
-import { MimeType } from '../../Io/MimeType.js';
 import { HeadersToHttpResponseHeaderCollectionConverter } from './Headers/HeadersToHttpResponseHeaderCollectionConverter.js';
 import { HttpRequestHeaderCollection } from './Headers/HttpRequestHeaderCollection.js';
 import { ContentTypeHttpRequestHeader } from './Headers/RequestHeaders/ContentTypeHttpRequestHeader.js';
