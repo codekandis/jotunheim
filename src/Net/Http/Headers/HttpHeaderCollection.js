@@ -483,7 +483,7 @@ export class HttpHeaderCollection extends Collection
 	 */
 	sortBy( comparisonHandler )
 	{
-		this.__items.sort( comparisonHandler );
+		super.sortBy( comparisonHandler );
 	}
 
 	/**
@@ -502,6 +502,6 @@ export class HttpHeaderCollection extends Collection
 	 */
 	toArray()
 	{
-		return [ ...this ];
+		return super.toArray();
 	}
 }
