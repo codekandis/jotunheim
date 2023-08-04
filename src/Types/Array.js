@@ -95,6 +95,26 @@ Object.defineProperty(
 );
 
 /**
+ * Adds a variadic amount of elements to the array by a specific predicate handler.
+ * @method addBy
+ * @memberOf Array.prototype
+ * @param {Array_ElementPredicateHandler} predicateHandler The predicate handler to determine the elements to add.
+ * @param {...*} elements The elements to add.
+ */
+Object.defineProperty(
+	Array.prototype,
+	'addBy',
+	{
+		value: function ( predicateHandler, ...elements )
+		       {
+			       this.add(
+				       ...elements.findAllBy( predicateHandler )
+			       );
+		       }
+	}
+);
+
+/**
  * Replaces all elements in the array specified by their indices.
  * @method replaceAt
  * @memberOf Array.prototype
