@@ -49,7 +49,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Represents the styles of the control.
-	 * @return {String[]}
+	 * @returns {String[]}
 	 */
 	static get #FILE_SELECTION_DIALOG_CONTROL_STYLES()
 	{

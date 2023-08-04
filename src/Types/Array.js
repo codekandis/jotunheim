@@ -51,7 +51,7 @@ Object.defineProperty(
 	{
 		value: function ( ...predicates )
 		       {
-			       let isValid;
+			       let isValid = false;
 
 			       this.every(
 				       ( fetchedElement, fetchedElementIndex ) =>
