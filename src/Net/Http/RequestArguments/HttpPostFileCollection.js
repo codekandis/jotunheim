@@ -507,6 +507,17 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
+	 * Concatenates the HTTP POST files of the HTTP POST files collection by a specific delimiter string and by a variadic amount of transformation handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the mapped HTTP POST files.
+	 * @param {...HttpPostFileCollection_HttpPostFileTransformationHandler} transformationHandlers The transformation handlers used to transform the HTTP POST files.
+	 * @returns {String} The concatenated string.
+	 */
+	joinMapped( delimiter, ...transformationHandlers )
+	{
+		return super.joinMapped( delimiter, ...transformationHandlers );
+	}
+
+	/**
 	 * Gets the array representation of the HTTP POST file collection.
 	 * @returns {HttpPostFile[]} The array representation of the HTTP POST file collection.
 	 */

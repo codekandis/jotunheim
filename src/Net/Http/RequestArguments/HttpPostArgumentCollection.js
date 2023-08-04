@@ -446,6 +446,17 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
+	 * Concatenates the HTTP POST arguments of the HTTP POST arguments collection by a specific delimiter string and by a variadic amount of transformation handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the mapped HTTP POST arguments.
+	 * @param {...HttpPostArgumentCollection_HttpPostArgumentTransformationHandler} transformationHandlers The transformation handlers used to transform the HTTP POST arguments.
+	 * @returns {String} The concatenated string.
+	 */
+	joinMapped( delimiter, ...transformationHandlers )
+	{
+		return super.joinMapped( delimiter, ...transformationHandlers );
+	}
+
+	/**
 	 * Posts the array representation of the HTTP POST argument collection.
 	 * @returns {HttpPostArgument[]} The array representation of the HTTP POST argument collection.
 	 */

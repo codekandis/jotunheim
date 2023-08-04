@@ -411,6 +411,17 @@ export class Collection extends Abstract
 	}
 
 	/**
+	 * Concatenates the items of the collection by a specific delimiter string and by a variadic amount of transformation handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the mapped items.
+	 * @param {...Collection_ItemTransformationHandler} transformationHandlers The transformation handlers used to transform the items.
+	 * @returns {String} The concatenated string.
+	 */
+	joinMapped( delimiter, ...transformationHandlers )
+	{
+		return this.__items.joinMapped( delimiter, ...transformationHandlers );
+	}
+
+	/**
 	 * Gets the array representation of the collection.
 	 * @returns {*[]} The array representation of the collection.
 	 */

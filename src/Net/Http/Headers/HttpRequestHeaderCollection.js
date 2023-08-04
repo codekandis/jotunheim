@@ -437,6 +437,17 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
+	 * Concatenates the HTTP request headers of the HTTP request header collection by a specific delimiter string and by a variadic amount of transformation handlers.
+	 * @param {String} delimiter The delimiter used to concatenate the mapped HTTP request headers.
+	 * @param {...HttpRequestHeaderCollection_HttpRequestHeaderTransformationHandler} transformationHandlers The transformation handlers used to transform the HTTP request headers.
+	 * @returns {String} The concatenated string.
+	 */
+	joinMapped( delimiter, ...transformationHandlers )
+	{
+		return super.joinMapped( delimiter, ...transformationHandlers );
+	}
+
+	/**
 	 * Gets the array representation of the HTTP request header collection.
 	 * @returns {HttpRequestHeader[]} The array representation of the HTTP request header collection.
 	 */
