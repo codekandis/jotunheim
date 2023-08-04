@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.2.0] - 2023-08-05
+
+### Fixed
+
+* implementation of the data binding initialization direction
+* argument names and JSDoc of `Array` and all collections
+* collections base class invocation
+* formats due to code style
+
+### Added
+
+* `Array.prototype.addBy()`, `Array.prototype.joinMapped()`, `Array.prototype.joinBy()`
+* `Collection.prototype.addBy()`, `Collection.prototype.joinMapped()`, `Collection.prototype.joinBy()`
+
+[0.2.0]: https://github.com/codekandis/jotunheim/compare/0.1.1..0.2.0
+
+---
 ## [0.1.1] - 2023-07-31
 
 ### Fixed
