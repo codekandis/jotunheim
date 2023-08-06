@@ -9,38 +9,38 @@ import { Abstract } from '../Types/Abstract.js';
 export class AbstractUriMappings extends Abstract
 {
 	/**
-	 * Stores the schema of the URI.
+	 * Stores the schema of the mapped URI.
 	 * @type {String}
 	 */
 	__schema = String.empty;
 
 	/**
-	 * Stores the host name of the URI;
+	 * Stores the host name of the mapped URI.
 	 * @type {String}
 	 */
 	__host = String.empty;
 
 	/**
-	 * Stores the port of the URI;
+	 * Stores the port of the mapped URI.
 	 * @type {Number}
 	 */
 	__port = 0;
 
 	/**
-	 * Stores the base URI of the URI;
+	 * Stores the base URI of the mapped URI.
 	 * @type {String}
 	 */
 	__baseUri = String.empty;
 
 	/**
-	 * Stores the relative URIs of the URI;
-	 * @type {Object}
+	 * Stores the relative URI templates of the mapped URIs.
+	 * @type {Object<String, String_ReplacementHandler>}
 	 */
-	__relativeUris = {};
+	__relativeUriTemplates = {};
 
 	/**
-	 * Gets the schema of the URI.
-	 * @returns {String} The schema of the URI.
+	 * Gets the schema of the mapped URI.
+	 * @returns {String} The schema of the mapped URI.
 	 */
 	get schema()
 	{
@@ -48,8 +48,8 @@ export class AbstractUriMappings extends Abstract
 	}
 
 	/**
-	 * Gets the host name of the URI.
-	 * @returns {String} The host name of the URI.
+	 * Gets the host name of the mapped URI.
+	 * @returns {String} The host name of the mapped URI.
 	 */
 	get host()
 	{
@@ -57,8 +57,8 @@ export class AbstractUriMappings extends Abstract
 	}
 
 	/**
-	 * Gets the port of the URI.
-	 * @returns {Number} The port of the URI.
+	 * Gets the port of the mapped URI.
+	 * @returns {Number} The port of the mapped URI.
 	 */
 	get port()
 	{
@@ -66,8 +66,8 @@ export class AbstractUriMappings extends Abstract
 	}
 
 	/**
-	 * Gets the base URI of the URI.
-	 * @returns {String} The base URI of the URI.
+	 * Gets the base URI of the mapped URI.
+	 * @returns {String} The base URI of the mapped URI.
 	 */
 	get baseUri()
 	{
@@ -75,21 +75,21 @@ export class AbstractUriMappings extends Abstract
 	}
 
 	/**
-	 * Gets the relative URIs of the URI.
-	 * @returns {Object} The relative URIs of the URI.
+	 * Gets the relative URI templates of the mapped URIs.
+	 * @returns {Object<String, String_ReplacementHandler>} The relative URI templates of the mapped URIs.
 	 */
-	get relativeUris()
+	get relativeUriTemplates()
 	{
-		return this.__relativeUris;
+		return this.__relativeUriTemplates;
 	}
 
 	/**
-	 * Gets the absolute URI specified by the name of a relative URI.
-	 * @param {String} uriName The name of the relative URI.
-	 * @returns {String} The absolute URI.
+	 * Gets a relative URI template specified by its name.
+	 * @param {String} uriName The name of the relative URI template.
+	 * @returns {String_ReplacementHandler} The relative URI template.
 	 */
-	getRelativeUri( uriName )
+	getRelativeUriTemplate( uriName )
 	{
-		return this.__relativeUris[ uriName ];
+		return this.__relativeUriTemplates[ uriName ];
 	}
 }

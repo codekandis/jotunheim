@@ -39,7 +39,7 @@ export class AbstractUriBuilder extends Abstract
 				this.#_uriMappings.host,
 				this.#_uriMappings.port,
 				this.#_uriMappings.baseUri,
-				this.#_uriMappings.getRelativeUri( uriName )( replacements )
+				this.#_uriMappings.getRelativeUriTemplate( uriName )( replacements )
 			)
 		);
 	}
