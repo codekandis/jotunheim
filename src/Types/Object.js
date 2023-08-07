@@ -35,11 +35,10 @@ Object.defineProperty(
 		       {
 			       const invalidTypes = [
 				       'function',
-				       'symbol',
-				       'undefined'
+				       'symbol'
 			       ];
 
-			       return false === invalidTypes.includes( typeof this[ name ] );
+			       return false === invalidTypes.includes( name in this || typeof this[ name ] );
 		       }
 	}
 );
