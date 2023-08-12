@@ -1,0 +1,32 @@
+{
+	"name": "codekandis-jotunheim",
+	"description": "`codekandis/jotunheim` is a small ECMAScript® library providing prototype extensions and module classes for several common purposes.",
+	"version": "development",
+	"keywords": [
+		"descriptive exceptions",
+		"prototype properties",
+		"prototype methods",
+		"module classes",
+		"encapsulated events",
+		"data bindings",
+		"abstract base classes",
+		"dom traversion",
+		"dom manipulation",
+		"collections",
+		"enhanced ajax",
+		"controls"
+	],
+	"license": "MIT",
+	"scripts": {
+		"build": "webpack --config ./config/webpack.js"
+	},
+	"author": {
+		"name": "Christian Ramelow",
+		"email": "info@codekandis.net",
+		"url": "https://codekandis.net"
+	},
+	"devDependencies": {
+		"webpack": "^5",
+		"webpack-cli": "^4"
+	}
+}
