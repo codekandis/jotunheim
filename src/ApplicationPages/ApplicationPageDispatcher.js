@@ -1,6 +1,7 @@
 'use strict';
 
 import { Abstract } from '../Types/Abstract.js';
+import { PreDispatchmentState } from './PreDispatchmentState.js';
 
 /**
  * Represents an application page dispatcher.
@@ -15,7 +16,19 @@ export class ApplicationPageDispatcher extends Abstract
 	#_routesConfiguration;
 
 	/**
+	 * Stores the pre-dispatcher of the application page dispatcher.
+	 * @type {?AbstractPreDispatcher}
+	 */
+	#_preDispatcher;
+
+	/**
 	 * Stores the requested URI.
+	 * @type {URL}
+	 */
+	#_requestedUri;
+
+	/**
+	 * Stores the requested route.
 	 * @type {String}
 	 */
 	#_requestedRoute;
@@ -23,14 +36,16 @@ export class ApplicationPageDispatcher extends Abstract
 	/**
 	 * Constructor method.
 	 * @param {AbstractRoutesConfiguration} routesConfiguration The routes configuration of the application page dispatcher.
+	 * @param {?AbstractPreDispatcher} preDispatcher The pre-dispatcher of the application page dispatcher.
 	 */
-	constructor( routesConfiguration )
+	constructor( routesConfiguration, preDispatcher = null )
 	{
 		super();
 
 		this.#_routesConfiguration = routesConfiguration;
-		this.#_requestedRoute      = ( new URL( document.location.href ) )
-			.pathname;
+		this.#_preDispatcher       = preDispatcher;
+		this.#_requestedUri        = new URL( document.location.href );
+		this.#_requestedRoute      = this.#_requestedUri.pathname;
 	}
 
 	/**
@@ -55,6 +70,16 @@ export class ApplicationPageDispatcher extends Abstract
 	 */
 	dispatch()
 	{
+		if ( null !== this.#_preDispatcher )
+		{
+			const preDispatchmentState = new PreDispatchmentState();
+			this.#_preDispatcher.preDispatch( this.#_requestedUri, preDispatchmentState );
+			if ( true === preDispatchmentState.preventDispatchment )
+			{
+				return;
+			}
+		}
+
 		const baseRoute              = this.#_routesConfiguration.baseRoute;
 		let applicationPageClass     = null;
 		let applicationPageArguments = {};
