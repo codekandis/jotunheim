@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.4.1] - 2023-08-15
+
+### Fixed
+
+* missing arguments unpacking on URI templates in the `AbstractUriBuilder`
+
+[0.4.1]: https://github.com/codekandis/jotunheim/compare/0.4.0..0.4.1
+
+---
 ## [0.4.0] - 2023-08-12
 
 ### Added
