@@ -21,6 +21,23 @@
  */
 
 /**
+ * Determines if the object contains is empty.
+ * @method isEmpty
+ * @memberOf Object.prototype
+ * @returns {Boolean} True if the object is empty, otherwise false.
+ */
+Object.defineProperty(
+	Object.prototype,
+	'isEmpty',
+	{
+		value: function ()
+		       {
+			       return 0 === this.keys().length;
+		       }
+	}
+);
+
+/**
  * Determines if a property exists in the object. The determination is based on the type of the given member. The type must not be `symbol`, `function` and `undefined`.
  * @method hasProperty
  * @memberOf Object.prototype
@@ -34,11 +51,12 @@ Object.defineProperty(
 		value: function ( name )
 		       {
 			       const invalidTypes = [
+				       'undefined',
 				       'function',
 				       'symbol'
 			       ];
-
-			       return false === invalidTypes.includes( name in this || typeof this[ name ] );
+			       return true === name in this
+				       && false === invalidTypes.includes( typeof this[ name ] );
 		       }
 	}
 );
