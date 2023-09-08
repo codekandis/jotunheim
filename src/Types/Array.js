@@ -39,6 +39,23 @@ import { InvalidIndexException } from './InvalidIndexException.js';
  */
 
 /**
+ * Determines if the array is empty.
+ * @method isEmpty
+ * @memberOf Array.prototype
+ * @returns {Boolean} True if the array is empty, otherwise false.
+ */
+Object.defineProperty(
+	Array.prototype,
+	'isEmpty',
+	{
+		value: function ()
+		       {
+			       return 0 === this.length;
+		       }
+	}
+);
+
+/**
  * Determines if the array includes an element specified by a variadic amount of predicate handlers.
  * @method includesBy
  * @memberOf Array.prototype
@@ -589,7 +606,7 @@ Object.defineProperty(
 		       {
 			       if ( 0 > index )
 			       {
-				       throw  InvalidIndexException.with_index( index );
+				       throw InvalidIndexException.with_index( index );
 			       }
 
 			       return 0 === this.length
