@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.5.0] - 2023-09-11
+
+### Fixed
+
+* `Object.prototype.hasProperty()`
+* JSDoc
+
+### Added
+
+* `Array.prototype.isEmpty()`
+* `Collection.isEmpty()`
+* `NotImplementedException`
+* validators
+  * simple validators
+    * `AbstractValidator`
+    * `ValidatorChain`
+    * default simple validators
+  * HTML element validators
+    * `AbstractHtmlElementValidator`
+    * `HtmlElementValidatorChain`
+    * default HTML element validators
+
+[0.5.0]: https://github.com/codekandis/jotunheim/compare/0.4.1..0.5.0
+
+---
 ## [0.4.1] - 2023-08-15
 
 ### Fixed
