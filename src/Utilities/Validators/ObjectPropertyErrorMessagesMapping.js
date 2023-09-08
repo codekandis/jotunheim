@@ -1,12 +1,11 @@
 'use strict';
 
-import { EventArguments } from '../../Types/EventArguments.js';
+import { Abstract } from '../../Types/Abstract.js';
 
 /**
- * Represents the arguments of the object property validation failed event.
- * @author Christian Ramelow <info@codekandis.net>
+ * Represents a mapping of a validated object property and its validation error messages.
  */
-export class ObjectPropertyValidationFailedEventArguments extends EventArguments
+export class ObjectPropertyErrorMessagesMapping extends Abstract
 {
 	/**
 	 * Stores the validated object.
@@ -21,24 +20,24 @@ export class ObjectPropertyValidationFailedEventArguments extends EventArguments
 	#_propertyName;
 
 	/**
-	 * Stores the validation error message.
-	 * @type {String}
+	 * Stores the validation error messages.
+	 * @type {Collection<String>}
 	 */
-	#_errorMessage;
+	#_errorMessages;
 
 	/**
 	 * Constructor method.
 	 * @param {Object} object The validated object.
 	 * @param {String} propertyName The name of the validated object's property.
-	 * @param {String} errorMessage The validation error message.
+	 * @param {Collection<String>} errorMessages The validation error messages.
 	 */
-	constructor( object, propertyName, errorMessage )
+	constructor( object, propertyName, errorMessages )
 	{
 		super();
 
-		this.#_object       = object;
-		this.#_propertyName = propertyName;
-		this.#_errorMessage = errorMessage;
+		this.#_object        = object;
+		this.#_propertyName  = propertyName;
+		this.#_errorMessages = errorMessages;
 	}
 
 	/**
@@ -60,11 +59,11 @@ export class ObjectPropertyValidationFailedEventArguments extends EventArguments
 	}
 
 	/**
-	 * Gets the validation error message.
-	 * @returns {String} The validation error message.
+	 * Gets the validation error messages.
+	 * @returns {Collection<String>} The validation error messages.
 	 */
-	get errorMessage()
+	get errorMessages()
 	{
-		return this.#_errorMessage;
+		return this.#_errorMessages;
 	}
 }

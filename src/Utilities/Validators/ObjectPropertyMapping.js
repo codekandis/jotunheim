@@ -1,12 +1,12 @@
 'use strict';
 
-import { EventArguments } from '../../Types/EventArguments.js';
+import { Abstract } from '../../Types/Abstract.js';
 
 /**
- * Represents the arguments of the object property validation succeeded event.
+ * Represents a mapping of a validated object property.
  * @author Christian Ramelow <info@codekandis.net>
  */
-export class ObjectPropertyValidationSucceededEventArguments extends EventArguments
+export class ObjectPropertyMapping extends Abstract
 {
 	/**
 	 * Stores the validated object.
@@ -34,7 +34,7 @@ export class ObjectPropertyValidationSucceededEventArguments extends EventArgume
 	}
 
 	/**
-	 * Gets the validated object.
+	 * Stores the validated object.
 	 * @returns {Object} The validated object.
 	 */
 	get object()
@@ -43,7 +43,7 @@ export class ObjectPropertyValidationSucceededEventArguments extends EventArgume
 	}
 
 	/**
-	 * Gets the name of the validated object's property.
+	 * Stores the name of the validated object's property.
 	 * @returns {String} The name of the validated object's property.
 	 */
 	get propertyName()
