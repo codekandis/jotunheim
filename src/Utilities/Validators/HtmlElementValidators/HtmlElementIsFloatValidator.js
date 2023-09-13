@@ -5,7 +5,7 @@ import { IsFloatValidator } from '../SimpleValidators/IsFloatValidator.js';
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is a float.
+ * Represents an HTML element validator validating if an HTML's property is a float.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsFloatValidator extends HtmlElementWithInnerValidatorValidator

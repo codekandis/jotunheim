@@ -5,7 +5,7 @@ import { IsStringInRangeValidator } from '../SimpleValidators/IsStringInRangeVal
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is a string within a specific range.
+ * Represents an HTML element validator validating if an HTML's property is a string within a specific range.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsStringInRangeValidator extends HtmlElementWithInnerValidatorValidator

@@ -5,7 +5,7 @@ import { IsBooleanValidator } from '../SimpleValidators/IsBooleanValidator.js';
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is a boolean.
+ * Represents an HTML element validator validating if an HTML's property is a boolean.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsBooleanValidator extends HtmlElementWithInnerValidatorValidator

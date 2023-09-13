@@ -5,7 +5,7 @@ import { IsBooleanLiteralStringValidator } from '../SimpleValidators/IsBooleanLi
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is a string representation of a boolean literal.
+ * Represents an HTML element validator validating if an HTML's property is a string representation of a boolean literal.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsBooleanLiteralStringValidator extends HtmlElementWithInnerValidatorValidator

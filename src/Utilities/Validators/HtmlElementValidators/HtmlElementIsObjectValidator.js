@@ -5,7 +5,7 @@ import { IsObjectValidator } from '../SimpleValidators/IsObjectValidator.js';
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is a object.
+ * Represents an HTML element validator validating if an HTML's property is a object.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsObjectValidator extends HtmlElementWithInnerValidatorValidator

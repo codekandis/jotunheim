@@ -5,7 +5,7 @@ import { IsOneOfValidator } from '../SimpleValidators/IsOneOfValidator.js';
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element HTML element validator validating if a value is an element in a set of valid values.
+ * Represents an HTML element validator validating if an HTML's property is an element in a set of valid values.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsOneOfValidator extends HtmlElementWithInnerValidatorValidator

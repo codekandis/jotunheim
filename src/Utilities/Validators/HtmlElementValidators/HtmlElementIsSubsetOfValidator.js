@@ -5,7 +5,7 @@ import { IsSubsetOfValidator } from '../SimpleValidators/IsSubsetOfValidator.js'
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element HTML element validator validating if a value is a subset of a set of valid values.
+ * Represents an HTML element validator validating if an HTML's property is a subset of a set of valid values.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsSubsetOfValidator extends HtmlElementWithInnerValidatorValidator

@@ -5,7 +5,7 @@ import { IsUnsignedFloatStringValidator } from '../SimpleValidators/IsUnsignedFl
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is a string representation of an unsigned float.
+ * Represents an HTML element validator validating if an HTML's property is a string representation of an unsigned float.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsUnsignedFloatStringValidator extends HtmlElementWithInnerValidatorValidator

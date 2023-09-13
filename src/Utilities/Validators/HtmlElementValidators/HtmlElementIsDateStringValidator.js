@@ -5,7 +5,7 @@ import { IsDateStringValidator } from '../SimpleValidators/IsDateStringValidator
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is a string representation of a date.
+ * Represents an HTML element validator validating if an HTML's property is a string representation of a date.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsDateStringValidator extends HtmlElementWithInnerValidatorValidator

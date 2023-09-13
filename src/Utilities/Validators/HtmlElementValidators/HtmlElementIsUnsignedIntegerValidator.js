@@ -5,7 +5,7 @@ import { IsUnsignedIntegerValidator } from '../SimpleValidators/IsUnsignedIntege
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is an unsigned integer.
+ * Represents an HTML element validator validating if an HTML's property is an unsigned integer.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsUnsignedIntegerValidator extends HtmlElementWithInnerValidatorValidator

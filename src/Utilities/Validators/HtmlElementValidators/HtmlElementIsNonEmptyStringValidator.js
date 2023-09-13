@@ -5,7 +5,7 @@ import { IsNonEmptyStringValidator } from '../SimpleValidators/IsNonEmptyStringV
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is a non-empty string.
+ * Represents an HTML element validator validating if an HTML's property is a non-empty string.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsNonEmptyStringValidator extends HtmlElementWithInnerValidatorValidator

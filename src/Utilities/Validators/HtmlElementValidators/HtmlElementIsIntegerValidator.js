@@ -5,7 +5,7 @@ import { IsIntegerValidator } from '../SimpleValidators/IsIntegerValidator.js';
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is an integer.
+ * Represents an HTML element validator validating if an HTML's property is an integer.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsIntegerValidator extends HtmlElementWithInnerValidatorValidator

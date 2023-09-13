@@ -5,7 +5,7 @@ import { IsNumberInRangeValidator } from '../SimpleValidators/IsNumberInRangeVal
 import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is a number within a specific range.
+ * Represents an HTML element validator validating if an HTML's property is a number within a specific range.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HtmlElementIsNumberInRangeValidator extends HtmlElementWithInnerValidatorValidator
