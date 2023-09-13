@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.6.0] - 2023-09-13
+
+### Fixed
+
+* inheritance of `ValidatorChain`
+* JSDoc
+
+### Changed
+
+* dafault HTML element validators inherit from new `HtmlElementWithInnerValidatorValidator` (see `Added`)
+
+### Added
+
+* `String.prototype.strictCompare()`, `String.prototype.isEqualTo()`, `String.prototype.isLowerThan()`, `String.prototype.isLowerThanOrEqualTo()`, `String.prototype.isGreaterThan()`, `String.prototype.isGreaterThanOrEqualTo()`
+* `InvalidArgumentException`
+* validators
+  * simple validators
+    * `IsObjectValidator`
+    * `IsStringInRangeValidator`
+    * `IsNumberInRangeValidator`
+  * HTML element validators
+    * `HtmlElementWithInnerValidatorValidator`
+    * `HtmlElementIsObjectValidator`
+    * `HtmlElementIsStringInRangeValidator`
+    * `HtmlElementIsNumberInRangeValidator`
+
+[0.6.0]: https://github.com/codekandis/jotunheim/compare/0.5.0..0.6.0
+
+---
 ## [0.5.0] - 2023-09-11
 
 ### Fixed
