@@ -201,3 +201,118 @@ Object.defineProperty(
 		       }
 	}
 );
+
+/**
+ * Compares the string against another compare string in a strict way.
+ * @method compareStrict
+ * @memberOf String.prototype
+ * @param {String} compareString The string which against to compare.
+ * @returns {Number} -1 if the string comes before the compare string, 0 if the string is equal to the compare string in the sort order and 1 if the string comes after the compare string.
+ */
+Object.defineProperty(
+	String.prototype,
+	'compareStrict',
+	{
+		value: function ( compareString )
+		       {
+			       return this.localeCompare
+			       (
+				       compareString,
+				       undefined,
+				       {
+					       numeric: true
+				       }
+			       )
+		       }
+	}
+);
+
+/**
+ * Determines if the string is equal to a compare string in a strict way.
+ * @method isEqualTo
+ * @memberOf String.prototype
+ * @param {String} compareString The string which against to compare.
+ * @returns {Boolean} True if the string is equal to the compare string, otherwise false.
+ */
+Object.defineProperty(
+	String.prototype,
+	'isEqualTo',
+	{
+		value: function ( compareString )
+		       {
+			       return 0 === this.compareStrict( compareString );
+		       }
+	}
+);
+
+/**
+ * Determines if the string is lower than a compare string in a strict way.
+ * @method isLowerThan
+ * @memberOf String.prototype
+ * @param {String} compareString The string which against to compare.
+ * @returns {Boolean} True if the string is lower than the compare string, otherwise false.
+ */
+Object.defineProperty(
+	String.prototype,
+	'isLowerThan',
+	{
+		value: function ( compareString )
+		       {
+			       return -1 === this.compareStrict( compareString );
+		       }
+	}
+);
+
+/**
+ * Determines if the string is lower than or equal to a compare string in a strict way.
+ * @method isLowerThanOrEqualTo
+ * @memberOf String.prototype
+ * @param {String} compareString The string which against to compare.
+ * @returns {Boolean} True if the string is lower than or equal to the compare string, otherwise false.
+ */
+Object.defineProperty(
+	String.prototype,
+	'isLowerThanOrEqualTo',
+	{
+		value: function ( compareString )
+		       {
+			       return 1 > this.compareStrict( compareString );
+		       }
+	}
+);
+
+/**
+ * Determines if the string is greater than a compare string in a strict way.
+ * @method isGreaterThan
+ * @memberOf String.prototype
+ * @param {String} compareString The string which against to compare.
+ * @returns {Boolean} True if the string is greater than the compare string, otherwise false.
+ */
+Object.defineProperty(
+	String.prototype,
+	'isGreaterThan',
+	{
+		value: function ( compareString )
+		       {
+			       return 1 === this.compareStrict( compareString );
+		       }
+	}
+);
+
+/**
+ * Determines if the string is greater than or equal to a compare string in a strict way.
+ * @method isGreaterThanOrEqualTo
+ * @memberOf String.prototype
+ * @param {String} compareString The string which against to compare.
+ * @returns {Boolean} True if the string is greater than or equal to the compare string, otherwise false.
+ */
+Object.defineProperty(
+	String.prototype,
+	'isGreaterThanOrEqualTo',
+	{
+		value: function ( compareString )
+		       {
+			       return -1 < this.compareStrict( compareString );
+		       }
+	}
+);
