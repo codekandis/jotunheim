@@ -1,21 +1,15 @@
 'use strict';
 
 import { InvalidPropertyException } from '../../../Types/InvalidPropertyException.js';
-import { AbstractHtmlElementValidator } from '../AbstractHtmlElementValidator.js';
 import { IsObjectValidator } from '../SimpleValidators/IsObjectValidator.js';
+import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
  * Represents an HTML element validator validating if a value is a object.
  * @author Christian Ramelow <info@codekandis.net>
  */
-export class HtmlElementIsObjectValidator extends AbstractHtmlElementValidator
+export class HtmlElementIsObjectValidator extends HtmlElementWithInnerValidatorValidator
 {
-	/**
-	 * Stores the inner validator used for validation.
-	 * @type {AbstractValidator}
-	 */
-	#_innerValidator;
-
 	/**
 	 * Constructor method.
 	 * @param {HTMLElement} htmlElement The HTML element to validate.
@@ -24,9 +18,11 @@ export class HtmlElementIsObjectValidator extends AbstractHtmlElementValidator
 	 */
 	constructor( htmlElement, propertyName )
 	{
-		super( htmlElement, propertyName );
-
-		this.#_innerValidator = new IsObjectValidator();
+		super(
+			htmlElement,
+			propertyName,
+			new IsObjectValidator()
+		);
 	}
 
 	/**
@@ -35,11 +31,6 @@ export class HtmlElementIsObjectValidator extends AbstractHtmlElementValidator
 	 */
 	validate()
 	{
-		const value   = this._htmlElement[ this._propertyName ];
-		const isValid = this.#_innerValidator.validate( value );
-
-		this.__dispatchValidationEvent( isValid, this.#_innerValidator.constraint, value );
-
-		return isValid;
+		return super.validate();
 	}
 }

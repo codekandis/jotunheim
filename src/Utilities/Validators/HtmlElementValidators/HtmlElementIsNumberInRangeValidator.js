@@ -1,21 +1,15 @@
 'use strict';
 
 import { InvalidPropertyException } from '../../../Types/InvalidPropertyException.js';
-import { AbstractHtmlElementValidator } from '../AbstractHtmlElementValidator.js';
 import { IsNumberInRangeValidator } from '../SimpleValidators/IsNumberInRangeValidator.js';
+import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
  * Represents an HTML element validator validating if a value is a number within a specific range.
  * @author Christian Ramelow <info@codekandis.net>
  */
-export class HtmlElementIsNumberInRangeValidator extends AbstractHtmlElementValidator
+export class HtmlElementIsNumberInRangeValidator extends HtmlElementWithInnerValidatorValidator
 {
-	/**
-	 * Stores the inner validator used for validation.
-	 * @type {AbstractValidator}
-	 */
-	#_innerValidator;
-
 	/**
 	 * Constructor method.
 	 * @param {HTMLElement} htmlElement The HTML element to validate.
@@ -29,9 +23,11 @@ export class HtmlElementIsNumberInRangeValidator extends AbstractHtmlElementVali
 	 */
 	constructor( htmlElement, propertyName, minValue, maxValue, isInclusive )
 	{
-		super( htmlElement, propertyName );
-
-		this.#_innerValidator = new IsNumberInRangeValidator( minValue, maxValue, isInclusive );
+		super(
+			htmlElement,
+			propertyName,
+			new IsNumberInRangeValidator( minValue, maxValue, isInclusive )
+		);
 	}
 
 	/**
@@ -40,11 +36,6 @@ export class HtmlElementIsNumberInRangeValidator extends AbstractHtmlElementVali
 	 */
 	validate()
 	{
-		const value   = this._htmlElement[ this._propertyName ];
-		const isValid = this.#_innerValidator.validate( value );
-
-		this.__dispatchValidationEvent( isValid, this.#_innerValidator.constraint, value );
-
-		return isValid;
+		return super.validate();
 	}
 }

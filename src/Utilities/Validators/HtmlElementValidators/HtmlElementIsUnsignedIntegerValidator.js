@@ -1,21 +1,15 @@
 'use strict';
 
 import { InvalidPropertyException } from '../../../Types/InvalidPropertyException.js';
-import { AbstractHtmlElementValidator } from '../AbstractHtmlElementValidator.js';
 import { IsUnsignedIntegerValidator } from '../SimpleValidators/IsUnsignedIntegerValidator.js';
+import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
  * Represents an HTML element validator validating if a value is an unsigned integer.
  * @author Christian Ramelow <info@codekandis.net>
  */
-export class HtmlElementIsUnsignedIntegerValidator extends AbstractHtmlElementValidator
+export class HtmlElementIsUnsignedIntegerValidator extends HtmlElementWithInnerValidatorValidator
 {
-	/**
-	 * Stores the inner validator used for validation.
-	 * @type {AbstractValidator}
-	 */
-	#_innerValidator;
-
 	/**
 	 * Constructor method.
 	 * @param {HTMLElement} htmlElement The HTML element to validate.
@@ -24,9 +18,11 @@ export class HtmlElementIsUnsignedIntegerValidator extends AbstractHtmlElementVa
 	 */
 	constructor( htmlElement, propertyName )
 	{
-		super( htmlElement, propertyName );
-
-		this.#_innerValidator = new IsUnsignedIntegerValidator();
+		super(
+			htmlElement,
+			propertyName,
+			new IsUnsignedIntegerValidator()
+		);
 	}
 
 	/**
@@ -35,11 +31,6 @@ export class HtmlElementIsUnsignedIntegerValidator extends AbstractHtmlElementVa
 	 */
 	validate()
 	{
-		const value   = this._htmlElement[ this._propertyName ];
-		const isValid = this.#_innerValidator.validate( value );
-
-		this.__dispatchValidationEvent( isValid, this.#_innerValidator.constraint, value );
-
-		return isValid;
+		return super.validate();
 	}
 }
