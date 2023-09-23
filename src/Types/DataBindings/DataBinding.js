@@ -42,6 +42,18 @@ export class DataBinding extends Abstract
 	#_initializiationDirection;
 
 	/**
+	 * The filter used to filter data from the binder's bound property to the bindable's bound property.
+	 * @type {?AbstractFilter}
+	 */
+	#_binderFilter;
+
+	/**
+	 * The filter used to filter data from the bindable's bound property to the binder's bound property.
+	 * @type {?AbstractFilter}
+	 */
+	#_bindableFilter;
+
+	/**
 	 * Stores true if the binder is locked against any property change event, otherwise false.
 	 * @type {Boolean}
 	 */
@@ -60,10 +72,12 @@ export class DataBinding extends Abstract
 	 * @param {Object} bindable The bindable.
 	 * @param {String} bindablePropertyName The name of the bindable's bound property.
 	 * @param {String} initializationDirection The direction of the initial property update.
+	 * @param {?AbstractFilter} binderFilter The filter used to filter data from the binder's bound property to the bindable's bound property.
+	 * @param {?AbstractFilter} bindableFilter The filter used to filter data from the bindable's bound property to the binder's bound property.
 	 * @throws {InvalidPropertyException} The property of the binder does not exist.
 	 * @throws {InvalidPropertyException} The property of the bindable does not exist.
 	 */
-	constructor( binder, binderPropertyName, bindable, bindablePropertyName, initializationDirection = DataBindingInitializationDirection.BINDER )
+	constructor( binder, binderPropertyName, bindable, bindablePropertyName, initializationDirection = DataBindingInitializationDirection.BINDER, binderFilter = null, bindableFilter = null )
 	{
 		super();
 
@@ -74,6 +88,8 @@ export class DataBinding extends Abstract
 		this.#_bindable                 = bindable;
 		this.#_bindablePropertyName     = bindablePropertyName;
 		this.#_initializiationDirection = initializationDirection;
+		this.#_binderFilter             = binderFilter;
+		this.#_bindableFilter           = bindableFilter;
 
 		this.#initialize();
 	}
@@ -205,7 +221,9 @@ export class DataBinding extends Abstract
 
 		this.#lockBindablePropertyChange();
 
-		this.#_binder[ this.#_binderPropertyName ] = this.#_bindable[ this.#_bindablePropertyName ];
+		this.#_binder[ this.#_binderPropertyName ] = null === this.#_bindableFilter
+			? this.#_bindable[ this.#_bindablePropertyName ]
+			: this.#_bindableFilter.filter( this.#_bindable[ this.#_bindablePropertyName ] );
 
 		this.#unlockBindablePropertyChange();
 	}
@@ -222,7 +240,9 @@ export class DataBinding extends Abstract
 
 		this.#lockBinderPropertyChange();
 
-		this.#_bindable[ this.#_bindablePropertyName ] = this.#_binder[ this.#_binderPropertyName ];
+		this.#_bindable[ this.#_bindablePropertyName ] = null === this.#_binderFilter
+			? this.#_binder[ this.#_binderPropertyName ]
+			: this.#_binderFilter.filter( this.#_binder[ this.#_binderPropertyName ] );
 
 		this.#unlockBinderPropertyChange();
 	}

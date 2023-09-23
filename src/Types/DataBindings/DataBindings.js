@@ -40,11 +40,13 @@ export class DataBindings extends Abstract
 	 * @param {Object} bindable The object whose property will be bound to the binder.
 	 * @param {String} bindablePropertyName The name of the property which will be bound to the binder.
 	 * @param {String} initializationDirection The direction of the initial property update.
-	 */
-	add( propertyName, bindable, bindablePropertyName, initializationDirection = DataBindingInitializationDirection.BINDER )
+	 * @param {?AbstractFilter} binderFilter The filter used to filter data from the binder's bound property to the bindable's bound property.
+	 * @param {?AbstractFilter} bindableFilter The filter used to filter data from the bindable's bound property to the binder's bound property.
+	 * */
+	add( propertyName, bindable, bindablePropertyName, initializationDirection = DataBindingInitializationDirection.BINDER, binderFilter = null, bindableFilter = null )
 	{
 		this.#_bindings.add(
-			new DataBinding( this.#_binder, propertyName, bindable, bindablePropertyName, initializationDirection )
+			new DataBinding( this.#_binder, propertyName, bindable, bindablePropertyName, initializationDirection, binderFilter, bindableFilter )
 		);
 	}
 
