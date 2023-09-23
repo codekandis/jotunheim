@@ -172,6 +172,40 @@ Object.defineProperty(
 );
 
 /**
+ * Purges a variadic amount of strings from the string.
+ * @method purgeStrings
+ * @memberOf String.prototype
+ * @param {...String} strings The strings to purge.
+ * @returns {String} The purged string.
+ */
+Object.defineProperty(
+	String.prototype,
+	'purgeStrings',
+	{
+		value: function ( ...strings )
+		       {
+			       const preparedStrings = strings
+				       .map(
+					       ( fetchedString ) =>
+					       {
+						       return fetchedString.replace( '|', '\\|' );
+					       }
+				       )
+				       .join( '|' );
+
+			       return this
+				       .replace(
+					       new RegExp(
+						       String.format`(${ 0 })`( preparedStrings ),
+						       'g'
+					       ),
+					       String.empty
+				       );
+		       }
+	}
+);
+
+/**
  * Replaces all HTML special characters with their HTML equivalents.
  * @method replaceHtmlSpecialChars
  * @memberOf String.prototype
