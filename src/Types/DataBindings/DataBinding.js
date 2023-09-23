@@ -262,4 +262,13 @@ export class DataBinding extends Abstract
 
 		this.#updateBinderProperty();
 	}
+
+	/**
+	 * Detaches the data binding.
+	 */
+	detach()
+	{
+		this.#_binder.propertyChangedEvent.remove( this.#binder_propertyChanged );
+		this.#_bindable.propertyChangedEvent.remove( this.#bindable_propertyChanged );
+	}
 }

@@ -47,4 +47,26 @@ export class DataBindings extends Abstract
 			new DataBinding( this.#_binder, propertyName, bindable, bindablePropertyName, initializationDirection )
 		);
 	}
+
+	/**
+	 * Removes and detaches a data binding.
+	 * @param {String} propertyName The name of the binder's property.
+	 * @param {Object} bindable The object whose property has been bound to the binder's property.
+	 * @param {String} bindablePropertyName The name of the property which has been bound to the binder's property.
+	 */
+	remove( propertyName, bindable, bindablePropertyName )
+	{
+		this.#_bindings.removeBy(
+			( fetchedDataBinding ) =>
+			{
+				const isValid = fetchedDataBinding.binderPropertyName === propertyName && fetchedDataBinding.bindable === bindable && fetchedDataBinding.bindablePropertyName === bindablePropertyName;
+				if ( true === isValid )
+				{
+					fetchedDataBinding.detach();
+				}
+
+				return isValid;
+			}
+		);
+	}
 }
