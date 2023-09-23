@@ -1,5 +1,6 @@
 'use strict';
 
+import { Collection } from '../../Collections/Collection.js';
 import { Abstract } from '../Abstract.js';
 import { DataBinding } from './DataBinding.js';
 import { DataBindingInitializationDirection } from './DataBindingInitializationDirection.js';
@@ -18,9 +19,9 @@ export class DataBindings extends Abstract
 
 	/**
 	 * Stores the internal list of data bindings.
-	 * @type {*[]}
+	 * @type {Collection<DataBinding>}
 	 */
-	#_bindings = [];
+	#_bindings = new Collection();
 
 	/**
 	 * Constructor method.
