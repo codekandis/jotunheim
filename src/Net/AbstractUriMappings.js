@@ -3,7 +3,7 @@
 import { Abstract } from '../Types/Abstract.js';
 
 /**
- * Represents the base class of any URI Mappings.
+ * Represents the base class of any URI mappings.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class AbstractUriMappings extends Abstract

@@ -21,7 +21,7 @@
  */
 
 /**
- * Determines if the object contains is empty.
+ * Determines if the object is empty.
  * @method isEmpty
  * @memberOf Object.prototype
  * @returns {Boolean} True if the object is empty, otherwise false.

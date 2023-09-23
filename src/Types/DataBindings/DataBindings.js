@@ -37,8 +37,8 @@ export class DataBindings extends Abstract
 	/**
 	 * Adds a data binding.
 	 * @param {String} propertyName The name of the binder's property.
-	 * @param {Object} bindable The object whose property will be bound to the binder.
-	 * @param {String} bindablePropertyName The name of the property which will be bound to the binder.
+	 * @param {Object} bindable The object whose property will be bound to the binder's property.
+	 * @param {String} bindablePropertyName The name of the property which will be bound to the binder's property.
 	 * @param {String} initializationDirection The direction of the initial property update.
 	 * @param {?AbstractFilter} binderFilter The filter used to filter data from the binder's bound property to the bindable's bound property.
 	 * @param {?AbstractFilter} bindableFilter The filter used to filter data from the bindable's bound property to the binder's bound property.

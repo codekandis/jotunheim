@@ -34,7 +34,7 @@ import { MouseUpEvent } from './MouseUpEvent.js';
 
 /**
  * Stores arbitrary data related to the HTML element.
- * @property {*} #_data
+ * @property {*} data
  * @memberOf HTMLElement.prototype
  */
 Object.defineProperty(
