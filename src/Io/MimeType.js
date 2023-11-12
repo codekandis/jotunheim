@@ -14682,15 +14682,6 @@ export class MimeType extends AbstractStatic
 	}
 
 	/**
-	 * Represents the content type `model/vnd.gs.gdl`.
-	 * @type {String}
-	 */
-	static get MODEL_VND_GS_GDL()
-	{
-		return 'model/vnd.gs.gdl';
-	}
-
-	/**
 	 * Represents the content type `model/vnd.gtw`.
 	 * @type {String}
 	 */
@@ -14814,15 +14805,6 @@ export class MimeType extends AbstractStatic
 	static get MODEL_X3D_XML()
 	{
 		return 'model/x3d+xml';
-	}
-
-	/**
-	 * Represents the content type `model/x3d-vrml`.
-	 * @type {String}
-	 */
-	static get MODEL_X3D_VRML()
-	{
-		return 'model/x3d-vrml';
 	}
 
 	/**
