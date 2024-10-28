@@ -16612,6 +16612,6 @@ export class MimeType extends AbstractStatic
 			throw new InvalidCharSetException( this._ERROR_MESSAGE_CHARSET_IS_EMPTY );
 		}
 
-		return String.format`${ 0 }; charset="${ 1 }"`( contentType, charset );
+		return String.format`${ 0 }; charset=${ 1 }`( contentType, charset );
 	}
 }
