@@ -138,6 +138,15 @@ export class Collection extends Abstract
 	}
 
 	/**
+	 * Determines if the collection is empty.
+	 * @returns {Boolean} True if the collection is empty, otherwise false.
+	 */
+	isEmpty()
+	{
+		return this.__items.isEmpty();
+	}
+
+	/**
 	 * Determines if the collection includes a specific item.
 	 * @param {*} item The item to search for.
 	 * @returns {Boolean} True if the items is included in the collection, otherwise false.

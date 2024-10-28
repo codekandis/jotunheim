@@ -16,7 +16,7 @@ export class FileEventArguments extends EventArguments
 
 	/**
 	 * Constructor method.
-	 * @param file The file which is affected.
+	 * @param {File} file The file which is affected.
 	 */
 	constructor( file )
 	{

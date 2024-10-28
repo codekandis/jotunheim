@@ -26,6 +26,9 @@ export class AbstractApplicationPage extends Abstract
 		this.__arguments = applicationPageArguments;
 	}
 
+	/**
+	 * Executes the application page.
+	 */
 	execute()
 	{
 		throw MethodIsAbstractException.with_objectAndMethod( this, this.execute );

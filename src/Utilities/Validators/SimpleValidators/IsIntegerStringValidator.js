@@ -1,0 +1,31 @@
+'use strict';
+
+import { AbstractValidator } from '../AbstractValidator.js';
+
+/**
+ * Represents a validator validating if a value is a string representation of an integer.
+ * @author Christian Ramelow <info@codekandis.net>
+ */
+export class IsIntegerStringValidator extends AbstractValidator
+{
+	/**
+	 * @inheritdoc
+	 */
+	get constraint()
+	{
+		return 'integer string';
+	}
+
+	/**
+	 * @inheritdoc
+	 * Validates if a specific value is a string representation of an integer.
+	 */
+	validate( value )
+	{
+		const isValid = 'string' === typeof value
+			&& true === /^(?:\+|\-)?[0-9]+$/.test( value );
+		this.__dispatchValidationEvent( isValid, this.constraint, value );
+
+		return isValid;
+	}
+}
