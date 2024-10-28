@@ -1,21 +1,15 @@
 'use strict';
 
 import { InvalidPropertyException } from '../../../Types/InvalidPropertyException.js';
-import { AbstractHtmlElementValidator } from '../AbstractHtmlElementValidator.js';
 import { IsFloatStringValidator } from '../SimpleValidators/IsFloatStringValidator.js';
+import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is a string representation of a float.
+ * Represents an HTML element validator validating if an HTML's property is a string representation of a float.
  * @author Christian Ramelow <info@codekandis.net>
  */
-export class HtmlElementIsFloatStringValidator extends AbstractHtmlElementValidator
+export class HtmlElementIsFloatStringValidator extends HtmlElementWithInnerValidatorValidator
 {
-	/**
-	 * Stores the inner validator used for validation.
-	 * @type {AbstractValidator}
-	 */
-	#_innerValidator;
-
 	/**
 	 * Constructor method.
 	 * @param {HTMLElement} htmlElement The HTML element to validate.
@@ -24,9 +18,11 @@ export class HtmlElementIsFloatStringValidator extends AbstractHtmlElementValida
 	 */
 	constructor( htmlElement, propertyName )
 	{
-		super( htmlElement, propertyName );
-
-		this.#_innerValidator = new IsFloatStringValidator();
+		super(
+			htmlElement,
+			propertyName,
+			new IsFloatStringValidator()
+		);
 	}
 
 	/**
@@ -35,11 +31,6 @@ export class HtmlElementIsFloatStringValidator extends AbstractHtmlElementValida
 	 */
 	validate()
 	{
-		const value   = this._htmlElement[ this._propertyName ];
-		const isValid = this.#_innerValidator.validate( value );
-
-		this.__dispatchValidationEvent( isValid, this.#_innerValidator.constraint, value );
-
-		return isValid;
+		return super.validate();
 	}
 }

@@ -1,7 +1,6 @@
 'use strict';
 
 import { Collection } from '../../Collections/Collection.js';
-import { Abstract } from '../../Types/Abstract.js';
 import { EventManager } from '../../Types/EventManager.js';
 import { InvalidTypeException } from '../../Types/InvalidTypeException.js';
 import { AbstractValidator } from './AbstractValidator.js';
@@ -23,7 +22,7 @@ import { ValidationSucceededEvent } from './ValidationSucceededEvent.js';
  * Represents a collection of chained validators.
  * @author Christian Ramelow <info@codekandis.net>
  */
-export class ValidatorChain extends Abstract
+export class ValidatorChain extends AbstractValidator
 {
 	/**
 	 * Stores the validators of the validator chain.
@@ -46,6 +45,22 @@ export class ValidatorChain extends Abstract
 		super();
 
 		this.add( ...validators );
+	}
+
+	/**
+	 * @inheritdoc
+	 */
+	get constraint()
+	{
+		return String.format`{ ${ 0 } }`(
+			this.#_validators.joinMapped(
+				'; ',
+				( fetchedValidator ) =>
+				{
+					return fetchedValidator.constraint;
+				}
+			)
+		);
 	}
 
 	/**

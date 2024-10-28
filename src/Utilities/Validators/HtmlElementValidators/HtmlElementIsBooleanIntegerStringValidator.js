@@ -1,21 +1,15 @@
 'use strict';
 
 import { InvalidPropertyException } from '../../../Types/InvalidPropertyException.js';
-import { AbstractHtmlElementValidator } from '../AbstractHtmlElementValidator.js';
 import { IsBooleanIntegerStringValidator } from '../SimpleValidators/IsBooleanIntegerStringValidator.js';
+import { HtmlElementWithInnerValidatorValidator } from './HtmlElementWithInnerValidatorValidator.js';
 
 /**
- * Represents an HTML element validator validating if a value is a string representation of a boolean integer.
+ * Represents an HTML element validator validating if an HTML's property is a string representation of a boolean integer.
  * @author Christian Ramelow <info@codekandis.net>
  */
-export class HtmlElementIsBooleanIntegerStringValidator extends AbstractHtmlElementValidator
+export class HtmlElementIsBooleanIntegerStringValidator extends HtmlElementWithInnerValidatorValidator
 {
-	/**
-	 * Stores the inner validator used for validation.
-	 * @type {AbstractValidator}
-	 */
-	#_innerValidator;
-
 	/**
 	 * Constructor method.
 	 * @param {HTMLElement} htmlElement The HTML element to validate.
@@ -24,9 +18,11 @@ export class HtmlElementIsBooleanIntegerStringValidator extends AbstractHtmlElem
 	 */
 	constructor( htmlElement, propertyName )
 	{
-		super( htmlElement, propertyName );
-
-		this.#_innerValidator = new IsBooleanIntegerStringValidator();
+		super(
+			htmlElement,
+			propertyName,
+			new IsBooleanIntegerStringValidator()
+		);
 	}
 
 	/**
@@ -35,11 +31,6 @@ export class HtmlElementIsBooleanIntegerStringValidator extends AbstractHtmlElem
 	 */
 	validate()
 	{
-		const value   = this._htmlElement[ this._propertyName ];
-		const isValid = this.#_innerValidator.validate( value );
-
-		this.__dispatchValidationEvent( isValid, this.#_innerValidator.constraint, value );
-
-		return isValid;
+		return super.validate();
 	}
 }
