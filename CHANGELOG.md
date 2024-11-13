@@ -5,13 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.7.0] - 2024-11-13
+
+### Fixed
+
+* refactored `BindableHtmlElementProxy` due to multiple bound events
+
+[0.7.0]: https://github.com/codekandis/jotunheim/compare/0.6.1...0.7.0
+
+---
 ## [0.6.1] - 2024-10-28
 
 ### Fixed
 
 * removed double quotes from `MimeType::with_charset()`
 
-[0.6.1]: https://github.com/codekandis/jotunheim/compare/0.6.0..0.6.1
+[0.6.1]: https://github.com/codekandis/jotunheim/compare/0.6.0...0.6.1
 
 ---
 ## [0.6.0] - 2023-09-13
@@ -40,7 +49,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
     * `HtmlElementIsStringInRangeValidator`
     * `HtmlElementIsNumberInRangeValidator`
 
-[0.6.0]: https://github.com/codekandis/jotunheim/compare/0.5.0..0.6.0
+[0.6.0]: https://github.com/codekandis/jotunheim/compare/0.5.0...0.6.0
 
 ---
 ## [0.5.0] - 2023-09-11
@@ -65,7 +74,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
     * `HtmlElementValidatorChain`
     * default HTML element validators
 
-[0.5.0]: https://github.com/codekandis/jotunheim/compare/0.4.1..0.5.0
+[0.5.0]: https://github.com/codekandis/jotunheim/compare/0.4.1...0.5.0
 
 ---
 ## [0.4.1] - 2023-08-15
@@ -74,7 +83,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 
 * missing arguments unpacking on URI templates in the `AbstractUriBuilder`
 
-[0.4.1]: https://github.com/codekandis/jotunheim/compare/0.4.0..0.4.1
+[0.4.1]: https://github.com/codekandis/jotunheim/compare/0.4.0...0.4.1
 
 ---
 ## [0.4.0] - 2023-08-12
@@ -83,7 +92,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 
 * application page pre-dispatcher
 
-[0.4.0]: https://github.com/codekandis/jotunheim/compare/0.3.1..0.4.0
+[0.4.0]: https://github.com/codekandis/jotunheim/compare/0.3.1...0.4.0
 
 ---
 ## [0.3.1] - 2023-08-07
@@ -92,7 +101,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 
 * `Object.prototype.hasProperty()`
 
-[0.3.1]: https://github.com/codekandis/jotunheim/compare/0.3.0..0.3.1
+[0.3.1]: https://github.com/codekandis/jotunheim/compare/0.3.0...0.3.1
 
 ---
 ## [0.3.0] - 2023-08-06
@@ -101,7 +110,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 
 * JSDoc and naming of the abstract URI mappings
 
-[0.3.0]: https://github.com/codekandis/jotunheim/compare/0.2.0..0.3.0
+[0.3.0]: https://github.com/codekandis/jotunheim/compare/0.2.0...0.3.0
 
 ---
 ## [0.2.0] - 2023-08-05
@@ -118,7 +127,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 * `Array.prototype.addBy()`, `Array.prototype.joinMapped()`, `Array.prototype.joinBy()`
 * `Collection.prototype.addBy()`, `Collection.prototype.joinMapped()`, `Collection.prototype.joinBy()`
 
-[0.2.0]: https://github.com/codekandis/jotunheim/compare/0.1.1..0.2.0
+[0.2.0]: https://github.com/codekandis/jotunheim/compare/0.1.1...0.2.0
 
 ---
 ## [0.1.1] - 2023-07-31
@@ -128,7 +137,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 * return type of `Array.prototype.includesBy()` on empty arrays.
 * JSDoc
 
-[0.1.1]: https://github.com/codekandis/jotunheim/compare/0.1.0..0.1.1
+[0.1.1]: https://github.com/codekandis/jotunheim/compare/0.1.0...0.1.1
 
 ---
 ## [0.1.0] - 2023-07-21
