@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.8.0] - 2024-11-16
+
+### Added
+
+* `WheelEvent`
+
+[0.8.0]: https://github.com/codekandis/jotunheim/compare/0.7.0...0.8.0
+
+---
 ## [0.7.0] - 2024-11-13
 
 ### Fixed
