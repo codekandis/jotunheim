@@ -31,6 +31,7 @@ import { MouseMoveEvent } from './MouseMoveEvent.js';
 import { MouseOutEvent } from './MouseOutEvent.js';
 import { MouseOverEvent } from './MouseOverEvent.js';
 import { MouseUpEvent } from './MouseUpEvent.js';
+import { WheelEvent } from './WheelEvent.js';
 
 /**
  * Stores arbitrary data related to the HTML element.
@@ -515,6 +516,23 @@ Object.defineProperty(
 		get()
 		{
 			return new EventManager( MouseOutEvent, this );
+		}
+	}
+);
+
+/**
+ * Gets the wheel event.
+ * @property {Function} wheelEvent
+ * @memberOf HTMLElement.prototype
+ * @type {Function}
+ */
+Object.defineProperty(
+	HTMLElement.prototype,
+	'wheelEvent',
+	{
+		get()
+		{
+			return new EventManager( WheelEvent, this );
 		}
 	}
 );
