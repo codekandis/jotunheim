@@ -1,0 +1,28 @@
+'use strict';
+
+import { HttpResponseHeader } from '../http-response-header.js';
+
+/**
+ * Represents the HTTP response header `Content-Language`.
+ * @author Christian Ramelow <info@codekandis.net>
+ */
+export class ContentLanguageHttpResponseHeader extends HttpResponseHeader
+{
+	/**
+	 * Represents the name of the HTTP response header.
+	 * @type {String}
+	 */
+	static get NAME()
+	{
+		return 'Content-Language';
+	}
+
+	/**
+	 * Constructor method.
+	 * @param {String} value The value of the HTTP response header.
+	 */
+	constructor( value )
+	{
+		super( ContentLanguageHttpResponseHeader.NAME, value );
+	}
+}
