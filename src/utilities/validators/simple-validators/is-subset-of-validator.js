@@ -16,6 +16,7 @@ export class IsSubsetOfValidator extends AbstractValidator
 	#_constraint;
 
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	get constraint()

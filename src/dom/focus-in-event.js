@@ -9,6 +9,7 @@ import { AbstractFocusEvent } from './abstract-focus-event.js';
 export class FocusInEvent extends AbstractFocusEvent
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	static get EVENT_NAME()

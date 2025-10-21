@@ -9,6 +9,7 @@ import { AbstractEvent } from '../types/abstract-event.js';
 export class ChangeEvent extends AbstractEvent
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	static get EVENT_NAME()

@@ -9,6 +9,7 @@ import { AbstractKeyboardEvent } from './abstract-keyboard-event.js';
 export class KeyUpEvent extends AbstractKeyboardEvent
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	static get EVENT_NAME()

@@ -16,6 +16,7 @@ export class IsOneOfValidator extends AbstractValidator
 	#_constraint;
 
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	get constraint()

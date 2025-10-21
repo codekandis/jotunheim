@@ -9,6 +9,7 @@ import { AbstractCustomEvent } from '../../types/abstract-custom-event.js';
 export class HtmlElementValidationSucceededEvent extends AbstractCustomEvent
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	static get EVENT_NAME()

@@ -9,6 +9,7 @@ import { AbstractProgressEvent } from './abstract-progress-event.js';
 export class AbortEvent extends AbstractProgressEvent
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	static get EVENT_NAME()

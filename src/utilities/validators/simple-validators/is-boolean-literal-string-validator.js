@@ -25,6 +25,7 @@ export class IsBooleanLiteralStringValidator extends AbstractValidator
 	}
 
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	get constraint()

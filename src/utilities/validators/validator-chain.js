@@ -48,6 +48,7 @@ export class ValidatorChain extends AbstractValidator
 	}
 
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	get constraint()

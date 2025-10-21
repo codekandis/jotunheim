@@ -10,6 +10,7 @@ import { EventArguments } from '../../types/event-arguments.js';
 export class ValidationSucceededEvent extends AbstractCustomEvent
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	static get EVENT_NAME()
