@@ -9,6 +9,7 @@ import { AbstractMouseEvent } from './abstract-mouse-event.js';
 export class MouseLeaveEvent extends AbstractMouseEvent
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	static get EVENT_NAME()

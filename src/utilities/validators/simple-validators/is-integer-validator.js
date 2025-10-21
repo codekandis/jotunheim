@@ -9,6 +9,7 @@ import { AbstractValidator } from '../abstract-validator.js';
 export class IsIntegerValidator extends AbstractValidator
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	get constraint()

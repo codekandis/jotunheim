@@ -9,6 +9,7 @@ import { AbstractCustomEvent } from '../abstract-custom-event.js';
 export class PropertyChangedEvent extends AbstractCustomEvent
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	static get EVENT_NAME()

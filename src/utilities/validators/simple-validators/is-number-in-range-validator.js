@@ -60,6 +60,7 @@ export class IsNumberInRangeValidator extends AbstractValidator
 	}
 
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	get constraint()

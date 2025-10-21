@@ -9,6 +9,7 @@ import { AbstractDragEvent } from './abstract-drag-event.js';
 export class DragStartEvent extends AbstractDragEvent
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	static get EVENT_NAME()

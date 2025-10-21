@@ -9,6 +9,7 @@ import { AbstractInputEvent } from './abstract-input-event.js';
 export class BeforeInputEvent extends AbstractInputEvent
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	static get EVENT_NAME()

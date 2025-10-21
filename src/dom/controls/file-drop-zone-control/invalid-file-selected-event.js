@@ -9,6 +9,7 @@ import { AbstractCustomEvent } from '../../../types/abstract-custom-event.js';
 export class InvalidFileSelectedEvent extends AbstractCustomEvent
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	static get EVENT_NAME()

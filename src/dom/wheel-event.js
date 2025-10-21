@@ -9,6 +9,7 @@ import { AbstractWheelEvent } from './abstract-wheel-event.js';
 export class WheelEvent extends AbstractWheelEvent
 {
 	/**
+	 * @override
 	 * @inheritdoc
 	 */
 	static get EVENT_NAME()
