@@ -86,9 +86,9 @@ export class DomHelper extends AbstractStatic
 	 */
 	static createElementFromString( htmlString, id = null, classNames = null )
 	{
-		const container     = document.createElement( 'div' );
+		const container     = document.createElement( 'template' );
 		container.innerHTML = htmlString.trim();
-		const element       = /** @type {HTMLElement} */ container.firstChild;
+		const element       = /** @type {HTMLElement} */ container.content.firstElementChild;
 
 		if ( null !== id )
 		{
@@ -109,10 +109,10 @@ export class DomHelper extends AbstractStatic
 	 */
 	static createElementsFromString( htmlString )
 	{
-		const container     = document.createElement( 'div' );
+		const container     = document.createElement( 'template' );
 		container.innerHTML = htmlString.trim();
 
-		return container.childNodes;
+		return container.content.childNodes;
 	}
 
 	/**
