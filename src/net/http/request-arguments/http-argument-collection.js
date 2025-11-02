@@ -519,6 +519,16 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
+	 * Concatenates the HTTP arguments of the collection by a specific delimiter string.
+	 * @param {string} delimiter The delimiter used to concatenate the HTTP arguments.
+	 * @returns {string} The concatenated string.
+	 */
+	join( delimiter = '' )
+	{
+		return super.join( delimiter );
+	}
+
+	/**
 	 * Concatenates the HTTP arguments of the HTTP arguments collection by a specific delimiter string and by a variadic amount of transformation handlers.
 	 * @param {String} delimiter The delimiter used to concatenate the mapped HTTP arguments.
 	 * @param {...HttpArgumentCollection_HttpArgumentTransformationHandler} transformationHandlers The transformation handlers used to transform the HTTP arguments.
