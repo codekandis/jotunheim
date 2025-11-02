@@ -758,6 +758,37 @@ Object.defineProperty(
 );
 
 /**
+ * Maps the elements of the array by a variadic amount of transformation handlers.
+ * @method mapBy
+ * @memberOf Array.prototype
+ * @param {...Array_ElementTransformationHandler} transformationHandlers The transformation handlers used to transform the elements.
+ * @returns {Array} The mapped array.
+ */
+Object.defineProperty(
+	Array.prototype,
+	'mapBy',
+	{
+		value: function ( ...transformationHandlers )
+		       {
+			       return this
+				       .map(
+					       ( fetchedItem ) =>
+					       {
+						       transformationHandlers.forEach(
+							       ( fetchedTransformationHandler ) =>
+							       {
+								       fetchedItem = fetchedTransformationHandler( fetchedItem );
+							       }
+						       )
+
+						       return fetchedItem;
+					       }
+				       );
+		       }
+	}
+);
+
+/**
  * Concatenates the elements of the array by a specific delimiter string and by a variadic amount of transformation handlers.
  * @method joinMapped
  * @memberOf Array.prototype
