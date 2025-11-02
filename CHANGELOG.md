@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.11.0] - 2025-11-02
+
+### Added
+
+* `Array.mapBy()` 
+* `Collection.mapBy()` 
+* `Collection.join()` 
+
+[0.11.0]: https://github.com/codekandis/jotunheim/compare/0.10.0..0.11.0
+
+---
 ## [0.10.0] - 2025-11-02
 
 ### Changed
