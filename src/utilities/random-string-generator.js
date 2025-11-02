@@ -1,6 +1,7 @@
 'use strict';
 
 import { Abstract } from '../types/abstract.js';
+import { Randomizer } from './randomizer.js';
 
 /**
  * Represents a random string generator.
@@ -33,7 +34,7 @@ export class RandomStringGenerator extends Abstract
 		for ( let n = 0; n < length; n++ )
 		{
 			const validCharacterIndex = Math.floor(
-				Math.random() * this.#_validCharacters.length
+				Randomizer.randomNumber() * this.#_validCharacters.length
 			);
 			generatedString += this.#_validCharacters[ validCharacterIndex ];
 		}

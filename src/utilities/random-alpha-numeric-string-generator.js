@@ -5,7 +5,7 @@ import { RandomStringGenerator } from './random-string-generator.js';
 /**
  * Represents a random alphanumeric string generator.
  */
-export class RandomAlphanumericStringGenerator extends RandomStringGenerator
+export class RandomAlphaNumericStringGenerator extends RandomStringGenerator
 {
 	/**
 	 * Gets the valid characters of an alphanumeric string.
@@ -18,7 +18,7 @@ export class RandomAlphanumericStringGenerator extends RandomStringGenerator
 
 	constructor()
 	{
-		super( RandomAlphanumericStringGenerator.VALID_CHARACTERS );
+		super( RandomAlphaNumericStringGenerator.VALID_CHARACTERS );
 	}
 
 	/**
