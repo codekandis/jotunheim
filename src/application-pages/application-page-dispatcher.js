@@ -1,6 +1,7 @@
 'use strict';
 
 import { Abstract } from '../types/abstract.js';
+import { ApplicationPageMatch } from './application-page-match.js';
 import { PreDispatchmentState } from './pre-dispatchment-state.js';
 
 /**
@@ -80,9 +81,8 @@ export class ApplicationPageDispatcher extends Abstract
 			}
 		}
 
-		const baseRoute              = this.#_routesConfiguration.baseRoute;
-		let applicationPageClass     = null;
-		let applicationPageArguments = {};
+		const baseRoute            = this.#_routesConfiguration.baseRoute;
+		let applicationPageMatches = [];
 
 		this.#_routesConfiguration.routes.every(
 			( configuredActionClass, configuredRoute ) =>
@@ -93,24 +93,22 @@ export class ApplicationPageDispatcher extends Abstract
 					)
 				);
 
-				if ( null !== requestedRouteMatches )
+				if ( null === requestedRouteMatches )
 				{
-					applicationPageClass = configuredActionClass;
-
-					if ( undefined !== requestedRouteMatches.groups )
-					{
-						applicationPageArguments = this.#decodeApplicationPageArguments( requestedRouteMatches.groups );
-					}
-
-					return false;
+					return true;
 				}
+
+				let applicationPageArguments = undefined === requestedRouteMatches.groups
+					? {}
+					: this.#decodeApplicationPageArguments( requestedRouteMatches.groups );
+
+				applicationPageMatches.push( new ApplicationPageMatch( configuredActionClass, applicationPageArguments ) );
 			}
 		);
 
-		if ( null !== applicationPageClass )
-		{
-			( new applicationPageClass( applicationPageArguments ) )
-				.execute();
-		}
+		applicationPageMatches.forEach(
+			( applicationPageMatch ) => new applicationPageMatch.applicationPageClass( applicationPageMatch.applicationPageArguments )
+				.execute()
+		);
 	}
 }
