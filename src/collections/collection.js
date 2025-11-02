@@ -420,6 +420,18 @@ export class Collection extends Abstract
 	}
 
 	/**
+	 * Maps all items of the collection into a new collection by a variadic amount of transformation handlers.
+	 * @param {...Collection_ItemTransformationHandler} transformationHandlers The transformation handlers used to map the collection.
+	 * @returns {Collection<*>} The collection containing the transformed items.
+	 */
+	mapBy( ...transformationHandlers )
+	{
+		return new Collection(
+			...this.__items.mapBy( ...transformationHandlers )
+		);
+	}
+
+	/**
 	 * Concatenates the items of the collection by a specific delimiter string and by a variadic amount of transformation handlers.
 	 * @param {String} delimiter The delimiter used to concatenate the mapped items.
 	 * @param {...Collection_ItemTransformationHandler} transformationHandlers The transformation handlers used to transform the items.
