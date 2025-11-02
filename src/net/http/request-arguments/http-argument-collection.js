@@ -507,6 +507,18 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
+	 * Maps all HTTP arguments of the collection into a new collection by a variadic amount of transformation handlers.
+	 * @param {...HttpArgumentCollection_HttpArgumentTransformationHandler} transformationHandlers The transformation handlers used to map the HTTP argument collection.
+	 * @returns {Collection<any>} The collection containing the transformed HTTP arguments.
+	 */
+	mapBy( ...transformationHandlers )
+	{
+		return new HttpArgumentCollection(
+			...super.mapBy( ...transformationHandlers )
+		);
+	}
+
+	/**
 	 * Concatenates the HTTP arguments of the HTTP arguments collection by a specific delimiter string and by a variadic amount of transformation handlers.
 	 * @param {String} delimiter The delimiter used to concatenate the mapped HTTP arguments.
 	 * @param {...HttpArgumentCollection_HttpArgumentTransformationHandler} transformationHandlers The transformation handlers used to transform the HTTP arguments.

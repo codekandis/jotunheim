@@ -507,6 +507,18 @@ export class HttpPostFileCollection extends Collection
 	}
 
 	/**
+	 * Maps all HTTP POST files of the collection into a new collection by a variadic amount of transformation handlers.
+	 * @param {...HttpPostFileCollection_HttpPostFileTransformationHandler} transformationHandlers The transformation handlers used to map the HTTP POST file collection.
+	 * @returns {Collection<any>} The collection containing the transformed HTTP POST files.
+	 */
+	mapBy( ...transformationHandlers )
+	{
+		return new HttpPostFileCollection(
+			...super.mapBy( ...transformationHandlers )
+		);
+	}
+
+	/**
 	 * Concatenates the HTTP POST files of the HTTP POST files collection by a specific delimiter string and by a variadic amount of transformation handlers.
 	 * @param {String} delimiter The delimiter used to concatenate the mapped HTTP POST files.
 	 * @param {...HttpPostFileCollection_HttpPostFileTransformationHandler} transformationHandlers The transformation handlers used to transform the HTTP POST files.
