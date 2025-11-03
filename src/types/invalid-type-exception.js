@@ -10,8 +10,8 @@ export class InvalidTypeException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {String} expectedType The expected type.
-	 * @param {String} type The type which is invalid.
+	 * @param {string} expectedType The expected type.
+	 * @param {string} type The type which is invalid.
 	 * @returns {InvalidTypeException}
 	 * @constructor
 	 */

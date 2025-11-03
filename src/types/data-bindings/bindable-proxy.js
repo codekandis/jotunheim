@@ -16,7 +16,7 @@ export class BindableProxy extends AbstractBindable
 {
 	/**
 	 * Stores the delegated object which is proxied.
-	 * @type {Object}
+	 * @type {object}
 	 */
 	#_delegatedObject;
 
@@ -28,7 +28,7 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Constructor method.
-	 * @param {Object} object The object to proxy.
+	 * @param {object} object The object to proxy.
 	 * @param {BindableProxy_InstantiationCallack} initializingCallback The callback to invoke after instantiation.
 	 */
 	constructor( object, initializingCallback )
@@ -51,7 +51,7 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Gets the delegated object which is proxied.
-	 * @returns {Object} The delegated object which is proxied.
+	 * @returns {object} The delegated object which is proxied.
 	 */
 	get delegatedObject()
 	{
@@ -60,7 +60,7 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Gets the proxy to the delegated object.
-	 * @returns {Object} The proxy to the delegated object.
+	 * @returns {object} The proxy to the delegated object.
 	 */
 	get proxy()
 	{
@@ -69,8 +69,8 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Determines if a property exists in the object. The determination is based on the type of the given member. The type must not be `symbol`, `function` and `undefined`.
-	 * @param {String} name The name of the property.
-	 * @returns {Boolean} True if the property exists, otherwise false.
+	 * @param {string} name The name of the property.
+	 * @returns {boolean} True if the property exists, otherwise false.
 	 */
 	hasProperty( name )
 	{
@@ -79,8 +79,8 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Determines if a method exists in the object. The determination is based on the type of the given member. The type must be `function`.
-	 * @param {String} name The name of the method.
-	 * @returns {Boolean} True if the method exists, otherwise false.
+	 * @param {string} name The name of the method.
+	 * @returns {boolean} True if the method exists, otherwise false.
 	 */
 	hasMethod( name )
 	{
@@ -89,10 +89,10 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Gets the value of the bindable proxy's or the proxied delegate's member specified by their member name.
-	 * @param {Object} bindableProxy The bindable proxy.
-	 * @param {String} memberName The name of the member to get its value.
+	 * @param {object} bindableProxy The bindable proxy.
+	 * @param {string} memberName The name of the member to get its value.
 	 * @param {Proxy} proxy The proxy which triggered get handler.
-	 * @returns {*} The value of the bindable proxy's member, if it exists, otherwise the proxied delegate's value will be returned.
+	 * @returns {any} The value of the bindable proxy's member, if it exists, otherwise the proxied delegate's value will be returned.
 	 */
 	#proxy_getHandler = ( bindableProxy, memberName, proxy ) =>
 	{
@@ -120,11 +120,11 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Sets the value of the bindable proxy's or the proxied delegate's member specified by their member name.
-	 * @param {Object} bindableProxy The bindable proxy.
-	 * @param {String} memberName The name of the member to get its value.
-	 * @param {*} memberValue The value of the bindable proxy's member.
+	 * @param {object} bindableProxy The bindable proxy.
+	 * @param {string} memberName The name of the member to get its value.
+	 * @param {any} memberValue The value of the bindable proxy's member.
 	 * @param {Proxy} proxy The proxy which triggered get handler.
-	 * @returns {Boolean} True!
+	 * @returns {boolean} True!
 	 */
 	#proxy_setHandler = ( bindableProxy, memberName, memberValue, proxy ) =>
 	{

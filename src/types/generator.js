@@ -8,13 +8,13 @@
 /**
  * Represents the handler of any generator element iteration.
  * @callback Generator_ElementIterationHandler
- * @param {*} element The currently iterated element.
- * @param {Number} elementIndex The index of the currently iterated element.
+ * @param {any} element The currently iterated element.
+ * @param {number} elementIndex The index of the currently iterated element.
  */
 
 /**
  * Stores the prototype of any generator.
- * @type {Object}
+ * @type {object}
  */
 export const Generator = Object.getPrototypeOf(
 	function* ()

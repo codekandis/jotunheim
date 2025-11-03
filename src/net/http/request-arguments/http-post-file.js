@@ -11,13 +11,13 @@ export class HttpPostFile extends Abstract
 {
 	/**
 	 * Stores the name of the HTTP argument.
-	 * @var {String}
+	 * @var {string}
 	 */
 	#_name;
 
 	/**
 	 * Stores the filename of the HTTP argument.
-	 * @var {String}
+	 * @var {string}
 	 */
 	#_filename;
 
@@ -29,8 +29,8 @@ export class HttpPostFile extends Abstract
 
 	/**
 	 * Constructor method.
-	 * @param {String} name The name of the HTTP argument.
-	 * @param {String} filename The filename of the HTTP argument.
+	 * @param {string} name The name of the HTTP argument.
+	 * @param {string} filename The filename of the HTTP argument.
 	 * @param {File} file The file of the HTTP argument.
 	 */
 	constructor( name, filename, file )
@@ -56,7 +56,7 @@ export class HttpPostFile extends Abstract
 
 	/**
 	 * Gets the name of the HTTP POST file.
-	 * @returns {String} The name of the HTTP POST file.
+	 * @returns {string} The name of the HTTP POST file.
 	 */
 	get name()
 	{
@@ -65,7 +65,7 @@ export class HttpPostFile extends Abstract
 
 	/**
 	 * Gets the filename of the HTTP POST file.
-	 * @returns {String} The filename of the HTTP POST file.
+	 * @returns {string} The filename of the HTTP POST file.
 	 */
 	get filename()
 	{

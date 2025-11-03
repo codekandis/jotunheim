@@ -12,7 +12,7 @@ export class CharSet extends AbstractStatic
 {
 	/**
 	 * Represents the charset `US-ASCII`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get US_ASCII()
 	{
@@ -21,7 +21,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-1:1987`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_1_1987()
 	{
@@ -30,7 +30,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-2:1987`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_2_1987()
 	{
@@ -39,7 +39,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-3:1988`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_3_1988()
 	{
@@ -48,7 +48,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-4:1988`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_4_1988()
 	{
@@ -57,7 +57,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-5:1988`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_5_1988()
 	{
@@ -66,7 +66,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-6:1987`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_6_1987()
 	{
@@ -75,7 +75,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-7:1987`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_7_1987()
 	{
@@ -84,7 +84,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-8:1988`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_8_1988()
 	{
@@ -93,7 +93,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-9:1989`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_9_1989()
 	{
@@ -102,7 +102,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-8859-10`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_10()
 	{
@@ -111,7 +111,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_6937-2-add`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_6937_2_ADD()
 	{
@@ -120,7 +120,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_X0201`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_X0201()
 	{
@@ -129,7 +129,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_Encoding`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_ENCODING()
 	{
@@ -138,7 +138,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Shift_JIS`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get SHIFT_JIS()
 	{
@@ -147,7 +147,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Extended_UNIX_Code_Packed_Format_for_Japanese`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EXTENDED_UNIX_CODE_PACKED_FORMAT_FOR_JAPANESE()
 	{
@@ -156,7 +156,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Extended_UNIX_Code_Fixed_Width_for_Japanese`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EXTENDED_UNIX_CODE_FIXED_WIDTH_FOR_JAPANESE()
 	{
@@ -165,7 +165,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `BS_4730`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get BS_4730()
 	{
@@ -174,7 +174,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `SEN_850200_C`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get SEN_850200_C()
 	{
@@ -183,7 +183,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IT`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IT()
 	{
@@ -192,7 +192,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ES`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ES()
 	{
@@ -201,7 +201,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `DIN_66003`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get DIN_66003()
 	{
@@ -210,7 +210,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `NS_4551-1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get NS_4551_1()
 	{
@@ -219,7 +219,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `NF_Z_62-010`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get NF_Z_62_010()
 	{
@@ -228,7 +228,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-10646-UTF-1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_10646_UTF_1()
 	{
@@ -237,7 +237,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_646.basic:1983`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_646_BASIC_1983()
 	{
@@ -246,7 +246,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `INVARIANT`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get INVARIANT()
 	{
@@ -255,7 +255,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_646.irv:1983`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_646_IRV_1983()
 	{
@@ -264,7 +264,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `NATS-SEFI`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get NATS_SEFI()
 	{
@@ -273,7 +273,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `NATS-SEFI-ADD`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get NATS_SEFI_ADD()
 	{
@@ -282,7 +282,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `NATS-DANO`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get NATS_DANO()
 	{
@@ -291,7 +291,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `NATS-DANO-ADD`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get NATS_DANO_ADD()
 	{
@@ -300,7 +300,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `SEN_850200_B`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get SEN_850200_B()
 	{
@@ -309,7 +309,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `KS_C_5601-1987`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get KS_C_5601_1987()
 	{
@@ -318,7 +318,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-2022-KR`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_2022_KR()
 	{
@@ -327,7 +327,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EUC-KR`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EUC_KR()
 	{
@@ -336,7 +336,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-2022-JP`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_2022_JP()
 	{
@@ -345,7 +345,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-2022-JP-2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_2022_JP_2()
 	{
@@ -354,7 +354,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_C6220-1969-jp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_C6220_1969_JP()
 	{
@@ -363,7 +363,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_C6220-1969-ro`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_C6220_1969_RO()
 	{
@@ -372,7 +372,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `PT`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get PT()
 	{
@@ -381,7 +381,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `greek7-old`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get GREEK7_OLD()
 	{
@@ -390,7 +390,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `latin-greek`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get LATIN_GREEK()
 	{
@@ -399,7 +399,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `NF_Z_62-010_(1973)`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get NF_Z_62_010_1973()
 	{
@@ -408,7 +408,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Latin-greek-1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get LATIN_GREEK_1()
 	{
@@ -417,7 +417,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_5427`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_5427()
 	{
@@ -426,7 +426,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_C6226-1978`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_C6226_1978()
 	{
@@ -435,7 +435,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `BS_viewdata`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get BS_VIEWDATA()
 	{
@@ -444,7 +444,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `INIS`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get INIS()
 	{
@@ -453,7 +453,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `INIS-8`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get INIS_8()
 	{
@@ -462,7 +462,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `INIS-cyrillic`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get INIS_CYRILLIC()
 	{
@@ -471,7 +471,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_5427:1981`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_5427_1981()
 	{
@@ -480,7 +480,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_5428:1980`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_5428_1980()
 	{
@@ -489,7 +489,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `GB_1988-80`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get GB_1988_80()
 	{
@@ -498,7 +498,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `GB_2312-80`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get GB_2312_80()
 	{
@@ -507,7 +507,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `NS_4551-2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get NS_4551_2()
 	{
@@ -516,7 +516,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `videotex-suppl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEOTEX_SUPPL()
 	{
@@ -525,7 +525,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `PT2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get PT2()
 	{
@@ -534,7 +534,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ES2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ES2()
 	{
@@ -543,7 +543,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `MSZ_7795.3`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MSZ_7795_3()
 	{
@@ -552,7 +552,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_C6226-1983`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_C6226_1983()
 	{
@@ -561,7 +561,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `greek7`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get GREEK7()
 	{
@@ -570,7 +570,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ASMO_449`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ASMO_449()
 	{
@@ -579,7 +579,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `iso-ir-90`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_IR_90()
 	{
@@ -588,7 +588,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_C6229-1984-a`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_C6229_1984_A()
 	{
@@ -597,7 +597,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_C6229-1984-b`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_C6229_1984_B()
 	{
@@ -606,7 +606,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_C6229-1984-b-add`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_C6229_1984_B_ADD()
 	{
@@ -615,7 +615,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_C6229-1984-hand`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_C6229_1984_HAND()
 	{
@@ -624,7 +624,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_C6229-1984-hand-add`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_C6229_1984_HAND_ADD()
 	{
@@ -633,7 +633,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_C6229-1984-kana`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_C6229_1984_KANA()
 	{
@@ -642,7 +642,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_2033-1983`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_2033_1983()
 	{
@@ -651,7 +651,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ANSI_X3.110-1983`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ANSI_X3_110_1983()
 	{
@@ -660,7 +660,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `T.61-7bit`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get T_61_7BIT()
 	{
@@ -669,7 +669,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `T.61-8bit`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get T_61_8BIT()
 	{
@@ -678,7 +678,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ECMA-cyrillic`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ECMA_CYRILLIC()
 	{
@@ -687,7 +687,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `CSA_Z243.4-1985-1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CSA_Z243_4_1985_1()
 	{
@@ -696,7 +696,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `CSA_Z243.4-1985-2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CSA_Z243_4_1985_2()
 	{
@@ -705,7 +705,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `CSA_Z243.4-1985-gr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CSA_Z243_4_1985_GR()
 	{
@@ -714,7 +714,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-6-E`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_6_E()
 	{
@@ -723,7 +723,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-6-I`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_6_I()
 	{
@@ -732,7 +732,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `T.101-G2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get T_101_G2()
 	{
@@ -741,7 +741,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-8-E`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_8_E()
 	{
@@ -750,7 +750,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-8-I`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_8_I()
 	{
@@ -759,7 +759,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `CSN_369103`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CSN_369103()
 	{
@@ -768,7 +768,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JUS_I.B1.002`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JUS_I_B1_002()
 	{
@@ -777,7 +777,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IEC_P27-1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IEC_P27_1()
 	{
@@ -786,7 +786,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JUS_I.B1.003-serb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JUS_I_B1_003_SERB()
 	{
@@ -795,7 +795,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JUS_I.B1.003-mac`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JUS_I_B1_003_MAC()
 	{
@@ -804,7 +804,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `greek-ccitt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get GREEK_CCITT()
 	{
@@ -813,7 +813,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `NC_NC00-10:81`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get NC_NC00_10_81()
 	{
@@ -822,7 +822,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_6937-2-25`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_6937_2_25()
 	{
@@ -831,7 +831,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `GOST_19768-74`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get GOST_19768_74()
 	{
@@ -840,7 +840,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_8859-supp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_SUPP()
 	{
@@ -849,7 +849,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO_10367-box`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_10367_BOX()
 	{
@@ -858,7 +858,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `latin-lap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get LATIN_LAP()
 	{
@@ -867,7 +867,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `JIS_X0212-1990`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get JIS_X0212_1990()
 	{
@@ -876,7 +876,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `DS_2089`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get DS_2089()
 	{
@@ -885,7 +885,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `us-dk`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get US_DK()
 	{
@@ -894,7 +894,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `dk-us`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get DK_US()
 	{
@@ -903,7 +903,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `KSC5636`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get KSC5636()
 	{
@@ -912,7 +912,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `UNICODE-1-1-UTF-7`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UNICODE_1_1_UTF_7()
 	{
@@ -921,7 +921,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-2022-CN`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_2022_CN()
 	{
@@ -930,7 +930,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-2022-CN-EXT`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_2022_CN_EXT()
 	{
@@ -939,7 +939,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `UTF-8`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UTF_8()
 	{
@@ -948,7 +948,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-8859-13`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_13()
 	{
@@ -957,7 +957,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-8859-14`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_14()
 	{
@@ -966,7 +966,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-8859-15`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_15()
 	{
@@ -975,7 +975,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-8859-16`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_16()
 	{
@@ -984,7 +984,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `GBK`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get GBK()
 	{
@@ -993,7 +993,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `GB18030`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get GB18030()
 	{
@@ -1002,7 +1002,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `OSD_EBCDIC_DF04_15`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get OSD_EBCDIC_DF04_15()
 	{
@@ -1011,7 +1011,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `OSD_EBCDIC_DF03_IRV`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get OSD_EBCDIC_DF03_IRV()
 	{
@@ -1020,7 +1020,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `OSD_EBCDIC_DF04_1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get OSD_EBCDIC_DF04_1()
 	{
@@ -1029,7 +1029,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-11548-1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_11548_1()
 	{
@@ -1038,7 +1038,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `KZ-1048`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get KZ_1048()
 	{
@@ -1047,7 +1047,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-10646-UCS-2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_10646_UCS_2()
 	{
@@ -1056,7 +1056,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-10646-UCS-4`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_10646_UCS_4()
 	{
@@ -1065,7 +1065,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-10646-UCS-Basic`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_10646_UCS_BASIC()
 	{
@@ -1074,7 +1074,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-10646-Unicode-Latin1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_10646_UNICODE_LATIN1()
 	{
@@ -1083,7 +1083,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-10646-J-1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_10646_J_1()
 	{
@@ -1092,7 +1092,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-Unicode-IBM-1261`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_UNICODE_IBM_1261()
 	{
@@ -1101,7 +1101,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-Unicode-IBM-1268`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_UNICODE_IBM_1268()
 	{
@@ -1110,7 +1110,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-Unicode-IBM-1276`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_UNICODE_IBM_1276()
 	{
@@ -1119,7 +1119,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-Unicode-IBM-1264`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_UNICODE_IBM_1264()
 	{
@@ -1128,7 +1128,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-Unicode-IBM-1265`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_UNICODE_IBM_1265()
 	{
@@ -1137,7 +1137,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `UNICODE-1-1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UNICODE_1_1()
 	{
@@ -1146,7 +1146,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `SCSU`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get SCSU()
 	{
@@ -1155,7 +1155,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `UTF-7`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UTF_7()
 	{
@@ -1164,7 +1164,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `UTF-16BE`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UTF_16BE()
 	{
@@ -1173,7 +1173,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `UTF-16LE`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UTF_16LE()
 	{
@@ -1182,7 +1182,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `UTF-16`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UTF_16()
 	{
@@ -1191,7 +1191,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `CESU-8`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CESU_8()
 	{
@@ -1200,7 +1200,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `UTF-32`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UTF_32()
 	{
@@ -1209,7 +1209,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `UTF-32BE`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UTF_32BE()
 	{
@@ -1218,7 +1218,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `UTF-32LE`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UTF_32LE()
 	{
@@ -1227,7 +1227,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `BOCU-1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get BOCU_1()
 	{
@@ -1236,7 +1236,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `UTF-7-IMAP`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UTF_7_IMAP()
 	{
@@ -1245,7 +1245,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-8859-1-Windows-3.0-Latin-1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_1_WINDOWS_3_0_LATIN_1()
 	{
@@ -1254,7 +1254,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-8859-1-Windows-3.1-Latin-1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_1_WINDOWS_3_1_LATIN_1()
 	{
@@ -1263,7 +1263,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-8859-2-Windows-Latin-2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_2_WINDOWS_LATIN_2()
 	{
@@ -1272,7 +1272,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `ISO-8859-9-Windows-Latin-5`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ISO_8859_9_WINDOWS_LATIN_5()
 	{
@@ -1281,7 +1281,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `hp-roman8`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get HP_ROMAN8()
 	{
@@ -1290,7 +1290,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Adobe-Standard-Encoding`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ADOBE_STANDARD_ENCODING()
 	{
@@ -1299,7 +1299,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Ventura-US`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VENTURA_US()
 	{
@@ -1308,7 +1308,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Ventura-International`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VENTURA_INTERNATIONAL()
 	{
@@ -1317,7 +1317,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `DEC-MCS`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get DEC_MCS()
 	{
@@ -1326,7 +1326,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM850`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM850()
 	{
@@ -1335,7 +1335,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `PC8-Danish-Norwegian`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get PC8_DANISH_NORWEGIAN()
 	{
@@ -1344,7 +1344,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM862`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM862()
 	{
@@ -1353,7 +1353,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `PC8-Turkish`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get PC8_TURKISH()
 	{
@@ -1362,7 +1362,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM-Symbols`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM_SYMBOLS()
 	{
@@ -1371,7 +1371,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM-Thai`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM_THAI()
 	{
@@ -1380,7 +1380,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `HP-Legal`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get HP_LEGAL()
 	{
@@ -1389,7 +1389,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `HP-Pi-font`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get HP_PI_FONT()
 	{
@@ -1398,7 +1398,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `HP-Math8`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get HP_MATH8()
 	{
@@ -1407,7 +1407,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Adobe-Symbol-Encoding`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ADOBE_SYMBOL_ENCODING()
 	{
@@ -1416,7 +1416,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `HP-DeskTop`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get HP_DESKTOP()
 	{
@@ -1425,7 +1425,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Ventura-Math`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VENTURA_MATH()
 	{
@@ -1434,7 +1434,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Microsoft-Publishing`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MICROSOFT_PUBLISHING()
 	{
@@ -1443,7 +1443,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Windows-31J`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get WINDOWS_31J()
 	{
@@ -1452,7 +1452,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `GB2312`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get GB2312()
 	{
@@ -1461,7 +1461,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Big5`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get BIG5()
 	{
@@ -1470,7 +1470,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `macintosh`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MACINTOSH()
 	{
@@ -1479,7 +1479,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM037`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM037()
 	{
@@ -1488,7 +1488,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM038`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM038()
 	{
@@ -1497,7 +1497,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM273`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM273()
 	{
@@ -1506,7 +1506,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM274`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM274()
 	{
@@ -1515,7 +1515,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM275`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM275()
 	{
@@ -1524,7 +1524,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM277`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM277()
 	{
@@ -1533,7 +1533,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM278`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM278()
 	{
@@ -1542,7 +1542,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM280`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM280()
 	{
@@ -1551,7 +1551,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM281`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM281()
 	{
@@ -1560,7 +1560,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM284`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM284()
 	{
@@ -1569,7 +1569,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM285`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM285()
 	{
@@ -1578,7 +1578,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM290`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM290()
 	{
@@ -1587,7 +1587,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM297`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM297()
 	{
@@ -1596,7 +1596,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM420`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM420()
 	{
@@ -1605,7 +1605,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM423`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM423()
 	{
@@ -1614,7 +1614,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM424`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM424()
 	{
@@ -1623,7 +1623,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM437`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM437()
 	{
@@ -1632,7 +1632,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM500`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM500()
 	{
@@ -1641,7 +1641,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM851`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM851()
 	{
@@ -1650,7 +1650,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM852`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM852()
 	{
@@ -1659,7 +1659,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM855`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM855()
 	{
@@ -1668,7 +1668,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM857`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM857()
 	{
@@ -1677,7 +1677,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM860`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM860()
 	{
@@ -1686,7 +1686,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM861`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM861()
 	{
@@ -1695,7 +1695,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM863`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM863()
 	{
@@ -1704,7 +1704,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM864`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM864()
 	{
@@ -1713,7 +1713,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM865`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM865()
 	{
@@ -1722,7 +1722,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM868`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM868()
 	{
@@ -1731,7 +1731,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM869`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM869()
 	{
@@ -1740,7 +1740,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM870`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM870()
 	{
@@ -1749,7 +1749,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM871`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM871()
 	{
@@ -1758,7 +1758,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM880`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM880()
 	{
@@ -1767,7 +1767,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM891`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM891()
 	{
@@ -1776,7 +1776,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM903`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM903()
 	{
@@ -1785,7 +1785,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM904`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM904()
 	{
@@ -1794,7 +1794,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM905`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM905()
 	{
@@ -1803,7 +1803,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM918`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM918()
 	{
@@ -1812,7 +1812,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM1026`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM1026()
 	{
@@ -1821,7 +1821,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-AT-DE`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_AT_DE()
 	{
@@ -1830,7 +1830,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-AT-DE-A`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_AT_DE_A()
 	{
@@ -1839,7 +1839,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-CA-FR`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_CA_FR()
 	{
@@ -1848,7 +1848,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-DK-NO`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_DK_NO()
 	{
@@ -1857,7 +1857,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-DK-NO-A`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_DK_NO_A()
 	{
@@ -1866,7 +1866,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-FI-SE`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_FI_SE()
 	{
@@ -1875,7 +1875,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-FI-SE-A`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_FI_SE_A()
 	{
@@ -1884,7 +1884,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-FR`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_FR()
 	{
@@ -1893,7 +1893,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-IT`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_IT()
 	{
@@ -1902,7 +1902,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-PT`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_PT()
 	{
@@ -1911,7 +1911,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-ES`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_ES()
 	{
@@ -1920,7 +1920,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-ES-A`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_ES_A()
 	{
@@ -1929,7 +1929,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-ES-S`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_ES_S()
 	{
@@ -1938,7 +1938,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-UK`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_UK()
 	{
@@ -1947,7 +1947,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `EBCDIC-US`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EBCDIC_US()
 	{
@@ -1956,7 +1956,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `UNKNOWN-8BIT`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UNKNOWN_8BIT()
 	{
@@ -1965,7 +1965,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `MNEMONIC`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MNEMONIC()
 	{
@@ -1974,7 +1974,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `MNEM`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MNEM()
 	{
@@ -1983,7 +1983,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `VISCII`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VISCII()
 	{
@@ -1992,7 +1992,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `VIQR`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIQR()
 	{
@@ -2001,7 +2001,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `KOI8-R`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get KOI8_R()
 	{
@@ -2010,7 +2010,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `HZ-GB-2312`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get HZ_GB_2312()
 	{
@@ -2019,7 +2019,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM866`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM866()
 	{
@@ -2028,7 +2028,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM775`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM775()
 	{
@@ -2037,7 +2037,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `KOI8-U`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get KOI8_U()
 	{
@@ -2046,7 +2046,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM00858`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM00858()
 	{
@@ -2055,7 +2055,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM00924`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM00924()
 	{
@@ -2064,7 +2064,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM01140`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM01140()
 	{
@@ -2073,7 +2073,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM01141`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM01141()
 	{
@@ -2082,7 +2082,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM01142`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM01142()
 	{
@@ -2091,7 +2091,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM01143`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM01143()
 	{
@@ -2100,7 +2100,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM01144`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM01144()
 	{
@@ -2109,7 +2109,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM01145`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM01145()
 	{
@@ -2118,7 +2118,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM01146`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM01146()
 	{
@@ -2127,7 +2127,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM01147`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM01147()
 	{
@@ -2136,7 +2136,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM01148`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM01148()
 	{
@@ -2145,7 +2145,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM01149`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM01149()
 	{
@@ -2154,7 +2154,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Big5-HKSCS`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get BIG5_HKSCS()
 	{
@@ -2163,7 +2163,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `IBM1047`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IBM1047()
 	{
@@ -2172,7 +2172,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `PTCP154`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get PTCP154()
 	{
@@ -2181,7 +2181,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `Amiga-1251`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AMIGA_1251()
 	{
@@ -2190,7 +2190,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `KOI7-switched`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get KOI7_SWITCHED()
 	{
@@ -2199,7 +2199,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `BRF`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get BRF()
 	{
@@ -2208,7 +2208,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `TSCII`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TSCII()
 	{
@@ -2217,7 +2217,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `CP51932`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CP51932()
 	{
@@ -2226,7 +2226,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `windows-874`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get WINDOWS_874()
 	{
@@ -2235,7 +2235,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `windows-1250`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get WINDOWS_1250()
 	{
@@ -2244,7 +2244,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `windows-1251`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get WINDOWS_1251()
 	{
@@ -2253,7 +2253,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `windows-1252`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get WINDOWS_1252()
 	{
@@ -2262,7 +2262,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `windows-1253`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get WINDOWS_1253()
 	{
@@ -2271,7 +2271,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `windows-1254`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get WINDOWS_1254()
 	{
@@ -2280,7 +2280,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `windows-1255`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get WINDOWS_1255()
 	{
@@ -2289,7 +2289,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `windows-1256`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get WINDOWS_1256()
 	{
@@ -2298,7 +2298,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `windows-1257`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get WINDOWS_1257()
 	{
@@ -2307,7 +2307,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `windows-1258`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get WINDOWS_1258()
 	{
@@ -2316,7 +2316,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `TIS-620`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TIS_620()
 	{
@@ -2325,7 +2325,7 @@ export class CharSet extends AbstractStatic
 
 	/**
 	 * Represents the charset `CP50220`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CP50220()
 	{

@@ -6,12 +6,12 @@ import { Exception } from './exception.js';
  * Represents the exception if a method has not been implemented.
  * @author Christian Ramelow <info@codekandis.net>
  */
-export class NotImplementedException extends Exception
+export class NotImplementedException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {Object} object The object containing the abstract constant.
-	 * @param {String} constantName The name of the constant which is abstract.
+	 * @param {object} object The object containing the abstract constant.
+	 * @param {string} constantName The name of the constant which is abstract.
 	 * @returns {NotImplementedException}
 	 * @constructor
 	 */
@@ -27,8 +27,8 @@ export class NotImplementedException extends Exception
 
 	/**
 	 * Static constructor method.
-	 * @param {Object} object The object containing the abstract property.
-	 * @param {String} propertyName The name of the property which is abstract.
+	 * @param {object} object The object containing the abstract property.
+	 * @param {string} propertyName The name of the property which is abstract.
 	 * @returns {NotImplementedException}
 	 * @constructor
 	 */
@@ -44,8 +44,8 @@ export class NotImplementedException extends Exception
 
 	/**
 	 * Static constructor method.
-	 * @param {Object} object The object containing the abstract method.
-	 * @param {String} methodName The name of the method which is abstract.
+	 * @param {object} object The object containing the abstract method.
+	 * @param {string} methodName The name of the method which is abstract.
 	 * @returns {NotImplementedException}
 	 * @constructor
 	 */

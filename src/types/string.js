@@ -10,14 +10,14 @@ import { InvalidIndexException } from './invalid-index-exception.js';
 /**
  * Represents the replacement handler of the format method.
  * @callback String_ReplacementHandler
- * @param {...String} replacements The replacements to replace the placeholders with.
- * @returns {String} A new string with the placeholders replaced.
+ * @param {...string} replacements The replacements to replace the placeholders with.
+ * @returns {string} A new string with the placeholders replaced.
  * @throws {InvalidIndexException} A specific placeholder is invalid.
  */
 
 /**
  * Stores an empty string.
- * @property {String} empty Stores an empty string
+ * @property {string} empty Stores an empty string
  * @memberOf String
  * @static
  */
@@ -34,8 +34,8 @@ Object.defineProperty(
  * @method format
  * @memberOf String
  * @static
- * @param {String} template The template with the placeholders to format.
- * @param {...String} placeholders The placeholders to replace.
+ * @param {string} template The template with the placeholders to format.
+ * @param {...string} placeholders The placeholders to replace.
  * @returns {String_ReplacementHandler} The replacement handler.
  */
 Object.defineProperty(
@@ -70,8 +70,8 @@ Object.defineProperty(
  * Trims a variadic amount of strings from the start and end of the string.
  * @method trimStrings
  * @memberOf String.prototype
- * @param {...String} strings The strings to trim.
- * @returns {String} The trimmed string.
+ * @param {...string} strings The strings to trim.
+ * @returns {string} The trimmed string.
  */
 Object.defineProperty(
 	String.prototype,
@@ -109,8 +109,8 @@ Object.defineProperty(
  * Trims a variadic amount of strings from the start of the string.
  * @method trimStringsFromStart
  * @memberOf String.prototype
- * @param {...String} strings The strings to trim.
- * @returns {String} The trimmed string.
+ * @param {...string} strings The strings to trim.
+ * @returns {string} The trimmed string.
  */
 Object.defineProperty(
 	String.prototype,
@@ -142,8 +142,8 @@ Object.defineProperty(
  * Trims a variadic amount of strings from the start of the string.
  * @method trimStringsFromEnd
  * @memberOf String.prototype
- * @param {...String} strings The strings to trim.
- * @returns {String} The trimmed string.
+ * @param {...string} strings The strings to trim.
+ * @returns {string} The trimmed string.
  */
 Object.defineProperty(
 	String.prototype,
@@ -175,7 +175,7 @@ Object.defineProperty(
  * Replaces all HTML special characters with their HTML equivalents.
  * @method replaceHtmlSpecialChars
  * @memberOf String.prototype
- * @returns {String} The string with the HTML special characters replaced.
+ * @returns {string} The string with the HTML special characters replaced.
  */
 Object.defineProperty(
 	String.prototype,
@@ -206,8 +206,8 @@ Object.defineProperty(
  * Compares the string against another compare string in a strict way.
  * @method strictCompare
  * @memberOf String.prototype
- * @param {String} compareString The string which against to compare.
- * @returns {Number} -1 if the string comes before the compare string, 0 if the string is equal to the compare string in the sort order and 1 if the string comes after the compare string.
+ * @param {string} compareString The string which against to compare.
+ * @returns {number} -1 if the string comes before the compare string, 0 if the string is equal to the compare string in the sort order and 1 if the string comes after the compare string.
  */
 Object.defineProperty(
 	String.prototype,
@@ -231,8 +231,8 @@ Object.defineProperty(
  * Determines if the string is equal to a compare string in a strict way.
  * @method isEqualTo
  * @memberOf String.prototype
- * @param {String} compareString The string which against to compare.
- * @returns {Boolean} True if the string is equal to the compare string, otherwise false.
+ * @param {string} compareString The string which against to compare.
+ * @returns {boolean} True if the string is equal to the compare string, otherwise false.
  */
 Object.defineProperty(
 	String.prototype,
@@ -249,8 +249,8 @@ Object.defineProperty(
  * Determines if the string is lower than a compare string in a strict way.
  * @method isLowerThan
  * @memberOf String.prototype
- * @param {String} compareString The string which against to compare.
- * @returns {Boolean} True if the string is lower than the compare string, otherwise false.
+ * @param {string} compareString The string which against to compare.
+ * @returns {boolean} True if the string is lower than the compare string, otherwise false.
  */
 Object.defineProperty(
 	String.prototype,
@@ -267,8 +267,8 @@ Object.defineProperty(
  * Determines if the string is lower than or equal to a compare string in a strict way.
  * @method isLowerThanOrEqualTo
  * @memberOf String.prototype
- * @param {String} compareString The string which against to compare.
- * @returns {Boolean} True if the string is lower than or equal to the compare string, otherwise false.
+ * @param {string} compareString The string which against to compare.
+ * @returns {boolean} True if the string is lower than or equal to the compare string, otherwise false.
  */
 Object.defineProperty(
 	String.prototype,
@@ -285,8 +285,8 @@ Object.defineProperty(
  * Determines if the string is greater than a compare string in a strict way.
  * @method isGreaterThan
  * @memberOf String.prototype
- * @param {String} compareString The string which against to compare.
- * @returns {Boolean} True if the string is greater than the compare string, otherwise false.
+ * @param {string} compareString The string which against to compare.
+ * @returns {boolean} True if the string is greater than the compare string, otherwise false.
  */
 Object.defineProperty(
 	String.prototype,
@@ -303,8 +303,8 @@ Object.defineProperty(
  * Determines if the string is greater than or equal to a compare string in a strict way.
  * @method isGreaterThanOrEqualTo
  * @memberOf String.prototype
- * @param {String} compareString The string which against to compare.
- * @returns {Boolean} True if the string is greater than or equal to the compare string, otherwise false.
+ * @param {string} compareString The string which against to compare.
+ * @returns {boolean} True if the string is greater than or equal to the compare string, otherwise false.
  */
 Object.defineProperty(
 	String.prototype,

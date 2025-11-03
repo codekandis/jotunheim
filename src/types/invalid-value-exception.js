@@ -10,7 +10,7 @@ export class InvalidValueException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {*} value The value which is invalid.
+	 * @param {any} value The value which is invalid.
 	 * @returns {InvalidValueException}
 	 * @constructor
 	 */

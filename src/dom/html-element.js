@@ -35,7 +35,7 @@ import { WheelEvent } from './wheel-event.js';
 
 /**
  * Stores arbitrary data related to the HTML element.
- * @property {*} #_data
+ * @property {any} #_data
  * @memberOf HTMLElement.prototype
  */
 Object.defineProperty(

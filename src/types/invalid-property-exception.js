@@ -10,7 +10,7 @@ export class InvalidPropertyException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {*} property The property which is invalid.
+	 * @param {any} property The property which is invalid.
 	 * @returns {InvalidPropertyException}
 	 * @constructor
 	 */

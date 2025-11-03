@@ -10,8 +10,8 @@ export class HttpHeaderNamePreparator extends Abstract
 {
 	/**
 	 * Prepares an HTTP header name.
-	 * @param {String} httpHeaderName The HTTP header name to prepare.
-	 * @returns {String} The prepared HTTP header name.
+	 * @param {string} httpHeaderName The HTTP header name to prepare.
+	 * @returns {string} The prepared HTTP header name.
 	 */
 	prepare( httpHeaderName )
 	{

@@ -6,7 +6,7 @@ import { HttpArgumentCollection } from './http-argument-collection.js';
  * Represents the handler of any HTTP GET argument collection HTTP GET argument iteration.
  * @callback HttpGetArgumentCollection_HttpGetArgumentIterationHandler
  * @param {HttpGetArgument} httpGetArgument The currently iterated HTTP GET argument.
- * @param {Number} httpGetArgumentIndex The index of the currently iterated HTTP GET argument.
+ * @param {number} httpGetArgumentIndex The index of the currently iterated HTTP GET argument.
  */
 
 /**
@@ -14,23 +14,23 @@ import { HttpArgumentCollection } from './http-argument-collection.js';
  * @callback HttpGetArgumentCollection_HttpGetArgumentComparisonHandler
  * @param {HttpGetArgument} httpGetArgument_1 The first HTTP GET argument to compare.
  * @param {HttpGetArgument} httpGetArgument_2 The second HTTP GET argument to compare.
- * @returns {Number} -1 if the first HTTP GET argument is lower than the second HTTP GET argument, 0 if the first HTTP GET argument is equal to the second HTTP GET argument and 1 if the first HTTP GET argument is greater than the second HTTP GET argument.
+ * @returns {number} -1 if the first HTTP GET argument is lower than the second HTTP GET argument, 0 if the first HTTP GET argument is equal to the second HTTP GET argument and 1 if the first HTTP GET argument is greater than the second HTTP GET argument.
  */
 
 /**
  * Represents the handler of any HTTP GET argument collection HTTP GET argument transformation.
  * @callback HttpGetArgumentCollection_HttpGetArgumentTransformationHandler
  * @param {HttpGetArgument} httpGetArgument The currently iterated HTTP GET argument.
- * @param {Number} httpGetArgumentIndex The index of the currently iterated HTTP GET argument.
- * @returns {*} The transformed HTTP GET argument.
+ * @param {number} httpGetArgumentIndex The index of the currently iterated HTTP GET argument.
+ * @returns {any} The transformed HTTP GET argument.
  */
 
 /**
  * Represents the handler of any HTTP GET argument collection HTTP GET argument determination.
  * @callback HttpGetArgumentCollection_HttpGetArgumentPredicateHandler
  * @param {HttpGetArgument} httpGetArgument The currently iterated HTTP GET argument.
- * @param {Number} httpGetArgumentIndex The index of the currently iterated HTTP GET argument.
- * @returns {Boolean} True if the iterated HTTP GET argument matches the predicate, otherwise false.
+ * @param {number} httpGetArgumentIndex The index of the currently iterated HTTP GET argument.
+ * @returns {boolean} True if the iterated HTTP GET argument matches the predicate, otherwise false.
  */
 
 /**
@@ -41,7 +41,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 {
 	/**
 	 * Constructor method.
-	 * @param {...HttpArgument} httpGetArguments The initital HTTP GET arguments of the collection.
+	 * @param {...HttpGetArgument} httpGetArguments The initital HTTP GET arguments of the collection.
 	 */
 	constructor( ...httpGetArguments )
 	{
@@ -50,7 +50,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Gets the number of HTTP GET arguments in the collection.
-	 * @returns {Number} The number of HTTP GET arguments in the collection.
+	 * @returns {number} The number of HTTP GET arguments in the collection.
 	 */
 	get length()
 	{
@@ -59,7 +59,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Gets all HTTP GET arguments of the collection as a full URL encoded query string.
-	 * @returns {String} The HTTP GET arguments of the collection as a full URL encoded query string.
+	 * @returns {string} The HTTP GET arguments of the collection as a full URL encoded query string.
 	 */
 	get fullHttpGetArgumentsString()
 	{
@@ -78,7 +78,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Creates the default predicate to compare specified HTTP GET argument names with a fetched HTTP GET argument of the HTTP GET argument collection for equality by their HTTP GET argument names.
-	 * @param {...String} httpGetArgumentNames The HTTP GET argument names to compare the fetched HTTP GET arguments with.
+	 * @param {...string} httpGetArgumentNames The HTTP GET argument names to compare the fetched HTTP GET arguments with.
 	 * @returns {HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} The HTTP GET argument name equality predicate handlers.
 	 */
 	_createArgumentNameEqualityPredicateFromArgumentNames( ...httpGetArgumentNames )
@@ -98,7 +98,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Determines if the HTTP GET argument collection includes a specific HTTP GET argument.
 	 * @param {HttpGetArgument} httpGetArgument The HTTP GET argument to search for.
-	 * @returns {Boolean} True if the HTTP GET arguments is included in the HTTP GET argument collection, otherwise false.
+	 * @returns {boolean} True if the HTTP GET arguments is included in the HTTP GET argument collection, otherwise false.
 	 */
 	includes( httpGetArgument )
 	{
@@ -108,7 +108,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Determines if the HTTP GET argument collection includes an HTTP GET argument specified by a variadic amount of predicate handlers.
 	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET argument.
-	 * @returns {Boolean} True if the HTTP GET argument is included in the HTTP GET argument collection, otherwise false.
+	 * @returns {boolean} True if the HTTP GET argument is included in the HTTP GET argument collection, otherwise false.
 	 */
 	includesBy( ...predicateHandlers )
 	{
@@ -137,7 +137,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Replaces all HTTP GET arguments in the HTTP GET argument collection specified by their indices.
 	 * @param {HttpGetArgument} httpGetArgumentReplacement The new HTTP GET argument to replace the HTTP GET arguments with.
-	 * @param {...Number} indices The indices of the HTTP GET arguments to replace.
+	 * @param {...number} indices The indices of the HTTP GET arguments to replace.
 	 * @throws {InvalidIndexException} An index is invalid.
 	 */
 	replaceAt( httpGetArgumentReplacement, ...indices )
@@ -196,7 +196,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Removes HTTP GET arguments from the HTTP GET argument collection specified by a variadic amount of their indices.
-	 * @param {...Number} indices The index of the HTTP GET argument to remove.
+	 * @param {...number} indices The index of the HTTP GET argument to remove.
 	 * @throws {InvalidIndexException} An index is invalid.
 	 */
 	removeAt( ...indices )
@@ -224,7 +224,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Removes the first occurence of an HTTP GET argument specified by their HTTP GET argument names.
-	 * @param {...String} httpGetArgumentNames The names of the HTTP GET arguments to remove.
+	 * @param {...string} httpGetArgumentNames The names of the HTTP GET arguments to remove.
 	 */
 	removeByArgumentNames( ...httpGetArgumentNames )
 	{
@@ -251,7 +251,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Removes all occurences of HTTP GET arguments specified by their HTTP GET argument names.
-	 * @param {...String} httpGetArgumentNames The names of the HTTP GET arguments to remove.
+	 * @param {...string} httpGetArgumentNames The names of the HTTP GET arguments to remove.
 	 */
 	removeAllByArgumentName( ...httpGetArgumentNames )
 	{
@@ -261,7 +261,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Gets the first index of an HTTP GET argument.
 	 * @param {HttpGetArgument} httpGetArgument The HTTP GET argument to determine its first index.
-	 * @returns {undefined|Number} The first index of the HTTP GET argument, if found, otherwise undefined.
+	 * @returns {undefined|number} The first index of the HTTP GET argument, if found, otherwise undefined.
 	 */
 	findFirstIndexOf( httpGetArgument )
 	{
@@ -271,7 +271,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Gets the first index of an HTTP GET argument specified by a variadic amount of predicate handlers.
 	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET argument.
-	 * @returns {undefined|Number} The first index of the HTTP GET argument, if found, otherwise undefined.
+	 * @returns {undefined|number} The first index of the HTTP GET argument, if found, otherwise undefined.
 	 */
 	findFirstIndexOfBy( ...predicateHandlers )
 	{
@@ -280,8 +280,8 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Gets the first index of an HTTP GET argument specified by its HTTP GET argument name.
-	 * @param {String} httpGetArgumentName The HTTP GET argument name of the HTTP GET argument.
-	 * @returns {undefined|Number} The first index of the HTTP GET argument, if found, otherwise undefined.
+	 * @param {string} httpGetArgumentName The HTTP GET argument name of the HTTP GET argument.
+	 * @returns {undefined|number} The first index of the HTTP GET argument, if found, otherwise undefined.
 	 */
 	findFirstIndexOfByArgumentName( httpGetArgumentName )
 	{
@@ -291,7 +291,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Gets the last index of an HTTP GET argument.
 	 * @param {HttpGetArgument} httpGetArgument The HTTP GET argument to determine its last index.
-	 * @returns {undefined|Number} The last index of the HTTP GET argument, if found, otherwise undefined.
+	 * @returns {undefined|number} The last index of the HTTP GET argument, if found, otherwise undefined.
 	 */
 	findLastIndexOf( httpGetArgument )
 	{
@@ -301,7 +301,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Gets the last index of an HTTP GET argument specified by a variadic amount of predicate handlers.
 	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET argument.
-	 * @returns {undefined|Number} The last index of the HTTP GET argument, if found, otherwise undefined.
+	 * @returns {undefined|number} The last index of the HTTP GET argument, if found, otherwise undefined.
 	 */
 	findLastIndexOfBy( ...predicateHandlers )
 	{
@@ -310,8 +310,8 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Gets the last index of an HTTP GET argument specified by its HTTP GET argument names.
-	 * @param {String} httpGetArgumentName The HTTP GET argument name of the HTTP GET argument.
-	 * @returns {undefined|Number} The last index of the HTTP GET argument, if found, otherwise undefined.
+	 * @param {string} httpGetArgumentName The HTTP GET argument name of the HTTP GET argument.
+	 * @returns {undefined|number} The last index of the HTTP GET argument, if found, otherwise undefined.
 	 */
 	findLastIndexOfByArgumentName( httpGetArgumentName )
 	{
@@ -321,7 +321,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Gets all indices of specific HTTP GET arguments.
 	 * @param {...HttpGetArgument} httpGetArguments The HTTP GET arguments to determine their indices.
-	 * @returns {Collection<Number>} The indices of the HTTP GET arguments, if found, otherwise an empty collection.
+	 * @returns {Collection<number>} The indices of the HTTP GET arguments, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOf( ...httpGetArguments )
 	{
@@ -331,7 +331,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Gets the indices of all occurences of any HTTP GET argument specified by a variadic amount of predicate handlers.
 	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP GET arguments.
-	 * @returns {Collection<Number>} The indices of the HTTP GET arguments, if found, otherwise an empty collection.
+	 * @returns {Collection<number>} The indices of the HTTP GET arguments, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOfBy( ...predicateHandlers )
 	{
@@ -340,8 +340,8 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Gets the indices of all occurences of any HTTP GET argument specified by a variadic amount of HTTP GET argument names.
-	 * @param {...String} httpGetArgumentNames The HTTP GET argument names to determine the HTTP GET arguments.
-	 * @returns {Collection<Number>} The indices of the HTTP GET arguments, if found, otherwise an empty collection.
+	 * @param {...string} httpGetArgumentNames The HTTP GET argument names to determine the HTTP GET arguments.
+	 * @returns {Collection<number>} The indices of the HTTP GET arguments, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOfByArgumentNames( ...httpGetArgumentNames )
 	{
@@ -350,7 +350,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Gets an HTTP GET argument from the HTTP GET argument collection specified by its index.
-	 * @param {Number} index The index of the HTTP GET argument.
+	 * @param {number} index The index of the HTTP GET argument.
 	 * @returns {undefined|HttpGetArgument} The HTTP GET argument, if found.
 	 */
 	findAt( index )
@@ -370,7 +370,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Gets the first HTTP GET argument from the HTTP GET argument collection specified by its HTTP GET argument name.
-	 * @param {String} httpGetArgumentName The HTTP GET argument name to determine the HTTP GET argument.
+	 * @param {string} httpGetArgumentName The HTTP GET argument name to determine the HTTP GET argument.
 	 * @returns {undefined|HttpGetArgument} The first HTTP GET argument, if found, otherwise undefined.
 	 */
 	findFirstOrUndefinedByArgumentName( httpGetArgumentName )
@@ -390,7 +390,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Gets the last HTTP GET argument from the HTTP GET argument collection specified by its HTTP GET argument name.
-	 * @param {String} httpGetArgumentName The HTTP GET argument name to determine the HTTP GET argument.
+	 * @param {string} httpGetArgumentName The HTTP GET argument name to determine the HTTP GET argument.
 	 * @returns {undefined|HttpGetArgument} The last HTTP GET argument, if found, otherwise undefined.
 	 */
 	findLastOrUndefinedByArgumentName( httpGetArgumentName )
@@ -410,7 +410,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Gets all HTTP GET arguments from the HTTP GET argument collection specified by their HTTP GET argument names.
-	 * @param {...String} httpGetArgumentNames The HTTP GET argument names to determine the HTTP GET arguments.
+	 * @param {...string} httpGetArgumentNames The HTTP GET argument names to determine the HTTP GET arguments.
 	 * @returns {HttpGetArgumentCollection<HttpGetArgument>} The HTTP GET arguments, if found, otherwise an empty HTTP GET argument collection.
 	 */
 	findAllByArgumentNames( ...httpGetArgumentNames )
@@ -427,8 +427,8 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Sorts the HTTP header collection specified by a comparison handler.
-	 * @param {HttpGetArgumentCollection_HttpGetArgumentComparisonHandler} comparisonHandler The comparison handler used to compare the HTTP headers.
+	 * Sorts the HTTP GET argument collection specified by a comparison handler.
+	 * @param {HttpGetArgumentCollection_HttpGetArgumentComparisonHandler} comparisonHandler The comparison handler used to compare the HTTP GET arguments.
 	 */
 	sortBy( comparisonHandler )
 	{
@@ -438,7 +438,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Maps all HTTP GET arguments of the HTTP GET argument collection into a new collection.
 	 * @param {HttpGetArgumentCollection_HttpGetArgumentTransformationHandler} transformationHandler The transformation handler used to map the HTTP GET argument collection.
-	 * @returns {Collection<*>} The collection containing the transformed HTTP GET arguments.
+	 * @returns {Collection<any>} The collection containing the transformed HTTP GET arguments.
 	 */
 	map( transformationHandler )
 	{
@@ -469,9 +469,9 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Concatenates the HTTP GET arguments of the HTTP GET arguments collection by a specific delimiter string and by a variadic amount of transformation handlers.
-	 * @param {String} delimiter The delimiter used to concatenate the mapped HTTP GET arguments.
+	 * @param {string} delimiter The delimiter used to concatenate the mapped HTTP GET arguments.
 	 * @param {...HttpGetArgumentCollection_HttpGetArgumentTransformationHandler} transformationHandlers The transformation handlers used to transform the HTTP GET arguments.
-	 * @returns {String} The concatenated string.
+	 * @returns {string} The concatenated string.
 	 */
 	joinMapped( delimiter, ...transformationHandlers )
 	{
@@ -480,9 +480,9 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Concatenates the HTTP GET arguments of the HTTP GET argument collection by a specific delimiter string and by a variadic amount of predicate handlers.
-	 * @param {String} delimiter The delimiter used to concatenate the HTTP GET arguments.
+	 * @param {string} delimiter The delimiter used to concatenate the HTTP GET arguments.
 	 * @param {...HttpGetArgumentCollection_HttpGetArgumentPredicateHandler} predicateHandlers The predicate handlers used to determine the HTTP GET arguments.
-	 * @returns {String} The concatenated string.
+	 * @returns {string} The concatenated string.
 	 */
 	joinBy( delimiter, ...predicateHandlers )
 	{
@@ -491,7 +491,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Gets the array representation of the HTTP GET argument collection.
-	 * @returns {HttpGetArgument[]} The array representation of the HTTP GET argument collection.
+	 * @returns {Array<HttpGetArgument>} The array representation of the HTTP GET argument collection.
 	 */
 	toArray()
 	{

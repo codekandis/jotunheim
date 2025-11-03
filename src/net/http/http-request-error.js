@@ -10,13 +10,13 @@ export class HttpRequestError extends Abstract
 {
 	/**
 	 * Stores the error message.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_message;
 
 	/**
 	 * Constructor method.
-	 * @param {String} message The error message.
+	 * @param {string} message The error message.
 	 */
 	constructor( message )
 	{
@@ -27,7 +27,7 @@ export class HttpRequestError extends Abstract
 
 	/**
 	 * Gets the error message.
-	 * @returns {String} The error message.
+	 * @returns {string} The error message.
 	 */
 	get message()
 	{

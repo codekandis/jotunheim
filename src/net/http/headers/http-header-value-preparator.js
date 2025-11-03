@@ -10,8 +10,8 @@ export class HttpHeaderValuePreparator extends Abstract
 {
 	/**
 	 * Prepares an HTTP header value.
-	 * @param {String} httpHeaderValue The HTTP header value to prepare.
-	 * @returns {String} The prepared HTTP header value.
+	 * @param {string} httpHeaderValue The HTTP header value to prepare.
+	 * @returns {string} The prepared HTTP header value.
 	 */
 	prepare( httpHeaderValue )
 	{

@@ -11,7 +11,7 @@ export class DebugMode extends AbstractStatic
 {
 	/**
 	 * Represents the debug mode `DISABLED`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get DISABLED()
 	{
@@ -20,7 +20,7 @@ export class DebugMode extends AbstractStatic
 
 	/**
 	 * Represents the debug mode `ENABLED`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get ENABLED()
 	{
@@ -29,13 +29,13 @@ export class DebugMode extends AbstractStatic
 
 	/**
 	 * Stores the debug mode.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static #_mode = this.DISABLED;
 
 	/**
 	 * Stores any valid debug mode.
-	 * @type {String[]}
+	 * @type {Array<string>}
 	 */
 	static #_validDebugModes = [
 		this.DISABLED,
@@ -44,7 +44,7 @@ export class DebugMode extends AbstractStatic
 
 	/**
 	 * Gets the debug mode.
-	 * @returns {String} The debug mode.
+	 * @returns {string} The debug mode.
 	 */
 	static get mode()
 	{
@@ -53,7 +53,7 @@ export class DebugMode extends AbstractStatic
 
 	/**
 	 * Sets the debug mode.
-	 * @param {String} value The debug mode.
+	 * @param {string} value The debug mode.
 	 */
 	static set mode( value )
 	{

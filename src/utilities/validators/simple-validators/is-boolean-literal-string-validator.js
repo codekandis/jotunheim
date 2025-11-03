@@ -15,7 +15,7 @@ export class IsBooleanLiteralStringValidator extends AbstractValidator
 
 	/**
 	 * Constructor method.
-	 * @param {Boolean} validateCaseInsensitive True if the value must be validated case-insensitive, otherwise false.
+	 * @param {boolean} validateCaseInsensitive True if the value must be validated case-insensitive, otherwise false.
 	 */
 	constructor( validateCaseInsensitive )
 	{

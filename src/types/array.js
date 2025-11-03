@@ -10,39 +10,39 @@ import { InvalidIndexException } from './invalid-index-exception.js';
 /**
  * Represents the handler of any array element iteration.
  * @callback Array_ElementIterationHandler
- * @param {*} element The currently iterated element.
- * @param {Number} elementIndex The index of the currently iterated element.
+ * @param {any} element The currently iterated element.
+ * @param {number} elementIndex The index of the currently iterated element.
  */
 
 /**
  * Represents the handler of any array elements comparison.
  * @callback Array_ElementComparisonHandler
- * @param {*} element_1 The first element to compare.
- * @param {*} element_2 The second element to compare.
- * @returns {Number} -1 if the first element is lower than the second element, 0 if the first element is equal to the second element and 1 if the first element is greater than the second element.
+ * @param {any} element_1 The first element to compare.
+ * @param {any} element_2 The second element to compare.
+ * @returns {number} -1 if the first element is lower than the second element, 0 if the first element is equal to the second element and 1 if the first element is greater than the second element.
  */
 
 /**
  * Represents the handler of any array element transformation.
  * @callback Array_ElementTransformationHandler
- * @param {*} element The currently iterated element.
- * @param {Number} elementIndex The index of the currently iterated element.
- * @returns {*} The transformed element.
+ * @param {any} element The currently iterated element.
+ * @param {number} elementIndex The index of the currently iterated element.
+ * @returns {any} The transformed element.
  */
 
 /**
  * Represents the handler of any array element determination.
  * @callback Array_ElementPredicateHandler
- * @param {*} element The currently iterated element.
- * @param {Number} elementIndex The index of the currently iterated element.
- * @returns {Boolean} True if the currently iterated element matches the predicate, otherwise false.
+ * @param {any} element The currently iterated element.
+ * @param {number} elementIndex The index of the currently iterated element.
+ * @returns {boolean} True if the currently iterated element matches the predicate, otherwise false.
  */
 
 /**
  * Determines if the array is empty.
  * @method isEmpty
  * @memberOf Array.prototype
- * @returns {Boolean} True if the array is empty, otherwise false.
+ * @returns {boolean} True if the array is empty, otherwise false.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -60,7 +60,7 @@ Object.defineProperty(
  * @method includesBy
  * @memberOf Array.prototype
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
- * @returns {Boolean} True if the element is included in the array, otherwise false.
+ * @returns {boolean} True if the element is included in the array, otherwise false.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -93,7 +93,7 @@ Object.defineProperty(
  * Adds a variadic amount of elements to the array.
  * @method add
  * @memberOf Array.prototype
- * @param {...*} elements The elements to add.
+ * @param {...any} elements The elements to add.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -116,7 +116,7 @@ Object.defineProperty(
  * @method addBy
  * @memberOf Array.prototype
  * @param {Array_ElementPredicateHandler} predicateHandler The predicate handler to determine the elements to add.
- * @param {...*} elements The elements to add.
+ * @param {...any} elements The elements to add.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -135,8 +135,8 @@ Object.defineProperty(
  * Replaces all elements in the array specified by their indices.
  * @method replaceAt
  * @memberOf Array.prototype
- * @param {*} elementReplacement The new element to replace the elements with.
- * @param {...Number} indices The indices of the elements to replace.
+ * @param {any} elementReplacement The new element to replace the elements with.
+ * @param {...number} indices The indices of the elements to replace.
  * @throws {InvalidIndexException} An index is invalid.
  */
 Object.defineProperty(
@@ -164,8 +164,8 @@ Object.defineProperty(
  * Replaces the first occurences of a variadic amount of elements in the array with a specified element.
  * @method replace
  * @memberOf Array.prototype
- * @param {*} elementReplacement The new element to replace the element with.
- * @param {...*} elements The elements which has to be replaced.
+ * @param {any} elementReplacement The new element to replace the element with.
+ * @param {...any} elements The elements which has to be replaced.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -192,7 +192,7 @@ Object.defineProperty(
  * Replaces the first occurences of elements in the array specified by a variadic amount of predicate handlers with a specified element.
  * @method replaceBy
  * @memberOf Array.prototype
- * @param {*} elementReplacement The new element to replace the element with.
+ * @param {any} elementReplacement The new element to replace the element with.
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
  */
 Object.defineProperty(
@@ -215,8 +215,8 @@ Object.defineProperty(
  * Replaces a variadic amount of elements in the array with a specified element.
  * @method replaceAll
  * @memberOf Array.prototype
- * @param {*} elementReplacement The new element to replace the elements with.
- * @param {...*} elements The elements which has to be replaced.
+ * @param {any} elementReplacement The new element to replace the elements with.
+ * @param {...any} elements The elements which has to be replaced.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -236,7 +236,7 @@ Object.defineProperty(
  * Replaces all occurences of an element in the array specified by a variadic amount of predicate handlers.
  * @method replaceAllBy
  * @memberOf Array.prototype
- * @param {*} elementReplacement The new element to replace the elements with.
+ * @param {any} elementReplacement The new element to replace the elements with.
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the elements.
  */
 Object.defineProperty(
@@ -257,7 +257,7 @@ Object.defineProperty(
  * Removes elements from the array specified by a variadic amount of their indices.
  * @method removeAt
  * @memberOf Array.prototype
- * @param {...Number} indices The index of the element to remove.
+ * @param {...number} indices The index of the element to remove.
  * @throws {InvalidIndexException} An index is invalid.
  */
 Object.defineProperty(
@@ -290,7 +290,7 @@ Object.defineProperty(
  * Removes the first occurences of a variadic amount of elements from the array.
  * @method remove
  * @memberOf Array.prototype
- * @param {...*} elements The elements to remove.
+ * @param {...any} elements The elements to remove.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -353,7 +353,7 @@ Object.defineProperty(
  * Removes all occurences of a variadic amount of elements from the array.
  * @method removeAll
  * @memberOf Array.prototype
- * @param {...*} elements The elements to remove.
+ * @param {...any} elements The elements to remove.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -420,8 +420,8 @@ Object.defineProperty(
  * Gets the first index of an element.
  * @method findFirstIndexOf
  * @memberOf Array.prototype
- * @param {*} element The element to determine its first index.
- * @returns {undefined|Number} The first index of the element, if found, otherwise undefined.
+ * @param {any} element The element to determine its first index.
+ * @returns {undefined|number} The first index of the element, if found, otherwise undefined.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -443,7 +443,7 @@ Object.defineProperty(
  * @method findFirstIndexOfBy
  * @memberOf Array.prototype
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
- * @returns {undefined|Number} The first index of the element, if found, otherwise undefined.
+ * @returns {undefined|number} The first index of the element, if found, otherwise undefined.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -474,8 +474,8 @@ Object.defineProperty(
  * Gets the last index of an element.
  * @method findLastIndexOf
  * @memberOf Array.prototype
- * @param {*} element The element to determine its last index.
- * @returns {undefined|Number} The last index of the element, if found, otherwise undefined.
+ * @param {any} element The element to determine its last index.
+ * @returns {undefined|number} The last index of the element, if found, otherwise undefined.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -497,7 +497,7 @@ Object.defineProperty(
  * @method findLastIndexOfBy
  * @memberOf Array.prototype
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
- * @returns {undefined|Number} The last index of the element, if found, otherwise undefined.
+ * @returns {undefined|number} The last index of the element, if found, otherwise undefined.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -528,8 +528,8 @@ Object.defineProperty(
  * Gets all indices of specific elements.
  * @method findAllIndicesOf
  * @memberOf Array.prototype
- * @param {...*} elements The elements to determine their indices.
- * @returns {Number[]} The indices of the elements, if found, otherwise an empty array.
+ * @param {...any} elements The elements to determine their indices.
+ * @returns {Array<number>} The indices of the elements, if found, otherwise an empty array.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -559,7 +559,7 @@ Object.defineProperty(
  * @method findAllIndicesOfBy
  * @memberOf Array.prototype
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the elements.
- * @returns {Number[]} The indices of the elements, if found, otherwise an empty array.
+ * @returns {Array<number>} The indices of the elements, if found, otherwise an empty array.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -595,8 +595,8 @@ Object.defineProperty(
  * Gets an element from the array specified by its index.
  * @method findAt
  * @memberOf Array.prototype
- * @param {Number} index The index of the element.
- * @returns {undefined|*} The element, if found.
+ * @param {number} index The index of the element.
+ * @returns {undefined|any} The element, if found.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -621,7 +621,7 @@ Object.defineProperty(
  * @method findFirstOrUndefinedBy
  * @memberOf Array.prototype
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
- * @returns {undefined|*} The first element, if found, otherwise undefined.
+ * @returns {undefined|any} The first element, if found, otherwise undefined.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -653,7 +653,7 @@ Object.defineProperty(
  * @method findLastOrUndefinedBy
  * @memberOf Array.prototype
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
- * @returns {undefined|*} The last element, if found, otherwise undefined.
+ * @returns {undefined|any} The last element, if found, otherwise undefined.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -685,7 +685,7 @@ Object.defineProperty(
  * @method findAllBy
  * @memberOf Array.prototype
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the elements.
- * @returns {*[]} The elements, if found, otherwise an empty array.
+ * @returns {Array} The elements, if found, otherwise an empty array.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -721,7 +721,7 @@ Object.defineProperty(
  * Sorts the numeric array by natural numeric order. The array will not be sorted in place.
  * @method sortNumeric
  * @memberOf Array.prototype
- * @returns {Number[]} The sorted array.
+ * @returns {Array<number>} The sorted array.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -744,7 +744,7 @@ Object.defineProperty(
  * @method sortBy
  * @memberOf Array.prototype
  * @param {Array_ElementComparisonHandler} comparisonHandler The comparison handler used to compare the elements.
- * @returns {*[]} The sorted array.
+ * @returns {Array} The sorted array.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -792,9 +792,9 @@ Object.defineProperty(
  * Concatenates the elements of the array by a specific delimiter string and by a variadic amount of transformation handlers.
  * @method joinMapped
  * @memberOf Array.prototype
- * @param {String} delimiter The delimiter used to concatenate the mapped elements.
+ * @param {string} delimiter The delimiter used to concatenate the mapped elements.
  * @param {...Array_ElementTransformationHandler} transformationHandlers The transformation handlers used to transform the elements.
- * @returns {String} The concatenated string.
+ * @returns {string} The concatenated string.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -819,9 +819,9 @@ Object.defineProperty(
  * Concatenates the elements of the array by a specific delimiter string and by a variadic amount of predicate handlers.
  * @method joinBy
  * @memberOf Array.prototype
- * @param {String} delimiter The delimiter used to concatenate the elements.
+ * @param {string} delimiter The delimiter used to concatenate the elements.
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers used to determine the elements.
- * @returns {String} The concatenated string.
+ * @returns {string} The concatenated string.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -840,7 +840,7 @@ Object.defineProperty(
  * Gets the JSON representation of the array.
  * @method toJSON
  * @memberOf Array.prototype
- * @returns {*[]} The JSON representation of the array.
+ * @returns {Array} The JSON representation of the array.
  */
 Object.defineProperty(
 	Array.prototype,

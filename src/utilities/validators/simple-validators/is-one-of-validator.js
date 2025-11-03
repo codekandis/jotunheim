@@ -11,7 +11,7 @@ export class IsOneOfValidator extends AbstractValidator
 {
 	/**
 	 * Stores the constraint of the validation.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_constraint;
 
@@ -41,13 +41,13 @@ export class IsOneOfValidator extends AbstractValidator
 
 	/**
 	 * Stores the valid values.
-	 * @type {Collection<*>}
+	 * @type {Collection<any>}
 	 */
 	#_validValues;
 
 	/**
 	 * Constructor method.
-	 * @param {...*} validValues The set of valid values.
+	 * @param {...any} validValues The set of valid values.
 	 */
 	constructor( ...validValues )
 	{

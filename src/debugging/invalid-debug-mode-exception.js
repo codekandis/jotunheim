@@ -10,7 +10,7 @@ export class InvalidDebugModeException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {String} debugMode The invalid debug mode.
+	 * @param {string} debugMode The invalid debug mode.
 	 * @returns {InvalidDebugModeException}
 	 * @constructor
 	 */

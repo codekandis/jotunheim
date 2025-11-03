@@ -1,18 +1,18 @@
 'use strict';
 
-import { InvalidValueException } from './invalid-value-exception.js';
+import { LogicException } from './logic-exception.js';
 
 /**
  * Represents the exception if an argument is invalid.
  * @author Christian Ramelow <info@codekandis.net>
  */
-export class InvalidArgumentException extends InvalidValueException
+export class InvalidArgumentException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {String} name The name of the argument which is invalid.
-	 * @param {*} argument The argument which is invalid.
-	 * @returns {InvalidValueException}
+	 * @param {string} name The name of the argument which is invalid.
+	 * @param {any} argument The argument which is invalid.
+	 * @returns {InvalidArgumentException}
 	 * @constructor
 	 */
 	static with_argument( name, argument )

@@ -11,7 +11,7 @@ export class EventHandlerMapping extends Abstract
 {
 	/**
 	 * Stores the event name.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_eventName;
 
@@ -23,7 +23,7 @@ export class EventHandlerMapping extends Abstract
 
 	/**
 	 * Constructor method.
-	 * @param {String} eventName The event name.
+	 * @param {string} eventName The event name.
 	 * @param {...Event_EventHandler} eventHandlers The event handlers.
 	 */
 	constructor( eventName, ...eventHandlers )
@@ -36,7 +36,7 @@ export class EventHandlerMapping extends Abstract
 
 	/**
 	 * Gets the event name.
-	 * @returns {String} The event name.
+	 * @returns {string} The event name.
 	 */
 	get eventName()
 	{

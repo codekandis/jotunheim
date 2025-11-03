@@ -10,7 +10,7 @@ export class Clipboard extends AbstractStatic
 {
 	/**
 	 * Copies a specific text to the system's clipboard.
-	 * @param {String} text The text to copy to the system's clipboard.
+	 * @param {string} text The text to copy to the system's clipboard.
 	 */
 	static copyText( text )
 	{

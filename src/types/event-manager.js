@@ -18,14 +18,14 @@ export class EventManager extends Abstract
 
 	/**
 	 * Stores the object which will dispatch the event.
-	 * @type {Object}
+	 * @type {object}
 	 */
 	#_sender;
 
 	/**
 	 * Constructor method.
 	 * @param {Function} eventClass The class of the managed event.
-	 * @param {Object} sender The object which will dispatch the event.
+	 * @param {object} sender The object which will dispatch the event.
 	 * @returns {Function} The event managing function.
 	 */
 	constructor( eventClass, sender )

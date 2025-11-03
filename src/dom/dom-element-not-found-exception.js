@@ -10,7 +10,7 @@ export class DomElementNotFoundException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {String} selector The selector which cannot be resolved.
+	 * @param {string} selector The selector which cannot be resolved.
 	 * @returns {DomElementNotFoundException}
 	 * @constructor
 	 */

@@ -11,13 +11,13 @@ export class FileListToHttpPostFilesConverter extends Abstract
 {
 	/**
 	 * Stores the name of the HTTP POST files.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_httpPostFileName;
 
 	/**
 	 * Constructor method.
-	 * @param {String} httpPostFileName The name of the HTTP POST files.
+	 * @param {string} httpPostFileName The name of the HTTP POST files.
 	 */
 	constructor( httpPostFileName )
 	{
@@ -29,7 +29,7 @@ export class FileListToHttpPostFilesConverter extends Abstract
 	/**
 	 * Converts a file list into an array of HTTP POST files.
 	 * @param {FileList} fileList The file list to convert.
-	 * @returns {HttpPostFile[]} The array of HTTP POST files.
+	 * @returns {Array<HttpPostFile>} The array of HTTP POST files.
 	 */
 	convert( fileList )
 	{

@@ -13,53 +13,53 @@ export class DataBinding extends Abstract
 {
 	/**
 	 * Stores the binder.
-	 * @type {Object}
+	 * @type {object}
 	 */
 	#_binder;
 
 	/**
 	 * Stores the name of the binder's bound property.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_binderPropertyName;
 
 	/**
 	 * Stores the bindable.
-	 * @type {Object}
+	 * @type {object}
 	 */
 	#_bindable;
 
 	/**
 	 * Stores the name of the bindable's bound property.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_bindablePropertyName;
 
 	/**
 	 * Stores the direction of the initial property update.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_initializiationDirection;
 
 	/**
 	 * Stores true if the binder is locked against any property change event, otherwise false.
-	 * @type {Boolean}
+	 * @type {boolean}
 	 */
 	#_isBinderPropertyChangeLocked = false;
 
 	/**
 	 * Stores true if the bindable is locked against any property change event, otherwise false.
-	 * @type {Boolean}
+	 * @type {boolean}
 	 */
 	#_isBindablePropertyChangeLocked = false;
 
 	/**
 	 * Constructor method.
-	 * @param {Object} binder The binder.
-	 * @param {String} binderPropertyName The name of the binder's bound property.
-	 * @param {Object} bindable The bindable.
-	 * @param {String} bindablePropertyName The name of the bindable's bound property.
-	 * @param {String} initializationDirection The direction of the initial property update.
+	 * @param {object} binder The binder.
+	 * @param {string} binderPropertyName The name of the binder's bound property.
+	 * @param {object} bindable The bindable.
+	 * @param {string} bindablePropertyName The name of the bindable's bound property.
+	 * @param {string} initializationDirection The direction of the initial property update.
 	 * @throws {InvalidPropertyException} The property of the binder does not exist.
 	 * @throws {InvalidPropertyException} The property of the bindable does not exist.
 	 */
@@ -80,7 +80,7 @@ export class DataBinding extends Abstract
 
 	/**
 	 * Gets the binder.
-	 * @returns {Object} The binder.
+	 * @returns {object} The binder.
 	 */
 	get binder()
 	{
@@ -89,7 +89,7 @@ export class DataBinding extends Abstract
 
 	/**
 	 * Gets the name of the binder's bound property.
-	 * @returns {String} The name of the binder's bound property.
+	 * @returns {string} The name of the binder's bound property.
 	 */
 	get binderPropertyName()
 	{
@@ -98,7 +98,7 @@ export class DataBinding extends Abstract
 
 	/**
 	 * Gets the bindable.
-	 * @returns {Object} The bindable.
+	 * @returns {object} The bindable.
 	 */
 	get bindable()
 	{
@@ -107,7 +107,7 @@ export class DataBinding extends Abstract
 
 	/**
 	 * Gets the name of the bindable's bound property.
-	 * @returns {String} The name of the bindable's bound property.
+	 * @returns {string} The name of the bindable's bound property.
 	 */
 	get bindablePropertyName()
 	{
@@ -116,10 +116,10 @@ export class DataBinding extends Abstract
 
 	/**
 	 * Guards if all specified properties exist.
-	 * @param {Object} binder The binder.
-	 * @param {String} binderPropertyName The name of the binder's bound property.
-	 * @param {Object} bindable The bindable.
-	 * @param {String} bindablePropertyName The name of the bindable's bound property.
+	 * @param {object} binder The binder.
+	 * @param {string} binderPropertyName The name of the binder's bound property.
+	 * @param {object} bindable The bindable.
+	 * @param {string} bindablePropertyName The name of the bindable's bound property.
 	 * @throws {InvalidPropertyException} The property of the binder does not exist.
 	 * @throws {InvalidPropertyException} The property of the bindable does not exist.
 	 */

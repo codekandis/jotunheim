@@ -30,7 +30,7 @@ export class ApplicationPageDispatcher extends Abstract
 
 	/**
 	 * Stores the requested route.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_requestedRoute;
 
@@ -51,8 +51,8 @@ export class ApplicationPageDispatcher extends Abstract
 
 	/**
 	 * Decodes the application page arguments from the requested URI.
-	 * @param {Object<String, String>} encodedApplicationPageArguments The encoded application page arguments.
-	 * @returns {Object<String, String>} matches The decoded application page arguments.
+	 * @param {Record<string, string>} encodedApplicationPageArguments The encoded application page arguments.
+	 * @returns {Record<string, string>} matches The decoded application page arguments.
 	 */
 	#decodeApplicationPageArguments( encodedApplicationPageArguments )
 	{

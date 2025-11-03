@@ -19,7 +19,7 @@ import { HtmlElementValidationsSucceededEvent } from './html-element-validations
  * Represents the handler of any HTML element validator chain validator iteration.
  * @callback HtmlElementValidatorChain_ValidatorIterationHandler
  * @param {AbstractHtmlElementValidator} validator The currently iterated HTML element validator.
- * @param {Number} validatorIndex The index of the currently iterated HTML element validator.
+ * @param {number} validatorIndex The index of the currently iterated HTML element validator.
  */
 
 /**
@@ -30,7 +30,7 @@ export class HtmlElementValidatorChain extends Abstract
 {
 	/**
 	 * Stores the HTML element validators of the HTML element validator chain.
-	 * @type {AbstractHtmlElementValidator[]}
+	 * @type {Array<AbstractHtmlElementValidator>}
 	 */
 	#_htmlElementValidators = [];
 
@@ -89,7 +89,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Gets the iterator to iterate over any HTML element validator chain's HTML element validator.
-	 * @returns {IterableIterator<*>} The iterator to iterate over any HTML element validator chain's HTML element validator.
+	 * @returns {IterableIterator<any>} The iterator to iterate over any HTML element validator chain's HTML element validator.
 	 */
 	* #validators()
 	{
@@ -102,7 +102,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Gets the iterator to iterate over any HTML element validator chain's item.
-	 * @returns {IterableIterator<*>} The iterator to iterate over any HTML element validator chain's item.
+	 * @returns {IterableIterator<any>} The iterator to iterate over any HTML element validator chain's item.
 	 */
 	[ Symbol.iterator ]()
 	{
@@ -111,7 +111,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Static constructor method.
-	 * @param {...AbstractHtmlElementValidator[]} arrays The arrays to create the HTML element validator chain from.
+	 * @param {...Array<AbstractHtmlElementValidator>} arrays The arrays to create the HTML element validator chain from.
 	 * @returns {HtmlElementValidatorChain} The created HTML element validator chain.
 	 * @throws {InvalidTypeException} The type of at least one of the passed arrays is not `array`.
 	 * @constructor
@@ -159,7 +159,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Validates the property of the HTML element.
-	 * @returns {Boolean} True if the property's value is valid, otherwise false.
+	 * @returns {boolean} True if the property's value is valid, otherwise false.
 	 */
 	validate()
 	{

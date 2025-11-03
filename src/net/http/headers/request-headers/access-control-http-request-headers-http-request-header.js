@@ -10,7 +10,7 @@ export class AccessControlHttpRequestHeadersHttpRequestHeader extends HttpReques
 {
 	/**
 	 * Represents the name of the HTTP request header.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get NAME()
 	{
@@ -19,7 +19,7 @@ export class AccessControlHttpRequestHeadersHttpRequestHeader extends HttpReques
 
 	/**
 	 * Constructor method.
-	 * @param {String} value The value of the HTTP request header.
+	 * @param {string} value The value of the HTTP request header.
 	 */
 	constructor( value )
 	{

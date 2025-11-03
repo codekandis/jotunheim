@@ -10,7 +10,7 @@ export class InvalidCharSetException extends Exception
 {
 	/**
 	 * Static constructor method.
-	 * @param {String} charset The charset which is invalid.
+	 * @param {string} charset The charset which is invalid.
 	 * @returns {InvalidCharSetException}
 	 * @constructor
 	 */
