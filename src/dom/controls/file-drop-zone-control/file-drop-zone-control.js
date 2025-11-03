@@ -18,7 +18,7 @@ export class FileDropZoneControl extends Abstract
 {
 	/**
 	 * Represents the control type.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CONTROL_TYPE()
 	{
@@ -49,7 +49,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Represents the styles of the control.
-	 * @returns {String[]}
+	 * @returns {Array<string>}
 	 */
 	static get #FILE_SELECTION_DIALOG_CONTROL_STYLES()
 	{
@@ -84,13 +84,13 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Stores the accepted file and types. If empty any file is accepted.
-	 * @type {Array<String>}
+	 * @type {Array<string>}
 	 */
 	#_acceptedFileTypes;
 
 	/**
 	 * Stores true if multiple files can be dropped or selected, otherwise false.
-	 * @type {Boolean}
+	 * @type {boolean}
 	 */
 	#_isMultipleFile;
 
@@ -140,7 +140,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the accepted file types.
-	 * @returns {Array<String>} The accepted file types.
+	 * @returns {Array<string>} The accepted file types.
 	 */
 	get acceptedFileTypes()
 	{
@@ -149,7 +149,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets if multiple files can be dropped or selected.
-	 * @returns {Boolean} True if multiple files can be dropped or selected, otherwise false.
+	 * @returns {boolean} True if multiple files can be dropped or selected, otherwise false.
 	 */
 	get isMultipleFile()
 	{

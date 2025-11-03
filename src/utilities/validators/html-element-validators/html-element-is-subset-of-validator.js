@@ -13,8 +13,8 @@ export class HtmlElementIsSubsetOfValidator extends HtmlElementWithInnerValidato
 	/**
 	 * Constructor method.
 	 * @param {HTMLElement} htmlElement The HTML element to validate.
-	 * @param {String} propertyName The name of the HTML element's property to validate.
-	 * @param {...*} validValues The set of valid values.
+	 * @param {string} propertyName The name of the HTML element's property to validate.
+	 * @param {...any} validValues The set of valid values.
 	 * @throws {InvalidPropertyException} The HTML element's property does not exist.
 	 */
 	constructor( htmlElement, propertyName, ...validValues )

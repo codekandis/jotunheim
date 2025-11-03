@@ -10,7 +10,7 @@ export class UnknownPartialUrlTypeException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {String} partialUrlType The partial URL type which is invalid.
+	 * @param {string} partialUrlType The partial URL type which is invalid.
 	 * @returns {UnknownPartialUrlTypeException}
 	 * @constructor
 	 */

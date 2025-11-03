@@ -13,7 +13,7 @@ export class TabControlPreparator extends Abstract
 {
 	/**
 	 * Stores the tab controls.
-	 * @type {HTMLElement[]}
+	 * @type {Array<HTMLElement>}
 	 */
 	#_tabControls;
 

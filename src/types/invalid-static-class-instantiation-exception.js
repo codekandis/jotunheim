@@ -10,7 +10,7 @@ export class InvalidStaticClassInstantiationException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {String} className The name of the class which has been tried to instantiate.
+	 * @param {string} className The name of the class which has been tried to instantiate.
 	 * @returns {InvalidStaticClassInstantiationException}
 	 * @constructor
 	 */
@@ -23,7 +23,7 @@ export class InvalidStaticClassInstantiationException extends LogicException
 
 	/**
 	 * Static constructor method.
-	 * @param {Object} object The object which has been tried to instantiate.
+	 * @param {object} object The object which has been tried to instantiate.
 	 * @returns {InvalidStaticClassInstantiationException}
 	 * @constructor
 	 */

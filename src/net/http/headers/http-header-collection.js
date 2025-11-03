@@ -7,7 +7,7 @@ import { HttpHeaderNamePreparator } from './http-header-name-preparator.js';
  * Represents the handler of any HTTP header collection HTTP header iteration.
  * @callback HttpHeaderCollection_HttpHeaderIterationHandler
  * @param {HttpHeader} httpHeader The currently iterated HTTP header.
- * @param {Number} httpHeaderIndex The index of the currently iterated HTTP header.
+ * @param {number} httpHeaderIndex The index of the currently iterated HTTP header.
  */
 
 /**
@@ -15,23 +15,23 @@ import { HttpHeaderNamePreparator } from './http-header-name-preparator.js';
  * @callback HttpHeaderCollection_HttpHeaderComparisonHandler
  * @param {HttpHeader} httpHeader_1 The first HTTP header to compare.
  * @param {HttpHeader} httpHeader_2 The second HTTP header to compare.
- * @returns {Number} -1 if the first HTTP header is lower than the second HTTP header, 0 if the first HTTP header is equal to the second HTTP header and 1 if the first HTTP header is greater than the second HTTP header.
+ * @returns {number} -1 if the first HTTP header is lower than the second HTTP header, 0 if the first HTTP header is equal to the second HTTP header and 1 if the first HTTP header is greater than the second HTTP header.
  */
 
 /**
  * Represents the handler of any HTTP header collection HTTP header transformation.
  * @callback HttpHeaderCollection_HttpHeaderTransformationHandler
  * @param {HttpHeader} httpHeader The currently iterated HTTP header.
- * @param {Number} httpHeaderIndex The index of the currently iterated HTTP header.
- * @returns {*} The transformed HTTP header.
+ * @param {number} httpHeaderIndex The index of the currently iterated HTTP header.
+ * @returns {any} The transformed HTTP header.
  */
 
 /**
  * Represents the handler of any HTTP header collection HTTP header determination.
  * @callback HttpHeaderCollection_HttpHeaderPredicateHandler
  * @param {HttpHeader} httpHeader The currently iterated HTTP header.
- * @param {Number} httpHeaderIndex The index of the currently iterated HTTP header.
- * @returns {Boolean} True if the iterated HTTP header matches the predicate, otherwise false.
+ * @param {number} httpHeaderIndex The index of the currently iterated HTTP header.
+ * @returns {boolean} True if the iterated HTTP header matches the predicate, otherwise false.
  */
 
 /**
@@ -51,7 +51,7 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Gets the number of HTTP headers in the collection.
-	 * @returns {Number} The number of HTTP headers in the collection.
+	 * @returns {number} The number of HTTP headers in the collection.
 	 */
 	get length()
 	{
@@ -78,7 +78,7 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Creates the default predicate to compare specified HTTP header names with a fetched HTTP header of the HTTP header collection for equality by their HTTP header names.
-	 * @param {...String} httpHeaderNames The HTTP header names to compare the fetched HTTP headers with.
+	 * @param {...string} httpHeaderNames The HTTP header names to compare the fetched HTTP headers with.
 	 * @returns {HttpHeaderCollection_HttpHeaderPredicateHandler} The HTTP header name equality predicate handlers.
 	 */
 	_createHeaderNameEqualityPredicateFromHeaderNames( ...httpHeaderNames )
@@ -110,7 +110,7 @@ export class HttpHeaderCollection extends Collection
 	/**
 	 * Determines if the HTTP header collection includes a specific HTTP header.
 	 * @param {HttpHeader} httpHeader The HTTP header to search for.
-	 * @returns {Boolean} True if the HTTP headers is included in the HTTP header collection, otherwise false.
+	 * @returns {boolean} True if the HTTP headers is included in the HTTP header collection, otherwise false.
 	 */
 	includes( httpHeader )
 	{
@@ -122,7 +122,7 @@ export class HttpHeaderCollection extends Collection
 	/**
 	 * Determines if the HTTP header collection includes an HTTP header specified by a variadic amount of predicate handlers.
 	 * @param {...HttpHeaderCollection_HttpHeaderPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP header.
-	 * @returns {Boolean} True if the HTTP header is included in the HTTP header collection, otherwise false.
+	 * @returns {boolean} True if the HTTP header is included in the HTTP header collection, otherwise false.
 	 */
 	includesBy( ...predicateHandlers )
 	{
@@ -151,7 +151,7 @@ export class HttpHeaderCollection extends Collection
 	/**
 	 * Replaces all HTTP headers in the HTTP header collection specified by their indices.
 	 * @param {HttpHeader} httpHeaderReplacement The new HTTP header to replace the HTTP headers with.
-	 * @param {...Number} indices The indices of the HTTP headers to replace.
+	 * @param {...number} indices The indices of the HTTP headers to replace.
 	 * @throws {InvalidIndexException} An index is invalid.
 	 */
 	replaceAt( httpHeaderReplacement, ...indices )
@@ -229,7 +229,7 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Removes HTTP headers from the HTTP header collection specified by a variadic amount of their indices.
-	 * @param {...Number} indices The index of the HTTP header to remove.
+	 * @param {...number} indices The index of the HTTP header to remove.
 	 * @throws {InvalidIndexException} An index is invalid.
 	 */
 	removeAt( ...indices )
@@ -259,7 +259,7 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Removes the first occurence of an HTTP header specified by their HTTP header names.
-	 * @param {...String} httpHeaderNames The names of the HTTP headers to remove.
+	 * @param {...string} httpHeaderNames The names of the HTTP headers to remove.
 	 */
 	removeByHeaderNames( ...httpHeaderNames )
 	{
@@ -290,7 +290,7 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Removes all occurences of HTTP headers specified by their HTTP header names.
-	 * @param {...String} httpHeaderNames The names of the HTTP headers to remove.
+	 * @param {...string} httpHeaderNames The names of the HTTP headers to remove.
 	 */
 	removeAllByHeaderName( ...httpHeaderNames )
 	{
@@ -302,7 +302,7 @@ export class HttpHeaderCollection extends Collection
 	/**
 	 * Gets the first index of an HTTP header.
 	 * @param {HttpHeader} httpHeader The HTTP header to determine its first index.
-	 * @returns {undefined|Number} The first index of the HTTP header, if found, otherwise undefined.
+	 * @returns {undefined|number} The first index of the HTTP header, if found, otherwise undefined.
 	 */
 	findFirstIndexOf( httpHeader )
 	{
@@ -314,7 +314,7 @@ export class HttpHeaderCollection extends Collection
 	/**
 	 * Gets the first index of an HTTP header specified by a variadic amount of predicate handlers.
 	 * @param {...HttpHeaderCollection_HttpHeaderPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP header.
-	 * @returns {undefined|Number} The first index of the HTTP header, if found, otherwise undefined.
+	 * @returns {undefined|number} The first index of the HTTP header, if found, otherwise undefined.
 	 */
 	findFirstIndexOfBy( ...predicateHandlers )
 	{
@@ -323,8 +323,8 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Gets the first index of an HTTP header specified by its HTTP header name.
-	 * @param {String} httpHeaderName The HTTP header name of the HTTP header.
-	 * @returns {undefined|Number} The first index of the HTTP header, if found, otherwise undefined.
+	 * @param {string} httpHeaderName The HTTP header name of the HTTP header.
+	 * @returns {undefined|number} The first index of the HTTP header, if found, otherwise undefined.
 	 */
 	findFirstIndexOfByHeaderName( httpHeaderName )
 	{
@@ -336,7 +336,7 @@ export class HttpHeaderCollection extends Collection
 	/**
 	 * Gets the last index of an HTTP header.
 	 * @param {HttpHeader} httpHeader The HTTP header to determine its last index.
-	 * @returns {undefined|Number} The last index of the HTTP header, if found, otherwise undefined.
+	 * @returns {undefined|number} The last index of the HTTP header, if found, otherwise undefined.
 	 */
 	findLastIndexOf( httpHeader )
 	{
@@ -348,7 +348,7 @@ export class HttpHeaderCollection extends Collection
 	/**
 	 * Gets the last index of an HTTP header specified by a variadic amount of predicate handlers.
 	 * @param {...HttpHeaderCollection_HttpHeaderPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP header.
-	 * @returns {undefined|Number} The last index of the HTTP header, if found, otherwise undefined.
+	 * @returns {undefined|number} The last index of the HTTP header, if found, otherwise undefined.
 	 */
 	findLastIndexOfBy( ...predicateHandlers )
 	{
@@ -357,8 +357,8 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Gets the last index of an HTTP header specified by its HTTP header names.
-	 * @param {String} httpHeaderName The HTTP header name of the HTTP header.
-	 * @returns {undefined|Number} The last index of the HTTP header, if found, otherwise undefined.
+	 * @param {string} httpHeaderName The HTTP header name of the HTTP header.
+	 * @returns {undefined|number} The last index of the HTTP header, if found, otherwise undefined.
 	 */
 	findLastIndexOfByHeaderName( httpHeaderName )
 	{
@@ -370,7 +370,7 @@ export class HttpHeaderCollection extends Collection
 	/**
 	 * Gets all indices of specific HTTP headers.
 	 * @param {...HttpHeader} httpHeaders The HTTP headers to determine their indices.
-	 * @returns {Collection<Number>} The indices of the HTTP headers, if found, otherwise an empty collection.
+	 * @returns {Collection<number>} The indices of the HTTP headers, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOf( ...httpHeaders )
 	{
@@ -382,7 +382,7 @@ export class HttpHeaderCollection extends Collection
 	/**
 	 * Gets the indices of all occurences of any HTTP header specified by a variadic amount of predicate handlers.
 	 * @param {...HttpHeaderCollection_HttpHeaderPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP headers.
-	 * @returns {Collection<Number>} The indices of the HTTP headers, if found, otherwise an empty collection.
+	 * @returns {Collection<number>} The indices of the HTTP headers, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOfBy( ...predicateHandlers )
 	{
@@ -391,8 +391,8 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Gets the indices of all occurences of any HTTP header specified by a variadic amount of HTTP header names.
-	 * @param {...String} httpHeaderNames The HTTP header names to determine the HTTP headers.
-	 * @returns {Collection<Number>} The indices of the HTTP headers, if found, otherwise an empty collection.
+	 * @param {...string} httpHeaderNames The HTTP header names to determine the HTTP headers.
+	 * @returns {Collection<number>} The indices of the HTTP headers, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOfByHeaderNames( ...httpHeaderNames )
 	{
@@ -403,7 +403,7 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Gets an HTTP header from the HTTP header collection specified by its index.
-	 * @param {Number} index The index of the HTTP header.
+	 * @param {number} index The index of the HTTP header.
 	 * @returns {undefined|HttpHeader} The HTTP header, if found.
 	 */
 	findAt( index )
@@ -423,7 +423,7 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Gets the first HTTP header from the HTTP header collection specified by its HTTP header name.
-	 * @param {String} httpHeaderName The HTTP header name to determine the HTTP header.
+	 * @param {string} httpHeaderName The HTTP header name to determine the HTTP header.
 	 * @returns {undefined|HttpHeader} The first HTTP header, if found, otherwise undefined.
 	 */
 	findFirstOrUndefinedByHeaderName( httpHeaderName )
@@ -445,7 +445,7 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Gets the last HTTP header from the HTTP header collection specified by its HTTP header name.
-	 * @param {String} httpHeaderName The HTTP header name to determine the HTTP header.
+	 * @param {string} httpHeaderName The HTTP header name to determine the HTTP header.
 	 * @returns {undefined|HttpHeader} The last HTTP header, if found, otherwise undefined.
 	 */
 	findLastOrUndefinedByHeaderName( httpHeaderName )
@@ -469,7 +469,7 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Gets all HTTP headers from the HTTP header collection specified by their HTTP header names.
-	 * @param {...String} httpHeaderNames The HTTP header names to determine the HTTP headers.
+	 * @param {...string} httpHeaderNames The HTTP header names to determine the HTTP headers.
 	 * @returns {HttpHeaderCollection<HttpHeader>} The HTTP headers, if found, otherwise an empty HTTP header collection.
 	 */
 	findAllByHeaderNames( ...httpHeaderNames )
@@ -499,7 +499,7 @@ export class HttpHeaderCollection extends Collection
 	/**
 	 * Maps all HTTP headers of the HTTP header collection into a new collection.
 	 * @param {HttpHeaderCollection_HttpHeaderTransformationHandler} transformationHandler The transformation handler used to map the HTTP header collection.
-	 * @returns {Collection<*>} The collection containing the transformed HTTP headers.
+	 * @returns {Collection<any>} The collection containing the transformed HTTP headers.
 	 */
 	map( transformationHandler )
 	{
@@ -530,9 +530,9 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Concatenates the HTTP headers of the HTTP header collection by a specific delimiter string and by a variadic amount of transformation handlers.
-	 * @param {String} delimiter The delimiter used to concatenate the mapped HTTP headers.
+	 * @param {string} delimiter The delimiter used to concatenate the mapped HTTP headers.
 	 * @param {...HttpHeaderCollection_HttpHeaderTransformationHandler} transformationHandlers The transformation handlers used to transform the HTTP headers.
-	 * @returns {String} The concatenated string.
+	 * @returns {string} The concatenated string.
 	 */
 	joinMapped( delimiter, ...transformationHandlers )
 	{
@@ -541,9 +541,9 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Concatenates the HTTP headers of the HTTP header collection by a specific delimiter string and by a variadic amount of predicate handlers.
-	 * @param {String} delimiter The delimiter used to concatenate the HTTP headers.
+	 * @param {string} delimiter The delimiter used to concatenate the HTTP headers.
 	 * @param {...HttpHeaderCollection_HttpHeaderPredicateHandler} predicateHandlers The predicate handlers used to determine the HTTP headers.
-	 * @returns {String} The concatenated string.
+	 * @returns {string} The concatenated string.
 	 */
 	joinBy( delimiter, ...predicateHandlers )
 	{
@@ -552,7 +552,7 @@ export class HttpHeaderCollection extends Collection
 
 	/**
 	 * Gets the array representation of the HTTP header collection.
-	 * @returns {HttpHeader[]} The array representation of the HTTP header collection.
+	 * @returns {Array<HttpHeader>} The array representation of the HTTP header collection.
 	 */
 	toArray()
 	{

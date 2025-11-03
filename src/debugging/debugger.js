@@ -11,7 +11,7 @@ export class Debugger extends AbstractStatic
 {
 	/**
 	 * Logs a variadic amount of values.
-	 * @param {...*} values The values to log.
+	 * @param {...any} values The values to log.
 	 */
 	static log( ...values )
 	{

@@ -15,14 +15,14 @@ export class HtmlElementErrorMessagesMapping extends Abstract
 
 	/**
 	 * Stores the validation error messages.
-	 * @type {Collection<String>}
+	 * @type {Collection<string>}
 	 */
 	#_errorMessages;
 
 	/**
 	 * Constructor method.
 	 * @param {HTMLElement} htmlElement The validated HTML element.
-	 * @param {Collection<String>} errorMessages The validation error messages.
+	 * @param {Collection<string>} errorMessages The validation error messages.
 	 */
 	constructor( htmlElement, errorMessages )
 	{
@@ -43,7 +43,7 @@ export class HtmlElementErrorMessagesMapping extends Abstract
 
 	/**
 	 * Gets the validation error messages.
-	 * @returns {Collection<String>} The validation error messages.
+	 * @returns {Collection<string>} The validation error messages.
 	 */
 	get errorMessages()
 	{

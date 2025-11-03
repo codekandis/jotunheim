@@ -58,8 +58,8 @@ export class AbstractBindable extends Abstract
 
 	/**
 	 * Invokes the property changing event for a property specified by its name.
-	 * @param {String} propertyName The name of the property.
-	 * @param {Object} proxy The proxy that will be used as the object containing the property.
+	 * @param {string} propertyName The name of the property.
+	 * @param {object} proxy The proxy that will be used as the object containing the property.
 	 */
 	_dispatchPropertyChangingEvent( propertyName, proxy = this )
 	{
@@ -70,8 +70,8 @@ export class AbstractBindable extends Abstract
 
 	/**
 	 * Invokes the property changed event for a property specified by its name.
-	 * @param {String} propertyName The name of the property.
-	 * @param {Object} proxy The proxy that will be used as the object containing the property.
+	 * @param {string} propertyName The name of the property.
+	 * @param {object} proxy The proxy that will be used as the object containing the property.
 	 */
 	_dispatchPropertyChangedEvent( propertyName, proxy = this )
 	{

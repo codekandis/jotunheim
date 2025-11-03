@@ -10,8 +10,8 @@ export class HttpPostFileNamePreparator extends Abstract
 {
 	/**
 	 * Prepares an HTTP POST file name.
-	 * @param {String} name The HTTP POST file name to prepare.
-	 * @returns {String} The prepared HTTP POST file name.
+	 * @param {string} name The HTTP POST file name to prepare.
+	 * @returns {string} The prepared HTTP POST file name.
 	 */
 	prepare( name )
 	{

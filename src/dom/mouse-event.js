@@ -9,7 +9,7 @@
  * Determines if any modifier key has been pressed.
  * @property {Function} beforeInputEvent
  * @memberOf MouseEvent.prototype
- * @returns {Boolean} True if any modifier key has been pressed, otherwise false.
+ * @returns {boolean} True if any modifier key has been pressed, otherwise false.
  */
 Object.defineProperty(
 	MouseEvent.prototype,

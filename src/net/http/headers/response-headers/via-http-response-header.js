@@ -10,7 +10,7 @@ export class ViaHttpResponseHeader extends HttpResponseHeader
 {
 	/**
 	 * Represents the name of the HTTP response header.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get NAME()
 	{
@@ -19,7 +19,7 @@ export class ViaHttpResponseHeader extends HttpResponseHeader
 
 	/**
 	 * Constructor method.
-	 * @param {String} value The value of the HTTP response header.
+	 * @param {string} value The value of the HTTP response header.
 	 */
 	constructor( value )
 	{

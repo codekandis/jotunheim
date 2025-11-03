@@ -10,8 +10,8 @@ export class InvalidArgumentException extends InvalidValueException
 {
 	/**
 	 * Static constructor method.
-	 * @param {String} name The name of the argument which is invalid.
-	 * @param {*} argument The argument which is invalid.
+	 * @param {string} name The name of the argument which is invalid.
+	 * @param {any} argument The argument which is invalid.
 	 * @returns {InvalidValueException}
 	 * @constructor
 	 */

@@ -10,8 +10,8 @@ export class HttpRequestHeader extends HttpHeader
 {
 	/**
 	 * Constructor method.
-	 * @param {String} name The name of the HTTP request header.
-	 * @param {String} value The value of the HTTP request header.
+	 * @param {string} name The name of the HTTP request header.
+	 * @param {string} value The value of the HTTP request header.
 	 */
 	constructor( name, value )
 	{

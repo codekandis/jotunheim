@@ -10,7 +10,7 @@ export class EventDetails extends Abstract
 {
 	/**
 	 * Stores the object which dispatched the event.
-	 * @type {Object}
+	 * @type {object}
 	 */
 	#_sender;
 
@@ -22,7 +22,7 @@ export class EventDetails extends Abstract
 
 	/**
 	 * Constructor method.
-	 * @param {Object} sender The object which dispatched the event.
+	 * @param {object} sender The object which dispatched the event.
 	 * @param {EventArguments} eventArguments The arguments of the event.
 	 */
 	constructor( sender, eventArguments )
@@ -35,7 +35,7 @@ export class EventDetails extends Abstract
 
 	/**
 	 * Gets the object which dispatched the event.
-	 * @returns {Object} The object which dispatched the event.
+	 * @returns {object} The object which dispatched the event.
 	 */
 	get sender()
 	{

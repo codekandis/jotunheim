@@ -10,7 +10,7 @@ export class AbstractMouseEvent extends MouseEvent
 {
 	/**
 	 * Gets the name of the event.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EVENT_NAME()
 	{
@@ -25,8 +25,8 @@ export class AbstractMouseEvent extends MouseEvent
 
 	/**
 	 * Constructor method.
-	 * @param {String} eventName The name of the event.
-	 * @param {Object} sender The object which dispatched the event.
+	 * @param {string} eventName The name of the event.
+	 * @param {object} sender The object which dispatched the event.
 	 */
 	constructor( eventName, sender )
 	{
@@ -54,7 +54,7 @@ export class AbstractMouseEvent extends MouseEvent
 
 	/**
 	 * Returns the name of the event.
-	 * @returns {String} The name of the event.
+	 * @returns {string} The name of the event.
 	 */
 	toString()
 	{

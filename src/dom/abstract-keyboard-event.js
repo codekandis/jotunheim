@@ -10,7 +10,7 @@ export class AbstractKeyboardEvent extends KeyboardEvent
 {
 	/**
 	 * Gets the name of the event.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EVENT_NAME()
 	{
@@ -25,8 +25,8 @@ export class AbstractKeyboardEvent extends KeyboardEvent
 
 	/**
 	 * Constructor method.
-	 * @param {String} eventName The name of the event.
-	 * @param {Object} sender The object which dispatched the event.
+	 * @param {string} eventName The name of the event.
+	 * @param {object} sender The object which dispatched the event.
 	 */
 	constructor( eventName, sender )
 	{
@@ -54,7 +54,7 @@ export class AbstractKeyboardEvent extends KeyboardEvent
 
 	/**
 	 * Returns the name of the event.
-	 * @returns {String} The name of the event.
+	 * @returns {string} The name of the event.
 	 */
 	toString()
 	{

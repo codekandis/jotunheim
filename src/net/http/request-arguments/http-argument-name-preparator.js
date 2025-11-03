@@ -10,8 +10,8 @@ export class HttpArgumentNamePreparator extends Abstract
 {
 	/**
 	 * Prepares an HTTP argument name.
-	 * @param {String} httpArgumentName The HTTP argument name to prepare.
-	 * @returns {String} The prepared HTTP argument name.
+	 * @param {string} httpArgumentName The HTTP argument name to prepare.
+	 * @returns {string} The prepared HTTP argument name.
 	 */
 	prepare( httpArgumentName )
 	{

@@ -11,20 +11,20 @@ export class HttpArgument extends Abstract
 {
 	/**
 	 * Stores the name of the HTTP argument.
-	 * @var {String}
+	 * @var {string}
 	 */
 	#_name;
 
 	/**
 	 * Stores the value of the HTTP argument.
-	 * @var {String}
+	 * @var {string}
 	 */
 	#_value;
 
 	/**
 	 * Constructor method.
-	 * @param {String} name The name of the HTTP argument.
-	 * @param {String} value The value of the HTTP argument.
+	 * @param {string} name The name of the HTTP argument.
+	 * @param {string} value The value of the HTTP argument.
 	 */
 	constructor( name, value )
 	{
@@ -48,7 +48,7 @@ export class HttpArgument extends Abstract
 
 	/**
 	 * Gets the name of the HTTP argument.
-	 * @returns {String} The name of the HTTP argument.
+	 * @returns {string} The name of the HTTP argument.
 	 */
 	get name()
 	{
@@ -57,7 +57,7 @@ export class HttpArgument extends Abstract
 
 	/**
 	 * Gets the value of the HTTP argument.
-	 * @returns {String} The value of the HTTP argument.
+	 * @returns {string} The value of the HTTP argument.
 	 */
 	get value()
 	{
@@ -66,7 +66,7 @@ export class HttpArgument extends Abstract
 
 	/**
 	 * Gets the full HTTP argument string of the HTTP argument.
-	 * @returns {String} The full HTTP argument string of the HTTP argument.
+	 * @returns {string} The full HTTP argument string of the HTTP argument.
 	 */
 	get fullHttpArgumentString()
 	{

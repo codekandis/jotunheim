@@ -10,7 +10,7 @@ export class Randomizer extends AbstractStatic
 {
 	/**
 	 * Gets a cryptographically secure random number `0 <= n < 1`.
-	 * @return {Number} The cryptographically secure random number `0 <= n < 1`.
+	 * @return {number} The cryptographically secure random number `0 <= n < 1`.
 	 */
 	static randomNumber()
 	{

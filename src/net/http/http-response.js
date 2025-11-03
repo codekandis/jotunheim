@@ -16,7 +16,7 @@ export class HttpResponse extends Abstract
 
 	/**
 	 * Stores the status code of the response.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	#_statusCode;
 
@@ -28,16 +28,16 @@ export class HttpResponse extends Abstract
 
 	/**
 	 * Stores the payload of the response.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_payload;
 
 	/**
 	 * Constructor method.
 	 * @param {URL} uri The URI of the request.
-	 * @param {Number} statusCode The status code of the response.
+	 * @param {number} statusCode The status code of the response.
 	 * @param {HttpResponseHeaderCollection} headers The headers of the response.
-	 * @param {String} payload The payload of the response.
+	 * @param {string} payload The payload of the response.
 	 */
 	constructor( uri, statusCode, headers, payload )
 	{
@@ -60,7 +60,7 @@ export class HttpResponse extends Abstract
 
 	/**
 	 * Gets the status code of the response.
-	 * @returns {Number} The status code of the response.
+	 * @returns {number} The status code of the response.
 	 */
 	get statusCode()
 	{
@@ -78,7 +78,7 @@ export class HttpResponse extends Abstract
 
 	/**
 	 * Gets the payload of the response.
-	 * @returns {String} The payload of the response.
+	 * @returns {string} The payload of the response.
 	 */
 	get payload()
 	{

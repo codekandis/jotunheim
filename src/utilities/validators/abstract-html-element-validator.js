@@ -41,14 +41,14 @@ export class AbstractHtmlElementValidator extends Abstract
 
 	/**
 	 * Stores the name of the HTML element's property to validate.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_propertyName;
 
 	/**
 	 * Constructor method.
 	 * @param {HTMLElement} htmlElement The HTML element to validate.
-	 * @param {String} propertyName The name of the HTML element's property to validate.
+	 * @param {string} propertyName The name of the HTML element's property to validate.
 	 * @throws {InvalidPropertyException} The HTML element's property does not exist.
 	 */
 	constructor( htmlElement, propertyName )
@@ -75,7 +75,7 @@ export class AbstractHtmlElementValidator extends Abstract
 
 	/**
 	 * Stores the name of the HTML element's property to validate.
-	 * @returns {String} The name of the HTML element's property to validate.
+	 * @returns {string} The name of the HTML element's property to validate.
 	 */
 	get _propertyName()
 	{
@@ -84,7 +84,7 @@ export class AbstractHtmlElementValidator extends Abstract
 
 	/**
 	 * Gets the constaint of the validation.
-	 * @return {String} The constraint of the validation.
+	 * @return {string} The constraint of the validation.
 	 * @throws
 	 */
 	get constraint()
@@ -112,9 +112,9 @@ export class AbstractHtmlElementValidator extends Abstract
 
 	/**
 	 * Dispatches the appropriate validation event based on a specific validation result.
-	 * @param {Boolean} isValid True if the value is valid, otherwise false.
-	 * @param {String} expectedConstraint The expected constraint.
-	 * @param {*} value The validated value.
+	 * @param {boolean} isValid True if the value is valid, otherwise false.
+	 * @param {string} expectedConstraint The expected constraint.
+	 * @param {any} value The validated value.
 	 */
 	__dispatchValidationEvent( isValid, expectedConstraint, value = undefined )
 	{
@@ -138,7 +138,7 @@ export class AbstractHtmlElementValidator extends Abstract
 
 	/**
 	 * Validates the HTML element's property.
-	 * @returns {Boolean} True if the HTML element's property is valid, otherwise false.
+	 * @returns {boolean} True if the HTML element's property is valid, otherwise false.
 	 */
 	validate()
 	{

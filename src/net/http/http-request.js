@@ -36,7 +36,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Stores the HTTP request method.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_method = HttpRequestMethod.GET;
 
@@ -54,7 +54,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Stores the collection of HTTP GET arguments.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_postDataContentType = HttpPostDataContentType.PREFER_APPLICATION_X_WWW_FORM_URL_ENCODED;
 
@@ -72,7 +72,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Stores the payload of the request.
-	 * @type {?String}
+	 * @type {?string}
 	 */
 	#_payload = null;
 
@@ -118,7 +118,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Gets the HTTP request method.
-	 * @returns {String} The HTTP request method.
+	 * @returns {string} The HTTP request method.
 	 */
 	get method()
 	{
@@ -127,7 +127,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Sets the HTTP request method.
-	 * @param {String} value The HTTP request method.
+	 * @param {string} value The HTTP request method.
 	 */
 	set method( value )
 	{
@@ -172,7 +172,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Gets the HTTP POST data content type.
-	 * @returns {String} The HTTP POST data content type
+	 * @returns {string} The HTTP POST data content type
 	 */
 	get postDataContentType()
 	{
@@ -181,7 +181,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Sets the HTTP POST data content type
-	 * @param {String} value The HTTP POST data content type
+	 * @param {string} value The HTTP POST data content type
 	 */
 	set postDataContentType( value )
 	{
@@ -226,7 +226,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Gets the payload of the request.
-	 * @returns {?String} The payload of the request.
+	 * @returns {?string} The payload of the request.
 	 */
 	get payload()
 	{
@@ -235,7 +235,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Sets the payload of the request.
-	 * @param {?String} value The payload of the request.
+	 * @param {?string} value The payload of the request.
 	 */
 	set payload( value )
 	{
@@ -244,7 +244,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Adds the HTTP request method to the Fetch API request options.
-	 * @param {Object} requestOptions The Fetch API request options.
+	 * @param {object} requestOptions The Fetch API request options.
 	 */
 	#addRequestMethod( requestOptions )
 	{
@@ -253,7 +253,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Adds the URL-encoded HTTP POST arguments to the Fetch API options.
-	 * @param {Object} requestOptions The Fetch API request options.
+	 * @param {object} requestOptions The Fetch API request options.
 	 */
 	#addApplicationXWwwFormUrlEncodedPostArguments( requestOptions )
 	{
@@ -274,7 +274,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Adds the multipart form data HTTP POST arguments to the Fetch API options.
-	 * @param {Object} requestOptions The Fetch API request options.
+	 * @param {object} requestOptions The Fetch API request options.
 	 */
 	#addMultipartFormDataPostArguments( requestOptions )
 	{
@@ -299,7 +299,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Adds the preferred type of HTTP POST arguments to the Fetch API options.
-	 * @param {Object} requestOptions The Fetch API request options.
+	 * @param {object} requestOptions The Fetch API request options.
 	 */
 	#addPreferredApplicationXWwwFormUrlEncodedPostArguments( requestOptions )
 	{
@@ -315,7 +315,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Adds the HTTP POST arguments to the Fetch API request options.
-	 * @param {Object} requestOptions The Fetch API request options.
+	 * @param {object} requestOptions The Fetch API request options.
 	 */
 	#addPostArguments( requestOptions )
 	{
@@ -349,7 +349,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Adds the payload to the Fetch API request options.
-	 * @param {Object} requestOptions The Fetch API request options.
+	 * @param {object} requestOptions The Fetch API request options.
 	 */
 	#addPayload( requestOptions )
 	{
@@ -361,7 +361,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Adds the HTTP request headers to the Fetch API request options.
-	 * @param {Object} requestOptions The Fetch API request options.
+	 * @param {object} requestOptions The Fetch API request options.
 	 */
 	#addHeaders( requestOptions )
 	{
@@ -377,7 +377,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Adds the abort controller signal to the Fetch API request options.
-	 * @param {Object} requestOptions The Fetch API request options.
+	 * @param {object} requestOptions The Fetch API request options.
 	 */
 	#addAbortControllerSignal( requestOptions )
 	{
@@ -386,7 +386,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Creates the Fetch API request options.
-	 * @returns {Object} The Fetch API request options.
+	 * @returns {object} The Fetch API request options.
 	 */
 	#createFetchApiRequestOptions()
 	{
@@ -452,7 +452,7 @@ export class HttpRequest extends Abstract
 				async ( response ) =>
 				{
 					/**
-					 * @type {String}
+					 * @type {string}
 					 */
 					const responsePayload = await response.arrayBuffer()
 						.then(

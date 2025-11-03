@@ -10,7 +10,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 {
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `100 Continue`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get CONTINUE()
 	{
@@ -19,7 +19,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `101 Switching Protocols`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get SWITCHING_PROTOCOLS()
 	{
@@ -28,7 +28,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `102 Processing`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get PROCESSING()
 	{
@@ -37,7 +37,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `103 Early Hints`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get EARLY_HINTS()
 	{
@@ -46,7 +46,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `200 Ok`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get OK()
 	{
@@ -55,7 +55,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `201 Created`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get CREATED()
 	{
@@ -64,7 +64,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `202 Accepted`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get ACCEPTED()
 	{
@@ -73,7 +73,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `203 Non-Authoritative Information`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get NON_AUTHORITATIVE_INFORMATION()
 	{
@@ -82,7 +82,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `204 No Content`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get NO_CONTENT()
 	{
@@ -91,7 +91,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `205 Reset Content`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get RESET_CONTENT()
 	{
@@ -100,7 +100,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `206 Partial Content`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get PARTIAL_CONTENT()
 	{
@@ -109,7 +109,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `207 Multi-Status`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get MULTI_STATUS()
 	{
@@ -118,7 +118,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `208 Already Sorted`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get ALREADY_SORTED()
 	{
@@ -127,7 +127,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `226 Im Used`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get IM_USED()
 	{
@@ -136,7 +136,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `300 Multiple Choices`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get MULTIPLE_CHOICES()
 	{
@@ -145,7 +145,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `301 Moved Permanently`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get MOVED_PERMANENTLY()
 	{
@@ -154,7 +154,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `302 Found`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get FOUND()
 	{
@@ -163,7 +163,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `303 See Other`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get SEE_OTHER()
 	{
@@ -172,7 +172,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `304 Not Modified`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get NOT_MODIFIED()
 	{
@@ -181,7 +181,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `305 Use Proxy`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get USE_PROXY()
 	{
@@ -190,7 +190,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `306 Switch Proxy`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get SWITCH_PROXY()
 	{
@@ -199,7 +199,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `307 Temporary Redirect`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get TEMPORARY_REDIRECT()
 	{
@@ -208,7 +208,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `308 Permanent Redirect`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get PERMANENT_REDIRECT()
 	{
@@ -217,7 +217,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `400 Bad Request`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get BAD_REQUEST()
 	{
@@ -226,7 +226,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `401 Unauthorized`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get UNAUTHORIZED()
 	{
@@ -235,7 +235,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `402 Payment Required`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get PAYMENT_REQUIRED()
 	{
@@ -244,7 +244,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `403 Forbidden`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get FORBIDDEN()
 	{
@@ -253,7 +253,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `404 Not Found`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get NOT_FOUND()
 	{
@@ -262,7 +262,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `405 Method_Not Allowed`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get METHOD_NOT_ALLOWED()
 	{
@@ -271,7 +271,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `406 Not Acceptable`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get NOT_ACCEPTABLE()
 	{
@@ -280,7 +280,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `407 Proxy_Authentication Required`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get PROXY_AUTHENTICATION_REQUIRED()
 	{
@@ -289,7 +289,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `408 Request Timeout`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get REQUEST_TIMEOUT()
 	{
@@ -298,7 +298,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `409 Conflict`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get CONFLICT()
 	{
@@ -307,7 +307,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `410 Gone`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get GONE()
 	{
@@ -316,7 +316,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `411 Length Required`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get LENGTH_REQUIRED()
 	{
@@ -325,7 +325,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `412 Precondition Failed`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get PRECONDITION_FAILED()
 	{
@@ -334,7 +334,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `413 Request_Entity_Too Large`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get REQUEST_ENTITY_TOO_LARGE()
 	{
@@ -343,7 +343,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `414 Uri_Too Long`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get URI_TOO_LONG()
 	{
@@ -352,7 +352,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `415 Unsupported_Media Type`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get UNSUPPORTED_MEDIA_TYPE()
 	{
@@ -361,7 +361,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `416 Requested_Range_Not Satisfiable`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get REQUESTED_RANGE_NOT_SATISFIABLE()
 	{
@@ -370,7 +370,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `417 Expectation Failed`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get EXPECTATION_FAILED()
 	{
@@ -379,7 +379,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `418 Im Ateapot`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get IM_ATEAPOT()
 	{
@@ -388,7 +388,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `420 Policy_Not Fulfilled`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get POLICY_NOT_FULFILLED()
 	{
@@ -397,7 +397,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `421 Misdirected Request`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get MISDIRECTED_REQUEST()
 	{
@@ -406,7 +406,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `422 Unprocessable Entity`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get UNPROCESSABLE_ENTITY()
 	{
@@ -415,7 +415,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `423 Locked`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get LOCKED()
 	{
@@ -424,7 +424,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `424 Failed Dependency`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get FAILED_DEPENDENCY()
 	{
@@ -433,7 +433,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `425 Unordered Collection`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get UNORDERED_COLLECTION()
 	{
@@ -442,7 +442,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `426 Upgrade Required`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get UPGRADE_REQUIRED()
 	{
@@ -451,7 +451,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `428 Precondition Required`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get PRECONDITION_REQUIRED()
 	{
@@ -460,7 +460,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `429 Too_Many Requests`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get TOO_MANY_REQUESTS()
 	{
@@ -469,7 +469,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `431 Request_Header_Fields_Too Large`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get REQUEST_HEADER_FIELDS_TOO_LARGE()
 	{
@@ -478,7 +478,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `444 No Response`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get NO_RESPONSE()
 	{
@@ -487,7 +487,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `449 The_Request_Should_Be_Retried_After_Doing_The_Appropriate Action`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get THE_REQUEST_SHOULD_BE_RETRIED_AFTER_DOING_THE_APPROPRIATE_ACTION()
 	{
@@ -496,7 +496,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `451 Unavailable_For_Legal Reasons`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get UNAVAILABLE_FOR_LEGAL_REASONS()
 	{
@@ -505,7 +505,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `499 Client_Closed Request`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get CLIENT_CLOSED_REQUEST()
 	{
@@ -514,7 +514,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `500 Internal_Server Error`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get INTERNAL_SERVER_ERROR()
 	{
@@ -523,7 +523,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `501 Not Implemented`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get NOT_IMPLEMENTED()
 	{
@@ -532,7 +532,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `502 Bad Gateway`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get BAD_GATEWAY()
 	{
@@ -541,7 +541,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `503 Service Unavailable`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get SERVICE_UNAVAILABLE()
 	{
@@ -550,7 +550,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `504 Gateway Timeout`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get GATEWAY_TIMEOUT()
 	{
@@ -559,7 +559,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `505 Http_Version_Not Supported`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get HTTP_VERSION_NOT_SUPPORTED()
 	{
@@ -568,7 +568,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `506 Variant_Also Negotiates`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get VARIANT_ALSO_NEGOTIATES()
 	{
@@ -577,7 +577,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `507 Insufficient Storage`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get INSUFFICIENT_STORAGE()
 	{
@@ -586,7 +586,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `508 Loop Detected`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get LOOP_DETECTED()
 	{
@@ -595,7 +595,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `509 Bandwidth_Limit Exceeded`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get BANDWIDTH_LIMIT_EXCEEDED()
 	{
@@ -604,7 +604,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `510 Not Extended`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get NOT_EXTENDED()
 	{
@@ -613,7 +613,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 
 	/**
 	 * Represents the HTTP response status code of the HTTP response status `511 Network_Authentication Required`.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get NETWORK_AUTHENTICATION_REQUIRED()
 	{

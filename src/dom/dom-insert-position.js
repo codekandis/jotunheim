@@ -10,7 +10,7 @@ export class DomInsertPosition extends AbstractStatic
 {
 	/**
 	 * Specifies that new elements must be inserted before an element.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get BEFORE()
 	{
@@ -19,7 +19,7 @@ export class DomInsertPosition extends AbstractStatic
 
 	/**
 	 * Specifies that new elements must be inserted after an element.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AFTER()
 	{

@@ -11,20 +11,20 @@ export class ApplicationPageMatch extends Abstract
 {
 	/**
 	 * Stores the application page class.
-	 * @type {function(new:TApplicationPageClass, ...*): TApplicationPageClass}
+	 * @type {function(new:TApplicationPageClass, ...any): TApplicationPageClass}
 	 */
 	#_applicationPageClass;
 
 	/**
 	 * Stores the arguments of the application page.
-	 * @type {Object<String, String>}
+	 * @type {Record<string, string>}
 	 */
 	#_applicationPageArguments;
 
 	/**
 	 * Constructor method.
-	 * @param {function(new:TApplicationPageClass, ...*): TApplicationPageClass} applicationPageClass The application page class.
-	 * @param {Object<String, String>} applicationPageArguments The arguments of the application page.
+	 * @param {function(new:TApplicationPageClass, ...any): TApplicationPageClass} applicationPageClass The application page class.
+	 * @param {Record<string, string>} applicationPageArguments The arguments of the application page.
 	 */
 	constructor( applicationPageClass, applicationPageArguments )
 	{
@@ -36,7 +36,7 @@ export class ApplicationPageMatch extends Abstract
 
 	/**
 	 * Gets the application page class.
-	 * @return {function(new:TApplicationPageClass, ...*): TApplicationPageClass} The application page class.
+	 * @return {function(new:TApplicationPageClass, ...any): TApplicationPageClass} The application page class.
 	 */
 	get applicationPageClass()
 	{
@@ -45,7 +45,7 @@ export class ApplicationPageMatch extends Abstract
 
 	/**
 	 * Gets the application page arguments.
-	 * @return {Object<String, String>} The application page arguments.
+	 * @return {Record<string, string>} The application page arguments.
 	 */
 	get applicationPageArguments()
 	{

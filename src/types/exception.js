@@ -8,13 +8,13 @@ export class Exception extends Error
 {
 	/**
 	 * Stores the message of the exception.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_message;
 
 	/**
 	 * Constructor method.
-	 * @param {String} message The message of the exception.
+	 * @param {string} message The message of the exception.
 	 */
 	constructor( message )
 	{

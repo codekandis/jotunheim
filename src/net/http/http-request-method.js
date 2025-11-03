@@ -10,7 +10,7 @@ export class HttpRequestMethod extends AbstractStatic
 {
 	/**
 	 * Represents the HTTP request method `CONNECT`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CONNECT()
 	{
@@ -19,7 +19,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `COPY`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get COPY()
 	{
@@ -28,7 +28,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `DELETE`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get DELETE()
 	{
@@ -37,7 +37,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `GET`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get GET()
 	{
@@ -46,7 +46,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `HEAD`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get HEAD()
 	{
@@ -55,7 +55,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `HTTP`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get HTTP()
 	{
@@ -64,7 +64,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `LOCK`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get LOCK()
 	{
@@ -73,7 +73,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `MKCOL`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MKCOL()
 	{
@@ -82,7 +82,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `MOVE`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MOVE()
 	{
@@ -91,7 +91,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `OPTIONS`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get OPTIONS()
 	{
@@ -100,7 +100,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `PATCH`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get PATCH()
 	{
@@ -109,7 +109,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `POST`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get POST()
 	{
@@ -118,7 +118,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `PROPFIND`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get PROPFIND()
 	{
@@ -127,7 +127,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `PROPPATCH`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get PROPPATCH()
 	{
@@ -136,7 +136,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `PUT`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get PUT()
 	{
@@ -145,7 +145,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `TRACE`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TRACE()
 	{
@@ -154,7 +154,7 @@ export class HttpRequestMethod extends AbstractStatic
 
 	/**
 	 * Represents the HTTP request method `UNLOCK`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get UNLOCK()
 	{

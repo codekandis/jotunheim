@@ -10,13 +10,13 @@ export class PreDispatchmentState extends Abstract
 {
 	/**
 	 * Stores if the dispatchment must be prevented.
-	 * @type {Boolean}
+	 * @type {boolean}
 	 */
 	#_preventDispatchment = false;
 
 	/**
 	 * Gets if the dispatchment must be prevented.
-	 * @returns {Boolean} True if the dispatchment must be prevented, otherwise false.
+	 * @returns {boolean} True if the dispatchment must be prevented, otherwise false.
 	 */
 	get preventDispatchment()
 	{
@@ -25,7 +25,7 @@ export class PreDispatchmentState extends Abstract
 
 	/**
 	 * Gets if the dispatchment must be prevented.
-	 * @param {Boolean} value True if the dispatchment must be prevented, otherwise false.
+	 * @param {boolean} value True if the dispatchment must be prevented, otherwise false.
 	 */
 	set preventDispatchment( value )
 	{

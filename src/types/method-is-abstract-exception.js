@@ -10,8 +10,8 @@ export class MethodIsAbstractException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {String} className The name of the called class.
-	 * @param {String} methodName The name of the abstract method.
+	 * @param {string} className The name of the called class.
+	 * @param {string} methodName The name of the abstract method.
 	 * @returns {MethodIsAbstractException}
 	 * @constructor
 	 */
@@ -24,7 +24,7 @@ export class MethodIsAbstractException extends LogicException
 
 	/**
 	 * Static constructor method.
-	 * @param {String} className The name of the called class.
+	 * @param {string} className The name of the called class.
 	 * @param {Function} method The abstract method.
 	 * @returns {MethodIsAbstractException}
 	 * @constructor
@@ -36,8 +36,8 @@ export class MethodIsAbstractException extends LogicException
 
 	/**
 	 * Static constructor method.
-	 * @param {Object} object The called object.
-	 * @param {String} methodName The name of the abstract method.
+	 * @param {object} object The called object.
+	 * @param {string} methodName The name of the abstract method.
 	 * @returns {MethodIsAbstractException}
 	 * @constructor
 	 */
@@ -48,7 +48,7 @@ export class MethodIsAbstractException extends LogicException
 
 	/**
 	 * Static constructor method.
-	 * @param {Object} object The called object.
+	 * @param {object} object The called object.
 	 * @param {Function} method The abstract method.
 	 * @returns {MethodIsAbstractException}
 	 * @constructor

@@ -10,20 +10,20 @@ export class PropertyEventArguments extends EventArguments
 {
 	/**
 	 * Stores the object whose property is affected.
-	 * @type {Object}
+	 * @type {object}
 	 */
 	#_object;
 
 	/**
 	 * Stores the name of the affected property.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_propertyName;
 
 	/**
 	 * Constructor method.
-	 * @param {Object} object The object whose property is affected.
-	 * @param {String} propertyName The name of the affected property.
+	 * @param {object} object The object whose property is affected.
+	 * @param {string} propertyName The name of the affected property.
 	 */
 	constructor( object, propertyName )
 	{
@@ -35,7 +35,7 @@ export class PropertyEventArguments extends EventArguments
 
 	/**
 	 * Gets the object whose property is affected.
-	 * @returns {Object} The object whose property is affected.
+	 * @returns {object} The object whose property is affected.
 	 */
 	get object()
 	{
@@ -44,7 +44,7 @@ export class PropertyEventArguments extends EventArguments
 
 	/**
 	 * Gets the name of the affected property.
-	 * @returns {String} The name of the affected property.
+	 * @returns {string} The name of the affected property.
 	 */
 	get propertyName()
 	{

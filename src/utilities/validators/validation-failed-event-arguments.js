@@ -10,13 +10,13 @@ export class ValidationFailedEventArguments extends EventArguments
 {
 	/**
 	 * Stores the validation error message.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_errorMessage;
 
 	/**
 	 * Constructor method.
-	 * @param {String} errorMessage The validation error message.
+	 * @param {string} errorMessage The validation error message.
 	 */
 	constructor( errorMessage )
 	{
@@ -27,7 +27,7 @@ export class ValidationFailedEventArguments extends EventArguments
 
 	/**
 	 * Gets the validation error message.
-	 * @returns {String} The validation error message.
+	 * @returns {string} The validation error message.
 	 */
 	get errorMessage()
 	{

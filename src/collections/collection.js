@@ -7,32 +7,32 @@ import { InvalidTypeException } from '../types/invalid-type-exception.js';
 /**
  * Represents the handler of any collection item iteration.
  * @callback Collection_ItemIterationHandler
- * @param {*} item The currently iterated item.
- * @param {Number} itemIndex The index of the currently iterated item.
+ * @param {any} item The currently iterated item.
+ * @param {number} itemIndex The index of the currently iterated item.
  */
 
 /**
  * Represents the handler of any collection items comparison.
  * @callback Collection_ItemComparisonHandler
- * @param {*} item_1 The first item to compare.
- * @param {*} item_2 The second item to compare.
- * @returns {Number} -1 if the first item is lower than the second item, 0 if the first item is equal to the second item and 1 if the first item is greater than the second item.
+ * @param {any} item_1 The first item to compare.
+ * @param {any} item_2 The second item to compare.
+ * @returns {number} -1 if the first item is lower than the second item, 0 if the first item is equal to the second item and 1 if the first item is greater than the second item.
  */
 
 /**
  * Represents the handler of any collection item transformation.
  * @callback Collection_ItemTransformationHandler
- * @param {*} item The currently iterated item.
- * @param {Number} itemIndex The index of the currently iterated item.
- * @returns {*} The transformed item.
+ * @param {any} item The currently iterated item.
+ * @param {number} itemIndex The index of the currently iterated item.
+ * @returns {any} The transformed item.
  */
 
 /**
  * Represents the handler of any collection item determination.
  * @callback Collection_ItemPredicateHandler
- * @param {*} item The currently iterated item.
- * @param {Number} itemIndex The index of the currently iterated item.
- * @returns {Boolean} True if the iterated item matches the predicate, otherwise false.
+ * @param {any} item The currently iterated item.
+ * @param {number} itemIndex The index of the currently iterated item.
+ * @returns {boolean} True if the iterated item matches the predicate, otherwise false.
  */
 
 /**
@@ -43,13 +43,13 @@ export class Collection extends Abstract
 {
 	/**
 	 * Stores the items of the collection.
-	 * @type {*[]}
+	 * @type {Array<any>}
 	 */
 	__items = [];
 
 	/**
 	 * Constructor method.
-	 * @param {...*} items The initital items of the collection.
+	 * @param {...any} items The initital items of the collection.
 	 */
 	constructor( ...items )
 	{
@@ -60,8 +60,8 @@ export class Collection extends Abstract
 
 	/**
 	 * Static constructor method.
-	 * @param {...*[]} arrays The arrays to create the collection from.
-	 * @returns {Collection<*>} The created collection.
+	 * @param {...Array<any>} arrays The arrays to create the collection from.
+	 * @returns {Collection<any>} The created collection.
 	 * @throws {InvalidTypeException} The type of at least one of the passed arrays is not `array`.
 	 * @constructor
 	 */
@@ -90,7 +90,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Gets the number of items in the collection.
-	 * @returns {Number} The number of items in the collection.
+	 * @returns {number} The number of items in the collection.
 	 */
 	get length()
 	{
@@ -99,7 +99,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Gets the iterator to iterate over any collection's item.
-	 * @returns {IterableIterator<*>} The iterator to iterate over any collection's item.
+	 * @returns {IterableIterator<any>} The iterator to iterate over any collection's item.
 	 */
 	* #items()
 	{
@@ -112,7 +112,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Gets the iterator to iterate over any collection's item.
-	 * @returns {IterableIterator<*>} The iterator to iterate over any collection's item.
+	 * @returns {IterableIterator<any>} The iterator to iterate over any collection's item.
 	 */
 	[ Symbol.iterator ]()
 	{
@@ -139,7 +139,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Determines if the collection is empty.
-	 * @returns {Boolean} True if the collection is empty, otherwise false.
+	 * @returns {boolean} True if the collection is empty, otherwise false.
 	 */
 	isEmpty()
 	{
@@ -148,8 +148,8 @@ export class Collection extends Abstract
 
 	/**
 	 * Determines if the collection includes a specific item.
-	 * @param {*} item The item to search for.
-	 * @returns {Boolean} True if the items is included in the collection, otherwise false.
+	 * @param {any} item The item to search for.
+	 * @returns {boolean} True if the items is included in the collection, otherwise false.
 	 */
 	includes( item )
 	{
@@ -159,7 +159,7 @@ export class Collection extends Abstract
 	/**
 	 * Determines if the collection includes an item specified by a variadic amount of predicate handlers.
 	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
-	 * @returns {Boolean} True if the item is included in the collection, otherwise false.
+	 * @returns {boolean} True if the item is included in the collection, otherwise false.
 	 */
 	includesBy( ...predicateHandlers )
 	{
@@ -168,7 +168,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Adds a variadic amount of items to the collection.
-	 * @param {...*} items The items to add.
+	 * @param {...any} items The items to add.
 	 */
 	add( ...items )
 	{
@@ -178,7 +178,7 @@ export class Collection extends Abstract
 	/**
 	 * Adds a variadic amount of items to the collection by a specific predicate handler.
 	 * @param {Collection_ItemPredicateHandler} predicateHandler The predicate handler to determine the items to add.
-	 * @param {...*} items The items to add.
+	 * @param {...any} items The items to add.
 	 */
 	addBy( predicateHandler, ...items )
 	{
@@ -189,8 +189,8 @@ export class Collection extends Abstract
 
 	/**
 	 * Replaces all items in the collection specified by their indices.
-	 * @param {*} itemReplacement The new item to replace the items with.
-	 * @param {...Number} indices The indices of the items to replace.
+	 * @param {any} itemReplacement The new item to replace the items with.
+	 * @param {...number} indices The indices of the items to replace.
 	 * @throws {InvalidIndexException} An index is invalid.
 	 */
 	replaceAt( itemReplacement, ...indices )
@@ -200,8 +200,8 @@ export class Collection extends Abstract
 
 	/**
 	 * Replaces the first occurences of a variadic amount of items in the array with a specified item.
-	 * @param {*} itemReplacement The new item to replace the item with.
-	 * @param {...*} items The items which has to be replaced.
+	 * @param {any} itemReplacement The new item to replace the item with.
+	 * @param {...any} items The items which has to be replaced.
 	 */
 	replace( itemReplacement, ...items )
 	{
@@ -210,7 +210,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Replaces the first occurences of items in the array specified by a variadic amount of predicate handlers with a specified item.
-	 * @param {*} itemReplacement The new item to replace the item with.
+	 * @param {any} itemReplacement The new item to replace the item with.
 	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
 	 */
 	replaceBy( itemReplacement, ...predicateHandlers )
@@ -220,8 +220,8 @@ export class Collection extends Abstract
 
 	/**
 	 * Replaces a variadic amount of items in the array with a specified item.
-	 * @param {*} itemReplacement The new item to replace the items with.
-	 * @param {...*} items The items which has to be replaced.
+	 * @param {any} itemReplacement The new item to replace the items with.
+	 * @param {...any} items The items which has to be replaced.
 	 */
 	replaceAll( itemReplacement, ...items )
 	{
@@ -230,7 +230,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Replaces all occurences of an item in the array specified by a variadic amount of predicate handlers.
-	 * @param {*} itemReplacement The new item to replace the items with.
+	 * @param {any} itemReplacement The new item to replace the items with.
 	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the items.
 	 */
 	replaceAllBy( itemReplacement, ...predicateHandlers )
@@ -240,7 +240,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Removes items from the array specified by a variadic amount of their indices.
-	 * @param {...Number} indices The index of the item to remove.
+	 * @param {...number} indices The index of the item to remove.
 	 * @throws {InvalidIndexException} An index is invalid.
 	 */
 	removeAt( ...indices )
@@ -250,7 +250,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Removes the first occurences of a variadic amount of items from the collection.
-	 * @param {...*} items The items to remove.
+	 * @param {...any} items The items to remove.
 	 */
 	remove( ...items )
 	{
@@ -268,7 +268,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Removes all occurences of a variadic amount of items from the array.
-	 * @param {...*} items The items to remove.
+	 * @param {...any} items The items to remove.
 	 */
 	removeAll( ...items )
 	{
@@ -286,8 +286,8 @@ export class Collection extends Abstract
 
 	/**
 	 * Gets the first index of an item.
-	 * @param {*} item The item to determine its first index.
-	 * @returns {undefined|Number} The first index of the item, if found, otherwise undefined.
+	 * @param {any} item The item to determine its first index.
+	 * @returns {undefined|number} The first index of the item, if found, otherwise undefined.
 	 */
 	findFirstIndexOf( item )
 	{
@@ -297,7 +297,7 @@ export class Collection extends Abstract
 	/**
 	 * Gets the first index of an item specified by a variadic amount of predicate handlers.
 	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
-	 * @returns {undefined|Number} The first index of the item, if found, otherwise undefined.
+	 * @returns {undefined|number} The first index of the item, if found, otherwise undefined.
 	 */
 	findFirstIndexOfBy( ...predicateHandlers )
 	{
@@ -306,8 +306,8 @@ export class Collection extends Abstract
 
 	/**
 	 * Gets the last index of an item.
-	 * @param {*} item The item to determine its last index.
-	 * @returns {undefined|Number} The last index of the item, if found, otherwise undefined.
+	 * @param {any} item The item to determine its last index.
+	 * @returns {undefined|number} The last index of the item, if found, otherwise undefined.
 	 */
 	findLastIndexOf( item )
 	{
@@ -317,7 +317,7 @@ export class Collection extends Abstract
 	/**
 	 * Gets the last index of an item specified by a variadic amount of predicate handlers.
 	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
-	 * @returns {undefined|Number} The last index of the item, if found, otherwise undefined.
+	 * @returns {undefined|number} The last index of the item, if found, otherwise undefined.
 	 */
 	findLastIndexOfBy( ...predicateHandlers )
 	{
@@ -326,8 +326,8 @@ export class Collection extends Abstract
 
 	/**
 	 * Gets all indices of specific items.
-	 * @param {...*} items The items to determine their indices.
-	 * @returns {Collection<Number>} The indices of the items, if found, otherwise an empty array.
+	 * @param {...any} items The items to determine their indices.
+	 * @returns {Collection<number>} The indices of the items, if found, otherwise an empty array.
 	 */
 	findAllIndicesOf( ...items )
 	{
@@ -339,7 +339,7 @@ export class Collection extends Abstract
 	/**
 	 * Gets the indices of all occurences of any item specified by a variadic amount of predicate handlers.
 	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the items.
-	 * @returns {Collection<Number>} The indices of the items, if found, otherwise an empty array.
+	 * @returns {Collection<number>} The indices of the items, if found, otherwise an empty array.
 	 */
 	findAllIndicesOfBy( ...predicateHandlers )
 	{
@@ -350,8 +350,8 @@ export class Collection extends Abstract
 
 	/**
 	 * Gets an item from the array specified by its index.
-	 * @param {Number} index The index of the item.
-	 * @returns {undefined|*} The item, if found.
+	 * @param {number} index The index of the item.
+	 * @returns {undefined|any} The item, if found.
 	 */
 	findAt( index )
 	{
@@ -361,7 +361,7 @@ export class Collection extends Abstract
 	/**
 	 * Gets the first item from the array specified by a variadic amount of predicate handlers.
 	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
-	 * @returns {undefined|*} The first item, if found, otherwise undefined.
+	 * @returns {undefined|any} The first item, if found, otherwise undefined.
 	 */
 	findFirstOrUndefinedBy( ...predicateHandlers )
 	{
@@ -371,7 +371,7 @@ export class Collection extends Abstract
 	/**
 	 * Gets the last item from the array specified by a variadic amount of predicate handlers.
 	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the item.
-	 * @returns {undefined|*} The last item, if found, otherwise undefined.
+	 * @returns {undefined|any} The last item, if found, otherwise undefined.
 	 */
 	findLastOrUndefinedBy( ...predicateHandlers )
 	{
@@ -381,7 +381,7 @@ export class Collection extends Abstract
 	/**
 	 * Gets all items from the array specified by a variadic amount of predicate handlers.
 	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers to determine the items.
-	 * @returns {Collection<*>} The items, if found, otherwise an empty array.
+	 * @returns {Collection<any>} The items, if found, otherwise an empty array.
 	 */
 	findAllBy( ...predicateHandlers )
 	{
@@ -410,7 +410,7 @@ export class Collection extends Abstract
 	/**
 	 * Maps all items of the collection into a new collection.
 	 * @param {Collection_ItemTransformationHandler} transformationHandler The transformation handler used to map the collection.
-	 * @returns {Collection<*>} The collection containing the transformed items.
+	 * @returns {Collection<any>} The collection containing the transformed items.
 	 */
 	map( transformationHandler )
 	{
@@ -422,7 +422,7 @@ export class Collection extends Abstract
 	/**
 	 * Maps all items of the collection into a new collection by a variadic amount of transformation handlers.
 	 * @param {...Collection_ItemTransformationHandler} transformationHandlers The transformation handlers used to map the collection.
-	 * @returns {Collection<*>} The collection containing the transformed items.
+	 * @returns {Collection<any>} The collection containing the transformed items.
 	 */
 	mapBy( ...transformationHandlers )
 	{
@@ -433,8 +433,8 @@ export class Collection extends Abstract
 
 	/**
 	 * Concatenates the items of the collection by a specific delimiter string.
-	 * @param {String} delimiter The delimiter used to concatenate the items.
-	 * @returns {String} The concatenated string.
+	 * @param {string} delimiter The delimiter used to concatenate the items.
+	 * @returns {string} The concatenated string.
 	 */
 	join( delimiter = '' )
 	{
@@ -443,9 +443,9 @@ export class Collection extends Abstract
 
 	/**
 	 * Concatenates the items of the collection by a specific delimiter string and by a variadic amount of transformation handlers.
-	 * @param {String} delimiter The delimiter used to concatenate the mapped items.
+	 * @param {string} delimiter The delimiter used to concatenate the mapped items.
 	 * @param {...Collection_ItemTransformationHandler} transformationHandlers The transformation handlers used to transform the items.
-	 * @returns {String} The concatenated string.
+	 * @returns {string} The concatenated string.
 	 */
 	joinMapped( delimiter, ...transformationHandlers )
 	{
@@ -454,9 +454,9 @@ export class Collection extends Abstract
 
 	/**
 	 * Concatenates the items of the collection by a specific delimiter string and by a variadic amount of predicate handlers.
-	 * @param {String} delimiter The delimiter used to concatenate the items.
+	 * @param {string} delimiter The delimiter used to concatenate the items.
 	 * @param {...Collection_ItemPredicateHandler} predicateHandlers The predicate handlers used to determine the items.
-	 * @returns {String} The concatenated string.
+	 * @returns {string} The concatenated string.
 	 */
 	joinBy( delimiter, ...predicateHandlers )
 	{
@@ -465,7 +465,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Gets the array representation of the collection.
-	 * @returns {*[]} The array representation of the collection.
+	 * @returns {Array<any>} The array representation of the collection.
 	 */
 	toArray()
 	{
@@ -474,7 +474,7 @@ export class Collection extends Abstract
 
 	/**
 	 * Gets the JSON representation of the collection.
-	 * @returns {*[]} The JSON representation of the collection.
+	 * @returns {Array<any>} The JSON representation of the collection.
 	 */
 	toJSON()
 	{

@@ -23,7 +23,7 @@ export class RandomAlphaNumericStringGenerator extends RandomStringGenerator
 
 	/**
 	 * Generates a random alphanumeric string with a specific length.
-	 * @param {Number} length The length of the alphanumeric string.
+	 * @param {number} length The length of the alphanumeric string.
 	 */
 	generate( length )
 	{

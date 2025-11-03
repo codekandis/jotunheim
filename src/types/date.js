@@ -11,7 +11,7 @@
  * @memberOf Date
  * @param {Date} date_1 The first date to compare.
  * @param {Date} date_2 The second date to compare.
- * @returns {Number} -1 if the first date is lower than the second date, 0 if both dates are equal, 1 if the first date is greater than the second date.
+ * @returns {number} -1 if the first date is lower than the second date, 0 if both dates are equal, 1 if the first date is greater than the second date.
  * @static
  */
 Object.defineProperty(
@@ -42,7 +42,7 @@ Object.defineProperty(
  * Creates a date from a JSON date object.
  * @method fromJSON
  * @memberOf Date
- * @param {Object} data The JSON object to create the date from.
+ * @param {object} data The JSON object to create the date from.
  * @returns {Date} The created date.
  * @static
  */
@@ -64,7 +64,7 @@ Object.defineProperty(
  * @method compareWith
  * @memberOf Date.prototype
  * @param {Date} date The date to compare with.
- * @returns {Number} -1 if the date is lower than the passed date, 0 if both dates are equal, 1 if the date is greater than the passed date.
+ * @returns {number} -1 if the date is lower than the passed date, 0 if both dates are equal, 1 if the date is greater than the passed date.
  */
 Object.defineProperty(
 	Date.prototype,

@@ -26,7 +26,7 @@ export class DomHelper extends AbstractStatic
 	/**
 	 * Determines if the document contains a specific HTML element.
 	 * @param  {HTMLElement} element The HTML element to determine if it exists.
-	 * @returns {Boolean} True if the document contains the HTML element, otherwise false.
+	 * @returns {boolean} True if the document contains the HTML element, otherwise false.
 	 */
 	static contains( element )
 	{
@@ -35,9 +35,9 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Queries the first HTML element specified by a CSS selector.
-	 * @param {String} selector The CSS selector specifying the HTML element to query.
+	 * @param {string} selector The CSS selector specifying the HTML element to query.
 	 * @param {?Document|?HTMLElement} context The document or HTML element the queried HTML element must be a child of.
-	 * @param {Boolean} throwExceptions True if an exception must be thrown if no HTML element has been found, otherwise false.
+	 * @param {boolean} throwExceptions True if an exception must be thrown if no HTML element has been found, otherwise false.
 	 * @returns {?HTMLElement} The HTML element, if found, otherwise null.
 	 * @throws {DomElementNotFoundException} The HTML element has not been found.
 	 */
@@ -57,10 +57,10 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Queries all HTML elements matching a given CSS selector.
-	 * @param {String} selector The CSS selector specifying the HTML elements to query.
+	 * @param {string} selector The CSS selector specifying the HTML elements to query.
 	 * @param {?Document|?HTMLElement} context The document or HTML element the queried HTML elements must be children of.
-	 * @param {Boolean} throwExceptions True if an exception must be thrown if no HTML elements has been found, otherwise false.
-	 * @returns {HTMLElement[]} The HTML elements, if found, otherwise an empty array.
+	 * @param {boolean} throwExceptions True if an exception must be thrown if no HTML elements has been found, otherwise false.
+	 * @returns {Array<HTMLElement>} The HTML elements, if found, otherwise an empty array.
 	 * @throws {DomElementNotFoundException} No HTML element has been found.
 	 */
 	static querySelectorAll( selector, context = null, throwExceptions = true )
@@ -79,9 +79,9 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Creates an HTML element from an HTML string. If the HTML string contains multiple HTML element only the first one will be returned.
-	 * @param {String} htmlString The HTML string to create the HTML element from.
-	 * @param {String} id The ID of the HTML element.
-	 * @param {String} classNames The class names of the HTML element.
+	 * @param {string} htmlString The HTML string to create the HTML element from.
+	 * @param {string} id The ID of the HTML element.
+	 * @param {string} classNames The class names of the HTML element.
 	 * @returns {HTMLElement} The created HTML element.
 	 */
 	static createElementFromString( htmlString, id = null, classNames = null )
@@ -104,7 +104,7 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Creates multiple HTML elements from an HTML string.
-	 * @param {String} htmlString The HTML string to create the HTML elements from.
+	 * @param {string} htmlString The HTML string to create the HTML elements from.
 	 * @returns {NodeList} The created HTML elements.
 	 */
 	static createElementsFromString( htmlString )
@@ -118,7 +118,7 @@ export class DomHelper extends AbstractStatic
 	/**
 	 * Removes a specific HTML element.
 	 * @param {HTMLElement} element The HTML element to remove.
-	 * @param {Boolean} throwExceptions True if an exception must be thrown if no HTML element has been found, otherwise false.
+	 * @param {boolean} throwExceptions True if an exception must be thrown if no HTML element has been found, otherwise false.
 	 * @throws {DomElementNotFoundException} The HTML element does not exist in the document.
 	 */
 	static remove( element, throwExceptions = true )
@@ -135,9 +135,9 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Removes all HTML elements specified by a CSS selector.
-	 * @param {String} selector The CSS selector specifying the HTML elements to query.
+	 * @param {string} selector The CSS selector specifying the HTML elements to query.
 	 * @param {?Document|?HTMLElement} context The node the queried HTML element must be a child of.
-	 * @param {Boolean} throwExceptions True if an exception must be thrown if no HTML element has been found, otherwise false.
+	 * @param {boolean} throwExceptions True if an exception must be thrown if no HTML element has been found, otherwise false.
 	 */
 	static removeBySelector( selector, context = null, throwExceptions = true )
 	{
@@ -160,8 +160,8 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Adds an event handler to an HTML element.
-	 * @param {Object} element The HTML element to add the event handler to.
-	 * @param {String} eventName The name of the event to add the event handler to.
+	 * @param {object} element The HTML element to add the event handler to.
+	 * @param {string} eventName The name of the event to add the event handler to.
 	 * @param {Event_EventHandler} eventHandler The event handler to add.
 	 */
 	static addEventHandler( element, eventName, eventHandler )
@@ -171,7 +171,7 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Adds event handlers to events of an HTML element specified by a variadic amount of event handler mappings.
-	 * @param {Object} element The HTML element to add the event handlers to.
+	 * @param {object} element The HTML element to add the event handlers to.
 	 * @param {...EventHandlerMapping} eventHandlerMappings The event handler mappings.
 	 */
 	static addEventHandlers( element, ...eventHandlerMappings )
@@ -191,8 +191,8 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Adds an event handler to all HTML elements specified by a CSS selector.
-	 * @param {String} selector The CSS selector specifying the HTML elements to add the event handlers to.
-	 * @param {String} eventName The name of the event to add the event handler to.
+	 * @param {string} selector The CSS selector specifying the HTML elements to add the event handlers to.
+	 * @param {string} eventName The name of the event to add the event handler to.
 	 * @param {Event_EventHandler} eventHandler The event handler to add.
 	 */
 	static addEventHandlerBySelector( selector, eventName, eventHandler )
@@ -209,7 +209,7 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Adds event handlers to events of an HTML element specified by a CSS selector and by a variadic amount of event handler mappings.
-	 * @param {String} selector The CSS selector specifying the HTML elements to add the event handlers to.
+	 * @param {string} selector The CSS selector specifying the HTML elements to add the event handlers to.
 	 * @param {...EventHandlerMapping} eventHandlerMappings The event handler mappings.
 	 */
 	static addEventHandlersBySelector( selector, ...eventHandlerMappings )
@@ -226,8 +226,8 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Removes an event handler from an HTML element.
-	 * @param {Object} element The HTML element to remove the event handler from.
-	 * @param {String} eventName The name of the event to remove the event handler from.
+	 * @param {object} element The HTML element to remove the event handler from.
+	 * @param {string} eventName The name of the event to remove the event handler from.
 	 * @param {Event_EventHandler} eventHandler The event handler to remove.
 	 */
 	static removeEventHandler( element, eventName, eventHandler )
@@ -237,7 +237,7 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Removes event handlers from events of an HTML element specified by a variadic amount of event handler mappings.
-	 * @param {Object} element The HTML element to remove the event handlers from.
+	 * @param {object} element The HTML element to remove the event handlers from.
 	 * @param {...EventHandlerMapping} eventHandlerMappings The event handler mappings.
 	 */
 	static removeEventHandlers( element, ...eventHandlerMappings )
@@ -257,8 +257,8 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Removes an event handler from all HTML elements specified by a CSS selector.
-	 * @param {String} selector The CSS selector specifying the HTML elements to remove the event handlers from.
-	 * @param {String} eventName The name of the event to remove the event handler from.
+	 * @param {string} selector The CSS selector specifying the HTML elements to remove the event handlers from.
+	 * @param {string} eventName The name of the event to remove the event handler from.
 	 * @param {Event_EventHandler} eventHandler The event handler to remove.
 	 */
 	static removeEventHandlerBySelector( selector, eventName, eventHandler )
@@ -275,7 +275,7 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Removes event handlers from events of an HTML element specified by a CSS selector and by a variadic amount of event handler mappings.
-	 * @param {String} selector The CSS selector specifying the HTML elements to remove the event handlers from.
+	 * @param {string} selector The CSS selector specifying the HTML elements to remove the event handlers from.
 	 * @param {...EventHandlerMapping} eventHandlerMappings The event handler mappings.
 	 */
 	static removeEventHandlersBySelector( selector, ...eventHandlerMappings )
@@ -338,7 +338,7 @@ export class DomHelper extends AbstractStatic
 	/**
 	 * Inserts a variadic amount of HTML elements before or after an HTML element specified by its position.
 	 * @param {HTMLElement} element The HTML element to insert the new HTML elements befor or after.
-	 * @param {String} position The position of the inserted HTML elements.
+	 * @param {string} position The position of the inserted HTML elements.
 	 * @param {...HTMLElement} insertions The HTML elements to insert.
 	 */
 	static insert( element, position, ...insertions )

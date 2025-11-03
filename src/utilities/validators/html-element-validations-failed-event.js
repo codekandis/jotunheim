@@ -19,7 +19,7 @@ export class HtmlElementValidationsFailedEvent extends AbstractCustomEvent
 
 	/**
 	 * Constructor method.
-	 * @param {Object} sender The object which dispatched the event.
+	 * @param {object} sender The object which dispatched the event.
 	 * @param {HtmlElementValidationsFailedEventArguments} eventArguments The arguments of the event.
 	 */
 	constructor( sender, eventArguments )

@@ -33,7 +33,7 @@ export class AbstractValidator extends Abstract
 
 	/**
 	 * Gets the constaint of the validation.
-	 * @returns {String} The constraint of the validation.
+	 * @returns {string} The constraint of the validation.
 	 */
 	get constraint()
 	{
@@ -60,9 +60,9 @@ export class AbstractValidator extends Abstract
 
 	/**
 	 * Dispatches the appropriate validation event based on a specific validation result.
-	 * @param {Boolean} isValid True if the value is valid, otherwise false.
-	 * @param {String} expectedConstraint The expected constraint.
-	 * @param {*} value The validated value.
+	 * @param {boolean} isValid True if the value is valid, otherwise false.
+	 * @param {string} expectedConstraint The expected constraint.
+	 * @param {any} value The validated value.
 	 */
 	__dispatchValidationEvent( isValid, expectedConstraint, value = undefined )
 	{
@@ -83,8 +83,8 @@ export class AbstractValidator extends Abstract
 
 	/**
 	 * Validates a value.
-	 * @param {*} value The value to validate.
-	 * @returns {Boolean} True if the value is valid, otherwise false.
+	 * @param {any} value The value to validate.
+	 * @returns {boolean} True if the value is valid, otherwise false.
 	 */
 	validate( value )
 	{
