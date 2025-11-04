@@ -486,7 +486,7 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	 */
 	joinBy( delimiter, ...predicateHandlers )
 	{
-		return this.__items.joinBy( delimiter, ...predicateHandlers );
+		return super.joinBy( delimiter, ...predicateHandlers );
 	}
 
 	/**

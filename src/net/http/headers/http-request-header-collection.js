@@ -477,7 +477,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	 */
 	joinBy( delimiter, ...predicateHandlers )
 	{
-		return this.__items.joinBy( delimiter, ...predicateHandlers );
+		return super.joinBy( delimiter, ...predicateHandlers );
 	}
 
 	/**
