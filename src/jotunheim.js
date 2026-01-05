@@ -15,6 +15,7 @@ import './types/date.js';
 import './types/event.js';
 import './types/function.js';
 import './types/generator.js';
+import './types/number.js';
 import './types/object.js';
 import './types/string.js';
 import { Abstract } from './types/abstract.js';
