@@ -1,6 +1,6 @@
 'use strict';
 
-import { Exception } from './exception.js';
+import { LogicException } from './logic-exception.js';
 
 /**
  * Represents the exception if a method has not been implemented.
