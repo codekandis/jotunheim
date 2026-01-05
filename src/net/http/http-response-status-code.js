@@ -381,7 +381,7 @@ export class HttpResponseStatusCode extends AbstractStatic
 	 * Represents the HTTP response status code of `418`.
 	 * @type {number}
 	 */
-	static get IM_ATEAPOT()
+	static get IM_A_TEAPOT()
 	{
 		return 418;
 	}
