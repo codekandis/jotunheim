@@ -5,6 +5,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.11.0] - 2026-10-13
+
+### Added
+
+* `Array.prototype.mapBy()`
+* `Collection.mapBy()` and `Collection.join()`, including specialized HTTP collections
+* `Function.prototype.isFunction()` and `Function.prototype.isClass()`
+* `Number.isWithinRange()` and `Number.isOutOfRange()`
+* `PropertyTranslator`, `PropertyValueNotFoundException` and `ValueIsNotAClassException`
+* `HttpResponseStatusMessage`
+* `Randomizer.randomNumber()` for cryptographically secure random numbers
+
+### Changed
+
+* random string generation to use `Randomizer.randomNumber()` instead of `Math.random()`
+* renamed `RandomAlphanumericStringGenerator` to `RandomAlphaNumericStringGenerator`
+
+### Fixed
+
+* `joinBy()` delegation in HTTP header and request argument collections
+* `NotImplementedException` import
+* naming of `HttpResponseStatusCode.IM_A_TEAPOT`
+* JSDoc annotations across the library
+
+[0.11.0]: https://github.com/codekandis/jotunheim/compare/0.10.0..0.11.0
+
+---
 ## [0.10.0] - 2025-11-02
 
 ### Changed
