@@ -10,7 +10,7 @@ export class InvalidElementException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {*} element The element which is invalid.
+	 * @param {any} element The element which is invalid.
 	 * @returns {InvalidElementException}
 	 * @constructor
 	 */

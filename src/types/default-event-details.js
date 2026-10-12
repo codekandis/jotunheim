@@ -11,7 +11,7 @@ export class DefaultEventDetails extends EventDetails
 {
 	/**
 	 * Constructor method.
-	 * @param {Object} sender The object which dispatched the event.
+	 * @param {object} sender The object which dispatched the event.
 	 */
 	constructor( sender )
 	{

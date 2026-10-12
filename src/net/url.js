@@ -11,8 +11,8 @@ import { UnknownPartialUrlTypeException } from './unknown-partial-url-type-excep
 /**
  * Gets a specified portion of the URL.
  * @memberOf URL.prototype
- * @param {String} partialUrlType The end of the URL portion to return.
- * @returns {String} The extraced partial URL.
+ * @param {string} partialUrlType The end of the URL portion to return.
+ * @returns {string} The extraced partial URL.
  * @throws {UnknownPartialUrlTypeException} The partial URL is invalid.
  */
 Object.defineProperty(

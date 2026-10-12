@@ -16,14 +16,14 @@ export class HtmlElementValidationFailedEventArguments extends EventArguments
 
 	/**
 	 * Stores the validation error message.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_errorMessage;
 
 	/**
 	 * Constructor method.
 	 * @param {HTMLElement} htmlElement The validated HTML element.
-	 * @param {String} errorMessage The validation error message.
+	 * @param {string} errorMessage The validation error message.
 	 */
 	constructor( htmlElement, errorMessage )
 	{
@@ -44,7 +44,7 @@ export class HtmlElementValidationFailedEventArguments extends EventArguments
 
 	/**
 	 * Gets the validation error message.
-	 * @returns {String} The validation error message.
+	 * @returns {string} The validation error message.
 	 */
 	get errorMessage()
 	{

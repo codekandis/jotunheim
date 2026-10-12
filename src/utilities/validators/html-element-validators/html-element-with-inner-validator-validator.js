@@ -18,7 +18,7 @@ export class HtmlElementWithInnerValidatorValidator extends AbstractHtmlElementV
 	/**
 	 * Constructor method.
 	 * @param {HTMLElement} htmlElement The HTML element to validate.
-	 * @param {String} propertyName The name of the HTML element's property to validate.
+	 * @param {string} propertyName The name of the HTML element's property to validate.
 	 * @param {AbstractValidator} innerValidator The innerValidator used for validation.
 	 * @throws {InvalidPropertyException} The HTML element's property does not exist.
 	 */

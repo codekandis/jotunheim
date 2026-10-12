@@ -10,13 +10,13 @@ export class ValidationsFailedEventArguments extends EventArguments
 {
 	/**
 	 * Stores the validation error messages.
-	 * @type {Collection<String>}
+	 * @type {Collection<string>}
 	 */
 	#_errorMessages;
 
 	/**
 	 * Constructor method.
-	 * @param {Collection<String>} errorMessages The validation error messages.
+	 * @param {Collection<string>} errorMessages The validation error messages.
 	 */
 	constructor( errorMessages )
 	{
@@ -27,7 +27,7 @@ export class ValidationsFailedEventArguments extends EventArguments
 
 	/**
 	 * Gets the validation error messages.
-	 * @returns {Collection<String>} The validation error messages.
+	 * @returns {Collection<string>} The validation error messages.
 	 */
 	get errorMessages()
 	{

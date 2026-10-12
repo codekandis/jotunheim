@@ -8,26 +8,26 @@
 /**
  * Represents the handler of any header iteration.
  * @callback Headers_HeaderIterationHandler
- * @param {String} headerName The name of the currently iterated header.
- * @param {String} headerValue The value of the currently iterated header.
- * @param {Number} headerIndex The index of the currently iterated header.
+ * @param {string} headerName The name of the currently iterated header.
+ * @param {string} headerValue The value of the currently iterated header.
+ * @param {number} headerIndex The index of the currently iterated header.
  */
 
 /**
  * Represents the handler of any header comparison.
  * @callback Headers_HeaderComparisonHandler
- * @param {Array.<String, String>} header_1 The first header to compare.
- * @param {Array.<String, String>} header_2 The second header to compare.
- * @returns {Number} -1 if the first header is lower than the second header, 0 if the first header is equal to the second header and 1 if the first header is greater than the second header.
+ * @param {Array.<string, string>} header_1 The first header to compare.
+ * @param {Array.<string, string>} header_2 The second header to compare.
+ * @returns {number} -1 if the first header is lower than the second header, 0 if the first header is equal to the second header and 1 if the first header is greater than the second header.
  */
 
 /**
  * Represents the handler of any header transformation.
  * @callback Headers_HeaderTransformationHandler
- * @param {String} headerName The name of the currently iterated header.
- * @param {String} headerValue The value of the currently iterated header.
- * @param {Number} headerIndex The index of the currently iterated header.
- * @returns {*} The transformed header.
+ * @param {string} headerName The name of the currently iterated header.
+ * @param {string} headerValue The value of the currently iterated header.
+ * @param {number} headerIndex The index of the currently iterated header.
+ * @returns {any} The transformed header.
  */
 
 /**
@@ -59,7 +59,7 @@ Object.defineProperty(
  * @method map
  * @memberOf Headers.prototype
  * @param {Headers_HeaderTransformationHandler} transformationHandler The transformation handler used to map the headers.
- * @returns {*[]} The array containing the transformed headers.
+ * @returns {Array} The array containing the transformed headers.
  */
 Object.defineProperty(
 	Headers.prototype,

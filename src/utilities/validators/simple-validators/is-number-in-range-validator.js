@@ -11,27 +11,27 @@ export class IsNumberInRangeValidator extends AbstractValidator
 {
 	/**
 	 * Stores the minimum value of the range.
-	 * @type {?Number}
+	 * @type {?number}
 	 */
 	#_minValue;
 
 	/**
 	 * Stores the maximum value of the range.
-	 * @type {?Number}
+	 * @type {?number}
 	 */
 	#_maxValue;
 
 	/**
 	 * Stores true if the minimum and maximum values are included in the range, otherwise false.
-	 * @type {Boolean}
+	 * @type {boolean}
 	 */
 	#_isInclusive;
 
 	/**
 	 * Constructor method.
-	 * @param {?Number} minValue The minimum value of the range. If set to null only the maximum value will be consifered during validation.
-	 * @param {?Number} maxValue The maximum value of the range. If set to null only the minimum value will be consifered during validation.
-	 * @param {Boolean} isInclusive True if the minimum and maximum values are included in the range, otherwise false.
+	 * @param {?number} minValue The minimum value of the range. If set to null only the maximum value will be consifered during validation.
+	 * @param {?number} maxValue The maximum value of the range. If set to null only the minimum value will be consifered during validation.
+	 * @param {boolean} isInclusive True if the minimum and maximum values are included in the range, otherwise false.
 	 * @throws InvalidArgumentException Either one of `minValue` or `maxValue` can be null.
 	 * @throws InvalidArgumentException `minValue` cannot be greater than `maxValue`.
 	 */

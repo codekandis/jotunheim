@@ -10,8 +10,8 @@ export class HttpGetArgument extends HttpArgument
 {
 	/**
 	 * Constructor method.
-	 * @param {String} name The name of the HTTP GET argument.
-	 * @param {String} value The value of the HTTP GET argument.
+	 * @param {string} name The name of the HTTP GET argument.
+	 * @param {string} value The value of the HTTP GET argument.
 	 */
 	constructor( name, value )
 	{

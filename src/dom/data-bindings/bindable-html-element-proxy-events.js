@@ -10,7 +10,7 @@ export class BindableHtmlElementProxyEvents extends AbstractStatic
 {
 	/**
 	 * Specifies that the binding must occur via all events of the HTML element.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get ALL()
 	{
@@ -19,7 +19,7 @@ export class BindableHtmlElementProxyEvents extends AbstractStatic
 
 	/**
 	 * Specifies that the binding must occur via the `input` event of the HTML element.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get INPUT()
 	{
@@ -28,7 +28,7 @@ export class BindableHtmlElementProxyEvents extends AbstractStatic
 
 	/**
 	 * Specifies that the binding must occur via the `change` event of the HTML element.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	static get CHANGE()
 	{

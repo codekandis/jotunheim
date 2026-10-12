@@ -12,7 +12,7 @@ export class HeadersToHttpRequestHeadersConverter extends Abstract
 	/**
 	 * Converts headers into an array of HTTP request headers.
 	 * @param {Headers} headers The headers to convert.
-	 * @returns {HttpRequestHeader[]} The array of HTTP request headers.
+	 * @returns {Array<HttpRequestHeader>} The array of HTTP request headers.
 	 */
 	convert( headers )
 	{

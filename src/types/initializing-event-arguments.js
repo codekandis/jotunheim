@@ -10,13 +10,13 @@ export class InitializingEventArguments extends EventArguments
 {
 	/**
 	 * Stores the object which has been initialized.
-	 * @type {Object}
+	 * @type {object}
 	 */
 	#_object;
 
 	/**
 	 * Constructor method.
-	 * @param {Object} object The object which has been initialized.
+	 * @param {object} object The object which has been initialized.
 	 */
 	constructor( object )
 	{
@@ -27,7 +27,7 @@ export class InitializingEventArguments extends EventArguments
 
 	/**
 	 * Gets the object which has been initialized.
-	 * @returns {Object} The object which has been initialized.
+	 * @returns {object} The object which has been initialized.
 	 */
 	get object()
 	{

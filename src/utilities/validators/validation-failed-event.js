@@ -19,7 +19,7 @@ export class ValidationFailedEvent extends AbstractCustomEvent
 
 	/**
 	 * Constructor method.
-	 * @param {Object} sender The object which dispatched the event.
+	 * @param {object} sender The object which dispatched the event.
 	 * @param {ValidationFailedEventArguments} eventArguments The arguments of the event.
 	 */
 	constructor( sender, eventArguments )

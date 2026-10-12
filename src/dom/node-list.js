@@ -9,7 +9,7 @@
  * Represents the handler of any node list node iteration.
  * @callback NodeList_NodeIterationHandler
  * @param {Node} nodeValue The value of the currently iterated node.
- * @param {Number} nodeIndex The index of the currently iterated node.
+ * @param {number} nodeIndex The index of the currently iterated node.
  */
 
 /**

@@ -8,23 +8,23 @@
 /**
  * Represents the handler of any object property iteration.
  * @callback Object_PropertyIterationHandler
- * @param {*} propertyValue The value of the currently iterated property.
- * @param {String} propertyName The name of the currently iterated property.
+ * @param {any} propertyValue The value of the currently iterated property.
+ * @param {string} propertyName The name of the currently iterated property.
  */
 
 /**
  * Represents the predicate of any object property determination.
  * @callback Object_PropertyPredicate
- * @param {*} propertyValue The value of the currently iterated property.
- * @param {String} propertyName The name of the currently iterated property.
- * @returns {Boolean} True if the currently iterated property matches the predicate, otherwise false.
+ * @param {any} propertyValue The value of the currently iterated property.
+ * @param {string} propertyName The name of the currently iterated property.
+ * @returns {boolean} True if the currently iterated property matches the predicate, otherwise false.
  */
 
 /**
  * Determines if the object contains is empty.
  * @method isEmpty
  * @memberOf Object.prototype
- * @returns {Boolean} True if the object is empty, otherwise false.
+ * @returns {boolean} True if the object is empty, otherwise false.
  */
 Object.defineProperty(
 	Object.prototype,
@@ -41,8 +41,8 @@ Object.defineProperty(
  * Determines if a property exists in the object. The determination is based on the type of the given member. The type must not be `symbol`, `function` and `undefined`.
  * @method hasProperty
  * @memberOf Object.prototype
- * @param {String} name The name of the property.
- * @returns {Boolean} True if the property exists, otherwise false.
+ * @param {string} name The name of the property.
+ * @returns {boolean} True if the property exists, otherwise false.
  */
 Object.defineProperty(
 	Object.prototype,
@@ -65,8 +65,8 @@ Object.defineProperty(
  * Determines if a method exists in the object. The determination is based on the type of the given member. The type must be `function`.
  * @method hasMethod
  * @memberOf Object.prototype
- * @param {String} name The name of the method.
- * @returns {Boolean} True if the method exists, otherwise false.
+ * @param {string} name The name of the method.
+ * @returns {boolean} True if the method exists, otherwise false.
  */
 Object.defineProperty(
 	Object.prototype,
@@ -83,7 +83,7 @@ Object.defineProperty(
  * Gets the keys of the object.
  * @method keys
  * @memberOf Object.prototype
- * @returns {String[]} The keys of the object.
+ * @returns {Array<string>} The keys of the object.
  */
 Object.defineProperty(
 	Object.prototype,
@@ -100,7 +100,7 @@ Object.defineProperty(
  * Gets the values of the object's properties.
  * @method values
  * @memberOf Object.prototype
- * @returns {*[]} The values of the object's properties.
+ * @returns {Array} The values of the object's properties.
  */
 Object.defineProperty(
 	Object.prototype,
@@ -138,7 +138,7 @@ Object.defineProperty(
  * @method every
  * @memberOf Object.prototype
  * @param {Object_PropertyPredicate} predicate The predicate to invoke.
- * @returns {Boolean} True if the predicate returns true on every object's property, otherwise false.
+ * @returns {boolean} True if the predicate returns true on every object's property, otherwise false.
  */
 Object.defineProperty(
 	Object.prototype,
@@ -181,8 +181,8 @@ Object.defineProperty(
  * Binds the object to a variadic amount of functions / methods.
  * @method bindToAll
  * @memberOf Object.prototype
- * @param {Function[]} methods The functions / methods to bind the object to.
- * @returns {Function[]}} The bound functions / methods.
+ * @param {Array<Function>} methods The functions / methods to bind the object to.
+ * @returns {Array<Function>}} The bound functions / methods.
  */
 Object.defineProperty(
 	Object.prototype,
@@ -204,7 +204,7 @@ Object.defineProperty(
  * Merges a variadic amount of objects into the object. The object itself will be mutated.
  * @method merge
  * @memberOf Object.prototype
- * @param {...Object} objects The objects to merge.
+ * @param {Array<object>} objects The objects to merge.
  * @returns {this} The merged object.
  */
 Object.defineProperty(

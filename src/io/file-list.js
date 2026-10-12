@@ -9,7 +9,7 @@
  * Represents the handler of any file iteration.
  * @callback FileList_FileIterationHandler
  * @param {File} file The currently iterated file.
- * @param {Number} fileIndex The index of the currently iterated file.
+ * @param {number} fileIndex The index of the currently iterated file.
  */
 
 /**
@@ -17,15 +17,15 @@
  * @callback FileList_FileComparisonHandler
  * @param {File} file_1 The first file to compare.
  * @param {File} file_2 The second file to compare.
- * @returns {Number} -1 if the first file is lower than the second file, 0 if the first file is equal to the second file and 1 if the first file is greater than the second file.
+ * @returns {number} -1 if the first file is lower than the second file, 0 if the first file is equal to the second file and 1 if the first file is greater than the second file.
  */
 
 /**
  * Represents the handler of any file transformation.
  * @callback FileList_FileTransformationHandler
  * @param {File} file The currently iterated file.
- * @param {Number} fileIndex The index of the currently iterated file.
- * @returns {*} The transformed file.
+ * @param {number} fileIndex The index of the currently iterated file.
+ * @returns {any} The transformed file.
  */
 
 /**
@@ -57,7 +57,7 @@ Object.defineProperty(
  * @method map
  * @memberOf FileList.prototype
  * @param {FileList_FileTransformationHandler} transformationHandler The transformation handler used to map the files.
- * @returns {*[]} The array containing the transformed files.
+ * @returns {Array} The array containing the transformed files.
  */
 Object.defineProperty(
 	FileList.prototype,

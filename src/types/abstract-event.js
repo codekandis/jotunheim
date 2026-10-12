@@ -10,7 +10,7 @@ export class AbstractEvent extends Event
 {
 	/**
 	 * Gets the name of the event.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get EVENT_NAME()
 	{
@@ -25,8 +25,8 @@ export class AbstractEvent extends Event
 
 	/**
 	 * Constructor method.
-	 * @param {String} eventName The name of the event.
-	 * @param {Object} sender The object which will dispatch the event.
+	 * @param {string} eventName The name of the event.
+	 * @param {object} sender The object which will dispatch the event.
 	 */
 	constructor( eventName, sender )
 	{
@@ -54,7 +54,7 @@ export class AbstractEvent extends Event
 
 	/**
 	 * Returns the name of the event.
-	 * @returns {String} The name of the event.
+	 * @returns {string} The name of the event.
 	 */
 	toString()
 	{

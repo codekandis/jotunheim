@@ -19,7 +19,7 @@ export class PropertyChangedEvent extends AbstractCustomEvent
 
 	/**
 	 * Constructor method.
-	 * @param {Object} sender The object dispatching this event.
+	 * @param {object} sender The object dispatching this event.
 	 * @param {PropertyEventArguments} eventArguments The arguments of the event.
 	 */
 	constructor( sender, eventArguments )

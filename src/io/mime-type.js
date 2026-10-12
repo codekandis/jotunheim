@@ -13,7 +13,7 @@ export class MimeType extends AbstractStatic
 {
 	/**
 	 * Represents the error message if a charset is empty.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get _ERROR_MESSAGE_CHARSET_IS_EMPTY()
 	{
@@ -22,7 +22,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/1d-interleaved-parityfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_1D_INTERLEAVED_PARITYFEC()
 	{
@@ -31,7 +31,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/3gpdash-qoe-report+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_3GPDASH_QOE_REPORT_XML()
 	{
@@ -40,7 +40,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/3gpp-ims+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_3GPP_IMS_XML()
 	{
@@ -49,7 +49,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/a2l`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_A2L()
 	{
@@ -58,7 +58,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/activemessage`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ACTIVEMESSAGE()
 	{
@@ -67,7 +67,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/alto-costmap+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ALTO_COSTMAP_JSON()
 	{
@@ -76,7 +76,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/alto-costmapfilter+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ALTO_COSTMAPFILTER_JSON()
 	{
@@ -85,7 +85,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/alto-directory+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ALTO_DIRECTORY_JSON()
 	{
@@ -94,7 +94,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/alto-endpointcost+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ALTO_ENDPOINTCOST_JSON()
 	{
@@ -103,7 +103,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/alto-endpointcostparams+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ALTO_ENDPOINTCOSTPARAMS_JSON()
 	{
@@ -112,7 +112,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/alto-endpointprop+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ALTO_ENDPOINTPROP_JSON()
 	{
@@ -121,7 +121,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/alto-endpointpropparams+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ALTO_ENDPOINTPROPPARAMS_JSON()
 	{
@@ -130,7 +130,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/alto-error+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ALTO_ERROR_JSON()
 	{
@@ -139,7 +139,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/alto-networkmap+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ALTO_NETWORKMAP_JSON()
 	{
@@ -148,7 +148,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/alto-networkmapfilter+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ALTO_NETWORKMAPFILTER_JSON()
 	{
@@ -157,7 +157,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/aml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_AML()
 	{
@@ -166,7 +166,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/andrew-inset`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ANDREW_INSET()
 	{
@@ -175,7 +175,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/applefile`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_APPLEFILE()
 	{
@@ -184,7 +184,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/applixware`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_APPLIXWARE()
 	{
@@ -193,7 +193,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/atf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ATF()
 	{
@@ -202,7 +202,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/atfx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ATFX()
 	{
@@ -211,7 +211,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/atom+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ATOM_XML()
 	{
@@ -220,7 +220,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/atomcat+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ATOMCAT_XML()
 	{
@@ -229,7 +229,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/atomdeleted+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ATOMDELETED_XML()
 	{
@@ -238,7 +238,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/atomicmail`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ATOMICMAIL()
 	{
@@ -247,7 +247,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/atomsvc+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ATOMSVC_XML()
 	{
@@ -256,7 +256,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/atxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ATXML()
 	{
@@ -265,7 +265,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/auth-policy+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_AUTH_POLICY_XML()
 	{
@@ -274,7 +274,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/bacnet-xdd+zip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_BACNET_XDD_ZIP()
 	{
@@ -283,7 +283,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/batch-smtp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_BATCH_SMTP()
 	{
@@ -292,7 +292,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/beep+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_BEEP_XML()
 	{
@@ -301,7 +301,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/calendar+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CALENDAR_JSON()
 	{
@@ -310,7 +310,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/calendar+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CALENDAR_XML()
 	{
@@ -319,7 +319,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/call-completion`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CALL_COMPLETION()
 	{
@@ -328,7 +328,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cals-1840`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CALS_1840()
 	{
@@ -337,7 +337,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cbor`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CBOR()
 	{
@@ -346,7 +346,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ccmp+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CCMP_XML()
 	{
@@ -355,7 +355,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ccxml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CCXML_XML()
 	{
@@ -364,7 +364,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cdfx+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CDFX_XML()
 	{
@@ -373,7 +373,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cdmi-capability`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CDMI_CAPABILITY()
 	{
@@ -382,7 +382,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cdmi-container`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CDMI_CONTAINER()
 	{
@@ -391,7 +391,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cdmi-domain`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CDMI_DOMAIN()
 	{
@@ -400,7 +400,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cdmi-object`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CDMI_OBJECT()
 	{
@@ -409,7 +409,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cdmi-queue`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CDMI_QUEUE()
 	{
@@ -418,7 +418,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cdni`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CDNI()
 	{
@@ -427,7 +427,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cea`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CEA()
 	{
@@ -436,7 +436,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cea-2018+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CEA_2018_XML()
 	{
@@ -445,7 +445,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cellml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CELLML_XML()
 	{
@@ -454,7 +454,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cfw`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CFW()
 	{
@@ -463,7 +463,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cms`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CMS()
 	{
@@ -472,7 +472,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cnrp+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CNRP_XML()
 	{
@@ -481,7 +481,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/coap-group+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_COAP_GROUP_JSON()
 	{
@@ -490,7 +490,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/commonground`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_COMMONGROUND()
 	{
@@ -499,7 +499,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/conference-info+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CONFERENCE_INFO_XML()
 	{
@@ -508,7 +508,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cpl+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CPL_XML()
 	{
@@ -517,7 +517,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/csrattrs`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CSRATTRS()
 	{
@@ -526,7 +526,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/csta+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CSTA_XML()
 	{
@@ -535,7 +535,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cstadata+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CSTADATA_XML()
 	{
@@ -544,7 +544,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/csvm+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CSVM_JSON()
 	{
@@ -553,7 +553,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cu-seeme`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CU_SEEME()
 	{
@@ -562,7 +562,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/cybercash`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_CYBERCASH()
 	{
@@ -571,7 +571,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dash+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DASH_XML()
 	{
@@ -580,7 +580,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dashdelta`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DASHDELTA()
 	{
@@ -589,7 +589,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/davmount+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DAVMOUNT_XML()
 	{
@@ -598,7 +598,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dca-rft`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DCA_RFT()
 	{
@@ -607,7 +607,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dcd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DCD()
 	{
@@ -616,7 +616,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dec-dx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DEC_DX()
 	{
@@ -625,7 +625,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dialog-info+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DIALOG_INFO_XML()
 	{
@@ -634,7 +634,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dicom`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DICOM()
 	{
@@ -643,7 +643,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dii`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DII()
 	{
@@ -652,7 +652,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dit`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DIT()
 	{
@@ -661,7 +661,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dns`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DNS()
 	{
@@ -670,7 +670,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/docbook+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DOCBOOK_XML()
 	{
@@ -679,7 +679,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dskpp+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DSKPP_XML()
 	{
@@ -688,7 +688,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dssc+der`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DSSC_DER()
 	{
@@ -697,7 +697,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dssc+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DSSC_XML()
 	{
@@ -706,7 +706,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/dvcs`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_DVCS()
 	{
@@ -715,7 +715,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ecmascript`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ECMASCRIPT()
 	{
@@ -724,7 +724,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/edi-consent`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EDI_CONSENT()
 	{
@@ -733,7 +733,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/edi-x12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EDI_X12()
 	{
@@ -742,7 +742,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/edifact`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EDIFACT()
 	{
@@ -751,7 +751,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/efi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EFI()
 	{
@@ -760,7 +760,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/emergencycalldata.comment+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EMERGENCYCALLDATA_COMMENT_XML()
 	{
@@ -769,7 +769,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/emergencycalldata.deviceinfo+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EMERGENCYCALLDATA_DEVICEINFO_XML()
 	{
@@ -778,7 +778,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/emergencycalldata.providerinfo+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EMERGENCYCALLDATA_PROVIDERINFO_XML()
 	{
@@ -787,7 +787,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/emergencycalldata.serviceinfo+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EMERGENCYCALLDATA_SERVICEINFO_XML()
 	{
@@ -796,7 +796,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/emergencycalldata.subscriberinfo+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EMERGENCYCALLDATA_SUBSCRIBERINFO_XML()
 	{
@@ -805,7 +805,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/emma+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EMMA_XML()
 	{
@@ -814,7 +814,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/emotionml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EMOTIONML_XML()
 	{
@@ -823,7 +823,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/encaprtp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ENCAPRTP()
 	{
@@ -832,7 +832,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/epp+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EPP_XML()
 	{
@@ -841,7 +841,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/epub+zip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EPUB_ZIP()
 	{
@@ -850,7 +850,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/eshop`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ESHOP()
 	{
@@ -859,7 +859,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/example`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EXAMPLE()
 	{
@@ -868,7 +868,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/exi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_EXI()
 	{
@@ -877,7 +877,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/fastinfoset`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_FASTINFOSET()
 	{
@@ -886,7 +886,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/fastsoap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_FASTSOAP()
 	{
@@ -895,7 +895,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/fdt+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_FDT_XML()
 	{
@@ -904,7 +904,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/fits`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_FITS()
 	{
@@ -913,7 +913,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/font-tdpfr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_FONT_TDPFR()
 	{
@@ -922,7 +922,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/framework-attributes+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_FRAMEWORK_ATTRIBUTES_XML()
 	{
@@ -931,7 +931,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/geo+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_GEO_JSON()
 	{
@@ -940,7 +940,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/gml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_GML_XML()
 	{
@@ -949,7 +949,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/gpx+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_GPX_XML()
 	{
@@ -958,7 +958,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/gxf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_GXF()
 	{
@@ -967,7 +967,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/gzip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_GZIP()
 	{
@@ -976,7 +976,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/h224`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_H224()
 	{
@@ -985,7 +985,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/held+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_HELD_XML()
 	{
@@ -994,7 +994,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/http`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_HTTP()
 	{
@@ -1003,7 +1003,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/hyperstudio`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_HYPERSTUDIO()
 	{
@@ -1012,7 +1012,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ibe-key-request+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_IBE_KEY_REQUEST_XML()
 	{
@@ -1021,7 +1021,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ibe-pkg-reply+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_IBE_PKG_REPLY_XML()
 	{
@@ -1030,7 +1030,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ibe-pp-data`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_IBE_PP_DATA()
 	{
@@ -1039,7 +1039,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/iges`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_IGES()
 	{
@@ -1048,7 +1048,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/im-iscomposing+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_IM_ISCOMPOSING_XML()
 	{
@@ -1057,7 +1057,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/index`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_INDEX()
 	{
@@ -1066,7 +1066,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/index.cmd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_INDEX_CMD()
 	{
@@ -1075,7 +1075,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/index.obj`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_INDEX_OBJ()
 	{
@@ -1084,7 +1084,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/index.response`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_INDEX_RESPONSE()
 	{
@@ -1093,7 +1093,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/index.vnd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_INDEX_VND()
 	{
@@ -1102,7 +1102,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/inkml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_INKML_XML()
 	{
@@ -1111,7 +1111,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/iotp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_IOTP()
 	{
@@ -1120,7 +1120,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ipfix`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_IPFIX()
 	{
@@ -1129,7 +1129,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ipp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_IPP()
 	{
@@ -1138,7 +1138,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/isup`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ISUP()
 	{
@@ -1147,7 +1147,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/its+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ITS_XML()
 	{
@@ -1156,7 +1156,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/java-archive`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JAVA_ARCHIVE()
 	{
@@ -1165,7 +1165,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/java-serialized-object`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JAVA_SERIALIZED_OBJECT()
 	{
@@ -1174,7 +1174,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/java-vm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JAVA_VM()
 	{
@@ -1183,7 +1183,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/javascript`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JAVASCRIPT()
 	{
@@ -1192,7 +1192,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/jose`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JOSE()
 	{
@@ -1201,7 +1201,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/jose+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JOSE_JSON()
 	{
@@ -1210,7 +1210,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/jrd+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JRD_JSON()
 	{
@@ -1219,7 +1219,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JSON()
 	{
@@ -1228,7 +1228,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/json-patch+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JSON_PATCH_JSON()
 	{
@@ -1237,7 +1237,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/json-seq`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JSON_SEQ()
 	{
@@ -1246,7 +1246,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/jsonml+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JSONML_JSON()
 	{
@@ -1255,7 +1255,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/jwk+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JWK_JSON()
 	{
@@ -1264,7 +1264,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/jwk-set+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JWK_SET_JSON()
 	{
@@ -1273,7 +1273,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/jwt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_JWT()
 	{
@@ -1282,7 +1282,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/kpml-request+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_KPML_REQUEST_XML()
 	{
@@ -1291,7 +1291,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/kpml-response+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_KPML_RESPONSE_XML()
 	{
@@ -1300,7 +1300,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ld+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_LD_JSON()
 	{
@@ -1309,7 +1309,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/lgr+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_LGR_XML()
 	{
@@ -1318,7 +1318,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/link-format`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_LINK_FORMAT()
 	{
@@ -1327,7 +1327,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/load-control+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_LOAD_CONTROL_XML()
 	{
@@ -1336,7 +1336,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/lost+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_LOST_XML()
 	{
@@ -1345,7 +1345,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/lostsync+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_LOSTSYNC_XML()
 	{
@@ -1354,7 +1354,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/lxf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_LXF()
 	{
@@ -1363,7 +1363,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mac-binhex40`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MAC_BINHEX40()
 	{
@@ -1372,7 +1372,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mac-compactpro`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MAC_COMPACTPRO()
 	{
@@ -1381,7 +1381,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/macwriteii`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MACWRITEII()
 	{
@@ -1390,7 +1390,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mads+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MADS_XML()
 	{
@@ -1399,7 +1399,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/marc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MARC()
 	{
@@ -1408,7 +1408,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/marcxml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MARCXML_XML()
 	{
@@ -1417,7 +1417,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mathematica`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MATHEMATICA()
 	{
@@ -1426,7 +1426,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mathml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MATHML_XML()
 	{
@@ -1435,7 +1435,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mathml-content+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MATHML_CONTENT_XML()
 	{
@@ -1444,7 +1444,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mathml-presentation+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MATHML_PRESENTATION_XML()
 	{
@@ -1453,7 +1453,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mbms-associated-procedure-description+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MBMS_ASSOCIATED_PROCEDURE_DESCRIPTION_XML()
 	{
@@ -1462,7 +1462,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mbms-deregister+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MBMS_DEREGISTER_XML()
 	{
@@ -1471,7 +1471,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mbms-envelope+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MBMS_ENVELOPE_XML()
 	{
@@ -1480,7 +1480,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mbms-msk+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MBMS_MSK_XML()
 	{
@@ -1489,7 +1489,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mbms-msk-response+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MBMS_MSK_RESPONSE_XML()
 	{
@@ -1498,7 +1498,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mbms-protection-description+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MBMS_PROTECTION_DESCRIPTION_XML()
 	{
@@ -1507,7 +1507,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mbms-reception-report+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MBMS_RECEPTION_REPORT_XML()
 	{
@@ -1516,7 +1516,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mbms-register+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MBMS_REGISTER_XML()
 	{
@@ -1525,7 +1525,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mbms-register-response+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MBMS_REGISTER_RESPONSE_XML()
 	{
@@ -1534,7 +1534,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mbms-schedule+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MBMS_SCHEDULE_XML()
 	{
@@ -1543,7 +1543,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mbms-user-service-description+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MBMS_USER_SERVICE_DESCRIPTION_XML()
 	{
@@ -1552,7 +1552,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mbox`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MBOX()
 	{
@@ -1561,7 +1561,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/media-policy-dataset+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MEDIA_POLICY_DATASET_XML()
 	{
@@ -1570,7 +1570,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/media_control+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MEDIA_CONTROL_XML()
 	{
@@ -1579,7 +1579,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mediaservercontrol+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MEDIASERVERCONTROL_XML()
 	{
@@ -1588,7 +1588,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/merge-patch+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MERGE_PATCH_JSON()
 	{
@@ -1597,7 +1597,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/metalink+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_METALINK_XML()
 	{
@@ -1606,7 +1606,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/metalink4+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_METALINK4_XML()
 	{
@@ -1615,7 +1615,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mets+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_METS_XML()
 	{
@@ -1624,7 +1624,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mf4`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MF4()
 	{
@@ -1633,7 +1633,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mikey`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MIKEY()
 	{
@@ -1642,7 +1642,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mods+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MODS_XML()
 	{
@@ -1651,7 +1651,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/moss-keys`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MOSS_KEYS()
 	{
@@ -1660,7 +1660,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/moss-signature`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MOSS_SIGNATURE()
 	{
@@ -1669,7 +1669,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mosskey-data`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MOSSKEY_DATA()
 	{
@@ -1678,7 +1678,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mosskey-request`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MOSSKEY_REQUEST()
 	{
@@ -1687,7 +1687,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mp21`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MP21()
 	{
@@ -1696,7 +1696,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mp4`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MP4()
 	{
@@ -1705,7 +1705,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mpeg4-generic`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MPEG4_GENERIC()
 	{
@@ -1714,7 +1714,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mpeg4-iod`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MPEG4_IOD()
 	{
@@ -1723,7 +1723,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mpeg4-iod-xmt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MPEG4_IOD_XMT()
 	{
@@ -1732,7 +1732,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mrb-consumer+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MRB_CONSUMER_XML()
 	{
@@ -1741,7 +1741,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mrb-publish+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MRB_PUBLISH_XML()
 	{
@@ -1750,7 +1750,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/msc-ivr+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MSC_IVR_XML()
 	{
@@ -1759,7 +1759,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/msc-mixer+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MSC_MIXER_XML()
 	{
@@ -1768,7 +1768,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/msword`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MSWORD()
 	{
@@ -1777,7 +1777,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/mxf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_MXF()
 	{
@@ -1786,7 +1786,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/nasdata`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_NASDATA()
 	{
@@ -1795,7 +1795,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/news-checkgroups`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_NEWS_CHECKGROUPS()
 	{
@@ -1804,7 +1804,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/news-groupinfo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_NEWS_GROUPINFO()
 	{
@@ -1813,7 +1813,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/news-transmission`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_NEWS_TRANSMISSION()
 	{
@@ -1822,7 +1822,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/nlsml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_NLSML_XML()
 	{
@@ -1831,7 +1831,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/nss`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_NSS()
 	{
@@ -1840,7 +1840,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ocsp-request`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_OCSP_REQUEST()
 	{
@@ -1849,7 +1849,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ocsp-response`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_OCSP_RESPONSE()
 	{
@@ -1858,7 +1858,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/octet-stream`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_OCTET_STREAM()
 	{
@@ -1867,7 +1867,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/oda`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ODA()
 	{
@@ -1876,7 +1876,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/odx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ODX()
 	{
@@ -1885,7 +1885,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/oebps-package+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_OEBPS_PACKAGE_XML()
 	{
@@ -1894,7 +1894,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ogg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_OGG()
 	{
@@ -1903,7 +1903,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/omdoc+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_OMDOC_XML()
 	{
@@ -1912,7 +1912,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/onenote`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ONENOTE()
 	{
@@ -1921,7 +1921,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/oxps`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_OXPS()
 	{
@@ -1930,7 +1930,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/p2p-overlay+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_P2P_OVERLAY_XML()
 	{
@@ -1939,7 +1939,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/parityfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PARITYFEC()
 	{
@@ -1948,7 +1948,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/patch-ops-error+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PATCH_OPS_ERROR_XML()
 	{
@@ -1957,7 +1957,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pdf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PDF()
 	{
@@ -1966,7 +1966,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pdx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PDX()
 	{
@@ -1975,7 +1975,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pgp-encrypted`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PGP_ENCRYPTED()
 	{
@@ -1984,7 +1984,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pgp-keys`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PGP_KEYS()
 	{
@@ -1993,7 +1993,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pgp-signature`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PGP_SIGNATURE()
 	{
@@ -2002,7 +2002,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pics-rules`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PICS_RULES()
 	{
@@ -2011,7 +2011,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pidf+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PIDF_XML()
 	{
@@ -2020,7 +2020,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pidf-diff+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PIDF_DIFF_XML()
 	{
@@ -2029,7 +2029,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pkcs10`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PKCS10()
 	{
@@ -2038,7 +2038,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pkcs12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PKCS12()
 	{
@@ -2047,7 +2047,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pkcs7-mime`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PKCS7_MIME()
 	{
@@ -2056,7 +2056,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pkcs7-signature`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PKCS7_SIGNATURE()
 	{
@@ -2065,7 +2065,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pkcs8`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PKCS8()
 	{
@@ -2074,7 +2074,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pkix-attr-cert`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PKIX_ATTR_CERT()
 	{
@@ -2083,7 +2083,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pkix-cert`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PKIX_CERT()
 	{
@@ -2092,7 +2092,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pkix-crl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PKIX_CRL()
 	{
@@ -2101,7 +2101,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pkix-pkipath`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PKIX_PKIPATH()
 	{
@@ -2110,7 +2110,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pkixcmp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PKIXCMP()
 	{
@@ -2119,7 +2119,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pls+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PLS_XML()
 	{
@@ -2128,7 +2128,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/poc-settings+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_POC_SETTINGS_XML()
 	{
@@ -2137,7 +2137,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/postscript`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_POSTSCRIPT()
 	{
@@ -2146,7 +2146,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ppsp-tracker+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PPSP_TRACKER_JSON()
 	{
@@ -2155,7 +2155,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/problem+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PROBLEM_JSON()
 	{
@@ -2164,7 +2164,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/problem+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PROBLEM_XML()
 	{
@@ -2173,7 +2173,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/provenance+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PROVENANCE_XML()
 	{
@@ -2182,7 +2182,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/prs.alvestrand.titrax-sheet`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PRS_ALVESTRAND_TITRAX_SHEET()
 	{
@@ -2191,7 +2191,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/prs.cww`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PRS_CWW()
 	{
@@ -2200,7 +2200,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/prs.hpub+zip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PRS_HPUB_ZIP()
 	{
@@ -2209,7 +2209,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/prs.nprend`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PRS_NPREND()
 	{
@@ -2218,7 +2218,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/prs.plucker`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PRS_PLUCKER()
 	{
@@ -2227,7 +2227,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/prs.rdf-xml-crypt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PRS_RDF_XML_CRYPT()
 	{
@@ -2236,7 +2236,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/prs.xsf+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PRS_XSF_XML()
 	{
@@ -2245,7 +2245,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/pskc+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_PSKC_XML()
 	{
@@ -2254,7 +2254,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/qsig`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_QSIG()
 	{
@@ -2263,7 +2263,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/raptorfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RAPTORFEC()
 	{
@@ -2272,7 +2272,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rdap+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RDAP_JSON()
 	{
@@ -2281,7 +2281,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rdf+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RDF_XML()
 	{
@@ -2290,7 +2290,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/reginfo+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_REGINFO_XML()
 	{
@@ -2299,7 +2299,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/relax-ng-compact-syntax`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RELAX_NG_COMPACT_SYNTAX()
 	{
@@ -2308,7 +2308,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/remote-printing`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_REMOTE_PRINTING()
 	{
@@ -2317,7 +2317,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/reputon+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_REPUTON_JSON()
 	{
@@ -2326,7 +2326,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/resource-lists+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RESOURCE_LISTS_XML()
 	{
@@ -2335,7 +2335,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/resource-lists-diff+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RESOURCE_LISTS_DIFF_XML()
 	{
@@ -2344,7 +2344,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rfc+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RFC_XML()
 	{
@@ -2353,7 +2353,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/riscos`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RISCOS()
 	{
@@ -2362,7 +2362,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rlmi+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RLMI_XML()
 	{
@@ -2371,7 +2371,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rls-services+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RLS_SERVICES_XML()
 	{
@@ -2380,7 +2380,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rpki-ghostbusters`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RPKI_GHOSTBUSTERS()
 	{
@@ -2389,7 +2389,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rpki-manifest`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RPKI_MANIFEST()
 	{
@@ -2398,7 +2398,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rpki-roa`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RPKI_ROA()
 	{
@@ -2407,7 +2407,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rpki-updown`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RPKI_UPDOWN()
 	{
@@ -2416,7 +2416,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rsd+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RSD_XML()
 	{
@@ -2425,7 +2425,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rss+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RSS_XML()
 	{
@@ -2434,7 +2434,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rtf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RTF()
 	{
@@ -2443,7 +2443,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rtploopback`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RTPLOOPBACK()
 	{
@@ -2452,7 +2452,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/rtx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_RTX()
 	{
@@ -2461,7 +2461,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/samlassertion+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SAMLASSERTION_XML()
 	{
@@ -2470,7 +2470,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/samlmetadata+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SAMLMETADATA_XML()
 	{
@@ -2479,7 +2479,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/sbml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SBML_XML()
 	{
@@ -2488,7 +2488,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/scaip+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SCAIP_XML()
 	{
@@ -2497,7 +2497,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/scim+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SCIM_JSON()
 	{
@@ -2506,7 +2506,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/scvp-cv-request`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SCVP_CV_REQUEST()
 	{
@@ -2515,7 +2515,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/scvp-cv-response`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SCVP_CV_RESPONSE()
 	{
@@ -2524,7 +2524,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/scvp-vp-request`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SCVP_VP_REQUEST()
 	{
@@ -2533,7 +2533,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/scvp-vp-response`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SCVP_VP_RESPONSE()
 	{
@@ -2542,7 +2542,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/sdp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SDP()
 	{
@@ -2551,7 +2551,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/sep+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SEP_XML()
 	{
@@ -2560,7 +2560,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/sep-exi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SEP_EXI()
 	{
@@ -2569,7 +2569,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/session-info`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SESSION_INFO()
 	{
@@ -2578,7 +2578,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/set-payment`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SET_PAYMENT()
 	{
@@ -2587,7 +2587,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/set-payment-initiation`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SET_PAYMENT_INITIATION()
 	{
@@ -2596,7 +2596,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/set-registration`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SET_REGISTRATION()
 	{
@@ -2605,7 +2605,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/set-registration-initiation`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SET_REGISTRATION_INITIATION()
 	{
@@ -2614,7 +2614,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/sgml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SGML()
 	{
@@ -2623,7 +2623,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/sgml-open-catalog`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SGML_OPEN_CATALOG()
 	{
@@ -2632,7 +2632,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/shf+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SHF_XML()
 	{
@@ -2641,7 +2641,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/sieve`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SIEVE()
 	{
@@ -2650,7 +2650,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/simple-filter+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SIMPLE_FILTER_XML()
 	{
@@ -2659,7 +2659,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/simple-message-summary`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SIMPLE_MESSAGE_SUMMARY()
 	{
@@ -2668,7 +2668,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/simplesymbolcontainer`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SIMPLESYMBOLCONTAINER()
 	{
@@ -2677,7 +2677,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/slate`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SLATE()
 	{
@@ -2686,7 +2686,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/smil`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SMIL()
 	{
@@ -2695,7 +2695,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/smil+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SMIL_XML()
 	{
@@ -2704,7 +2704,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/smpte336m`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SMPTE336M()
 	{
@@ -2713,7 +2713,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/soap+fastinfoset`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SOAP_FASTINFOSET()
 	{
@@ -2722,7 +2722,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/soap+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SOAP_XML()
 	{
@@ -2731,7 +2731,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/sparql-query`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SPARQL_QUERY()
 	{
@@ -2740,7 +2740,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/sparql-results+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SPARQL_RESULTS_XML()
 	{
@@ -2749,7 +2749,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/spirits-event+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SPIRITS_EVENT_XML()
 	{
@@ -2758,7 +2758,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/sql`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SQL()
 	{
@@ -2767,7 +2767,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/srgs`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SRGS()
 	{
@@ -2776,7 +2776,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/srgs+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SRGS_XML()
 	{
@@ -2785,7 +2785,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/sru+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SRU_XML()
 	{
@@ -2794,7 +2794,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ssdl+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SSDL_XML()
 	{
@@ -2803,7 +2803,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ssml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_SSML_XML()
 	{
@@ -2812,7 +2812,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tamp-apex-update`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TAMP_APEX_UPDATE()
 	{
@@ -2821,7 +2821,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tamp-apex-update-confirm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TAMP_APEX_UPDATE_CONFIRM()
 	{
@@ -2830,7 +2830,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tamp-community-update`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TAMP_COMMUNITY_UPDATE()
 	{
@@ -2839,7 +2839,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tamp-community-update-confirm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TAMP_COMMUNITY_UPDATE_CONFIRM()
 	{
@@ -2848,7 +2848,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tamp-error`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TAMP_ERROR()
 	{
@@ -2857,7 +2857,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tamp-sequence-adjust`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TAMP_SEQUENCE_ADJUST()
 	{
@@ -2866,7 +2866,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tamp-sequence-adjust-confirm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TAMP_SEQUENCE_ADJUST_CONFIRM()
 	{
@@ -2875,7 +2875,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tamp-status-query`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TAMP_STATUS_QUERY()
 	{
@@ -2884,7 +2884,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tamp-status-response`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TAMP_STATUS_RESPONSE()
 	{
@@ -2893,7 +2893,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tamp-update`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TAMP_UPDATE()
 	{
@@ -2902,7 +2902,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tamp-update-confirm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TAMP_UPDATE_CONFIRM()
 	{
@@ -2911,7 +2911,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tei+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TEI_XML()
 	{
@@ -2920,7 +2920,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/thraud+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_THRAUD_XML()
 	{
@@ -2929,7 +2929,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/timestamp-query`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TIMESTAMP_QUERY()
 	{
@@ -2938,7 +2938,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/timestamp-reply`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TIMESTAMP_REPLY()
 	{
@@ -2947,7 +2947,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/timestamped-data`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TIMESTAMPED_DATA()
 	{
@@ -2956,7 +2956,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ttml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TTML_XML()
 	{
@@ -2965,7 +2965,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/tve-trigger`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_TVE_TRIGGER()
 	{
@@ -2974,7 +2974,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/ulpfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ULPFEC()
 	{
@@ -2983,7 +2983,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/urc-grpsheet+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_URC_GRPSHEET_XML()
 	{
@@ -2992,7 +2992,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/urc-ressheet+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_URC_RESSHEET_XML()
 	{
@@ -3001,7 +3001,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/urc-targetdesc+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_URC_TARGETDESC_XML()
 	{
@@ -3010,7 +3010,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/urc-uisocketdesc+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_URC_UISOCKETDESC_XML()
 	{
@@ -3019,7 +3019,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vcard+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VCARD_JSON()
 	{
@@ -3028,7 +3028,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vcard+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VCARD_XML()
 	{
@@ -3037,7 +3037,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vemmi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VEMMI()
 	{
@@ -3046,7 +3046,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vividence.scriptfile`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VIVIDENCE_SCRIPTFILE()
 	{
@@ -3055,7 +3055,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp-prose+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_PROSE_XML()
 	{
@@ -3064,7 +3064,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp-prose-pc3ch+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_PROSE_PC3CH_XML()
 	{
@@ -3073,7 +3073,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp.access-transfer-events+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_ACCESS_TRANSFER_EVENTS_XML()
 	{
@@ -3082,7 +3082,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp.bsf+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_BSF_XML()
 	{
@@ -3091,7 +3091,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp.mid-call+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_MID_CALL_XML()
 	{
@@ -3100,7 +3100,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp.pic-bw-large`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_PIC_BW_LARGE()
 	{
@@ -3109,7 +3109,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp.pic-bw-small`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_PIC_BW_SMALL()
 	{
@@ -3118,7 +3118,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp.pic-bw-var`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_PIC_BW_VAR()
 	{
@@ -3127,7 +3127,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp.sms`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_SMS()
 	{
@@ -3136,7 +3136,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp.sms+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_SMS_XML()
 	{
@@ -3145,7 +3145,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp.srvcc-ext+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_SRVCC_EXT_XML()
 	{
@@ -3154,7 +3154,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp.srvcc-info+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_SRVCC_INFO_XML()
 	{
@@ -3163,7 +3163,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp.state-and-event-info+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_STATE_AND_EVENT_INFO_XML()
 	{
@@ -3172,7 +3172,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp.ussd+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP_USSD_XML()
 	{
@@ -3181,7 +3181,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp2.bcmcsinfo+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP2_BCMCSINFO_XML()
 	{
@@ -3190,7 +3190,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp2.sms`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP2_SMS()
 	{
@@ -3199,7 +3199,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3gpp2.tcap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3GPP2_TCAP()
 	{
@@ -3208,7 +3208,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3lightssoftware.imagescal`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3LIGHTSSOFTWARE_IMAGESCAL()
 	{
@@ -3217,7 +3217,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.3m.post-it-notes`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_3M_POST_IT_NOTES()
 	{
@@ -3226,7 +3226,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.accpac.simply.aso`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ACCPAC_SIMPLY_ASO()
 	{
@@ -3235,7 +3235,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.accpac.simply.imp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ACCPAC_SIMPLY_IMP()
 	{
@@ -3244,7 +3244,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.acucobol`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ACUCOBOL()
 	{
@@ -3253,7 +3253,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.acucorp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ACUCORP()
 	{
@@ -3262,7 +3262,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.adobe.air-application-installer-package+zip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ADOBE_AIR_APPLICATION_INSTALLER_PACKAGE_ZIP()
 	{
@@ -3271,7 +3271,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.adobe.flash.movie`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ADOBE_FLASH_MOVIE()
 	{
@@ -3280,7 +3280,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.adobe.formscentral.fcdt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ADOBE_FORMSCENTRAL_FCDT()
 	{
@@ -3289,7 +3289,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.adobe.fxp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ADOBE_FXP()
 	{
@@ -3298,7 +3298,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.adobe.partial-upload`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ADOBE_PARTIAL_UPLOAD()
 	{
@@ -3307,7 +3307,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.adobe.xdp+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ADOBE_XDP_XML()
 	{
@@ -3316,7 +3316,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.adobe.xfdf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ADOBE_XFDF()
 	{
@@ -3325,7 +3325,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.aether.imp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AETHER_IMP()
 	{
@@ -3334,7 +3334,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ah-barcode`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AH_BARCODE()
 	{
@@ -3343,7 +3343,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ahead.space`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AHEAD_SPACE()
 	{
@@ -3352,7 +3352,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.airzip.filesecure.azf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AIRZIP_FILESECURE_AZF()
 	{
@@ -3361,7 +3361,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.airzip.filesecure.azs`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AIRZIP_FILESECURE_AZS()
 	{
@@ -3370,7 +3370,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.amazon.ebook`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AMAZON_EBOOK()
 	{
@@ -3379,7 +3379,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.amazon.mobi8-ebook`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AMAZON_MOBI8_EBOOK()
 	{
@@ -3388,7 +3388,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.americandynamics.acc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AMERICANDYNAMICS_ACC()
 	{
@@ -3397,7 +3397,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.amiga.ami`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AMIGA_AMI()
 	{
@@ -3406,7 +3406,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.amundsen.maze+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AMUNDSEN_MAZE_XML()
 	{
@@ -3415,7 +3415,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.android.package-archive`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ANDROID_PACKAGE_ARCHIVE()
 	{
@@ -3424,7 +3424,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.anki`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ANKI()
 	{
@@ -3433,7 +3433,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.anser-web-certificate-issue-initiation`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ANSER_WEB_CERTIFICATE_ISSUE_INITIATION()
 	{
@@ -3442,7 +3442,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.anser-web-funds-transfer-initiation`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ANSER_WEB_FUNDS_TRANSFER_INITIATION()
 	{
@@ -3451,7 +3451,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.antix.game-component`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ANTIX_GAME_COMPONENT()
 	{
@@ -3460,7 +3460,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.apache.thrift.binary`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_APACHE_THRIFT_BINARY()
 	{
@@ -3469,7 +3469,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.apache.thrift.compact`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_APACHE_THRIFT_COMPACT()
 	{
@@ -3478,7 +3478,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.apache.thrift.json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_APACHE_THRIFT_JSON()
 	{
@@ -3487,7 +3487,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.api+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_API_JSON()
 	{
@@ -3496,7 +3496,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.apple.installer+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_APPLE_INSTALLER_XML()
 	{
@@ -3505,7 +3505,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.apple.mpegurl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_APPLE_MPEGURL()
 	{
@@ -3514,7 +3514,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.arastra.swi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ARASTRA_SWI()
 	{
@@ -3523,7 +3523,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.aristanetworks.swi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ARISTANETWORKS_SWI()
 	{
@@ -3532,7 +3532,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.artsquare`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ARTSQUARE()
 	{
@@ -3541,7 +3541,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.astraea-software.iota`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ASTRAEA_SOFTWARE_IOTA()
 	{
@@ -3550,7 +3550,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.audiograph`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AUDIOGRAPH()
 	{
@@ -3559,7 +3559,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.autopackage`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AUTOPACKAGE()
 	{
@@ -3568,7 +3568,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.avistar+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_AVISTAR_XML()
 	{
@@ -3577,7 +3577,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.balsamiq.bmml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_BALSAMIQ_BMML_XML()
 	{
@@ -3586,7 +3586,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.balsamiq.bmpr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_BALSAMIQ_BMPR()
 	{
@@ -3595,7 +3595,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.bekitzur-stech+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_BEKITZUR_STECH_JSON()
 	{
@@ -3604,7 +3604,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.biopax.rdf+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_BIOPAX_RDF_XML()
 	{
@@ -3613,7 +3613,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.blueice.multipass`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_BLUEICE_MULTIPASS()
 	{
@@ -3622,7 +3622,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.bluetooth.ep.oob`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_BLUETOOTH_EP_OOB()
 	{
@@ -3631,7 +3631,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.bluetooth.le.oob`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_BLUETOOTH_LE_OOB()
 	{
@@ -3640,7 +3640,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.bmi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_BMI()
 	{
@@ -3649,7 +3649,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.businessobjects`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_BUSINESSOBJECTS()
 	{
@@ -3658,7 +3658,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cab-jscript`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CAB_JSCRIPT()
 	{
@@ -3667,7 +3667,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.canon-cpdl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CANON_CPDL()
 	{
@@ -3676,7 +3676,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.canon-lips`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CANON_LIPS()
 	{
@@ -3685,7 +3685,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cendio.thinlinc.clientconf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CENDIO_THINLINC_CLIENTCONF()
 	{
@@ -3694,7 +3694,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.century-systems.tcp_stream`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CENTURY_SYSTEMS_TCP_STREAM()
 	{
@@ -3703,7 +3703,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.chemdraw+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CHEMDRAW_XML()
 	{
@@ -3712,7 +3712,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.chess-pgn`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CHESS_PGN()
 	{
@@ -3721,7 +3721,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.chipnuts.karaoke-mmd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CHIPNUTS_KARAOKE_MMD()
 	{
@@ -3730,7 +3730,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cinderella`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CINDERELLA()
 	{
@@ -3739,7 +3739,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cirpack.isdn-ext`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CIRPACK_ISDN_EXT()
 	{
@@ -3748,7 +3748,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.citationstyles.style+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CITATIONSTYLES_STYLE_XML()
 	{
@@ -3757,7 +3757,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.claymore`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CLAYMORE()
 	{
@@ -3766,7 +3766,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cloanto.rp9`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CLOANTO_RP9()
 	{
@@ -3775,7 +3775,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.clonk.c4group`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CLONK_C4GROUP()
 	{
@@ -3784,7 +3784,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cluetrust.cartomobile-config`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CLUETRUST_CARTOMOBILE_CONFIG()
 	{
@@ -3793,7 +3793,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cluetrust.cartomobile-config-pkg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CLUETRUST_CARTOMOBILE_CONFIG_PKG()
 	{
@@ -3802,7 +3802,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.coffeescript`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_COFFEESCRIPT()
 	{
@@ -3811,7 +3811,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.collection+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_COLLECTION_JSON()
 	{
@@ -3820,7 +3820,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.collection.doc+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_COLLECTION_DOC_JSON()
 	{
@@ -3829,7 +3829,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.collection.next+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_COLLECTION_NEXT_JSON()
 	{
@@ -3838,7 +3838,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.comicbook+zip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_COMICBOOK_ZIP()
 	{
@@ -3847,7 +3847,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.commerce-battelle`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_COMMERCE_BATTELLE()
 	{
@@ -3856,7 +3856,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.commonspace`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_COMMONSPACE()
 	{
@@ -3865,7 +3865,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.contact.cmsg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CONTACT_CMSG()
 	{
@@ -3874,7 +3874,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.coreos.ignition+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_COREOS_IGNITION_JSON()
 	{
@@ -3883,7 +3883,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cosmocaller`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_COSMOCALLER()
 	{
@@ -3892,7 +3892,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.crick.clicker`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CRICK_CLICKER()
 	{
@@ -3901,7 +3901,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.crick.clicker.keyboard`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CRICK_CLICKER_KEYBOARD()
 	{
@@ -3910,7 +3910,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.crick.clicker.palette`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CRICK_CLICKER_PALETTE()
 	{
@@ -3919,7 +3919,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.crick.clicker.template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CRICK_CLICKER_TEMPLATE()
 	{
@@ -3928,7 +3928,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.crick.clicker.wordbank`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CRICK_CLICKER_WORDBANK()
 	{
@@ -3937,7 +3937,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.criticaltools.wbs+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CRITICALTOOLS_WBS_XML()
 	{
@@ -3946,7 +3946,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ctc-posml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CTC_POSML()
 	{
@@ -3955,7 +3955,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ctct.ws+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CTCT_WS_XML()
 	{
@@ -3964,7 +3964,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cups-pdf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CUPS_PDF()
 	{
@@ -3973,7 +3973,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cups-postscript`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CUPS_POSTSCRIPT()
 	{
@@ -3982,7 +3982,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cups-ppd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CUPS_PPD()
 	{
@@ -3991,7 +3991,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cups-raster`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CUPS_RASTER()
 	{
@@ -4000,7 +4000,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cups-raw`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CUPS_RAW()
 	{
@@ -4009,7 +4009,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.curl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CURL()
 	{
@@ -4018,7 +4018,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.curl.car`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CURL_CAR()
 	{
@@ -4027,7 +4027,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.curl.pcurl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CURL_PCURL()
 	{
@@ -4036,7 +4036,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cyan.dean.root+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CYAN_DEAN_ROOT_XML()
 	{
@@ -4045,7 +4045,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.cybank`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_CYBANK()
 	{
@@ -4054,7 +4054,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dart`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DART()
 	{
@@ -4063,7 +4063,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.data-vision.rdz`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DATA_VISION_RDZ()
 	{
@@ -4072,7 +4072,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.debian.binary-package`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DEBIAN_BINARY_PACKAGE()
 	{
@@ -4081,7 +4081,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dece.data`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DECE_DATA()
 	{
@@ -4090,7 +4090,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dece.ttml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DECE_TTML_XML()
 	{
@@ -4099,7 +4099,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dece.unspecified`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DECE_UNSPECIFIED()
 	{
@@ -4108,7 +4108,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dece.zip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DECE_ZIP()
 	{
@@ -4117,7 +4117,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.denovo.fcselayout-link`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DENOVO_FCSELAYOUT_LINK()
 	{
@@ -4126,7 +4126,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.desmume.movie`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DESMUME_MOVIE()
 	{
@@ -4135,7 +4135,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dir-bi.plate-dl-nosuffix`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DIR_BI_PLATE_DL_NOSUFFIX()
 	{
@@ -4144,7 +4144,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dm.delegation+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DM_DELEGATION_XML()
 	{
@@ -4153,7 +4153,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dna`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DNA()
 	{
@@ -4162,7 +4162,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.document+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DOCUMENT_JSON()
 	{
@@ -4171,7 +4171,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dolby.mlp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DOLBY_MLP()
 	{
@@ -4180,7 +4180,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dolby.mobile.1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DOLBY_MOBILE_1()
 	{
@@ -4189,7 +4189,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dolby.mobile.2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DOLBY_MOBILE_2()
 	{
@@ -4198,7 +4198,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.doremir.scorecloud-binary-document`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DOREMIR_SCORECLOUD_BINARY_DOCUMENT()
 	{
@@ -4207,7 +4207,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dpgraph`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DPGRAPH()
 	{
@@ -4216,7 +4216,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dreamfactory`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DREAMFACTORY()
 	{
@@ -4225,7 +4225,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.drive+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DRIVE_JSON()
 	{
@@ -4234,7 +4234,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ds-keypoint`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DS_KEYPOINT()
 	{
@@ -4243,7 +4243,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dtg.local`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DTG_LOCAL()
 	{
@@ -4252,7 +4252,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dtg.local.flash`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DTG_LOCAL_FLASH()
 	{
@@ -4261,7 +4261,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dtg.local.html`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DTG_LOCAL_HTML()
 	{
@@ -4270,7 +4270,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.ait`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_AIT()
 	{
@@ -4279,7 +4279,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.dvbj`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_DVBJ()
 	{
@@ -4288,7 +4288,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.esgcontainer`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_ESGCONTAINER()
 	{
@@ -4297,7 +4297,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.ipdcdftnotifaccess`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_IPDCDFTNOTIFACCESS()
 	{
@@ -4306,7 +4306,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.ipdcesgaccess`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_IPDCESGACCESS()
 	{
@@ -4315,7 +4315,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.ipdcesgaccess2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_IPDCESGACCESS2()
 	{
@@ -4324,7 +4324,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.ipdcesgpdd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_IPDCESGPDD()
 	{
@@ -4333,7 +4333,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.ipdcroaming`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_IPDCROAMING()
 	{
@@ -4342,7 +4342,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.iptv.alfec-base`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_IPTV_ALFEC_BASE()
 	{
@@ -4351,7 +4351,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.iptv.alfec-enhancement`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_IPTV_ALFEC_ENHANCEMENT()
 	{
@@ -4360,7 +4360,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.notif-aggregate-root+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_NOTIF_AGGREGATE_ROOT_XML()
 	{
@@ -4369,7 +4369,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.notif-container+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_NOTIF_CONTAINER_XML()
 	{
@@ -4378,7 +4378,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.notif-generic+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_NOTIF_GENERIC_XML()
 	{
@@ -4387,7 +4387,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.notif-ia-msglist+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_NOTIF_IA_MSGLIST_XML()
 	{
@@ -4396,7 +4396,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.notif-ia-registration-request+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_NOTIF_IA_REGISTRATION_REQUEST_XML()
 	{
@@ -4405,7 +4405,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.notif-ia-registration-response+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_NOTIF_IA_REGISTRATION_RESPONSE_XML()
 	{
@@ -4414,7 +4414,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.notif-init+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_NOTIF_INIT_XML()
 	{
@@ -4423,7 +4423,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.pfr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_PFR()
 	{
@@ -4432,7 +4432,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dvb.service`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DVB_SERVICE()
 	{
@@ -4441,7 +4441,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dxr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DXR()
 	{
@@ -4450,7 +4450,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dynageo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DYNAGEO()
 	{
@@ -4459,7 +4459,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.dzr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_DZR()
 	{
@@ -4468,7 +4468,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.easykaraoke.cdgdownload`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_EASYKARAOKE_CDGDOWNLOAD()
 	{
@@ -4477,7 +4477,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ecdis-update`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ECDIS_UPDATE()
 	{
@@ -4486,7 +4486,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ecowin.chart`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ECOWIN_CHART()
 	{
@@ -4495,7 +4495,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ecowin.filerequest`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ECOWIN_FILEREQUEST()
 	{
@@ -4504,7 +4504,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ecowin.fileupdate`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ECOWIN_FILEUPDATE()
 	{
@@ -4513,7 +4513,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ecowin.series`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ECOWIN_SERIES()
 	{
@@ -4522,7 +4522,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ecowin.seriesrequest`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ECOWIN_SERIESREQUEST()
 	{
@@ -4531,7 +4531,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ecowin.seriesupdate`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ECOWIN_SERIESUPDATE()
 	{
@@ -4540,7 +4540,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.emclient.accessrequest+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_EMCLIENT_ACCESSREQUEST_XML()
 	{
@@ -4549,7 +4549,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.enliven`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ENLIVEN()
 	{
@@ -4558,7 +4558,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.enphase.envoy`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ENPHASE_ENVOY()
 	{
@@ -4567,7 +4567,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.eprints.data+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_EPRINTS_DATA_XML()
 	{
@@ -4576,7 +4576,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.epson.esf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_EPSON_ESF()
 	{
@@ -4585,7 +4585,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.epson.msf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_EPSON_MSF()
 	{
@@ -4594,7 +4594,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.epson.quickanime`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_EPSON_QUICKANIME()
 	{
@@ -4603,7 +4603,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.epson.salt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_EPSON_SALT()
 	{
@@ -4612,7 +4612,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.epson.ssf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_EPSON_SSF()
 	{
@@ -4621,7 +4621,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ericsson.quickcall`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ERICSSON_QUICKCALL()
 	{
@@ -4630,7 +4630,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.eszigno3+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ESZIGNO3_XML()
 	{
@@ -4639,7 +4639,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.aoc+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_AOC_XML()
 	{
@@ -4648,7 +4648,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.asic-e+zip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_ASIC_E_ZIP()
 	{
@@ -4657,7 +4657,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.asic-s+zip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_ASIC_S_ZIP()
 	{
@@ -4666,7 +4666,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.cug+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_CUG_XML()
 	{
@@ -4675,7 +4675,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.iptvcommand+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_IPTVCOMMAND_XML()
 	{
@@ -4684,7 +4684,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.iptvdiscovery+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_IPTVDISCOVERY_XML()
 	{
@@ -4693,7 +4693,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.iptvprofile+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_IPTVPROFILE_XML()
 	{
@@ -4702,7 +4702,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.iptvsad-bc+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_IPTVSAD_BC_XML()
 	{
@@ -4711,7 +4711,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.iptvsad-cod+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_IPTVSAD_COD_XML()
 	{
@@ -4720,7 +4720,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.iptvsad-npvr+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_IPTVSAD_NPVR_XML()
 	{
@@ -4729,7 +4729,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.iptvservice+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_IPTVSERVICE_XML()
 	{
@@ -4738,7 +4738,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.iptvsync+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_IPTVSYNC_XML()
 	{
@@ -4747,7 +4747,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.iptvueprofile+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_IPTVUEPROFILE_XML()
 	{
@@ -4756,7 +4756,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.mcid+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_MCID_XML()
 	{
@@ -4765,7 +4765,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.mheg5`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_MHEG5()
 	{
@@ -4774,7 +4774,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.overload-control-policy-dataset+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_OVERLOAD_CONTROL_POLICY_DATASET_XML()
 	{
@@ -4783,7 +4783,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.pstn+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_PSTN_XML()
 	{
@@ -4792,7 +4792,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.sci+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_SCI_XML()
 	{
@@ -4801,7 +4801,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.simservs+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_SIMSERVS_XML()
 	{
@@ -4810,7 +4810,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.timestamp-token`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_TIMESTAMP_TOKEN()
 	{
@@ -4819,7 +4819,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.tsl+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_TSL_XML()
 	{
@@ -4828,7 +4828,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.etsi.tsl.der`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ETSI_TSL_DER()
 	{
@@ -4837,7 +4837,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.eudora.data`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_EUDORA_DATA()
 	{
@@ -4846,7 +4846,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ezpix-album`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_EZPIX_ALBUM()
 	{
@@ -4855,7 +4855,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ezpix-package`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_EZPIX_PACKAGE()
 	{
@@ -4864,7 +4864,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.f-secure.mobile`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_F_SECURE_MOBILE()
 	{
@@ -4873,7 +4873,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fastcopy-disk-image`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FASTCOPY_DISK_IMAGE()
 	{
@@ -4882,7 +4882,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fdf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FDF()
 	{
@@ -4891,7 +4891,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fdsn.mseed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FDSN_MSEED()
 	{
@@ -4900,7 +4900,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fdsn.seed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FDSN_SEED()
 	{
@@ -4909,7 +4909,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ffsns`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FFSNS()
 	{
@@ -4918,7 +4918,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.filmit.zfc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FILMIT_ZFC()
 	{
@@ -4927,7 +4927,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fints`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FINTS()
 	{
@@ -4936,7 +4936,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.firemonkeys.cloudcell`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FIREMONKEYS_CLOUDCELL()
 	{
@@ -4945,7 +4945,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.flographit`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FLOGRAPHIT()
 	{
@@ -4954,7 +4954,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fluxtime.clip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FLUXTIME_CLIP()
 	{
@@ -4963,7 +4963,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.font-fontforge-sfd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FONT_FONTFORGE_SFD()
 	{
@@ -4972,7 +4972,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.framemaker`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FRAMEMAKER()
 	{
@@ -4981,7 +4981,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.frogans.fnc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FROGANS_FNC()
 	{
@@ -4990,7 +4990,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.frogans.ltf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FROGANS_LTF()
 	{
@@ -4999,7 +4999,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fsc.weblaunch`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FSC_WEBLAUNCH()
 	{
@@ -5008,7 +5008,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fujitsu.oasys`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUJITSU_OASYS()
 	{
@@ -5017,7 +5017,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fujitsu.oasys2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUJITSU_OASYS2()
 	{
@@ -5026,7 +5026,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fujitsu.oasys3`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUJITSU_OASYS3()
 	{
@@ -5035,7 +5035,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fujitsu.oasysgp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUJITSU_OASYSGP()
 	{
@@ -5044,7 +5044,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fujitsu.oasysprs`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUJITSU_OASYSPRS()
 	{
@@ -5053,7 +5053,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fujixerox.art-ex`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUJIXEROX_ART_EX()
 	{
@@ -5062,7 +5062,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fujixerox.art4`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUJIXEROX_ART4()
 	{
@@ -5071,7 +5071,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fujixerox.ddd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUJIXEROX_DDD()
 	{
@@ -5080,7 +5080,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fujixerox.docuworks`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUJIXEROX_DOCUWORKS()
 	{
@@ -5089,7 +5089,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fujixerox.docuworks.binder`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUJIXEROX_DOCUWORKS_BINDER()
 	{
@@ -5098,7 +5098,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fujixerox.docuworks.container`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUJIXEROX_DOCUWORKS_CONTAINER()
 	{
@@ -5107,7 +5107,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fujixerox.hbpl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUJIXEROX_HBPL()
 	{
@@ -5116,7 +5116,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fut-misnet`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUT_MISNET()
 	{
@@ -5125,7 +5125,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.fuzzysheet`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_FUZZYSHEET()
 	{
@@ -5134,7 +5134,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.genomatix.tuxedo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GENOMATIX_TUXEDO()
 	{
@@ -5143,7 +5143,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.geo+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GEO_JSON()
 	{
@@ -5152,7 +5152,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.geocube+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GEOCUBE_XML()
 	{
@@ -5161,7 +5161,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.geogebra.file`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GEOGEBRA_FILE()
 	{
@@ -5170,7 +5170,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.geogebra.slides`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GEOGEBRA_SLIDES()
 	{
@@ -5179,7 +5179,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.geogebra.tool`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GEOGEBRA_TOOL()
 	{
@@ -5188,7 +5188,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.geometry-explorer`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GEOMETRY_EXPLORER()
 	{
@@ -5197,7 +5197,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.geonext`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GEONEXT()
 	{
@@ -5206,7 +5206,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.geoplan`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GEOPLAN()
 	{
@@ -5215,7 +5215,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.geospace`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GEOSPACE()
 	{
@@ -5224,7 +5224,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.gerber`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GERBER()
 	{
@@ -5233,7 +5233,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.globalplatform.card-content-mgt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GLOBALPLATFORM_CARD_CONTENT_MGT()
 	{
@@ -5242,7 +5242,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.globalplatform.card-content-mgt-response`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GLOBALPLATFORM_CARD_CONTENT_MGT_RESPONSE()
 	{
@@ -5251,7 +5251,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.gmx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GMX()
 	{
@@ -5260,7 +5260,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.google-earth.kml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GOOGLE_EARTH_KML_XML()
 	{
@@ -5269,7 +5269,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.google-earth.kmz`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GOOGLE_EARTH_KMZ()
 	{
@@ -5278,7 +5278,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.gov.sk.e-form+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GOV_SK_E_FORM_XML()
 	{
@@ -5287,7 +5287,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.gov.sk.e-form+zip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GOV_SK_E_FORM_ZIP()
 	{
@@ -5296,7 +5296,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.gov.sk.xmldatacontainer+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GOV_SK_XMLDATACONTAINER_XML()
 	{
@@ -5305,7 +5305,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.grafeq`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GRAFEQ()
 	{
@@ -5314,7 +5314,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.gridmp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GRIDMP()
 	{
@@ -5323,7 +5323,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.groove-account`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GROOVE_ACCOUNT()
 	{
@@ -5332,7 +5332,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.groove-help`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GROOVE_HELP()
 	{
@@ -5341,7 +5341,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.groove-identity-message`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GROOVE_IDENTITY_MESSAGE()
 	{
@@ -5350,7 +5350,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.groove-injector`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GROOVE_INJECTOR()
 	{
@@ -5359,7 +5359,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.groove-tool-message`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GROOVE_TOOL_MESSAGE()
 	{
@@ -5368,7 +5368,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.groove-tool-template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GROOVE_TOOL_TEMPLATE()
 	{
@@ -5377,7 +5377,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.groove-vcard`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_GROOVE_VCARD()
 	{
@@ -5386,7 +5386,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hal+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HAL_JSON()
 	{
@@ -5395,7 +5395,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hal+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HAL_XML()
 	{
@@ -5404,7 +5404,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.handheld-entertainment+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HANDHELD_ENTERTAINMENT_XML()
 	{
@@ -5413,7 +5413,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hbci`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HBCI()
 	{
@@ -5422,7 +5422,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hcl-bireports`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HCL_BIREPORTS()
 	{
@@ -5431,7 +5431,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hdt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HDT()
 	{
@@ -5440,7 +5440,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.heroku+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HEROKU_JSON()
 	{
@@ -5449,7 +5449,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hhe.lesson-player`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HHE_LESSON_PLAYER()
 	{
@@ -5458,7 +5458,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hp-hpgl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HP_HPGL()
 	{
@@ -5467,7 +5467,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hp-hpid`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HP_HPID()
 	{
@@ -5476,7 +5476,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hp-hps`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HP_HPS()
 	{
@@ -5485,7 +5485,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hp-jlyt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HP_JLYT()
 	{
@@ -5494,7 +5494,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hp-pcl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HP_PCL()
 	{
@@ -5503,7 +5503,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hp-pclxl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HP_PCLXL()
 	{
@@ -5512,7 +5512,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.httphone`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HTTPHONE()
 	{
@@ -5521,7 +5521,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hydrostatix.sof-data`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HYDROSTATIX_SOF_DATA()
 	{
@@ -5530,7 +5530,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hyperdrive+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HYPERDRIVE_JSON()
 	{
@@ -5539,7 +5539,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.hzn-3d-crossword`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_HZN_3D_CROSSWORD()
 	{
@@ -5548,7 +5548,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ibm.afplinedata`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IBM_AFPLINEDATA()
 	{
@@ -5557,7 +5557,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ibm.electronic-media`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IBM_ELECTRONIC_MEDIA()
 	{
@@ -5566,7 +5566,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ibm.minipay`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IBM_MINIPAY()
 	{
@@ -5575,7 +5575,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ibm.modcap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IBM_MODCAP()
 	{
@@ -5584,7 +5584,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ibm.rights-management`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IBM_RIGHTS_MANAGEMENT()
 	{
@@ -5593,7 +5593,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ibm.secure-container`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IBM_SECURE_CONTAINER()
 	{
@@ -5602,7 +5602,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.iccprofile`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ICCPROFILE()
 	{
@@ -5611,7 +5611,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ieee.1905`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IEEE_1905()
 	{
@@ -5620,7 +5620,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.igloader`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IGLOADER()
 	{
@@ -5629,7 +5629,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.immervision-ivp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IMMERVISION_IVP()
 	{
@@ -5638,7 +5638,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.immervision-ivu`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IMMERVISION_IVU()
 	{
@@ -5647,7 +5647,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ims.imsccv1p1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IMS_IMSCCV1P1()
 	{
@@ -5656,7 +5656,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ims.imsccv1p2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IMS_IMSCCV1P2()
 	{
@@ -5665,7 +5665,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ims.imsccv1p3`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IMS_IMSCCV1P3()
 	{
@@ -5674,7 +5674,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ims.lis.v2.result+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IMS_LIS_V2_RESULT_JSON()
 	{
@@ -5683,7 +5683,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ims.lti.v2.toolconsumerprofile+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IMS_LTI_V2_TOOLCONSUMERPROFILE_JSON()
 	{
@@ -5692,7 +5692,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ims.lti.v2.toolproxy+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IMS_LTI_V2_TOOLPROXY_JSON()
 	{
@@ -5701,7 +5701,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ims.lti.v2.toolproxy.id+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IMS_LTI_V2_TOOLPROXY_ID_JSON()
 	{
@@ -5710,7 +5710,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ims.lti.v2.toolsettings+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IMS_LTI_V2_TOOLSETTINGS_JSON()
 	{
@@ -5719,7 +5719,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ims.lti.v2.toolsettings.simple+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IMS_LTI_V2_TOOLSETTINGS_SIMPLE_JSON()
 	{
@@ -5728,7 +5728,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.informedcontrol.rms+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_INFORMEDCONTROL_RMS_XML()
 	{
@@ -5737,7 +5737,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.informix-visionary`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_INFORMIX_VISIONARY()
 	{
@@ -5746,7 +5746,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.infotech.project`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_INFOTECH_PROJECT()
 	{
@@ -5755,7 +5755,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.infotech.project+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_INFOTECH_PROJECT_XML()
 	{
@@ -5764,7 +5764,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.innopath.wamp.notification`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_INNOPATH_WAMP_NOTIFICATION()
 	{
@@ -5773,7 +5773,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.insors.igm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_INSORS_IGM()
 	{
@@ -5782,7 +5782,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.intercon.formnet`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_INTERCON_FORMNET()
 	{
@@ -5791,7 +5791,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.intergeo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_INTERGEO()
 	{
@@ -5800,7 +5800,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.intertrust.digibox`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_INTERTRUST_DIGIBOX()
 	{
@@ -5809,7 +5809,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.intertrust.nncp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_INTERTRUST_NNCP()
 	{
@@ -5818,7 +5818,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.intu.qbo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_INTU_QBO()
 	{
@@ -5827,7 +5827,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.intu.qfx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_INTU_QFX()
 	{
@@ -5836,7 +5836,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.iptc.g2.catalogitem+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IPTC_G2_CATALOGITEM_XML()
 	{
@@ -5845,7 +5845,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.iptc.g2.conceptitem+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IPTC_G2_CONCEPTITEM_XML()
 	{
@@ -5854,7 +5854,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.iptc.g2.knowledgeitem+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IPTC_G2_KNOWLEDGEITEM_XML()
 	{
@@ -5863,7 +5863,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.iptc.g2.newsitem+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IPTC_G2_NEWSITEM_XML()
 	{
@@ -5872,7 +5872,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.iptc.g2.newsmessage+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IPTC_G2_NEWSMESSAGE_XML()
 	{
@@ -5881,7 +5881,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.iptc.g2.packageitem+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IPTC_G2_PACKAGEITEM_XML()
 	{
@@ -5890,7 +5890,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.iptc.g2.planningitem+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IPTC_G2_PLANNINGITEM_XML()
 	{
@@ -5899,7 +5899,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ipunplugged.rcprofile`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IPUNPLUGGED_RCPROFILE()
 	{
@@ -5908,7 +5908,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.irepository.package+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IREPOSITORY_PACKAGE_XML()
 	{
@@ -5917,7 +5917,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.is-xpr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_IS_XPR()
 	{
@@ -5926,7 +5926,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.isac.fcs`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ISAC_FCS()
 	{
@@ -5935,7 +5935,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.jam`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JAM()
 	{
@@ -5944,7 +5944,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.japannet-directory-service`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JAPANNET_DIRECTORY_SERVICE()
 	{
@@ -5953,7 +5953,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.japannet-jpnstore-wakeup`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JAPANNET_JPNSTORE_WAKEUP()
 	{
@@ -5962,7 +5962,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.japannet-payment-wakeup`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JAPANNET_PAYMENT_WAKEUP()
 	{
@@ -5971,7 +5971,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.japannet-registration`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JAPANNET_REGISTRATION()
 	{
@@ -5980,7 +5980,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.japannet-registration-wakeup`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JAPANNET_REGISTRATION_WAKEUP()
 	{
@@ -5989,7 +5989,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.japannet-setstore-wakeup`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JAPANNET_SETSTORE_WAKEUP()
 	{
@@ -5998,7 +5998,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.japannet-verification`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JAPANNET_VERIFICATION()
 	{
@@ -6007,7 +6007,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.japannet-verification-wakeup`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JAPANNET_VERIFICATION_WAKEUP()
 	{
@@ -6016,7 +6016,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.jcp.javame.midlet-rms`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JCP_JAVAME_MIDLET_RMS()
 	{
@@ -6025,7 +6025,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.jisp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JISP()
 	{
@@ -6034,7 +6034,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.joost.joda-archive`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JOOST_JODA_ARCHIVE()
 	{
@@ -6043,7 +6043,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.jsk.isdn-ngn`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_JSK_ISDN_NGN()
 	{
@@ -6052,7 +6052,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kahootz`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KAHOOTZ()
 	{
@@ -6061,7 +6061,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kde.karbon`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KDE_KARBON()
 	{
@@ -6070,7 +6070,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kde.kchart`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KDE_KCHART()
 	{
@@ -6079,7 +6079,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kde.kformula`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KDE_KFORMULA()
 	{
@@ -6088,7 +6088,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kde.kivio`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KDE_KIVIO()
 	{
@@ -6097,7 +6097,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kde.kontour`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KDE_KONTOUR()
 	{
@@ -6106,7 +6106,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kde.kpresenter`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KDE_KPRESENTER()
 	{
@@ -6115,7 +6115,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kde.kspread`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KDE_KSPREAD()
 	{
@@ -6124,7 +6124,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kde.kword`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KDE_KWORD()
 	{
@@ -6133,7 +6133,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kenameaapp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KENAMEAAPP()
 	{
@@ -6142,7 +6142,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kidspiration`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KIDSPIRATION()
 	{
@@ -6151,7 +6151,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kinar`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KINAR()
 	{
@@ -6160,7 +6160,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.koan`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KOAN()
 	{
@@ -6169,7 +6169,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.kodak-descriptor`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_KODAK_DESCRIPTOR()
 	{
@@ -6178,7 +6178,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.las.las+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_LAS_LAS_XML()
 	{
@@ -6187,7 +6187,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.liberty-request+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_LIBERTY_REQUEST_XML()
 	{
@@ -6196,7 +6196,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.llamagraphics.life-balance.desktop`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_LLAMAGRAPHICS_LIFE_BALANCE_DESKTOP()
 	{
@@ -6205,7 +6205,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.llamagraphics.life-balance.exchange+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_LLAMAGRAPHICS_LIFE_BALANCE_EXCHANGE_XML()
 	{
@@ -6214,7 +6214,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.lotus-1-2-3`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_LOTUS_1_2_3()
 	{
@@ -6223,7 +6223,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.lotus-approach`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_LOTUS_APPROACH()
 	{
@@ -6232,7 +6232,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.lotus-freelance`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_LOTUS_FREELANCE()
 	{
@@ -6241,7 +6241,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.lotus-notes`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_LOTUS_NOTES()
 	{
@@ -6250,7 +6250,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.lotus-organizer`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_LOTUS_ORGANIZER()
 	{
@@ -6259,7 +6259,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.lotus-screencam`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_LOTUS_SCREENCAM()
 	{
@@ -6268,7 +6268,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.lotus-wordpro`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_LOTUS_WORDPRO()
 	{
@@ -6277,7 +6277,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.macports.portpkg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MACPORTS_PORTPKG()
 	{
@@ -6286,7 +6286,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mapbox-vector-tile`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MAPBOX_VECTOR_TILE()
 	{
@@ -6295,7 +6295,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.marlin.drm.actiontoken+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MARLIN_DRM_ACTIONTOKEN_XML()
 	{
@@ -6304,7 +6304,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.marlin.drm.conftoken+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MARLIN_DRM_CONFTOKEN_XML()
 	{
@@ -6313,7 +6313,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.marlin.drm.license+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MARLIN_DRM_LICENSE_XML()
 	{
@@ -6322,7 +6322,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.marlin.drm.mdcf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MARLIN_DRM_MDCF()
 	{
@@ -6331,7 +6331,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mason+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MASON_JSON()
 	{
@@ -6340,7 +6340,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.maxmind.maxmind-db`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MAXMIND_MAXMIND_DB()
 	{
@@ -6349,7 +6349,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mcd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MCD()
 	{
@@ -6358,7 +6358,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.medcalcdata`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MEDCALCDATA()
 	{
@@ -6367,7 +6367,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mediastation.cdkey`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MEDIASTATION_CDKEY()
 	{
@@ -6376,7 +6376,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.meridian-slingshot`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MERIDIAN_SLINGSHOT()
 	{
@@ -6385,7 +6385,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mfer`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MFER()
 	{
@@ -6394,7 +6394,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mfmp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MFMP()
 	{
@@ -6403,7 +6403,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.micro+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MICRO_JSON()
 	{
@@ -6412,7 +6412,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.micrografx.flo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MICROGRAFX_FLO()
 	{
@@ -6421,7 +6421,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.micrografx.igx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MICROGRAFX_IGX()
 	{
@@ -6430,7 +6430,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.microsoft.portable-executable`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MICROSOFT_PORTABLE_EXECUTABLE()
 	{
@@ -6439,7 +6439,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.miele+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MIELE_JSON()
 	{
@@ -6448,7 +6448,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mif`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MIF()
 	{
@@ -6457,7 +6457,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.minisoft-hp3000-save`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MINISOFT_HP3000_SAVE()
 	{
@@ -6466,7 +6466,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mitsubishi.misty-guard.trustweb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MITSUBISHI_MISTY_GUARD_TRUSTWEB()
 	{
@@ -6475,7 +6475,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mobius.daf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOBIUS_DAF()
 	{
@@ -6484,7 +6484,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mobius.dis`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOBIUS_DIS()
 	{
@@ -6493,7 +6493,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mobius.mbk`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOBIUS_MBK()
 	{
@@ -6502,7 +6502,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mobius.mqy`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOBIUS_MQY()
 	{
@@ -6511,7 +6511,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mobius.msl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOBIUS_MSL()
 	{
@@ -6520,7 +6520,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mobius.plc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOBIUS_PLC()
 	{
@@ -6529,7 +6529,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mobius.txf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOBIUS_TXF()
 	{
@@ -6538,7 +6538,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mophun.application`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOPHUN_APPLICATION()
 	{
@@ -6547,7 +6547,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mophun.certificate`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOPHUN_CERTIFICATE()
 	{
@@ -6556,7 +6556,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.motorola.flexsuite`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOTOROLA_FLEXSUITE()
 	{
@@ -6565,7 +6565,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.motorola.flexsuite.adsi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOTOROLA_FLEXSUITE_ADSI()
 	{
@@ -6574,7 +6574,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.motorola.flexsuite.fis`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOTOROLA_FLEXSUITE_FIS()
 	{
@@ -6583,7 +6583,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.motorola.flexsuite.gotap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOTOROLA_FLEXSUITE_GOTAP()
 	{
@@ -6592,7 +6592,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.motorola.flexsuite.kmr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOTOROLA_FLEXSUITE_KMR()
 	{
@@ -6601,7 +6601,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.motorola.flexsuite.ttc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOTOROLA_FLEXSUITE_TTC()
 	{
@@ -6610,7 +6610,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.motorola.flexsuite.wem`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOTOROLA_FLEXSUITE_WEM()
 	{
@@ -6619,7 +6619,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.motorola.iprm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOTOROLA_IPRM()
 	{
@@ -6628,7 +6628,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mozilla.xul+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MOZILLA_XUL_XML()
 	{
@@ -6637,7 +6637,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-3mfdocument`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_3MFDOCUMENT()
 	{
@@ -6646,7 +6646,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-artgalry`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_ARTGALRY()
 	{
@@ -6655,7 +6655,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-asf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_ASF()
 	{
@@ -6664,7 +6664,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-cab-compressed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_CAB_COMPRESSED()
 	{
@@ -6673,7 +6673,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-color.iccprofile`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_COLOR_ICCPROFILE()
 	{
@@ -6682,7 +6682,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-excel`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_EXCEL()
 	{
@@ -6691,7 +6691,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-excel.addin.macroenabled.12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_EXCEL_ADDIN_MACROENABLED_12()
 	{
@@ -6700,7 +6700,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-excel.sheet.binary.macroenabled.12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_EXCEL_SHEET_BINARY_MACROENABLED_12()
 	{
@@ -6709,7 +6709,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-excel.sheet.macroenabled.12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_EXCEL_SHEET_MACROENABLED_12()
 	{
@@ -6718,7 +6718,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-excel.template.macroenabled.12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_EXCEL_TEMPLATE_MACROENABLED_12()
 	{
@@ -6727,7 +6727,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-fontobject`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_FONTOBJECT()
 	{
@@ -6736,7 +6736,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-htmlhelp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_HTMLHELP()
 	{
@@ -6745,7 +6745,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-ims`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_IMS()
 	{
@@ -6754,7 +6754,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-lrm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_LRM()
 	{
@@ -6763,7 +6763,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-office.activex+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_OFFICE_ACTIVEX_XML()
 	{
@@ -6772,7 +6772,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-officetheme`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_OFFICETHEME()
 	{
@@ -6781,7 +6781,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-opentype`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_OPENTYPE()
 	{
@@ -6790,7 +6790,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-package.obfuscated-opentype`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_PACKAGE_OBFUSCATED_OPENTYPE()
 	{
@@ -6799,7 +6799,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-pki.seccat`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_PKI_SECCAT()
 	{
@@ -6808,7 +6808,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-pki.stl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_PKI_STL()
 	{
@@ -6817,7 +6817,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-playready.initiator+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_PLAYREADY_INITIATOR_XML()
 	{
@@ -6826,7 +6826,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-powerpoint`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_POWERPOINT()
 	{
@@ -6835,7 +6835,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-powerpoint.addin.macroenabled.12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_POWERPOINT_ADDIN_MACROENABLED_12()
 	{
@@ -6844,7 +6844,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-powerpoint.presentation.macroenabled.12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_POWERPOINT_PRESENTATION_MACROENABLED_12()
 	{
@@ -6853,7 +6853,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-powerpoint.slide.macroenabled.12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_POWERPOINT_SLIDE_MACROENABLED_12()
 	{
@@ -6862,7 +6862,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-powerpoint.slideshow.macroenabled.12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_POWERPOINT_SLIDESHOW_MACROENABLED_12()
 	{
@@ -6871,7 +6871,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-powerpoint.template.macroenabled.12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_POWERPOINT_TEMPLATE_MACROENABLED_12()
 	{
@@ -6880,7 +6880,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-printdevicecapabilities+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_PRINTDEVICECAPABILITIES_XML()
 	{
@@ -6889,7 +6889,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-printing.printticket+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_PRINTING_PRINTTICKET_XML()
 	{
@@ -6898,7 +6898,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-printschematicket+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_PRINTSCHEMATICKET_XML()
 	{
@@ -6907,7 +6907,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-project`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_PROJECT()
 	{
@@ -6916,7 +6916,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-tnef`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_TNEF()
 	{
@@ -6925,7 +6925,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-windows.devicepairing`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_WINDOWS_DEVICEPAIRING()
 	{
@@ -6934,7 +6934,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-windows.nwprinting.oob`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_WINDOWS_NWPRINTING_OOB()
 	{
@@ -6943,7 +6943,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-windows.printerpairing`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_WINDOWS_PRINTERPAIRING()
 	{
@@ -6952,7 +6952,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-windows.wsd.oob`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_WINDOWS_WSD_OOB()
 	{
@@ -6961,7 +6961,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-wmdrm.lic-chlg-req`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_WMDRM_LIC_CHLG_REQ()
 	{
@@ -6970,7 +6970,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-wmdrm.lic-resp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_WMDRM_LIC_RESP()
 	{
@@ -6979,7 +6979,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-wmdrm.meter-chlg-req`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_WMDRM_METER_CHLG_REQ()
 	{
@@ -6988,7 +6988,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-wmdrm.meter-resp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_WMDRM_METER_RESP()
 	{
@@ -6997,7 +6997,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-word.document.macroenabled.12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_WORD_DOCUMENT_MACROENABLED_12()
 	{
@@ -7006,7 +7006,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-word.template.macroenabled.12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_WORD_TEMPLATE_MACROENABLED_12()
 	{
@@ -7015,7 +7015,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-works`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_WORKS()
 	{
@@ -7024,7 +7024,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-wpl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_WPL()
 	{
@@ -7033,7 +7033,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ms-xpsdocument`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MS_XPSDOCUMENT()
 	{
@@ -7042,7 +7042,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.msa-disk-image`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MSA_DISK_IMAGE()
 	{
@@ -7051,7 +7051,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mseq`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MSEQ()
 	{
@@ -7060,7 +7060,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.msign`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MSIGN()
 	{
@@ -7069,7 +7069,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.multiad.creator`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MULTIAD_CREATOR()
 	{
@@ -7078,7 +7078,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.multiad.creator.cif`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MULTIAD_CREATOR_CIF()
 	{
@@ -7087,7 +7087,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.music-niff`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MUSIC_NIFF()
 	{
@@ -7096,7 +7096,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.musician`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MUSICIAN()
 	{
@@ -7105,7 +7105,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.muvee.style`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MUVEE_STYLE()
 	{
@@ -7114,7 +7114,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.mynfc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_MYNFC()
 	{
@@ -7123,7 +7123,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ncd.control`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NCD_CONTROL()
 	{
@@ -7132,7 +7132,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ncd.reference`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NCD_REFERENCE()
 	{
@@ -7141,7 +7141,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nervana`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NERVANA()
 	{
@@ -7150,7 +7150,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.netfpx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NETFPX()
 	{
@@ -7159,7 +7159,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.neurolanguage.nlu`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NEUROLANGUAGE_NLU()
 	{
@@ -7168,7 +7168,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nintendo.nitro.rom`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NINTENDO_NITRO_ROM()
 	{
@@ -7177,7 +7177,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nintendo.snes.rom`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NINTENDO_SNES_ROM()
 	{
@@ -7186,7 +7186,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nitf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NITF()
 	{
@@ -7195,7 +7195,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.noblenet-directory`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOBLENET_DIRECTORY()
 	{
@@ -7204,7 +7204,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.noblenet-sealer`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOBLENET_SEALER()
 	{
@@ -7213,7 +7213,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.noblenet-web`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOBLENET_WEB()
 	{
@@ -7222,7 +7222,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.catalogs`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_CATALOGS()
 	{
@@ -7231,7 +7231,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.conml+wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_CONML_WBXML()
 	{
@@ -7240,7 +7240,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.conml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_CONML_XML()
 	{
@@ -7249,7 +7249,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.iptv.config+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_IPTV_CONFIG_XML()
 	{
@@ -7258,7 +7258,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.isds-radio-presets`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_ISDS_RADIO_PRESETS()
 	{
@@ -7267,7 +7267,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.landmark+wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_LANDMARK_WBXML()
 	{
@@ -7276,7 +7276,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.landmark+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_LANDMARK_XML()
 	{
@@ -7285,7 +7285,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.landmarkcollection+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_LANDMARKCOLLECTION_XML()
 	{
@@ -7294,7 +7294,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.n-gage.ac+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_N_GAGE_AC_XML()
 	{
@@ -7303,7 +7303,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.n-gage.data`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_N_GAGE_DATA()
 	{
@@ -7312,7 +7312,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.n-gage.symbian.install`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_N_GAGE_SYMBIAN_INSTALL()
 	{
@@ -7321,7 +7321,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.ncd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_NCD()
 	{
@@ -7330,7 +7330,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.pcd+wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_PCD_WBXML()
 	{
@@ -7339,7 +7339,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.pcd+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_PCD_XML()
 	{
@@ -7348,7 +7348,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.radio-preset`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_RADIO_PRESET()
 	{
@@ -7357,7 +7357,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.nokia.radio-presets`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOKIA_RADIO_PRESETS()
 	{
@@ -7366,7 +7366,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.novadigm.edm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOVADIGM_EDM()
 	{
@@ -7375,7 +7375,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.novadigm.edx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOVADIGM_EDX()
 	{
@@ -7384,7 +7384,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.novadigm.ext`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NOVADIGM_EXT()
 	{
@@ -7393,7 +7393,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ntt-local.content-share`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NTT_LOCAL_CONTENT_SHARE()
 	{
@@ -7402,7 +7402,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ntt-local.file-transfer`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NTT_LOCAL_FILE_TRANSFER()
 	{
@@ -7411,7 +7411,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ntt-local.ogw_remote-access`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NTT_LOCAL_OGW_REMOTE_ACCESS()
 	{
@@ -7420,7 +7420,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ntt-local.sip-ta_remote`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NTT_LOCAL_SIP_TA_REMOTE()
 	{
@@ -7429,7 +7429,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ntt-local.sip-ta_tcp_stream`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_NTT_LOCAL_SIP_TA_TCP_STREAM()
 	{
@@ -7438,7 +7438,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.chart`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_CHART()
 	{
@@ -7447,7 +7447,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.chart-template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_CHART_TEMPLATE()
 	{
@@ -7456,7 +7456,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.database`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_DATABASE()
 	{
@@ -7465,7 +7465,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.formula`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_FORMULA()
 	{
@@ -7474,7 +7474,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.formula-template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_FORMULA_TEMPLATE()
 	{
@@ -7483,7 +7483,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.graphics`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_GRAPHICS()
 	{
@@ -7492,7 +7492,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.graphics-template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_GRAPHICS_TEMPLATE()
 	{
@@ -7501,7 +7501,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.image`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_IMAGE()
 	{
@@ -7510,7 +7510,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.image-template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_IMAGE_TEMPLATE()
 	{
@@ -7519,7 +7519,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.presentation`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_PRESENTATION()
 	{
@@ -7528,7 +7528,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.presentation-template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_PRESENTATION_TEMPLATE()
 	{
@@ -7537,7 +7537,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.spreadsheet`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_SPREADSHEET()
 	{
@@ -7546,7 +7546,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.spreadsheet-template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_SPREADSHEET_TEMPLATE()
 	{
@@ -7555,7 +7555,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.text`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT()
 	{
@@ -7564,7 +7564,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.text-master`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT_MASTER()
 	{
@@ -7573,7 +7573,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.text-template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT_TEMPLATE()
 	{
@@ -7582,7 +7582,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oasis.opendocument.text-web`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT_WEB()
 	{
@@ -7591,7 +7591,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.obn`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OBN()
 	{
@@ -7600,7 +7600,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oftn.l10n+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OFTN_L10N_JSON()
 	{
@@ -7609,7 +7609,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oipf.contentaccessdownload+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OIPF_CONTENTACCESSDOWNLOAD_XML()
 	{
@@ -7618,7 +7618,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oipf.contentaccessstreaming+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OIPF_CONTENTACCESSSTREAMING_XML()
 	{
@@ -7627,7 +7627,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oipf.cspg-hexbinary`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OIPF_CSPG_HEXBINARY()
 	{
@@ -7636,7 +7636,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oipf.dae.svg+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OIPF_DAE_SVG_XML()
 	{
@@ -7645,7 +7645,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oipf.dae.xhtml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OIPF_DAE_XHTML_XML()
 	{
@@ -7654,7 +7654,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oipf.mippvcontrolmessage+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OIPF_MIPPVCONTROLMESSAGE_XML()
 	{
@@ -7663,7 +7663,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oipf.pae.gem`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OIPF_PAE_GEM()
 	{
@@ -7672,7 +7672,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oipf.spdiscovery+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OIPF_SPDISCOVERY_XML()
 	{
@@ -7681,7 +7681,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oipf.spdlist+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OIPF_SPDLIST_XML()
 	{
@@ -7690,7 +7690,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oipf.ueprofile+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OIPF_UEPROFILE_XML()
 	{
@@ -7699,7 +7699,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oipf.userprofile+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OIPF_USERPROFILE_XML()
 	{
@@ -7708,7 +7708,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.olpc-sugar`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OLPC_SUGAR()
 	{
@@ -7717,7 +7717,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma-scws-config`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_SCWS_CONFIG()
 	{
@@ -7726,7 +7726,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma-scws-http-request`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_SCWS_HTTP_REQUEST()
 	{
@@ -7735,7 +7735,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma-scws-http-response`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_SCWS_HTTP_RESPONSE()
 	{
@@ -7744,7 +7744,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.associated-procedure-parameter+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_ASSOCIATED_PROCEDURE_PARAMETER_XML()
 	{
@@ -7753,7 +7753,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.drm-trigger+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_DRM_TRIGGER_XML()
 	{
@@ -7762,7 +7762,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.imd+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_IMD_XML()
 	{
@@ -7771,7 +7771,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.ltkm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_LTKM()
 	{
@@ -7780,7 +7780,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.notification+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_NOTIFICATION_XML()
 	{
@@ -7789,7 +7789,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.provisioningtrigger`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_PROVISIONINGTRIGGER()
 	{
@@ -7798,7 +7798,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.sgboot`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_SGBOOT()
 	{
@@ -7807,7 +7807,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.sgdd+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_SGDD_XML()
 	{
@@ -7816,7 +7816,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.sgdu`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_SGDU()
 	{
@@ -7825,7 +7825,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.simple-symbol-container`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_SIMPLE_SYMBOL_CONTAINER()
 	{
@@ -7834,7 +7834,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.smartcard-trigger+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_SMARTCARD_TRIGGER_XML()
 	{
@@ -7843,7 +7843,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.sprov+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_SPROV_XML()
 	{
@@ -7852,7 +7852,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.bcast.stkm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_BCAST_STKM()
 	{
@@ -7861,7 +7861,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.cab-address-book+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_CAB_ADDRESS_BOOK_XML()
 	{
@@ -7870,7 +7870,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.cab-feature-handler+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_CAB_FEATURE_HANDLER_XML()
 	{
@@ -7879,7 +7879,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.cab-pcc+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_CAB_PCC_XML()
 	{
@@ -7888,7 +7888,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.cab-subs-invite+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_CAB_SUBS_INVITE_XML()
 	{
@@ -7897,7 +7897,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.cab-user-prefs+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_CAB_USER_PREFS_XML()
 	{
@@ -7906,7 +7906,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.dcd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_DCD()
 	{
@@ -7915,7 +7915,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.dcdc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_DCDC()
 	{
@@ -7924,7 +7924,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.dd2+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_DD2_XML()
 	{
@@ -7933,7 +7933,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.drm.risd+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_DRM_RISD_XML()
 	{
@@ -7942,7 +7942,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.group-usage-list+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_GROUP_USAGE_LIST_XML()
 	{
@@ -7951,7 +7951,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.lwm2m+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_LWM2M_JSON()
 	{
@@ -7960,7 +7960,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.lwm2m+tlv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_LWM2M_TLV()
 	{
@@ -7969,7 +7969,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.pal+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_PAL_XML()
 	{
@@ -7978,7 +7978,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.poc.detailed-progress-report+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_POC_DETAILED_PROGRESS_REPORT_XML()
 	{
@@ -7987,7 +7987,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.poc.final-report+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_POC_FINAL_REPORT_XML()
 	{
@@ -7996,7 +7996,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.poc.groups+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_POC_GROUPS_XML()
 	{
@@ -8005,7 +8005,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.poc.invocation-descriptor+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_POC_INVOCATION_DESCRIPTOR_XML()
 	{
@@ -8014,7 +8014,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.poc.optimized-progress-report+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_POC_OPTIMIZED_PROGRESS_REPORT_XML()
 	{
@@ -8023,7 +8023,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.push`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_PUSH()
 	{
@@ -8032,7 +8032,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.scidm.messages+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_SCIDM_MESSAGES_XML()
 	{
@@ -8041,7 +8041,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oma.xcap-directory+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMA_XCAP_DIRECTORY_XML()
 	{
@@ -8050,7 +8050,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.omads-email+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMADS_EMAIL_XML()
 	{
@@ -8059,7 +8059,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.omads-file+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMADS_FILE_XML()
 	{
@@ -8068,7 +8068,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.omads-folder+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMADS_FOLDER_XML()
 	{
@@ -8077,7 +8077,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.omaloc-supl-init`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OMALOC_SUPL_INIT()
 	{
@@ -8086,7 +8086,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.onepager`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ONEPAGER()
 	{
@@ -8095,7 +8095,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openblox.game+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENBLOX_GAME_XML()
 	{
@@ -8104,7 +8104,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openblox.game-binary`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENBLOX_GAME_BINARY()
 	{
@@ -8113,7 +8113,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openeye.oeb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENEYE_OEB()
 	{
@@ -8122,7 +8122,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openofficeorg.extension`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENOFFICEORG_EXTENSION()
 	{
@@ -8131,7 +8131,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.custom-properties+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_CUSTOM_PROPERTIES_XML()
 	{
@@ -8140,7 +8140,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.customxmlproperties+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_CUSTOMXMLPROPERTIES_XML()
 	{
@@ -8149,7 +8149,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.drawing+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWING_XML()
 	{
@@ -8158,7 +8158,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.drawingml.chart+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_CHART_XML()
 	{
@@ -8167,7 +8167,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_CHARTSHAPES_XML()
 	{
@@ -8176,7 +8176,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.drawingml.diagramcolors+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_DIAGRAMCOLORS_XML()
 	{
@@ -8185,7 +8185,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.drawingml.diagramdata+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_DIAGRAMDATA_XML()
 	{
@@ -8194,7 +8194,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.drawingml.diagramlayout+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_DIAGRAMLAYOUT_XML()
 	{
@@ -8203,7 +8203,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.drawingml.diagramstyle+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_DIAGRAMSTYLE_XML()
 	{
@@ -8212,7 +8212,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.extended-properties+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_EXTENDED_PROPERTIES_XML()
 	{
@@ -8221,7 +8221,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.commentauthors+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_COMMENTAUTHORS_XML()
 	{
@@ -8230,7 +8230,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.comments+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_COMMENTS_XML()
 	{
@@ -8239,7 +8239,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.handoutmaster+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_HANDOUTMASTER_XML()
 	{
@@ -8248,7 +8248,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.notesmaster+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_NOTESMASTER_XML()
 	{
@@ -8257,7 +8257,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.notesslide+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_NOTESSLIDE_XML()
 	{
@@ -8266,7 +8266,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.presentation`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESENTATION()
 	{
@@ -8275,7 +8275,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESENTATION_MAIN_XML()
 	{
@@ -8284,7 +8284,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.presprops+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESPROPS_XML()
 	{
@@ -8293,7 +8293,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.slide`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDE()
 	{
@@ -8302,7 +8302,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.slide+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDE_XML()
 	{
@@ -8311,7 +8311,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.slidelayout+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDELAYOUT_XML()
 	{
@@ -8320,7 +8320,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.slidemaster+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDEMASTER_XML()
 	{
@@ -8329,7 +8329,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.slideshow`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDESHOW()
 	{
@@ -8338,7 +8338,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDESHOW_MAIN_XML()
 	{
@@ -8347,7 +8347,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.slideupdateinfo+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDEUPDATEINFO_XML()
 	{
@@ -8356,7 +8356,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.tablestyles+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TABLESTYLES_XML()
 	{
@@ -8365,7 +8365,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.tags+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TAGS_XML()
 	{
@@ -8374,7 +8374,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TEMPLATE()
 	{
@@ -8383,7 +8383,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.template.main+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TEMPLATE_MAIN_XML()
 	{
@@ -8392,7 +8392,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.presentationml.viewprops+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_VIEWPROPS_XML()
 	{
@@ -8401,7 +8401,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.calcchain+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_CALCCHAIN_XML()
 	{
@@ -8410,7 +8410,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_CHARTSHEET_XML()
 	{
@@ -8419,7 +8419,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_COMMENTS_XML()
 	{
@@ -8428,7 +8428,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_CONNECTIONS_XML()
 	{
@@ -8437,7 +8437,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_DIALOGSHEET_XML()
 	{
@@ -8446,7 +8446,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.externallink+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_EXTERNALLINK_XML()
 	{
@@ -8455,7 +8455,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcachedefinition+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_PIVOTCACHEDEFINITION_XML()
 	{
@@ -8464,7 +8464,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcacherecords+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_PIVOTCACHERECORDS_XML()
 	{
@@ -8473,7 +8473,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.pivottable+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_PIVOTTABLE_XML()
 	{
@@ -8482,7 +8482,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.querytable+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_QUERYTABLE_XML()
 	{
@@ -8491,7 +8491,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.revisionheaders+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_REVISIONHEADERS_XML()
 	{
@@ -8500,7 +8500,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.revisionlog+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_REVISIONLOG_XML()
 	{
@@ -8509,7 +8509,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.sharedstrings+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHAREDSTRINGS_XML()
 	{
@@ -8518,7 +8518,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEET()
 	{
@@ -8527,7 +8527,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEET_MAIN_XML()
 	{
@@ -8536,7 +8536,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.sheetmetadata+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEETMETADATA_XML()
 	{
@@ -8545,7 +8545,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_STYLES_XML()
 	{
@@ -8554,7 +8554,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TABLE_XML()
 	{
@@ -8563,7 +8563,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.tablesinglecells+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TABLESINGLECELLS_XML()
 	{
@@ -8572,7 +8572,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TEMPLATE()
 	{
@@ -8581,7 +8581,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TEMPLATE_MAIN_XML()
 	{
@@ -8590,7 +8590,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.usernames+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_USERNAMES_XML()
 	{
@@ -8599,7 +8599,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.volatiledependencies+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_VOLATILEDEPENDENCIES_XML()
 	{
@@ -8608,7 +8608,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_WORKSHEET_XML()
 	{
@@ -8617,7 +8617,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.theme+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_THEME_XML()
 	{
@@ -8626,7 +8626,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.themeoverride+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_THEMEOVERRIDE_XML()
 	{
@@ -8635,7 +8635,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.vmldrawing`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_VMLDRAWING()
 	{
@@ -8644,7 +8644,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_COMMENTS_XML()
 	{
@@ -8653,7 +8653,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.document`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT()
 	{
@@ -8662,7 +8662,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT_GLOSSARY_XML()
 	{
@@ -8671,7 +8671,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT_MAIN_XML()
 	{
@@ -8680,7 +8680,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_ENDNOTES_XML()
 	{
@@ -8689,7 +8689,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.fonttable+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_FONTTABLE_XML()
 	{
@@ -8698,7 +8698,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_FOOTER_XML()
 	{
@@ -8707,7 +8707,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_FOOTNOTES_XML()
 	{
@@ -8716,7 +8716,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_NUMBERING_XML()
 	{
@@ -8725,7 +8725,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_SETTINGS_XML()
 	{
@@ -8734,7 +8734,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_STYLES_XML()
 	{
@@ -8743,7 +8743,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_TEMPLATE()
 	{
@@ -8752,7 +8752,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_TEMPLATE_MAIN_XML()
 	{
@@ -8761,7 +8761,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-officedocument.wordprocessingml.websettings+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_WEBSETTINGS_XML()
 	{
@@ -8770,7 +8770,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-package.core-properties+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_PACKAGE_CORE_PROPERTIES_XML()
 	{
@@ -8779,7 +8779,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_PACKAGE_DIGITAL_SIGNATURE_XMLSIGNATURE_XML()
 	{
@@ -8788,7 +8788,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.openxmlformats-package.relationships+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OPENXMLFORMATS_PACKAGE_RELATIONSHIPS_XML()
 	{
@@ -8797,7 +8797,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oracle.resource+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ORACLE_RESOURCE_JSON()
 	{
@@ -8806,7 +8806,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.orange.indata`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ORANGE_INDATA()
 	{
@@ -8815,7 +8815,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.osa.netdeploy`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OSA_NETDEPLOY()
 	{
@@ -8824,7 +8824,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.osgeo.mapguide.package`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OSGEO_MAPGUIDE_PACKAGE()
 	{
@@ -8833,7 +8833,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.osgi.bundle`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OSGI_BUNDLE()
 	{
@@ -8842,7 +8842,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.osgi.dp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OSGI_DP()
 	{
@@ -8851,7 +8851,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.osgi.subsystem`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OSGI_SUBSYSTEM()
 	{
@@ -8860,7 +8860,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.otps.ct-kip+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OTPS_CT_KIP_XML()
 	{
@@ -8869,7 +8869,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.oxli.countgraph`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_OXLI_COUNTGRAPH()
 	{
@@ -8878,7 +8878,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.pagerduty+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PAGERDUTY_JSON()
 	{
@@ -8887,7 +8887,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.palm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PALM()
 	{
@@ -8896,7 +8896,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.panoply`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PANOPLY()
 	{
@@ -8905,7 +8905,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.paos.xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PAOS_XML()
 	{
@@ -8914,7 +8914,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.pawaafile`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PAWAAFILE()
 	{
@@ -8923,7 +8923,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.pcos`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PCOS()
 	{
@@ -8932,7 +8932,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.pg.format`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PG_FORMAT()
 	{
@@ -8941,7 +8941,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.pg.osasli`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PG_OSASLI()
 	{
@@ -8950,7 +8950,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.piaccess.application-licence`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PIACCESS_APPLICATION_LICENCE()
 	{
@@ -8959,7 +8959,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.picsel`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PICSEL()
 	{
@@ -8968,7 +8968,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.pmi.widget`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PMI_WIDGET()
 	{
@@ -8977,7 +8977,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.poc.group-advertisement+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_POC_GROUP_ADVERTISEMENT_XML()
 	{
@@ -8986,7 +8986,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.pocketlearn`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_POCKETLEARN()
 	{
@@ -8995,7 +8995,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.powerbuilder6`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_POWERBUILDER6()
 	{
@@ -9004,7 +9004,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.powerbuilder6-s`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_POWERBUILDER6_S()
 	{
@@ -9013,7 +9013,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.powerbuilder7`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_POWERBUILDER7()
 	{
@@ -9022,7 +9022,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.powerbuilder7-s`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_POWERBUILDER7_S()
 	{
@@ -9031,7 +9031,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.powerbuilder75`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_POWERBUILDER75()
 	{
@@ -9040,7 +9040,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.powerbuilder75-s`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_POWERBUILDER75_S()
 	{
@@ -9049,7 +9049,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.preminet`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PREMINET()
 	{
@@ -9058,7 +9058,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.previewsystems.box`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PREVIEWSYSTEMS_BOX()
 	{
@@ -9067,7 +9067,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.proteus.magazine`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PROTEUS_MAGAZINE()
 	{
@@ -9076,7 +9076,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.publishare-delta-tree`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PUBLISHARE_DELTA_TREE()
 	{
@@ -9085,7 +9085,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.pvi.ptid1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PVI_PTID1()
 	{
@@ -9094,7 +9094,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.pwg-multiplexed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PWG_MULTIPLEXED()
 	{
@@ -9103,7 +9103,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.pwg-xhtml-print+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_PWG_XHTML_PRINT_XML()
 	{
@@ -9112,7 +9112,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.qualcomm.brew-app-res`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_QUALCOMM_BREW_APP_RES()
 	{
@@ -9121,7 +9121,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.quarantainenet`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_QUARANTAINENET()
 	{
@@ -9130,7 +9130,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.quark.quarkxpress`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_QUARK_QUARKXPRESS()
 	{
@@ -9139,7 +9139,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.quobject-quoxdocument`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_QUOBJECT_QUOXDOCUMENT()
 	{
@@ -9148,7 +9148,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.moml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MOML_XML()
 	{
@@ -9157,7 +9157,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_XML()
 	{
@@ -9166,7 +9166,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-audit+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_AUDIT_XML()
 	{
@@ -9175,7 +9175,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-audit-conf+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_AUDIT_CONF_XML()
 	{
@@ -9184,7 +9184,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-audit-conn+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_AUDIT_CONN_XML()
 	{
@@ -9193,7 +9193,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-audit-dialog+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_AUDIT_DIALOG_XML()
 	{
@@ -9202,7 +9202,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-audit-stream+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_AUDIT_STREAM_XML()
 	{
@@ -9211,7 +9211,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-conf+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_CONF_XML()
 	{
@@ -9220,7 +9220,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-dialog+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_DIALOG_XML()
 	{
@@ -9229,7 +9229,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-dialog-base+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_DIALOG_BASE_XML()
 	{
@@ -9238,7 +9238,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-dialog-fax-detect+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_DIALOG_FAX_DETECT_XML()
 	{
@@ -9247,7 +9247,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-dialog-fax-sendrecv+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_DIALOG_FAX_SENDRECV_XML()
 	{
@@ -9256,7 +9256,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-dialog-group+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_DIALOG_GROUP_XML()
 	{
@@ -9265,7 +9265,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-dialog-speech+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_DIALOG_SPEECH_XML()
 	{
@@ -9274,7 +9274,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.radisys.msml-dialog-transform+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RADISYS_MSML_DIALOG_TRANSFORM_XML()
 	{
@@ -9283,7 +9283,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.rainstor.data`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RAINSTOR_DATA()
 	{
@@ -9292,7 +9292,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.rapid`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RAPID()
 	{
@@ -9301,7 +9301,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.rar`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RAR()
 	{
@@ -9310,7 +9310,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.realvnc.bed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_REALVNC_BED()
 	{
@@ -9319,7 +9319,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.recordare.musicxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RECORDARE_MUSICXML()
 	{
@@ -9328,7 +9328,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.recordare.musicxml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RECORDARE_MUSICXML_XML()
 	{
@@ -9337,7 +9337,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.renlearn.rlprint`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RENLEARN_RLPRINT()
 	{
@@ -9346,7 +9346,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.rig.cryptonote`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RIG_CRYPTONOTE()
 	{
@@ -9355,7 +9355,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.rim.cod`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RIM_COD()
 	{
@@ -9364,7 +9364,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.rn-realmedia`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RN_REALMEDIA()
 	{
@@ -9373,7 +9373,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.rn-realmedia-vbr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RN_REALMEDIA_VBR()
 	{
@@ -9382,7 +9382,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.route66.link66+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ROUTE66_LINK66_XML()
 	{
@@ -9391,7 +9391,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.rs-274x`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RS_274X()
 	{
@@ -9400,7 +9400,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ruckus.download`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_RUCKUS_DOWNLOAD()
 	{
@@ -9409,7 +9409,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.s3sms`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_S3SMS()
 	{
@@ -9418,7 +9418,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sailingtracker.track`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SAILINGTRACKER_TRACK()
 	{
@@ -9427,7 +9427,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sbm.cid`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SBM_CID()
 	{
@@ -9436,7 +9436,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sbm.mid2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SBM_MID2()
 	{
@@ -9445,7 +9445,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.scribus`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SCRIBUS()
 	{
@@ -9454,7 +9454,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sealed.3df`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEALED_3DF()
 	{
@@ -9463,7 +9463,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sealed.csf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEALED_CSF()
 	{
@@ -9472,7 +9472,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sealed.doc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEALED_DOC()
 	{
@@ -9481,7 +9481,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sealed.eml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEALED_EML()
 	{
@@ -9490,7 +9490,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sealed.mht`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEALED_MHT()
 	{
@@ -9499,7 +9499,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sealed.net`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEALED_NET()
 	{
@@ -9508,7 +9508,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sealed.ppt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEALED_PPT()
 	{
@@ -9517,7 +9517,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sealed.tiff`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEALED_TIFF()
 	{
@@ -9526,7 +9526,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sealed.xls`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEALED_XLS()
 	{
@@ -9535,7 +9535,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sealedmedia.softseal.html`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEALEDMEDIA_SOFTSEAL_HTML()
 	{
@@ -9544,7 +9544,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sealedmedia.softseal.pdf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEALEDMEDIA_SOFTSEAL_PDF()
 	{
@@ -9553,7 +9553,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.seemail`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEEMAIL()
 	{
@@ -9562,7 +9562,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sema`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEMA()
 	{
@@ -9571,7 +9571,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.semd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEMD()
 	{
@@ -9580,7 +9580,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.semf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SEMF()
 	{
@@ -9589,7 +9589,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.shana.informed.formdata`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SHANA_INFORMED_FORMDATA()
 	{
@@ -9598,7 +9598,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.shana.informed.formtemplate`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SHANA_INFORMED_FORMTEMPLATE()
 	{
@@ -9607,7 +9607,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.shana.informed.interchange`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SHANA_INFORMED_INTERCHANGE()
 	{
@@ -9616,7 +9616,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.shana.informed.package`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SHANA_INFORMED_PACKAGE()
 	{
@@ -9625,7 +9625,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.simtech-mindmapper`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SIMTECH_MINDMAPPER()
 	{
@@ -9634,7 +9634,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.siren+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SIREN_JSON()
 	{
@@ -9643,7 +9643,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.smaf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SMAF()
 	{
@@ -9652,7 +9652,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.smart.notebook`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SMART_NOTEBOOK()
 	{
@@ -9661,7 +9661,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.smart.teacher`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SMART_TEACHER()
 	{
@@ -9670,7 +9670,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.software602.filler.form+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SOFTWARE602_FILLER_FORM_XML()
 	{
@@ -9679,7 +9679,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.software602.filler.form-xml-zip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SOFTWARE602_FILLER_FORM_XML_ZIP()
 	{
@@ -9688,7 +9688,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.solent.sdkm+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SOLENT_SDKM_XML()
 	{
@@ -9697,7 +9697,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.spotfire.dxp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SPOTFIRE_DXP()
 	{
@@ -9706,7 +9706,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.spotfire.sfs`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SPOTFIRE_SFS()
 	{
@@ -9715,7 +9715,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sss-cod`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SSS_COD()
 	{
@@ -9724,7 +9724,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sss-dtf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SSS_DTF()
 	{
@@ -9733,7 +9733,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sss-ntf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SSS_NTF()
 	{
@@ -9742,7 +9742,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.stardivision.calc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_STARDIVISION_CALC()
 	{
@@ -9751,7 +9751,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.stardivision.draw`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_STARDIVISION_DRAW()
 	{
@@ -9760,7 +9760,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.stardivision.impress`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_STARDIVISION_IMPRESS()
 	{
@@ -9769,7 +9769,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.stardivision.math`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_STARDIVISION_MATH()
 	{
@@ -9778,7 +9778,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.stardivision.writer`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_STARDIVISION_WRITER()
 	{
@@ -9787,7 +9787,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.stardivision.writer-global`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_STARDIVISION_WRITER_GLOBAL()
 	{
@@ -9796,7 +9796,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.stepmania.package`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_STEPMANIA_PACKAGE()
 	{
@@ -9805,7 +9805,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.stepmania.stepchart`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_STEPMANIA_STEPCHART()
 	{
@@ -9814,7 +9814,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.street-stream`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_STREET_STREAM()
 	{
@@ -9823,7 +9823,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sun.wadl+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SUN_WADL_XML()
 	{
@@ -9832,7 +9832,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sun.xml.calc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SUN_XML_CALC()
 	{
@@ -9841,7 +9841,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sun.xml.calc.template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SUN_XML_CALC_TEMPLATE()
 	{
@@ -9850,7 +9850,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sun.xml.draw`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SUN_XML_DRAW()
 	{
@@ -9859,7 +9859,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sun.xml.draw.template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SUN_XML_DRAW_TEMPLATE()
 	{
@@ -9868,7 +9868,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sun.xml.impress`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SUN_XML_IMPRESS()
 	{
@@ -9877,7 +9877,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sun.xml.impress.template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SUN_XML_IMPRESS_TEMPLATE()
 	{
@@ -9886,7 +9886,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sun.xml.math`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SUN_XML_MATH()
 	{
@@ -9895,7 +9895,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sun.xml.writer`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SUN_XML_WRITER()
 	{
@@ -9904,7 +9904,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sun.xml.writer.global`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SUN_XML_WRITER_GLOBAL()
 	{
@@ -9913,7 +9913,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sun.xml.writer.template`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SUN_XML_WRITER_TEMPLATE()
 	{
@@ -9922,7 +9922,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.sus-calendar`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SUS_CALENDAR()
 	{
@@ -9931,7 +9931,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.svd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SVD()
 	{
@@ -9940,7 +9940,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.swiftview-ics`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SWIFTVIEW_ICS()
 	{
@@ -9949,7 +9949,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.symbian.install`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SYMBIAN_INSTALL()
 	{
@@ -9958,7 +9958,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.syncml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SYNCML_XML()
 	{
@@ -9967,7 +9967,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.syncml.dm+wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SYNCML_DM_WBXML()
 	{
@@ -9976,7 +9976,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.syncml.dm+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SYNCML_DM_XML()
 	{
@@ -9985,7 +9985,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.syncml.dm.notification`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SYNCML_DM_NOTIFICATION()
 	{
@@ -9994,7 +9994,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.syncml.dmddf+wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SYNCML_DMDDF_WBXML()
 	{
@@ -10003,7 +10003,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.syncml.dmddf+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SYNCML_DMDDF_XML()
 	{
@@ -10012,7 +10012,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.syncml.dmtnds+wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SYNCML_DMTNDS_WBXML()
 	{
@@ -10021,7 +10021,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.syncml.dmtnds+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SYNCML_DMTNDS_XML()
 	{
@@ -10030,7 +10030,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.syncml.ds.notification`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_SYNCML_DS_NOTIFICATION()
 	{
@@ -10039,7 +10039,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.tao.intent-module-archive`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_TAO_INTENT_MODULE_ARCHIVE()
 	{
@@ -10048,7 +10048,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.tcpdump.pcap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_TCPDUMP_PCAP()
 	{
@@ -10057,7 +10057,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.tmd.mediaflex.api+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_TMD_MEDIAFLEX_API_XML()
 	{
@@ -10066,7 +10066,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.tml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_TML()
 	{
@@ -10075,7 +10075,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.tmobile-livetv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_TMOBILE_LIVETV()
 	{
@@ -10084,7 +10084,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.trid.tpt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_TRID_TPT()
 	{
@@ -10093,7 +10093,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.triscape.mxs`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_TRISCAPE_MXS()
 	{
@@ -10102,7 +10102,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.trueapp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_TRUEAPP()
 	{
@@ -10111,7 +10111,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.truedoc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_TRUEDOC()
 	{
@@ -10120,7 +10120,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ubisoft.webplayer`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UBISOFT_WEBPLAYER()
 	{
@@ -10129,7 +10129,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.ufdl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UFDL()
 	{
@@ -10138,7 +10138,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uiq.theme`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UIQ_THEME()
 	{
@@ -10147,7 +10147,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.umajin`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UMAJIN()
 	{
@@ -10156,7 +10156,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.unity`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UNITY()
 	{
@@ -10165,7 +10165,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uoml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UOML_XML()
 	{
@@ -10174,7 +10174,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.alert`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_ALERT()
 	{
@@ -10183,7 +10183,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.alert-wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_ALERT_WBXML()
 	{
@@ -10192,7 +10192,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.bearer-choice`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_BEARER_CHOICE()
 	{
@@ -10201,7 +10201,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.bearer-choice-wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_BEARER_CHOICE_WBXML()
 	{
@@ -10210,7 +10210,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.cacheop`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_CACHEOP()
 	{
@@ -10219,7 +10219,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.cacheop-wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_CACHEOP_WBXML()
 	{
@@ -10228,7 +10228,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.channel`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_CHANNEL()
 	{
@@ -10237,7 +10237,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.channel-wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_CHANNEL_WBXML()
 	{
@@ -10246,7 +10246,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.list`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_LIST()
 	{
@@ -10255,7 +10255,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.list-wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_LIST_WBXML()
 	{
@@ -10264,7 +10264,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.listcmd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_LISTCMD()
 	{
@@ -10273,7 +10273,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.listcmd-wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_LISTCMD_WBXML()
 	{
@@ -10282,7 +10282,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uplanet.signal`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_UPLANET_SIGNAL()
 	{
@@ -10291,7 +10291,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.uri-map`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_URI_MAP()
 	{
@@ -10300,7 +10300,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.valve.source.material`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_VALVE_SOURCE_MATERIAL()
 	{
@@ -10309,7 +10309,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.vcx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_VCX()
 	{
@@ -10318,7 +10318,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.vd-study`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_VD_STUDY()
 	{
@@ -10327,7 +10327,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.vectorworks`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_VECTORWORKS()
 	{
@@ -10336,7 +10336,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.vel+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_VEL_JSON()
 	{
@@ -10345,7 +10345,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.verimatrix.vcas`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_VERIMATRIX_VCAS()
 	{
@@ -10354,7 +10354,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.vidsoft.vidconference`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_VIDSOFT_VIDCONFERENCE()
 	{
@@ -10363,7 +10363,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.visio`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_VISIO()
 	{
@@ -10372,7 +10372,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.visionary`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_VISIONARY()
 	{
@@ -10381,7 +10381,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.vividence.scriptfile`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_VIVIDENCE_SCRIPTFILE()
 	{
@@ -10390,7 +10390,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.vsf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_VSF()
 	{
@@ -10399,7 +10399,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wap.sic`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WAP_SIC()
 	{
@@ -10408,7 +10408,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wap.slc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WAP_SLC()
 	{
@@ -10417,7 +10417,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wap.wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WAP_WBXML()
 	{
@@ -10426,7 +10426,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wap.wmlc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WAP_WMLC()
 	{
@@ -10435,7 +10435,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wap.wmlscriptc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WAP_WMLSCRIPTC()
 	{
@@ -10444,7 +10444,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.webturbo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WEBTURBO()
 	{
@@ -10453,7 +10453,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wfa.p2p`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WFA_P2P()
 	{
@@ -10462,7 +10462,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wfa.wsc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WFA_WSC()
 	{
@@ -10471,7 +10471,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.windows.devicepairing`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WINDOWS_DEVICEPAIRING()
 	{
@@ -10480,7 +10480,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wmc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WMC()
 	{
@@ -10489,7 +10489,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wmf.bootstrap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WMF_BOOTSTRAP()
 	{
@@ -10498,7 +10498,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wolfram.mathematica`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WOLFRAM_MATHEMATICA()
 	{
@@ -10507,7 +10507,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wolfram.mathematica.package`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WOLFRAM_MATHEMATICA_PACKAGE()
 	{
@@ -10516,7 +10516,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wolfram.player`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WOLFRAM_PLAYER()
 	{
@@ -10525,7 +10525,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wordperfect`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WORDPERFECT()
 	{
@@ -10534,7 +10534,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wqd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WQD()
 	{
@@ -10543,7 +10543,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wrq-hp3000-labelled`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WRQ_HP3000_LABELLED()
 	{
@@ -10552,7 +10552,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wt.stf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WT_STF()
 	{
@@ -10561,7 +10561,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wv.csp+wbxml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WV_CSP_WBXML()
 	{
@@ -10570,7 +10570,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wv.csp+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WV_CSP_XML()
 	{
@@ -10579,7 +10579,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.wv.ssp+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_WV_SSP_XML()
 	{
@@ -10588,7 +10588,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.xacml+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_XACML_JSON()
 	{
@@ -10597,7 +10597,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.xara`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_XARA()
 	{
@@ -10606,7 +10606,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.xfdl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_XFDL()
 	{
@@ -10615,7 +10615,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.xfdl.webform`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_XFDL_WEBFORM()
 	{
@@ -10624,7 +10624,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.xmi+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_XMI_XML()
 	{
@@ -10633,7 +10633,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.xmpie.cpkg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_XMPIE_CPKG()
 	{
@@ -10642,7 +10642,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.xmpie.dpkg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_XMPIE_DPKG()
 	{
@@ -10651,7 +10651,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.xmpie.plan`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_XMPIE_PLAN()
 	{
@@ -10660,7 +10660,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.xmpie.ppkg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_XMPIE_PPKG()
 	{
@@ -10669,7 +10669,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.xmpie.xlim`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_XMPIE_XLIM()
 	{
@@ -10678,7 +10678,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.yamaha.hv-dic`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_YAMAHA_HV_DIC()
 	{
@@ -10687,7 +10687,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.yamaha.hv-script`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_YAMAHA_HV_SCRIPT()
 	{
@@ -10696,7 +10696,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.yamaha.hv-voice`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_YAMAHA_HV_VOICE()
 	{
@@ -10705,7 +10705,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.yamaha.openscoreformat`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_YAMAHA_OPENSCOREFORMAT()
 	{
@@ -10714,7 +10714,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.yamaha.openscoreformat.osfpvg+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_YAMAHA_OPENSCOREFORMAT_OSFPVG_XML()
 	{
@@ -10723,7 +10723,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.yamaha.remote-setup`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_YAMAHA_REMOTE_SETUP()
 	{
@@ -10732,7 +10732,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.yamaha.smaf-audio`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_YAMAHA_SMAF_AUDIO()
 	{
@@ -10741,7 +10741,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.yamaha.smaf-phrase`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_YAMAHA_SMAF_PHRASE()
 	{
@@ -10750,7 +10750,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.yamaha.through-ngn`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_YAMAHA_THROUGH_NGN()
 	{
@@ -10759,7 +10759,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.yamaha.tunnel-udpencap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_YAMAHA_TUNNEL_UDPENCAP()
 	{
@@ -10768,7 +10768,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.yaoweme`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_YAOWEME()
 	{
@@ -10777,7 +10777,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.yellowriver-custom-menu`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_YELLOWRIVER_CUSTOM_MENU()
 	{
@@ -10786,7 +10786,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.zul`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ZUL()
 	{
@@ -10795,7 +10795,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vnd.zzazz.deck+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VND_ZZAZZ_DECK_XML()
 	{
@@ -10804,7 +10804,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/voicexml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VOICEXML_XML()
 	{
@@ -10813,7 +10813,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/vq-rtcpxr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_VQ_RTCPXR()
 	{
@@ -10822,7 +10822,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/wasm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_WASM()
 	{
@@ -10831,7 +10831,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/watcherinfo+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_WATCHERINFO_XML()
 	{
@@ -10840,7 +10840,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/whoispp-query`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_WHOISPP_QUERY()
 	{
@@ -10849,7 +10849,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/whoispp-response`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_WHOISPP_RESPONSE()
 	{
@@ -10858,7 +10858,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/widget`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_WIDGET()
 	{
@@ -10867,7 +10867,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/winhlp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_WINHLP()
 	{
@@ -10876,7 +10876,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/wita`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_WITA()
 	{
@@ -10885,7 +10885,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/wordperfect5.1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_WORDPERFECT5_1()
 	{
@@ -10894,7 +10894,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/wsdl+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_WSDL_XML()
 	{
@@ -10903,7 +10903,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/wspolicy+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_WSPOLICY_XML()
 	{
@@ -10912,7 +10912,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-7z-compressed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_7Z_COMPRESSED()
 	{
@@ -10921,7 +10921,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-abiword`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_ABIWORD()
 	{
@@ -10930,7 +10930,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-ace-compressed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_ACE_COMPRESSED()
 	{
@@ -10939,7 +10939,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-amf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_AMF()
 	{
@@ -10948,7 +10948,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-apple-diskimage`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_APPLE_DISKIMAGE()
 	{
@@ -10957,7 +10957,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-authorware-bin`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_AUTHORWARE_BIN()
 	{
@@ -10966,7 +10966,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-authorware-map`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_AUTHORWARE_MAP()
 	{
@@ -10975,7 +10975,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-authorware-seg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_AUTHORWARE_SEG()
 	{
@@ -10984,7 +10984,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-bcpio`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_BCPIO()
 	{
@@ -10993,7 +10993,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-bittorrent`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_BITTORRENT()
 	{
@@ -11002,7 +11002,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-blorb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_BLORB()
 	{
@@ -11011,7 +11011,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-bzip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_BZIP()
 	{
@@ -11020,7 +11020,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-bzip2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_BZIP2()
 	{
@@ -11029,7 +11029,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-cbr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_CBR()
 	{
@@ -11038,7 +11038,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-cdlink`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_CDLINK()
 	{
@@ -11047,7 +11047,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-cfs-compressed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_CFS_COMPRESSED()
 	{
@@ -11056,7 +11056,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-chat`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_CHAT()
 	{
@@ -11065,7 +11065,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-chess-pgn`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_CHESS_PGN()
 	{
@@ -11074,7 +11074,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-compress`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_COMPRESS()
 	{
@@ -11083,7 +11083,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-conference`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_CONFERENCE()
 	{
@@ -11092,7 +11092,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-cpio`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_CPIO()
 	{
@@ -11101,7 +11101,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-csh`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_CSH()
 	{
@@ -11110,7 +11110,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-debian-package`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_DEBIAN_PACKAGE()
 	{
@@ -11119,7 +11119,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-dgc-compressed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_DGC_COMPRESSED()
 	{
@@ -11128,7 +11128,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-director`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_DIRECTOR()
 	{
@@ -11137,7 +11137,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-doom`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_DOOM()
 	{
@@ -11146,7 +11146,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-dtbncx+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_DTBNCX_XML()
 	{
@@ -11155,7 +11155,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-dtbook+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_DTBOOK_XML()
 	{
@@ -11164,7 +11164,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-dtbresource+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_DTBRESOURCE_XML()
 	{
@@ -11173,7 +11173,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-dvi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_DVI()
 	{
@@ -11182,7 +11182,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-envoy`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_ENVOY()
 	{
@@ -11191,7 +11191,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-eva`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_EVA()
 	{
@@ -11200,7 +11200,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-font-bdf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FONT_BDF()
 	{
@@ -11209,7 +11209,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-font-dos`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FONT_DOS()
 	{
@@ -11218,7 +11218,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-font-framemaker`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FONT_FRAMEMAKER()
 	{
@@ -11227,7 +11227,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-font-ghostscript`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FONT_GHOSTSCRIPT()
 	{
@@ -11236,7 +11236,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-font-libgrx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FONT_LIBGRX()
 	{
@@ -11245,7 +11245,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-font-linux-psf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FONT_LINUX_PSF()
 	{
@@ -11254,7 +11254,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-font-pcf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FONT_PCF()
 	{
@@ -11263,7 +11263,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-font-snf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FONT_SNF()
 	{
@@ -11272,7 +11272,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-font-speedo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FONT_SPEEDO()
 	{
@@ -11281,7 +11281,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-font-sunos-news`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FONT_SUNOS_NEWS()
 	{
@@ -11290,7 +11290,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-font-type1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FONT_TYPE1()
 	{
@@ -11299,7 +11299,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-font-vfont`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FONT_VFONT()
 	{
@@ -11308,7 +11308,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-freearc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FREEARC()
 	{
@@ -11317,7 +11317,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-futuresplash`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_FUTURESPLASH()
 	{
@@ -11326,7 +11326,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-gca-compressed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_GCA_COMPRESSED()
 	{
@@ -11335,7 +11335,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-glulx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_GLULX()
 	{
@@ -11344,7 +11344,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-gnumeric`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_GNUMERIC()
 	{
@@ -11353,7 +11353,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-gramps-xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_GRAMPS_XML()
 	{
@@ -11362,7 +11362,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-gtar`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_GTAR()
 	{
@@ -11371,7 +11371,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-gzip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_GZIP()
 	{
@@ -11380,7 +11380,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-hdf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_HDF()
 	{
@@ -11389,7 +11389,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-install-instructions`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_INSTALL_INSTRUCTIONS()
 	{
@@ -11398,7 +11398,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-iso9660-image`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_ISO9660_IMAGE()
 	{
@@ -11407,7 +11407,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-java-jnlp-file`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_JAVA_JNLP_FILE()
 	{
@@ -11416,7 +11416,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-latex`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_LATEX()
 	{
@@ -11425,7 +11425,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-lzh-compressed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_LZH_COMPRESSED()
 	{
@@ -11434,7 +11434,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-mie`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MIE()
 	{
@@ -11443,7 +11443,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-mobipocket-ebook`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MOBIPOCKET_EBOOK()
 	{
@@ -11452,7 +11452,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-ms-application`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MS_APPLICATION()
 	{
@@ -11461,7 +11461,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-ms-shortcut`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MS_SHORTCUT()
 	{
@@ -11470,7 +11470,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-ms-wmd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MS_WMD()
 	{
@@ -11479,7 +11479,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-ms-wmz`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MS_WMZ()
 	{
@@ -11488,7 +11488,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-ms-xbap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MS_XBAP()
 	{
@@ -11497,7 +11497,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-msaccess`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MSACCESS()
 	{
@@ -11506,7 +11506,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-msbinder`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MSBINDER()
 	{
@@ -11515,7 +11515,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-mscardfile`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MSCARDFILE()
 	{
@@ -11524,7 +11524,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-msclip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MSCLIP()
 	{
@@ -11533,7 +11533,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-msdownload`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MSDOWNLOAD()
 	{
@@ -11542,7 +11542,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-msmediaview`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MSMEDIAVIEW()
 	{
@@ -11551,7 +11551,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-msmetafile`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MSMETAFILE()
 	{
@@ -11560,7 +11560,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-msmoney`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MSMONEY()
 	{
@@ -11569,7 +11569,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-mspublisher`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MSPUBLISHER()
 	{
@@ -11578,7 +11578,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-msschedule`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MSSCHEDULE()
 	{
@@ -11587,7 +11587,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-msterminal`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MSTERMINAL()
 	{
@@ -11596,7 +11596,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-mswrite`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_MSWRITE()
 	{
@@ -11605,7 +11605,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-netcdf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_NETCDF()
 	{
@@ -11614,7 +11614,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-nzb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_NZB()
 	{
@@ -11623,7 +11623,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-pkcs12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_PKCS12()
 	{
@@ -11632,7 +11632,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-pkcs7-certificates`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_PKCS7_CERTIFICATES()
 	{
@@ -11641,7 +11641,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-pkcs7-certreqresp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_PKCS7_CERTREQRESP()
 	{
@@ -11650,7 +11650,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-rar-compressed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_RAR_COMPRESSED()
 	{
@@ -11659,7 +11659,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-research-info-systems`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_RESEARCH_INFO_SYSTEMS()
 	{
@@ -11668,7 +11668,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-sh`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_SH()
 	{
@@ -11677,7 +11677,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-shar`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_SHAR()
 	{
@@ -11686,7 +11686,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-shockwave-flash`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_SHOCKWAVE_FLASH()
 	{
@@ -11695,7 +11695,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-silverlight-app`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_SILVERLIGHT_APP()
 	{
@@ -11704,7 +11704,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-sql`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_SQL()
 	{
@@ -11713,7 +11713,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-stuffit`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_STUFFIT()
 	{
@@ -11722,7 +11722,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-stuffitx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_STUFFITX()
 	{
@@ -11731,7 +11731,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-subrip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_SUBRIP()
 	{
@@ -11740,7 +11740,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-sv4cpio`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_SV4CPIO()
 	{
@@ -11749,7 +11749,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-sv4crc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_SV4CRC()
 	{
@@ -11758,7 +11758,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-t3vm-image`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_T3VM_IMAGE()
 	{
@@ -11767,7 +11767,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-tads`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_TADS()
 	{
@@ -11776,7 +11776,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-tar`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_TAR()
 	{
@@ -11785,7 +11785,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-tcl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_TCL()
 	{
@@ -11794,7 +11794,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-tex`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_TEX()
 	{
@@ -11803,7 +11803,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-tex-tfm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_TEX_TFM()
 	{
@@ -11812,7 +11812,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-texinfo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_TEXINFO()
 	{
@@ -11821,7 +11821,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-tgif`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_TGIF()
 	{
@@ -11830,7 +11830,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-ustar`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_USTAR()
 	{
@@ -11839,7 +11839,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-wais-source`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_WAIS_SOURCE()
 	{
@@ -11848,7 +11848,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-www-form-urlencoded`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_WWW_FORM_URLENCODED()
 	{
@@ -11857,7 +11857,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-x509-ca-cert`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_X509_CA_CERT()
 	{
@@ -11866,7 +11866,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-xfig`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_XFIG()
 	{
@@ -11875,7 +11875,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-xliff+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_XLIFF_XML()
 	{
@@ -11884,7 +11884,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-xpinstall`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_XPINSTALL()
 	{
@@ -11893,7 +11893,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-xz`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_XZ()
 	{
@@ -11902,7 +11902,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x-zmachine`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X_ZMACHINE()
 	{
@@ -11911,7 +11911,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/x400-bp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_X400_BP()
 	{
@@ -11920,7 +11920,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xacml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XACML_XML()
 	{
@@ -11929,7 +11929,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xaml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XAML_XML()
 	{
@@ -11938,7 +11938,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xcap-att+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XCAP_ATT_XML()
 	{
@@ -11947,7 +11947,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xcap-caps+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XCAP_CAPS_XML()
 	{
@@ -11956,7 +11956,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xcap-diff+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XCAP_DIFF_XML()
 	{
@@ -11965,7 +11965,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xcap-el+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XCAP_EL_XML()
 	{
@@ -11974,7 +11974,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xcap-error+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XCAP_ERROR_XML()
 	{
@@ -11983,7 +11983,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xcap-ns+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XCAP_NS_XML()
 	{
@@ -11992,7 +11992,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xcon-conference-info+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XCON_CONFERENCE_INFO_XML()
 	{
@@ -12001,7 +12001,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xcon-conference-info-diff+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XCON_CONFERENCE_INFO_DIFF_XML()
 	{
@@ -12010,7 +12010,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xenc+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XENC_XML()
 	{
@@ -12019,7 +12019,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xhtml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XHTML_XML()
 	{
@@ -12028,7 +12028,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xhtml-voice+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XHTML_VOICE_XML()
 	{
@@ -12037,7 +12037,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XML()
 	{
@@ -12046,7 +12046,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xml-dtd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XML_DTD()
 	{
@@ -12055,7 +12055,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xml-external-parsed-entity`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XML_EXTERNAL_PARSED_ENTITY()
 	{
@@ -12064,7 +12064,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xml-patch+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XML_PATCH_XML()
 	{
@@ -12073,7 +12073,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xmpp+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XMPP_XML()
 	{
@@ -12082,7 +12082,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xop+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XOP_XML()
 	{
@@ -12091,7 +12091,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xproc+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XPROC_XML()
 	{
@@ -12100,7 +12100,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xslt+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XSLT_XML()
 	{
@@ -12109,7 +12109,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xspf+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XSPF_XML()
 	{
@@ -12118,7 +12118,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/xv+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_XV_XML()
 	{
@@ -12127,7 +12127,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/yang`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_YANG()
 	{
@@ -12136,7 +12136,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/yin+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_YIN_XML()
 	{
@@ -12145,7 +12145,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/zip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ZIP()
 	{
@@ -12154,7 +12154,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `application/zlib`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get APPLICATION_ZLIB()
 	{
@@ -12163,7 +12163,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/1d-interleaved-parityfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_1D_INTERLEAVED_PARITYFEC()
 	{
@@ -12172,7 +12172,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/32kadpcm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_32KADPCM()
 	{
@@ -12181,7 +12181,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/3gpp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_3GPP()
 	{
@@ -12190,7 +12190,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/3gpp2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_3GPP2()
 	{
@@ -12199,7 +12199,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/ac3`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_AC3()
 	{
@@ -12208,7 +12208,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/adpcm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_ADPCM()
 	{
@@ -12217,7 +12217,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/amr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_AMR()
 	{
@@ -12226,7 +12226,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/amr-wb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_AMR_WB()
 	{
@@ -12235,7 +12235,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/amr-wb+`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_AMR_WB_()
 	{
@@ -12244,7 +12244,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/aptx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_APTX()
 	{
@@ -12253,7 +12253,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/asc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_ASC()
 	{
@@ -12262,7 +12262,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/atrac-advanced-lossless`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_ATRAC_ADVANCED_LOSSLESS()
 	{
@@ -12271,7 +12271,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/atrac-x`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_ATRAC_X()
 	{
@@ -12280,7 +12280,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/atrac3`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_ATRAC3()
 	{
@@ -12289,7 +12289,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/basic`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_BASIC()
 	{
@@ -12298,7 +12298,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/bv16`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_BV16()
 	{
@@ -12307,7 +12307,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/bv32`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_BV32()
 	{
@@ -12316,7 +12316,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/clearmode`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_CLEARMODE()
 	{
@@ -12325,7 +12325,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/cn`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_CN()
 	{
@@ -12334,7 +12334,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/dat12`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_DAT12()
 	{
@@ -12343,7 +12343,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/dls`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_DLS()
 	{
@@ -12352,7 +12352,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/dsr-es201108`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_DSR_ES201108()
 	{
@@ -12361,7 +12361,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/dsr-es202050`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_DSR_ES202050()
 	{
@@ -12370,7 +12370,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/dsr-es202211`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_DSR_ES202211()
 	{
@@ -12379,7 +12379,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/dsr-es202212`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_DSR_ES202212()
 	{
@@ -12388,7 +12388,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/dv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_DV()
 	{
@@ -12397,7 +12397,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/dvi4`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_DVI4()
 	{
@@ -12406,7 +12406,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/eac3`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EAC3()
 	{
@@ -12415,7 +12415,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/encaprtp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_ENCAPRTP()
 	{
@@ -12424,7 +12424,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRC()
 	{
@@ -12433,7 +12433,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrc-qcp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRC_QCP()
 	{
@@ -12442,7 +12442,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrc0`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRC0()
 	{
@@ -12451,7 +12451,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrc1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRC1()
 	{
@@ -12460,7 +12460,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrcb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRCB()
 	{
@@ -12469,7 +12469,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrcb0`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRCB0()
 	{
@@ -12478,7 +12478,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrcb1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRCB1()
 	{
@@ -12487,7 +12487,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrcnw`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRCNW()
 	{
@@ -12496,7 +12496,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrcnw0`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRCNW0()
 	{
@@ -12505,7 +12505,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrcnw1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRCNW1()
 	{
@@ -12514,7 +12514,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrcwb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRCWB()
 	{
@@ -12523,7 +12523,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrcwb0`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRCWB0()
 	{
@@ -12532,7 +12532,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evrcwb1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVRCWB1()
 	{
@@ -12541,7 +12541,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/evs`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EVS()
 	{
@@ -12550,7 +12550,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/example`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_EXAMPLE()
 	{
@@ -12559,7 +12559,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/fwdred`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_FWDRED()
 	{
@@ -12568,7 +12568,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g711-0`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G711_0()
 	{
@@ -12577,7 +12577,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g719`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G719()
 	{
@@ -12586,7 +12586,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g722`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G722()
 	{
@@ -12595,7 +12595,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g7221`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G7221()
 	{
@@ -12604,7 +12604,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g723`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G723()
 	{
@@ -12613,7 +12613,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g726-16`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G726_16()
 	{
@@ -12622,7 +12622,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g726-24`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G726_24()
 	{
@@ -12631,7 +12631,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g726-32`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G726_32()
 	{
@@ -12640,7 +12640,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g726-40`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G726_40()
 	{
@@ -12649,7 +12649,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g728`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G728()
 	{
@@ -12658,7 +12658,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g729`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G729()
 	{
@@ -12667,7 +12667,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g7291`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G7291()
 	{
@@ -12676,7 +12676,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g729d`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G729D()
 	{
@@ -12685,7 +12685,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/g729e`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_G729E()
 	{
@@ -12694,7 +12694,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/gsm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_GSM()
 	{
@@ -12703,7 +12703,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/gsm-efr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_GSM_EFR()
 	{
@@ -12712,7 +12712,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/gsm-hr-08`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_GSM_HR_08()
 	{
@@ -12721,7 +12721,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/ilbc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_ILBC()
 	{
@@ -12730,7 +12730,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/ip-mr_v2.5`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_IP_MR_V2_5()
 	{
@@ -12739,7 +12739,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/isac`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_ISAC()
 	{
@@ -12748,7 +12748,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/l16`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_L16()
 	{
@@ -12757,7 +12757,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/l20`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_L20()
 	{
@@ -12766,7 +12766,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/l24`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_L24()
 	{
@@ -12775,7 +12775,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/l8`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_L8()
 	{
@@ -12784,7 +12784,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/lpc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_LPC()
 	{
@@ -12793,7 +12793,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/midi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_MIDI()
 	{
@@ -12802,7 +12802,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/mobile-xmf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_MOBILE_XMF()
 	{
@@ -12811,7 +12811,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/mp4`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_MP4()
 	{
@@ -12820,7 +12820,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/mp4a-latm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_MP4A_LATM()
 	{
@@ -12829,7 +12829,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/mpa`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_MPA()
 	{
@@ -12838,7 +12838,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/mpa-robust`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_MPA_ROBUST()
 	{
@@ -12847,7 +12847,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/mpeg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_MPEG()
 	{
@@ -12856,7 +12856,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/mpeg4-generic`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_MPEG4_GENERIC()
 	{
@@ -12865,7 +12865,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/musepack`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_MUSEPACK()
 	{
@@ -12874,7 +12874,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/ogg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_OGG()
 	{
@@ -12883,7 +12883,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/opus`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_OPUS()
 	{
@@ -12892,7 +12892,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/parityfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_PARITYFEC()
 	{
@@ -12901,7 +12901,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/pcma`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_PCMA()
 	{
@@ -12910,7 +12910,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/pcma-wb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_PCMA_WB()
 	{
@@ -12919,7 +12919,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/pcmu`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_PCMU()
 	{
@@ -12928,7 +12928,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/pcmu-wb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_PCMU_WB()
 	{
@@ -12937,7 +12937,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/prs.sid`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_PRS_SID()
 	{
@@ -12946,7 +12946,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/qcelp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_QCELP()
 	{
@@ -12955,7 +12955,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/raptorfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_RAPTORFEC()
 	{
@@ -12964,7 +12964,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/red`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_RED()
 	{
@@ -12973,7 +12973,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/rtp-enc-aescm128`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_RTP_ENC_AESCM128()
 	{
@@ -12982,7 +12982,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/rtp-midi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_RTP_MIDI()
 	{
@@ -12991,7 +12991,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/rtploopback`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_RTPLOOPBACK()
 	{
@@ -13000,7 +13000,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/rtx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_RTX()
 	{
@@ -13009,7 +13009,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/s3m`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_S3M()
 	{
@@ -13018,7 +13018,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/silk`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_SILK()
 	{
@@ -13027,7 +13027,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/smv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_SMV()
 	{
@@ -13036,7 +13036,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/smv-qcp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_SMV_QCP()
 	{
@@ -13045,7 +13045,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/smv0`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_SMV0()
 	{
@@ -13054,7 +13054,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/sp-midi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_SP_MIDI()
 	{
@@ -13063,7 +13063,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/speex`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_SPEEX()
 	{
@@ -13072,7 +13072,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/t140c`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_T140C()
 	{
@@ -13081,7 +13081,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/t38`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_T38()
 	{
@@ -13090,7 +13090,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/telephone-event`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_TELEPHONE_EVENT()
 	{
@@ -13099,7 +13099,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/tone`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_TONE()
 	{
@@ -13108,7 +13108,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/uemclip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_UEMCLIP()
 	{
@@ -13117,7 +13117,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/ulpfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_ULPFEC()
 	{
@@ -13126,7 +13126,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vdvi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VDVI()
 	{
@@ -13135,7 +13135,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vmr-wb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VMR_WB()
 	{
@@ -13144,7 +13144,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.3gpp.iufp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_3GPP_IUFP()
 	{
@@ -13153,7 +13153,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.4sb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_4SB()
 	{
@@ -13162,7 +13162,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.audiokoz`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_AUDIOKOZ()
 	{
@@ -13171,7 +13171,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.celp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_CELP()
 	{
@@ -13180,7 +13180,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.cisco.nse`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_CISCO_NSE()
 	{
@@ -13189,7 +13189,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.cmles.radio-events`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_CMLES_RADIO_EVENTS()
 	{
@@ -13198,7 +13198,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.cns.anp1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_CNS_ANP1()
 	{
@@ -13207,7 +13207,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.cns.inf1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_CNS_INF1()
 	{
@@ -13216,7 +13216,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dece.audio`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DECE_AUDIO()
 	{
@@ -13225,7 +13225,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.digital-winds`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DIGITAL_WINDS()
 	{
@@ -13234,7 +13234,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dlna.adts`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DLNA_ADTS()
 	{
@@ -13243,7 +13243,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dolby.heaac.1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DOLBY_HEAAC_1()
 	{
@@ -13252,7 +13252,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dolby.heaac.2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DOLBY_HEAAC_2()
 	{
@@ -13261,7 +13261,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dolby.mlp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DOLBY_MLP()
 	{
@@ -13270,7 +13270,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dolby.mps`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DOLBY_MPS()
 	{
@@ -13279,7 +13279,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dolby.pl2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DOLBY_PL2()
 	{
@@ -13288,7 +13288,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dolby.pl2x`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DOLBY_PL2X()
 	{
@@ -13297,7 +13297,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dolby.pl2z`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DOLBY_PL2Z()
 	{
@@ -13306,7 +13306,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dolby.pulse.1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DOLBY_PULSE_1()
 	{
@@ -13315,7 +13315,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dra`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DRA()
 	{
@@ -13324,7 +13324,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dts`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DTS()
 	{
@@ -13333,7 +13333,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dts.hd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DTS_HD()
 	{
@@ -13342,7 +13342,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.dvb.file`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_DVB_FILE()
 	{
@@ -13351,7 +13351,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.everad.plj`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_EVERAD_PLJ()
 	{
@@ -13360,7 +13360,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.hns.audio`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_HNS_AUDIO()
 	{
@@ -13369,7 +13369,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.lucent.voice`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_LUCENT_VOICE()
 	{
@@ -13378,7 +13378,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.ms-playready.media.pya`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_MS_PLAYREADY_MEDIA_PYA()
 	{
@@ -13387,7 +13387,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.nokia.mobile-xmf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_NOKIA_MOBILE_XMF()
 	{
@@ -13396,7 +13396,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.nortel.vbk`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_NORTEL_VBK()
 	{
@@ -13405,7 +13405,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.nuera.ecelp4800`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_NUERA_ECELP4800()
 	{
@@ -13414,7 +13414,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.nuera.ecelp7470`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_NUERA_ECELP7470()
 	{
@@ -13423,7 +13423,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.nuera.ecelp9600`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_NUERA_ECELP9600()
 	{
@@ -13432,7 +13432,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.octel.sbc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_OCTEL_SBC()
 	{
@@ -13441,7 +13441,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.qcelp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_QCELP()
 	{
@@ -13450,7 +13450,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.rhetorex.32kadpcm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_RHETOREX_32KADPCM()
 	{
@@ -13459,7 +13459,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.rip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_RIP()
 	{
@@ -13468,7 +13468,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.sealedmedia.softseal.mpeg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_SEALEDMEDIA_SOFTSEAL_MPEG()
 	{
@@ -13477,7 +13477,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vnd.vmx.cvsd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VND_VMX_CVSD()
 	{
@@ -13486,7 +13486,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vorbis`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VORBIS()
 	{
@@ -13495,7 +13495,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/vorbis-config`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_VORBIS_CONFIG()
 	{
@@ -13504,7 +13504,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/webm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_WEBM()
 	{
@@ -13513,7 +13513,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/x-aac`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_X_AAC()
 	{
@@ -13522,7 +13522,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/x-aiff`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_X_AIFF()
 	{
@@ -13531,7 +13531,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/x-caf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_X_CAF()
 	{
@@ -13540,7 +13540,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/x-flac`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_X_FLAC()
 	{
@@ -13549,7 +13549,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/x-matroska`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_X_MATROSKA()
 	{
@@ -13558,7 +13558,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/x-mpegurl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_X_MPEGURL()
 	{
@@ -13567,7 +13567,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/x-ms-wax`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_X_MS_WAX()
 	{
@@ -13576,7 +13576,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/x-ms-wma`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_X_MS_WMA()
 	{
@@ -13585,7 +13585,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/x-pn-realaudio`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_X_PN_REALAUDIO()
 	{
@@ -13594,7 +13594,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/x-pn-realaudio-plugin`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_X_PN_REALAUDIO_PLUGIN()
 	{
@@ -13603,7 +13603,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/x-tta`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_X_TTA()
 	{
@@ -13612,7 +13612,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/x-wav`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_X_WAV()
 	{
@@ -13621,7 +13621,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `audio/xm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get AUDIO_XM()
 	{
@@ -13630,7 +13630,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `chemical/x-cdx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CHEMICAL_X_CDX()
 	{
@@ -13639,7 +13639,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `chemical/x-cif`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CHEMICAL_X_CIF()
 	{
@@ -13648,7 +13648,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `chemical/x-cmdf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CHEMICAL_X_CMDF()
 	{
@@ -13657,7 +13657,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `chemical/x-cml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CHEMICAL_X_CML()
 	{
@@ -13666,7 +13666,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `chemical/x-csml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CHEMICAL_X_CSML()
 	{
@@ -13675,7 +13675,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `chemical/x-pdb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CHEMICAL_X_PDB()
 	{
@@ -13684,7 +13684,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `chemical/x-xyz`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get CHEMICAL_X_XYZ()
 	{
@@ -13693,7 +13693,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `font/collection`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get FONT_COLLECTION()
 	{
@@ -13702,7 +13702,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `font/otf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get FONT_OTF()
 	{
@@ -13711,7 +13711,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `font/sfnt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get FONT_SFNT()
 	{
@@ -13720,7 +13720,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `font/ttf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get FONT_TTF()
 	{
@@ -13729,7 +13729,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `font/woff`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get FONT_WOFF()
 	{
@@ -13738,7 +13738,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `font/woff2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get FONT_WOFF2()
 	{
@@ -13747,7 +13747,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/bmp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_BMP()
 	{
@@ -13756,7 +13756,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/cgm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_CGM()
 	{
@@ -13765,7 +13765,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/dicom-rle`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_DICOM_RLE()
 	{
@@ -13774,7 +13774,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/emf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_EMF()
 	{
@@ -13783,7 +13783,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/example`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_EXAMPLE()
 	{
@@ -13792,7 +13792,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/fits`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_FITS()
 	{
@@ -13801,7 +13801,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/g3fax`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_G3FAX()
 	{
@@ -13810,7 +13810,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/gif`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_GIF()
 	{
@@ -13819,7 +13819,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/ief`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_IEF()
 	{
@@ -13828,7 +13828,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/jls`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_JLS()
 	{
@@ -13837,7 +13837,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/jp2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_JP2()
 	{
@@ -13846,7 +13846,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/jpeg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_JPEG()
 	{
@@ -13855,7 +13855,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/jpm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_JPM()
 	{
@@ -13864,7 +13864,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/jpx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_JPX()
 	{
@@ -13873,7 +13873,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/ktx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_KTX()
 	{
@@ -13882,7 +13882,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/naplps`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_NAPLPS()
 	{
@@ -13891,7 +13891,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/png`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_PNG()
 	{
@@ -13900,7 +13900,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/prs.btif`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_PRS_BTIF()
 	{
@@ -13909,7 +13909,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/prs.pti`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_PRS_PTI()
 	{
@@ -13918,7 +13918,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/pwg-raster`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_PWG_RASTER()
 	{
@@ -13927,7 +13927,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/sgi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_SGI()
 	{
@@ -13936,7 +13936,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/svg+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_SVG_XML()
 	{
@@ -13945,7 +13945,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/t38`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_T38()
 	{
@@ -13954,7 +13954,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/tiff`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_TIFF()
 	{
@@ -13963,7 +13963,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/tiff-fx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_TIFF_FX()
 	{
@@ -13972,7 +13972,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.adobe.photoshop`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_ADOBE_PHOTOSHOP()
 	{
@@ -13981,7 +13981,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.airzip.accelerator.azv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_AIRZIP_ACCELERATOR_AZV()
 	{
@@ -13990,7 +13990,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.cns.inf2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_CNS_INF2()
 	{
@@ -13999,7 +13999,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.dece.graphic`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_DECE_GRAPHIC()
 	{
@@ -14008,7 +14008,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.djvu`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_DJVU()
 	{
@@ -14017,7 +14017,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.dvb.subtitle`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_DVB_SUBTITLE()
 	{
@@ -14026,7 +14026,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.dwg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_DWG()
 	{
@@ -14035,7 +14035,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.dxf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_DXF()
 	{
@@ -14044,7 +14044,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.fastbidsheet`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_FASTBIDSHEET()
 	{
@@ -14053,7 +14053,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.fpx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_FPX()
 	{
@@ -14062,7 +14062,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.fst`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_FST()
 	{
@@ -14071,7 +14071,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.fujixerox.edmics-mmr`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_FUJIXEROX_EDMICS_MMR()
 	{
@@ -14080,7 +14080,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.fujixerox.edmics-rlc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_FUJIXEROX_EDMICS_RLC()
 	{
@@ -14089,7 +14089,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.globalgraphics.pgb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_GLOBALGRAPHICS_PGB()
 	{
@@ -14098,7 +14098,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.microsoft.icon`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_MICROSOFT_ICON()
 	{
@@ -14107,7 +14107,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.mix`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_MIX()
 	{
@@ -14116,7 +14116,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.mozilla.apng`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_MOZILLA_APNG()
 	{
@@ -14125,7 +14125,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.ms-modi`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_MS_MODI()
 	{
@@ -14134,7 +14134,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.ms-photo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_MS_PHOTO()
 	{
@@ -14143,7 +14143,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.net-fpx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_NET_FPX()
 	{
@@ -14152,7 +14152,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.radiance`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_RADIANCE()
 	{
@@ -14161,7 +14161,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.sealed.png`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_SEALED_PNG()
 	{
@@ -14170,7 +14170,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.sealedmedia.softseal.gif`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_SEALEDMEDIA_SOFTSEAL_GIF()
 	{
@@ -14179,7 +14179,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.sealedmedia.softseal.jpg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_SEALEDMEDIA_SOFTSEAL_JPG()
 	{
@@ -14188,7 +14188,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.svf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_SVF()
 	{
@@ -14197,7 +14197,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.tencent.tap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_TENCENT_TAP()
 	{
@@ -14206,7 +14206,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.valve.source.texture`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_VALVE_SOURCE_TEXTURE()
 	{
@@ -14215,7 +14215,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.wap.wbmp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_WAP_WBMP()
 	{
@@ -14224,7 +14224,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.xiff`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_XIFF()
 	{
@@ -14233,7 +14233,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/vnd.zbrush.pcx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_VND_ZBRUSH_PCX()
 	{
@@ -14242,7 +14242,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/webp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_WEBP()
 	{
@@ -14251,7 +14251,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/wmf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_WMF()
 	{
@@ -14260,7 +14260,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-3ds`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_3DS()
 	{
@@ -14269,7 +14269,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-cmu-raster`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_CMU_RASTER()
 	{
@@ -14278,7 +14278,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-cmx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_CMX()
 	{
@@ -14287,7 +14287,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-freehand`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_FREEHAND()
 	{
@@ -14296,7 +14296,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-icon`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_ICON()
 	{
@@ -14305,7 +14305,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-mrsid-image`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_MRSID_IMAGE()
 	{
@@ -14314,7 +14314,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-pcx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_PCX()
 	{
@@ -14323,7 +14323,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-pict`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_PICT()
 	{
@@ -14332,7 +14332,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-portable-anymap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_PORTABLE_ANYMAP()
 	{
@@ -14341,7 +14341,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-portable-bitmap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_PORTABLE_BITMAP()
 	{
@@ -14350,7 +14350,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-portable-graymap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_PORTABLE_GRAYMAP()
 	{
@@ -14359,7 +14359,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-portable-pixmap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_PORTABLE_PIXMAP()
 	{
@@ -14368,7 +14368,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-rgb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_RGB()
 	{
@@ -14377,7 +14377,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-tga`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_TGA()
 	{
@@ -14386,7 +14386,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-xbitmap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_XBITMAP()
 	{
@@ -14395,7 +14395,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-xpixmap`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_XPIXMAP()
 	{
@@ -14404,7 +14404,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `image/x-xwindowdump`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get IMAGE_X_XWINDOWDUMP()
 	{
@@ -14413,7 +14413,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/cpim`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_CPIM()
 	{
@@ -14422,7 +14422,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/delivery-status`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_DELIVERY_STATUS()
 	{
@@ -14431,7 +14431,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/disposition-notification`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_DISPOSITION_NOTIFICATION()
 	{
@@ -14440,7 +14440,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/example`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_EXAMPLE()
 	{
@@ -14449,7 +14449,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/external-body`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_EXTERNAL_BODY()
 	{
@@ -14458,7 +14458,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/feedback-report`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_FEEDBACK_REPORT()
 	{
@@ -14467,7 +14467,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/global`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_GLOBAL()
 	{
@@ -14476,7 +14476,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/global-delivery-status`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_GLOBAL_DELIVERY_STATUS()
 	{
@@ -14485,7 +14485,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/global-disposition-notification`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_GLOBAL_DISPOSITION_NOTIFICATION()
 	{
@@ -14494,7 +14494,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/global-headers`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_GLOBAL_HEADERS()
 	{
@@ -14503,7 +14503,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/http`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_HTTP()
 	{
@@ -14512,7 +14512,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/imdn+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_IMDN_XML()
 	{
@@ -14521,7 +14521,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/news`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_NEWS()
 	{
@@ -14530,7 +14530,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/partial`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_PARTIAL()
 	{
@@ -14539,7 +14539,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/rfc822`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_RFC822()
 	{
@@ -14548,7 +14548,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/s-http`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_S_HTTP()
 	{
@@ -14557,7 +14557,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/sip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_SIP()
 	{
@@ -14566,7 +14566,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/sipfrag`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_SIPFRAG()
 	{
@@ -14575,7 +14575,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/tracking-status`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_TRACKING_STATUS()
 	{
@@ -14584,7 +14584,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/vnd.si.simp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_VND_SI_SIMP()
 	{
@@ -14593,7 +14593,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `message/vnd.wfa.wsc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MESSAGE_VND_WFA_WSC()
 	{
@@ -14602,7 +14602,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/example`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_EXAMPLE()
 	{
@@ -14611,7 +14611,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/gltf+json`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_GLTF_JSON()
 	{
@@ -14620,7 +14620,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/iges`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_IGES()
 	{
@@ -14629,7 +14629,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/mesh`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_MESH()
 	{
@@ -14638,7 +14638,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.collada+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_COLLADA_XML()
 	{
@@ -14647,7 +14647,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.dwf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_DWF()
 	{
@@ -14656,7 +14656,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.flatland.3dml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_FLATLAND_3DML()
 	{
@@ -14665,7 +14665,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.gdl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_GDL()
 	{
@@ -14674,7 +14674,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.gs-gdl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_GS_GDL()
 	{
@@ -14683,7 +14683,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.gs.gdl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_GS_GDL()
 	{
@@ -14692,7 +14692,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.gtw`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_GTW()
 	{
@@ -14701,7 +14701,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.moml+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_MOML_XML()
 	{
@@ -14710,7 +14710,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.mts`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_MTS()
 	{
@@ -14719,7 +14719,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.opengex`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_OPENGEX()
 	{
@@ -14728,7 +14728,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.parasolid.transmit.binary`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_PARASOLID_TRANSMIT_BINARY()
 	{
@@ -14737,7 +14737,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.parasolid.transmit.text`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_PARASOLID_TRANSMIT_TEXT()
 	{
@@ -14746,7 +14746,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.rosette.annotated-data-model`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_ROSETTE_ANNOTATED_DATA_MODEL()
 	{
@@ -14755,7 +14755,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.valve.source.compiled-map`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_VALVE_SOURCE_COMPILED_MAP()
 	{
@@ -14764,7 +14764,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vnd.vtu`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VND_VTU()
 	{
@@ -14773,7 +14773,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/vrml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_VRML()
 	{
@@ -14782,7 +14782,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/x3d+binary`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_X3D_BINARY()
 	{
@@ -14791,7 +14791,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/x3d+fastinfoset`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_X3D_FASTINFOSET()
 	{
@@ -14800,7 +14800,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/x3d+vrml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_X3D_VRML()
 	{
@@ -14809,7 +14809,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/x3d+xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_X3D_XML()
 	{
@@ -14818,7 +14818,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `model/x3d-vrml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MODEL_X3D_VRML()
 	{
@@ -14827,7 +14827,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/alternative`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_ALTERNATIVE()
 	{
@@ -14836,7 +14836,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/appledouble`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_APPLEDOUBLE()
 	{
@@ -14845,7 +14845,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/byteranges`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_BYTERANGES()
 	{
@@ -14854,7 +14854,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/digest`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_DIGEST()
 	{
@@ -14863,7 +14863,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/encrypted`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_ENCRYPTED()
 	{
@@ -14872,7 +14872,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/example`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_EXAMPLE()
 	{
@@ -14881,7 +14881,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/form-data`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_FORM_DATA()
 	{
@@ -14890,7 +14890,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/header-set`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_HEADER_SET()
 	{
@@ -14899,7 +14899,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/mixed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_MIXED()
 	{
@@ -14908,7 +14908,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/parallel`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_PARALLEL()
 	{
@@ -14917,7 +14917,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/related`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_RELATED()
 	{
@@ -14926,7 +14926,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/report`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_REPORT()
 	{
@@ -14935,7 +14935,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/signed`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_SIGNED()
 	{
@@ -14944,7 +14944,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/voice-message`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_VOICE_MESSAGE()
 	{
@@ -14953,7 +14953,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `multipart/x-mixed-replace`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get MULTIPART_X_MIXED_REPLACE()
 	{
@@ -14962,7 +14962,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/1d-interleaved-parityfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_1D_INTERLEAVED_PARITYFEC()
 	{
@@ -14971,7 +14971,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/cache-manifest`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_CACHE_MANIFEST()
 	{
@@ -14980,7 +14980,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/calendar`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_CALENDAR()
 	{
@@ -14989,7 +14989,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/css`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_CSS()
 	{
@@ -14998,7 +14998,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/csv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_CSV()
 	{
@@ -15007,7 +15007,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/csv-schema`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_CSV_SCHEMA()
 	{
@@ -15016,7 +15016,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/directory`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_DIRECTORY()
 	{
@@ -15025,7 +15025,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/dns`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_DNS()
 	{
@@ -15034,7 +15034,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/ecmascript`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_ECMASCRIPT()
 	{
@@ -15043,7 +15043,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/encaprtp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_ENCAPRTP()
 	{
@@ -15052,7 +15052,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/enriched`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_ENRICHED()
 	{
@@ -15061,7 +15061,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/example`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_EXAMPLE()
 	{
@@ -15070,7 +15070,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/fwdred`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_FWDRED()
 	{
@@ -15079,7 +15079,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/grammar-ref-list`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_GRAMMAR_REF_LIST()
 	{
@@ -15088,7 +15088,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/html`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_HTML()
 	{
@@ -15097,7 +15097,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/javascript`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_JAVASCRIPT()
 	{
@@ -15106,7 +15106,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/jcr-cnd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_JCR_CND()
 	{
@@ -15115,7 +15115,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/markdown`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_MARKDOWN()
 	{
@@ -15124,7 +15124,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/mizar`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_MIZAR()
 	{
@@ -15133,7 +15133,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/n3`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_N3()
 	{
@@ -15142,7 +15142,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/parameters`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_PARAMETERS()
 	{
@@ -15151,7 +15151,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/parityfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_PARITYFEC()
 	{
@@ -15160,7 +15160,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/plain`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_PLAIN()
 	{
@@ -15169,7 +15169,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/provenance-notation`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_PROVENANCE_NOTATION()
 	{
@@ -15178,7 +15178,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/prs.fallenstein.rst`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_PRS_FALLENSTEIN_RST()
 	{
@@ -15187,7 +15187,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/prs.lines.tag`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_PRS_LINES_TAG()
 	{
@@ -15196,7 +15196,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/prs.prop.logic`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_PRS_PROP_LOGIC()
 	{
@@ -15205,7 +15205,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/raptorfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_RAPTORFEC()
 	{
@@ -15214,7 +15214,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/red`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_RED()
 	{
@@ -15223,7 +15223,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/rfc822-headers`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_RFC822_HEADERS()
 	{
@@ -15232,7 +15232,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/richtext`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_RICHTEXT()
 	{
@@ -15241,7 +15241,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/rtf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_RTF()
 	{
@@ -15250,7 +15250,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/rtp-enc-aescm128`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_RTP_ENC_AESCM128()
 	{
@@ -15259,7 +15259,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/rtploopback`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_RTPLOOPBACK()
 	{
@@ -15268,7 +15268,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/rtx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_RTX()
 	{
@@ -15277,7 +15277,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/sgml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_SGML()
 	{
@@ -15286,7 +15286,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/t140`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_T140()
 	{
@@ -15295,7 +15295,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/tab-separated-values`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_TAB_SEPARATED_VALUES()
 	{
@@ -15304,7 +15304,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/troff`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_TROFF()
 	{
@@ -15313,7 +15313,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/turtle`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_TURTLE()
 	{
@@ -15322,7 +15322,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/ulpfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_ULPFEC()
 	{
@@ -15331,7 +15331,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/uri-list`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_URI_LIST()
 	{
@@ -15340,7 +15340,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vcard`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VCARD()
 	{
@@ -15349,7 +15349,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.a`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_A()
 	{
@@ -15358,7 +15358,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.abc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_ABC()
 	{
@@ -15367,7 +15367,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.curl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_CURL()
 	{
@@ -15376,7 +15376,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.curl.dcurl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_CURL_DCURL()
 	{
@@ -15385,7 +15385,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.curl.mcurl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_CURL_MCURL()
 	{
@@ -15394,7 +15394,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.curl.scurl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_CURL_SCURL()
 	{
@@ -15403,7 +15403,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.debian.copyright`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_DEBIAN_COPYRIGHT()
 	{
@@ -15412,7 +15412,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.dmclientscript`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_DMCLIENTSCRIPT()
 	{
@@ -15421,7 +15421,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.dvb.subtitle`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_DVB_SUBTITLE()
 	{
@@ -15430,7 +15430,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.esmertec.theme-descriptor`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_ESMERTEC_THEME_DESCRIPTOR()
 	{
@@ -15439,7 +15439,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.fly`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_FLY()
 	{
@@ -15448,7 +15448,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.fmi.flexstor`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_FMI_FLEXSTOR()
 	{
@@ -15457,7 +15457,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.graphviz`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_GRAPHVIZ()
 	{
@@ -15466,7 +15466,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.in3d.3dml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_IN3D_3DML()
 	{
@@ -15475,7 +15475,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.in3d.spot`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_IN3D_SPOT()
 	{
@@ -15484,7 +15484,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.iptc.newsml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_IPTC_NEWSML()
 	{
@@ -15493,7 +15493,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.iptc.nitf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_IPTC_NITF()
 	{
@@ -15502,7 +15502,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.latex-z`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_LATEX_Z()
 	{
@@ -15511,7 +15511,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.motorola.reflex`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_MOTOROLA_REFLEX()
 	{
@@ -15520,7 +15520,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.ms-mediapackage`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_MS_MEDIAPACKAGE()
 	{
@@ -15529,7 +15529,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.net2phone.commcenter.command`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_NET2PHONE_COMMCENTER_COMMAND()
 	{
@@ -15538,7 +15538,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.radisys.msml-basic-layout`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_RADISYS_MSML_BASIC_LAYOUT()
 	{
@@ -15547,7 +15547,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.si.uricatalogue`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_SI_URICATALOGUE()
 	{
@@ -15556,7 +15556,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.sun.j2me.app-descriptor`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_SUN_J2ME_APP_DESCRIPTOR()
 	{
@@ -15565,7 +15565,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.trolltech.linguist`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_TROLLTECH_LINGUIST()
 	{
@@ -15574,7 +15574,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.wap.si`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_WAP_SI()
 	{
@@ -15583,7 +15583,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.wap.sl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_WAP_SL()
 	{
@@ -15592,7 +15592,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.wap.wml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_WAP_WML()
 	{
@@ -15601,7 +15601,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/vnd.wap.wmlscript`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_VND_WAP_WMLSCRIPT()
 	{
@@ -15610,7 +15610,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/x-asm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_X_ASM()
 	{
@@ -15619,7 +15619,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/x-c`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_X_C()
 	{
@@ -15628,7 +15628,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/x-fortran`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_X_FORTRAN()
 	{
@@ -15637,7 +15637,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/x-java-source`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_X_JAVA_SOURCE()
 	{
@@ -15646,7 +15646,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/x-nfo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_X_NFO()
 	{
@@ -15655,7 +15655,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/x-opml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_X_OPML()
 	{
@@ -15664,7 +15664,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/x-pascal`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_X_PASCAL()
 	{
@@ -15673,7 +15673,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/x-setext`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_X_SETEXT()
 	{
@@ -15682,7 +15682,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/x-sfv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_X_SFV()
 	{
@@ -15691,7 +15691,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/x-uuencode`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_X_UUENCODE()
 	{
@@ -15700,7 +15700,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/x-vcalendar`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_X_VCALENDAR()
 	{
@@ -15709,7 +15709,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/x-vcard`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_X_VCARD()
 	{
@@ -15718,7 +15718,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/xml`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_XML()
 	{
@@ -15727,7 +15727,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `text/xml-external-parsed-entity`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TEXT_XML_EXTERNAL_PARSED_ENTITY()
 	{
@@ -15736,7 +15736,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/1d-interleaved-parityfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_1D_INTERLEAVED_PARITYFEC()
 	{
@@ -15745,7 +15745,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/3gpp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_3GPP()
 	{
@@ -15754,7 +15754,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/3gpp-tt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_3GPP_TT()
 	{
@@ -15763,7 +15763,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/3gpp2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_3GPP2()
 	{
@@ -15772,7 +15772,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/bmpeg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_BMPEG()
 	{
@@ -15781,7 +15781,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/bt656`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_BT656()
 	{
@@ -15790,7 +15790,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/celb`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_CELB()
 	{
@@ -15799,7 +15799,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/dv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_DV()
 	{
@@ -15808,7 +15808,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/encaprtp`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_ENCAPRTP()
 	{
@@ -15817,7 +15817,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/example`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_EXAMPLE()
 	{
@@ -15826,7 +15826,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/h261`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_H261()
 	{
@@ -15835,7 +15835,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/h263`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_H263()
 	{
@@ -15844,7 +15844,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/h263-1998`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_H263_1998()
 	{
@@ -15853,7 +15853,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/h263-2000`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_H263_2000()
 	{
@@ -15862,7 +15862,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/h264`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_H264()
 	{
@@ -15871,7 +15871,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/h264-rcdo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_H264_RCDO()
 	{
@@ -15880,7 +15880,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/h264-svc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_H264_SVC()
 	{
@@ -15889,7 +15889,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/h265`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_H265()
 	{
@@ -15898,7 +15898,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/iso.segment`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_ISO_SEGMENT()
 	{
@@ -15907,7 +15907,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/jpeg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_JPEG()
 	{
@@ -15916,7 +15916,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/jpeg2000`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_JPEG2000()
 	{
@@ -15925,7 +15925,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/jpm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_JPM()
 	{
@@ -15934,7 +15934,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/mj2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_MJ2()
 	{
@@ -15943,7 +15943,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/mp1s`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_MP1S()
 	{
@@ -15952,7 +15952,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/mp2p`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_MP2P()
 	{
@@ -15961,7 +15961,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/mp2t`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_MP2T()
 	{
@@ -15970,7 +15970,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/mp4`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_MP4()
 	{
@@ -15979,7 +15979,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/mp4v-es`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_MP4V_ES()
 	{
@@ -15988,7 +15988,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/mpeg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_MPEG()
 	{
@@ -15997,7 +15997,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/mpeg4-generic`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_MPEG4_GENERIC()
 	{
@@ -16006,7 +16006,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/mpv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_MPV()
 	{
@@ -16015,7 +16015,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/nv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_NV()
 	{
@@ -16024,7 +16024,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/ogg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_OGG()
 	{
@@ -16033,7 +16033,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/parityfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_PARITYFEC()
 	{
@@ -16042,7 +16042,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/pointer`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_POINTER()
 	{
@@ -16051,7 +16051,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/quicktime`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_QUICKTIME()
 	{
@@ -16060,7 +16060,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/raptorfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_RAPTORFEC()
 	{
@@ -16069,7 +16069,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/raw`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_RAW()
 	{
@@ -16078,7 +16078,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/rtp-enc-aescm128`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_RTP_ENC_AESCM128()
 	{
@@ -16087,7 +16087,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/rtploopback`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_RTPLOOPBACK()
 	{
@@ -16096,7 +16096,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/rtx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_RTX()
 	{
@@ -16105,7 +16105,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/smpte292m`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_SMPTE292M()
 	{
@@ -16114,7 +16114,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/ulpfec`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_ULPFEC()
 	{
@@ -16123,7 +16123,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vc1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VC1()
 	{
@@ -16132,7 +16132,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.cctv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_CCTV()
 	{
@@ -16141,7 +16141,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.dece.hd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_DECE_HD()
 	{
@@ -16150,7 +16150,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.dece.mobile`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_DECE_MOBILE()
 	{
@@ -16159,7 +16159,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.dece.mp4`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_DECE_MP4()
 	{
@@ -16168,7 +16168,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.dece.pd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_DECE_PD()
 	{
@@ -16177,7 +16177,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.dece.sd`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_DECE_SD()
 	{
@@ -16186,7 +16186,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.dece.video`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_DECE_VIDEO()
 	{
@@ -16195,7 +16195,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.directv.mpeg`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_DIRECTV_MPEG()
 	{
@@ -16204,7 +16204,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.directv.mpeg-tts`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_DIRECTV_MPEG_TTS()
 	{
@@ -16213,7 +16213,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.dlna.mpeg-tts`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_DLNA_MPEG_TTS()
 	{
@@ -16222,7 +16222,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.dvb.file`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_DVB_FILE()
 	{
@@ -16231,7 +16231,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.fvt`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_FVT()
 	{
@@ -16240,7 +16240,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.hns.video`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_HNS_VIDEO()
 	{
@@ -16249,7 +16249,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.iptvforum.1dparityfec-1010`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_IPTVFORUM_1DPARITYFEC_1010()
 	{
@@ -16258,7 +16258,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.iptvforum.1dparityfec-2005`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_IPTVFORUM_1DPARITYFEC_2005()
 	{
@@ -16267,7 +16267,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.iptvforum.2dparityfec-1010`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_IPTVFORUM_2DPARITYFEC_1010()
 	{
@@ -16276,7 +16276,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.iptvforum.2dparityfec-2005`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_IPTVFORUM_2DPARITYFEC_2005()
 	{
@@ -16285,7 +16285,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.iptvforum.ttsavc`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_IPTVFORUM_TTSAVC()
 	{
@@ -16294,7 +16294,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.iptvforum.ttsmpeg2`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_IPTVFORUM_TTSMPEG2()
 	{
@@ -16303,7 +16303,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.motorola.video`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_MOTOROLA_VIDEO()
 	{
@@ -16312,7 +16312,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.motorola.videop`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_MOTOROLA_VIDEOP()
 	{
@@ -16321,7 +16321,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.mpegurl`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_MPEGURL()
 	{
@@ -16330,7 +16330,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.ms-playready.media.pyv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_MS_PLAYREADY_MEDIA_PYV()
 	{
@@ -16339,7 +16339,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.nokia.interleaved-multimedia`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_NOKIA_INTERLEAVED_MULTIMEDIA()
 	{
@@ -16348,7 +16348,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.nokia.videovoip`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_NOKIA_VIDEOVOIP()
 	{
@@ -16357,7 +16357,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.objectvideo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_OBJECTVIDEO()
 	{
@@ -16366,7 +16366,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.radgamettools.bink`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_RADGAMETTOOLS_BINK()
 	{
@@ -16375,7 +16375,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.radgamettools.smacker`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_RADGAMETTOOLS_SMACKER()
 	{
@@ -16384,7 +16384,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.sealed.mpeg1`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_SEALED_MPEG1()
 	{
@@ -16393,7 +16393,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.sealed.mpeg4`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_SEALED_MPEG4()
 	{
@@ -16402,7 +16402,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.sealed.swf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_SEALED_SWF()
 	{
@@ -16411,7 +16411,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.sealedmedia.softseal.mov`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_SEALEDMEDIA_SOFTSEAL_MOV()
 	{
@@ -16420,7 +16420,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.uvvu.mp4`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_UVVU_MP4()
 	{
@@ -16429,7 +16429,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vnd.vivo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VND_VIVO()
 	{
@@ -16438,7 +16438,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/vp8`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_VP8()
 	{
@@ -16447,7 +16447,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/webm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_WEBM()
 	{
@@ -16456,7 +16456,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-f4v`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_F4V()
 	{
@@ -16465,7 +16465,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-fli`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_FLI()
 	{
@@ -16474,7 +16474,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-flv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_FLV()
 	{
@@ -16483,7 +16483,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-m4v`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_M4V()
 	{
@@ -16492,7 +16492,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-matroska`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_MATROSKA()
 	{
@@ -16501,7 +16501,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-mng`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_MNG()
 	{
@@ -16510,7 +16510,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-ms-asf`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_MS_ASF()
 	{
@@ -16519,7 +16519,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-ms-vob`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_MS_VOB()
 	{
@@ -16528,7 +16528,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-ms-wm`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_MS_WM()
 	{
@@ -16537,7 +16537,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-ms-wmv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_MS_WMV()
 	{
@@ -16546,7 +16546,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-ms-wmx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_MS_WMX()
 	{
@@ -16555,7 +16555,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-ms-wvx`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_MS_WVX()
 	{
@@ -16564,7 +16564,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-msvideo`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_MSVIDEO()
 	{
@@ -16573,7 +16573,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-sgi-movie`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_SGI_MOVIE()
 	{
@@ -16582,7 +16582,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `video/x-smv`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get VIDEO_X_SMV()
 	{
@@ -16591,7 +16591,7 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Represents the content type `x-conference/x-cooltalk`.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get X_CONFERENCE_X_COOLTALK()
 	{
@@ -16600,9 +16600,9 @@ export class MimeType extends AbstractStatic
 
 	/**
 	 * Creates a content type with a specific charset.
-	 * @param {String} contentType The content type.
-	 * @param {String} charset The charset.
-	 * @returns {String} The content type with the charset.
+	 * @param {string} contentType The content type.
+	 * @param {string} charset The charset.
+	 * @returns {string} The content type with the charset.
 	 * @throws InvalidCharSetException The charset is empty.
 	 */
 	static with_charset( contentType, charset )

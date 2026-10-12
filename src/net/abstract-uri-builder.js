@@ -27,8 +27,8 @@ export class AbstractUriBuilder extends Abstract
 
 	/**
 	 * Builds an absolute URI specified by the name of a relative URI.
-	 * @param {String} uriName The name of the relative URI.
-	 * @param {...String} replacements The additional replacements of the URI.
+	 * @param {string} uriName The name of the relative URI.
+	 * @param {...string} replacements The additional replacements of the URI.
 	 * @returns {URL} The build absolute URI.
 	 */
 	build( uriName, ...replacements )

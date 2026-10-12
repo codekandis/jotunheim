@@ -11,27 +11,27 @@ export class IsStringInRangeValidator extends AbstractValidator
 {
 	/**
 	 * Stores the minimum value of the range.
-	 * @type {?String}
+	 * @type {?string}
 	 */
 	#_minValue;
 
 	/**
 	 * Stores the maximum value of the range.
-	 * @type {?String}
+	 * @type {?string}
 	 */
 	#_maxValue;
 
 	/**
 	 * Stores true if the minimum and maximum values are included in the range, otherwise false.
-	 * @type {Boolean}
+	 * @type {boolean}
 	 */
 	#_isInclusive;
 
 	/**
 	 * Constructor method.
-	 * @param {?String} minValue The minimum value of the range. If set to null only the maximum value will be consifered during validation.
-	 * @param {?String} maxValue The maximum value of the range. If set to null only the minimum value will be consifered during validation.
-	 * @param {Boolean} isInclusive True if the minimum and maximum values are included in the range, otherwise false.
+	 * @param {?string} minValue The minimum value of the range. If set to null only the maximum value will be consifered during validation.
+	 * @param {?string} maxValue The maximum value of the range. If set to null only the minimum value will be consifered during validation.
+	 * @param {boolean} isInclusive True if the minimum and maximum values are included in the range, otherwise false.
 	 * @throws InvalidArgumentException Either one of `minValue` or `maxValue` can be null.
 	 * @throws InvalidArgumentException `minValue` cannot be greater than `maxValue`.
 	 */

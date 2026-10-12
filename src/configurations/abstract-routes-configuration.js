@@ -10,19 +10,19 @@ export class AbstractRoutesConfiguration extends Abstract
 {
 	/**
 	 * Stores the base route of the application.
-	 * @type {String}
+	 * @type {string}
 	 */
 	__baseRoute = '';
 
 	/**
 	 * Stores the routes of the application.
-	 * @type {Object<String, Class>}
+	 * @type {Record<string, Class>}
 	 */
 	__routes = {};
 
 	/**
 	 * Gets the base route of the application.
-	 * @returns {String} The base route of the application.
+	 * @returns {string} The base route of the application.
 	 */
 	get baseRoute()
 	{
@@ -31,7 +31,7 @@ export class AbstractRoutesConfiguration extends Abstract
 
 	/**
 	 * Gets the routes of the application.
-	 * @returns {Object<String, Class>} The routes of the application.
+	 * @returns {Record<string, Class>} The routes of the application.
 	 */
 	get routes()
 	{

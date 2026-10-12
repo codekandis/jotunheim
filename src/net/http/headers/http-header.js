@@ -12,20 +12,20 @@ export class HttpHeader extends Abstract
 {
 	/**
 	 * Stores the name of the HTTP header.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_name;
 
 	/**
 	 * Stores the value of the HTTP header.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_value;
 
 	/**
 	 * Constructor method.
-	 * @param {String} name The name of the HTTP header.
-	 * @param {String} value The value of the HTTP header.
+	 * @param {string} name The name of the HTTP header.
+	 * @param {string} value The value of the HTTP header.
 	 */
 	constructor( name, value )
 	{
@@ -39,7 +39,7 @@ export class HttpHeader extends Abstract
 
 	/**
 	 * Static constructor method.
-	 * @param {String} httpHeaderString The HTTP header string to create the HTTP header from.
+	 * @param {string} httpHeaderString The HTTP header string to create the HTTP header from.
 	 * @returns {HttpHeader}
 	 * @constructor
 	 */
@@ -63,7 +63,7 @@ export class HttpHeader extends Abstract
 
 	/**
 	 * Gets the name of the HTTP header.
-	 * @returns {String} The name of the HTTP header.
+	 * @returns {string} The name of the HTTP header.
 	 */
 	get name()
 	{
@@ -72,7 +72,7 @@ export class HttpHeader extends Abstract
 
 	/**
 	 * Gets the value of the HTTP header.
-	 * @returns {String} The value of the HTTP header.
+	 * @returns {string} The value of the HTTP header.
 	 */
 	get value()
 	{
@@ -81,7 +81,7 @@ export class HttpHeader extends Abstract
 
 	/**
 	 * Gets the full header string of the HTTP header.
-	 * @returns {String} The full header string of the HTTP header.
+	 * @returns {string} The full header string of the HTTP header.
 	 */
 	get fullHttpHeaderString()
 	{

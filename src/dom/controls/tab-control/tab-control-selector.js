@@ -10,7 +10,7 @@ export class TabControlSelector extends AbstractStatic
 {
 	/**
 	 * Gets the CSS selector of the tab control.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TAB_CONTROL()
 	{
@@ -19,7 +19,7 @@ export class TabControlSelector extends AbstractStatic
 
 	/**
 	 * Gets the CSS selector of the tab control headers section.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TAB_CONTROL_HEADERS()
 	{
@@ -28,7 +28,7 @@ export class TabControlSelector extends AbstractStatic
 
 	/**
 	 * Gets the CSS selector of the tab control pages section.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TAB_CONTROL_PAGES()
 	{
@@ -37,7 +37,7 @@ export class TabControlSelector extends AbstractStatic
 
 	/**
 	 * Gets the CSS selector of the tab control pages.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TAB_CONTROL_PAGE()
 	{
@@ -46,7 +46,7 @@ export class TabControlSelector extends AbstractStatic
 
 	/**
 	 * Gets the CSS selector of the tab control uninitialized headers.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TAB_CONTROL_UNINITIALIZED_HEADERS()
 	{
@@ -55,7 +55,7 @@ export class TabControlSelector extends AbstractStatic
 
 	/**
 	 * Gets the CSS selector of the tab control initialized headers.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TAB_CONTROL_INITIALIZED_HEADERS()
 	{
@@ -64,7 +64,7 @@ export class TabControlSelector extends AbstractStatic
 
 	/**
 	 * Gets the CSS selector of the tab control initialized and activated headers.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TAB_CONTROL_INITIALIZED_ACTIVATED_HEADERS()
 	{
@@ -73,7 +73,7 @@ export class TabControlSelector extends AbstractStatic
 
 	/**
 	 * Gets the CSS selector of the tab control initialized and deactivated headers.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TAB_CONTROL_INITIALIZED_DEACTIVATED_HEADERS()
 	{
@@ -82,7 +82,7 @@ export class TabControlSelector extends AbstractStatic
 
 	/**
 	 * Gets the CSS selector of the tab control activators.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TAB_CONTROL_ACTIVATORS()
 	{
@@ -91,7 +91,7 @@ export class TabControlSelector extends AbstractStatic
 
 	/**
 	 * Gets the CSS selector of the tab control unchecked activators.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TAB_CONTROL_UNCHECKED_ACTIVATORS()
 	{
@@ -100,7 +100,7 @@ export class TabControlSelector extends AbstractStatic
 
 	/**
 	 * Gets the CSS selector of the tab control checked activators.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TAB_CONTROL_CHECKED_ACTIVATORS()
 	{
@@ -109,7 +109,7 @@ export class TabControlSelector extends AbstractStatic
 
 	/**
 	 * Gets the CSS selector of the tab control content.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get TAB_CONTROL_CONTENT()
 	{

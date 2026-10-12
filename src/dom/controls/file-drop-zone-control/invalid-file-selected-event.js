@@ -19,7 +19,7 @@ export class InvalidFileSelectedEvent extends AbstractCustomEvent
 
 	/**
 	 * Constructor method.
-	 * @param {Object} sender The object dispatching this event.
+	 * @param {object} sender The object dispatching this event.
 	 * @param {FileEventArguments} eventArguments The arguments of the event.
 	 */
 	constructor( sender, eventArguments )

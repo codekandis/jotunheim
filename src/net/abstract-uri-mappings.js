@@ -10,37 +10,37 @@ export class AbstractUriMappings extends Abstract
 {
 	/**
 	 * Stores the schema of the mapped URI.
-	 * @type {String}
+	 * @type {string}
 	 */
 	__schema = String.empty;
 
 	/**
 	 * Stores the host name of the mapped URI.
-	 * @type {String}
+	 * @type {string}
 	 */
 	__host = String.empty;
 
 	/**
 	 * Stores the port of the mapped URI.
-	 * @type {Number}
+	 * @type {number}
 	 */
 	__port = 0;
 
 	/**
 	 * Stores the base URI of the mapped URI.
-	 * @type {String}
+	 * @type {string}
 	 */
 	__baseUri = String.empty;
 
 	/**
 	 * Stores the relative URI templates of the mapped URIs.
-	 * @type {Object<String, String_ReplacementHandler>}
+	 * @type {Record<string, String_ReplacementHandler>}
 	 */
 	__relativeUriTemplates = {};
 
 	/**
 	 * Gets the schema of the mapped URI.
-	 * @returns {String} The schema of the mapped URI.
+	 * @returns {string} The schema of the mapped URI.
 	 */
 	get schema()
 	{
@@ -49,7 +49,7 @@ export class AbstractUriMappings extends Abstract
 
 	/**
 	 * Gets the host name of the mapped URI.
-	 * @returns {String} The host name of the mapped URI.
+	 * @returns {string} The host name of the mapped URI.
 	 */
 	get host()
 	{
@@ -58,7 +58,7 @@ export class AbstractUriMappings extends Abstract
 
 	/**
 	 * Gets the port of the mapped URI.
-	 * @returns {Number} The port of the mapped URI.
+	 * @returns {number} The port of the mapped URI.
 	 */
 	get port()
 	{
@@ -67,7 +67,7 @@ export class AbstractUriMappings extends Abstract
 
 	/**
 	 * Gets the base URI of the mapped URI.
-	 * @returns {String} The base URI of the mapped URI.
+	 * @returns {string} The base URI of the mapped URI.
 	 */
 	get baseUri()
 	{
@@ -76,7 +76,7 @@ export class AbstractUriMappings extends Abstract
 
 	/**
 	 * Gets the relative URI templates of the mapped URIs.
-	 * @returns {Object<String, String_ReplacementHandler>} The relative URI templates of the mapped URIs.
+	 * @returns {Record<string, String_ReplacementHandler>} The relative URI templates of the mapped URIs.
 	 */
 	get relativeUriTemplates()
 	{
@@ -85,7 +85,7 @@ export class AbstractUriMappings extends Abstract
 
 	/**
 	 * Gets a relative URI template specified by its name.
-	 * @param {String} uriName The name of the relative URI template.
+	 * @param {string} uriName The name of the relative URI template.
 	 * @returns {String_ReplacementHandler} The relative URI template.
 	 */
 	getRelativeUriTemplate( uriName )

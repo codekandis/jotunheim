@@ -15,7 +15,7 @@ import { ValidationsSucceededEvent } from './validations-succeeded-event.js';
  * Represents the handler of any validator chain validator iteration.
  * @callback ValidatorChain_ValidatorIterationHandler
  * @param {AbstractValidator} validator The currently iterated validator.
- * @param {Number} validatorIndex The index of the currently iterated validator.
+ * @param {number} validatorIndex The index of the currently iterated validator.
  */
 
 /**
@@ -26,13 +26,13 @@ export class ValidatorChain extends AbstractValidator
 {
 	/**
 	 * Stores the validators of the validator chain.
-	 * @type {AbstractValidator[]}
+	 * @type {Array<AbstractValidator>}
 	 */
 	#_validators = [];
 
 	/**
 	 * Stores the error messages of the validation.
-	 * @type {Collection<String>}
+	 * @type {Collection<string>}
 	 */
 	#_errorMessages = new Collection();
 
@@ -102,7 +102,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Gets the iterator to iterate over any validator chain's validator.
-	 * @returns {IterableIterator<*>} The iterator to iterate over any validator chain's validator.
+	 * @returns {IterableIterator<any>} The iterator to iterate over any validator chain's validator.
 	 */
 	* #validators()
 	{
@@ -115,7 +115,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Gets the iterator to iterate over any validator chain's item.
-	 * @returns {IterableIterator<*>} The iterator to iterate over any validator chain's item.
+	 * @returns {IterableIterator<any>} The iterator to iterate over any validator chain's item.
 	 */
 	[ Symbol.iterator ]()
 	{
@@ -124,7 +124,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Static constructor method.
-	 * @param {...AbstractValidator[]} arrays The arrays to create the validator chain from.
+	 * @param {...Array<AbstractValidator>} arrays The arrays to create the validator chain from.
 	 * @returns {ValidatorChain} The created validator chain.
 	 * @throws {InvalidTypeException} The type of at least one of the passed arrays is not `array`.
 	 * @constructor
@@ -172,8 +172,8 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Validates a value.
-	 * @param {*} value The value to validate.
-	 * @returns {Boolean} True if the value is valid, otherwise false.
+	 * @param {any} value The value to validate.
+	 * @returns {boolean} True if the value is valid, otherwise false.
 	 */
 	validate( value )
 	{

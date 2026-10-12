@@ -10,8 +10,8 @@ export class HttpPostArgument extends HttpArgument
 {
 	/**
 	 * Constructor method.
-	 * @param {String} name The name of the HTTP POST argument.
-	 * @param {String} value The value of the HTTP POST argument.
+	 * @param {string} name The name of the HTTP POST argument.
+	 * @param {string} value The value of the HTTP POST argument.
 	 */
 	constructor( name, value )
 	{

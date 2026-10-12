@@ -19,7 +19,7 @@ export class MouseLeaveEvent extends AbstractMouseEvent
 
 	/**
 	 * Constructor method.
-	 * @param {Object} sender The object dispatching this event.
+	 * @param {object} sender The object dispatching this event.
 	 */
 	constructor( sender )
 	{

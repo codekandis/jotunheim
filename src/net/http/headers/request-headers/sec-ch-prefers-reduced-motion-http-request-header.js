@@ -10,7 +10,7 @@ export class SecChPrefersReducedMotionHttpRequestHeader extends HttpRequestHeade
 {
 	/**
 	 * Represents the name of the HTTP request header.
-	 * @type {String}
+	 * @type {string}
 	 */
 	static get NAME()
 	{
@@ -19,7 +19,7 @@ export class SecChPrefersReducedMotionHttpRequestHeader extends HttpRequestHeade
 
 	/**
 	 * Constructor method.
-	 * @param {String} value The value of the HTTP request header.
+	 * @param {string} value The value of the HTTP request header.
 	 */
 	constructor( value )
 	{

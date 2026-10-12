@@ -12,13 +12,13 @@ export class FileListToHttpPostFileCollectionConverter extends Abstract
 {
 	/**
 	 * Stores the name of the HTTP POST files.
-	 * @type {String}
+	 * @type {string}
 	 */
 	#_httpPostFileName;
 
 	/**
 	 * Constructor method.
-	 * @param {String} httpPostFileName The name of the HTTP POST files.
+	 * @param {string} httpPostFileName The name of the HTTP POST files.
 	 */
 	constructor( httpPostFileName )
 	{
