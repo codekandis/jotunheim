@@ -852,7 +852,7 @@ Object.defineProperty(
 				       .map(
 					       ( fetchedItem ) =>
 					       {
-						       return false === fetchedItem.hasMethod( 'toJSON' )
+						       return undefined === fetchedItem || null === fetchedItem || false === fetchedItem.hasMethod( 'toJSON' )
 							       ? fetchedItem
 							       : fetchedItem.toJSON();
 					       }
