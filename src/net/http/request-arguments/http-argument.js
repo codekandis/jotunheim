@@ -30,7 +30,7 @@ export class HttpArgument extends Abstract
 	{
 		super();
 
-		this.#_name  = ( new HttpArgumentNamePreparator() )
+		this.#_name  = new HttpArgumentNamePreparator()
 			.prepare( name );
 		this.#_value = value;
 	}

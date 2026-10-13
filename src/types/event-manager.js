@@ -79,7 +79,7 @@ export class EventManager extends Abstract
 	 */
 	#dispatch = ( eventArguments ) =>
 	{
-		( new this.#_eventClass( this.#_sender, eventArguments ) )
+		new this.#_eventClass( this.#_sender, eventArguments )
 			.dispatch();
 	}
 }

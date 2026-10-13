@@ -37,7 +37,7 @@ export class HttpPostFile extends Abstract
 	{
 		super();
 
-		this.#_name     = ( new HttpPostFileNamePreparator() )
+		this.#_name     = new HttpPostFileNamePreparator()
 			.prepare( name );
 		this.#_filename = filename;
 		this.#_file     = file;

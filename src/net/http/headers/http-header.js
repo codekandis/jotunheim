@@ -31,9 +31,9 @@ export class HttpHeader extends Abstract
 	{
 		super();
 
-		this.#_name  = ( new HttpHeaderNamePreparator() )
+		this.#_name  = new HttpHeaderNamePreparator()
 			.prepare( name );
-		this.#_value = ( new HttpHeaderValuePreparator() )
+		this.#_value = new HttpHeaderValuePreparator()
 			.prepare( value );
 	}
 

@@ -411,7 +411,7 @@ export class HttpRequest extends Abstract
 	 */
 	#retrieveResponseHeaders( response )
 	{
-		return ( new HeadersToHttpResponseHeaderCollectionConverter() )
+		return new HeadersToHttpResponseHeaderCollectionConverter()
 			.convert( response.headers );
 	}
 
