@@ -13,20 +13,20 @@ export class PropertyTranslator extends Abstract
 {
 	/**
 	 * Stores the input class.
-	 * @type {function(new:TConstantsClass, ...any): TConstantsClass}
+	 * @type {function( new: TConstantsClass, ...any ): TConstantsClass}
 	 */
 	#_inputClass;
 
 	/**
 	 * Stores the output class.
-	 * @type {function(new:TConstantsClass, ...any): TConstantsClass}
+	 * @type {function( new: TConstantsClass, ...any ): TConstantsClass}
 	 */
 	#_outputClass;
 
 	/**
 	 * Constructor method.
-	 * @param {function(new:TConstantsClass, ...any): TConstantsClass} inputClass The input class.
-	 * @param {function(new:TConstantsClass, ...any): TConstantsClass} outputClass The output class.
+	 * @param {function( new: TConstantsClass, ...any ): TConstantsClass} inputClass The input class.
+	 * @param {function( new: TConstantsClass, ...any ): TConstantsClass} outputClass The output class.
 	 */
 	constructor( inputClass, outputClass )
 	{
@@ -48,8 +48,8 @@ export class PropertyTranslator extends Abstract
 
 	/**
 	 * Translates a property value into its corresponding property value.
-	 * @param {null|boolean|number|string|array} propertyValue The property value to translate.
-	 * @returns {null|boolean|number|string|array} The corresponding property value.
+	 * @param {null|boolean|number|string|Array< any >} propertyValue The property value to translate.
+	 * @returns {null|boolean|number|string|Array< any >} The corresponding property value.
 	 */
 	translate( propertyValue )
 	{

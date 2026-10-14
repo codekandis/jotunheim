@@ -3,7 +3,7 @@
 import { Abstract } from '../../../types/abstract.js';
 
 /**
- * Represnte an HTTP argument name preparator.
+ * Represents an HTTP argument name preparator.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class HttpArgumentNamePreparator extends Abstract

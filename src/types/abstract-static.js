@@ -10,7 +10,7 @@ export class AbstractStatic
 {
 	/**
 	 * Constructor method.
-	 * @throws {InvalidStaticClassInstantiationException} The nonstatic class must not be instantiated.
+	 * @throws {InvalidStaticClassInstantiationException} The non-static class must not be instantiated.
 	 */
 	constructor()
 	{

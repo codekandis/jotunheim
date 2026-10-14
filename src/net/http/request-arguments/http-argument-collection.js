@@ -42,7 +42,7 @@ export class HttpArgumentCollection extends Collection
 {
 	/**
 	 * Constructor method.
-	 * @param {...HttpArgument} httpArguments The initital HTTP arguments of the collection.
+	 * @param {...HttpArgument} httpArguments The initial HTTP arguments of the collection.
 	 */
 	constructor( ...httpArguments )
 	{
@@ -59,9 +59,9 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Creates the default predicate to compare specified HTTP arguments with a fetched HTTP argument of the HTTP argument collection for equality by their HTTP argument names.
-	 * @param {...HttpArgument} httpArguments The HTTP argument to compare the fetched HTTP argument with.
-	 * @returns {HttpArgumentCollection_HttpArgumentPredicateHandler} The HTTP argument name equality predicate handlers.
+	 * Creates a predicate that checks whether an HTTP argument's name matches the name of any of the specified HTTP arguments.
+	 * @param {...HttpArgument} httpArguments The HTTP arguments to match by name.
+	 * @returns {HttpArgumentCollection_HttpArgumentPredicateHandler} The HTTP argument name equality predicate.
 	 */
 	_createArgumentNameEqualityPredicate( ...httpArguments )
 	{
@@ -77,9 +77,9 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Creates the default predicate to compare specified HTTP argument names with a fetched HTTP argument of the HTTP argument collection for equality by their HTTP argument names.
-	 * @param {...string} httpArgumentNames The HTTP argument names to compare the fetched HTTP arguments with.
-	 * @returns {HttpArgumentCollection_HttpArgumentPredicateHandler} The HTTP argument name equality predicate handlers.
+	 * Creates a predicate that checks whether an HTTP argument's name matches any of the specified HTTP argument names.
+	 * @param {...string} httpArgumentNames The HTTP argument names to match.
+	 * @returns {HttpArgumentCollection_HttpArgumentPredicateHandler} The HTTP argument name equality predicate.
 	 */
 	_createArgumentNameEqualityPredicateFromArgumentNames( ...httpArgumentNames )
 	{
@@ -110,7 +110,7 @@ export class HttpArgumentCollection extends Collection
 	/**
 	 * Determines if the HTTP argument collection includes a specific HTTP argument.
 	 * @param {HttpArgument} httpArgument The HTTP argument to search for.
-	 * @returns {boolean} True if the HTTP arguments is included in the HTTP argument collection, otherwise false.
+	 * @returns {boolean} True if the HTTP argument is included in the HTTP argument collection, otherwise false.
 	 */
 	includes( httpArgument )
 	{
@@ -160,9 +160,9 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Replaces the first occurences of a variadic amount of HTTP arguments in the HTTP argument collection with a specified HTTP argument.
+	 * Replaces the first occurrences of a variadic amount of HTTP arguments in the HTTP argument collection with a specified HTTP argument.
 	 * @param {HttpArgument} httpArgumentReplacement The new HTTP argument to replace the HTTP argument with.
-	 * @param {...HttpArgument} httpArguments The HTTP arguments which has to be replaced.
+	 * @param {...HttpArgument} httpArguments The HTTP arguments that have to be replaced.
 	 */
 	replace( httpArgumentReplacement, ...httpArguments )
 	{
@@ -170,7 +170,7 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Replaces the first occurences of HTTP arguments in the HTTP argument collection specified by a variadic amount of predicate handlers with a specified HTTP argument.
+	 * Replaces the first occurrences of HTTP arguments in the HTTP argument collection specified by a variadic amount of predicate handlers with a specified HTTP argument.
 	 * @param {HttpArgument} httpArgumentReplacement The new HTTP argument to replace the HTTP argument with.
 	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP argument.
 	 */
@@ -182,7 +182,7 @@ export class HttpArgumentCollection extends Collection
 	/**
 	 * Replaces a variadic amount of HTTP arguments in the HTTP argument collection with a specified HTTP argument.
 	 * @param {HttpArgument} httpArgumentReplacement The new HTTP argument to replace the HTTP arguments with.
-	 * @param {...HttpArgument} httpArguments The HTTP arguments which has to be replaced.
+	 * @param {...HttpArgument} httpArguments The HTTP arguments that have to be replaced.
 	 */
 	replaceAll( httpArgumentReplacement, ...httpArguments )
 	{
@@ -193,7 +193,7 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Replaces all occurences of an HTTP argument in the HTTP argument collection specified by a variadic amount of predicate handlers.
+	 * Replaces all occurrences of an HTTP argument in the HTTP argument collection specified by a variadic amount of predicate handlers.
 	 * @param {HttpArgument} httpArgumentReplacement The new HTTP argument to replace the HTTP arguments with.
 	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP arguments.
 	 */
@@ -203,7 +203,7 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Adds or replaces a variadic amount of HTTP arguments to / in the list. If an HTTP argument will be added if it does not exist. Otherwise it will be replaced.
+	 * Adds HTTP arguments to the collection or replaces existing arguments with matching names.
 	 * @param {...HttpArgument} httpArguments The HTTP arguments to add or replace.
 	 */
 	addOrReplace( ...httpArguments )
@@ -229,7 +229,7 @@ export class HttpArgumentCollection extends Collection
 
 	/**
 	 * Removes HTTP arguments from the HTTP argument collection specified by a variadic amount of their indices.
-	 * @param {...number} indices The index of the HTTP argument to remove.
+	 * @param {...number} indices The indices of the HTTP arguments to remove.
 	 * @throws {InvalidIndexException} An index is invalid.
 	 */
 	removeAt( ...indices )
@@ -238,7 +238,7 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Removes the first occurences of a variadic amount of HTTP arguments from the HTTP argument collection.
+	 * Removes the first HTTP argument whose name matches any of the specified HTTP arguments.
 	 * @param {...HttpArgument} httpArguments The HTTP arguments to remove.
 	 */
 	remove( ...httpArguments )
@@ -249,7 +249,7 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Removes the first occurence of an HTTP argument from the HTTP argument collection specified by a variadic amount of predicate handlers.
+	 * Removes the first occurrence of an HTTP argument from the HTTP argument collection specified by a variadic amount of predicate handlers.
 	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP argument.
 	 */
 	removeBy( ...predicateHandlers )
@@ -258,7 +258,7 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Removes the first occurence of an HTTP argument specified by their HTTP argument names.
+	 * Removes the first HTTP argument whose name matches any of the specified names.
 	 * @param {...string} httpArgumentNames The names of the HTTP arguments to remove.
 	 */
 	removeByArgumentNames( ...httpArgumentNames )
@@ -269,7 +269,7 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Removes all occurences of a variadic amount of HTTP arguments from the HTTP argument collection.
+	 * Removes all occurrences of a variadic amount of HTTP arguments from the HTTP argument collection.
 	 * @param {...HttpArgument} httpArguments The HTTP arguments to remove.
 	 */
 	removeAll( ...httpArguments )
@@ -280,7 +280,7 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Removes all occurences of HTTP arguments from the HTTP argument collection specified by a variadic amount of predicate handlers.
+	 * Removes all occurrences of HTTP arguments from the HTTP argument collection specified by a variadic amount of predicate handlers.
 	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP arguments.
 	 */
 	removeAllBy( ...predicateHandlers )
@@ -289,7 +289,7 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Removes all occurences of HTTP arguments specified by their HTTP argument names.
+	 * Removes all HTTP arguments matching any of the specified names.
 	 * @param {...string} httpArgumentNames The names of the HTTP arguments to remove.
 	 */
 	removeAllByArgumentName( ...httpArgumentNames )
@@ -356,7 +356,7 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Gets the last index of an HTTP argument specified by its HTTP argument names.
+	 * Gets the last index of an HTTP argument specified by its HTTP argument name.
 	 * @param {string} httpArgumentName The HTTP argument name of the HTTP argument.
 	 * @returns {undefined|number} The last index of the HTTP argument, if found, otherwise undefined.
 	 */
@@ -370,7 +370,7 @@ export class HttpArgumentCollection extends Collection
 	/**
 	 * Gets all indices of specific HTTP arguments.
 	 * @param {...HttpArgument} httpArguments The HTTP arguments to determine their indices.
-	 * @returns {Collection<number>} The indices of the HTTP arguments, if found, otherwise an empty collection.
+	 * @returns {Collection< number >} The indices of the HTTP arguments, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOf( ...httpArguments )
 	{
@@ -380,9 +380,9 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP argument specified by a variadic amount of predicate handlers.
+	 * Gets the indices of all occurrences of any HTTP argument specified by a variadic amount of predicate handlers.
 	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP arguments.
-	 * @returns {Collection<number>} The indices of the HTTP arguments, if found, otherwise an empty collection.
+	 * @returns {Collection< number >} The indices of the HTTP arguments, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOfBy( ...predicateHandlers )
 	{
@@ -390,9 +390,9 @@ export class HttpArgumentCollection extends Collection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP argument specified by a variadic amount of HTTP argument names.
+	 * Gets the indices of all occurrences of any HTTP argument specified by a variadic amount of HTTP argument names.
 	 * @param {...string} httpArgumentNames The HTTP argument names to determine the HTTP arguments.
-	 * @returns {Collection<number>} The indices of the HTTP arguments, if found, otherwise an empty collection.
+	 * @returns {Collection< number >} The indices of the HTTP arguments, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOfByArgumentNames( ...httpArgumentNames )
 	{
@@ -458,7 +458,7 @@ export class HttpArgumentCollection extends Collection
 	/**
 	 * Gets all HTTP arguments from the HTTP argument collection specified by a variadic amount of predicate handlers.
 	 * @param {...HttpArgumentCollection_HttpArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP arguments.
-	 * @returns {HttpArgumentCollection<HttpArgument>} The HTTP arguments, if found, otherwise an empty HTTP argument collection.
+	 * @returns {HttpArgumentCollection< HttpArgument >} The HTTP arguments, if found, otherwise an empty HTTP argument collection.
 	 */
 	findAllBy( ...predicateHandlers )
 	{
@@ -470,7 +470,7 @@ export class HttpArgumentCollection extends Collection
 	/**
 	 * Gets all HTTP arguments from the HTTP argument collection specified by their HTTP argument names.
 	 * @param {...string} httpArgumentNames The HTTP argument names to determine the HTTP arguments.
-	 * @returns {HttpArgumentCollection<HttpArgument>} The HTTP arguments, if found, otherwise an empty HTTP argument collection.
+	 * @returns {HttpArgumentCollection< HttpArgument >} The HTTP arguments, if found, otherwise an empty HTTP argument collection.
 	 */
 	findAllByArgumentNames( ...httpArgumentNames )
 	{
@@ -499,7 +499,7 @@ export class HttpArgumentCollection extends Collection
 	/**
 	 * Maps all HTTP arguments of the HTTP argument collection into a new collection.
 	 * @param {HttpArgumentCollection_HttpArgumentTransformationHandler} transformationHandler The transformation handler used to map the HTTP argument collection.
-	 * @returns {Collection<any>} The collection containing the transformed HTTP arguments.
+	 * @returns {Collection< any >} The collection containing the transformed HTTP arguments.
 	 */
 	map( transformationHandler )
 	{
@@ -509,7 +509,7 @@ export class HttpArgumentCollection extends Collection
 	/**
 	 * Maps all HTTP arguments of the collection into a new collection by a variadic amount of transformation handlers.
 	 * @param {...HttpArgumentCollection_HttpArgumentTransformationHandler} transformationHandlers The transformation handlers used to map the HTTP argument collection.
-	 * @returns {Collection<any>} The collection containing the transformed HTTP arguments.
+	 * @returns {Collection< any >} The collection containing the transformed HTTP arguments.
 	 */
 	mapBy( ...transformationHandlers )
 	{
@@ -552,7 +552,7 @@ export class HttpArgumentCollection extends Collection
 
 	/**
 	 * Gets the array representation of the HTTP argument collection.
-	 * @returns {Array<HttpArgument>} The array representation of the HTTP argument collection.
+	 * @returns {Array< HttpArgument >} The array representation of the HTTP argument collection.
 	 */
 	toArray()
 	{

@@ -41,7 +41,7 @@ export class IsSubsetOfValidator extends AbstractValidator
 
 	/**
 	 * Stores the valid values.
-	 * @type {Collection<any>}
+	 * @type {Collection< any >}
 	 */
 	#_validValues;
 

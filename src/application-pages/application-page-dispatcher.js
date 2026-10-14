@@ -51,8 +51,8 @@ export class ApplicationPageDispatcher extends Abstract
 
 	/**
 	 * Decodes the application page arguments from the requested URI.
-	 * @param {Record<string, string>} encodedApplicationPageArguments The encoded application page arguments.
-	 * @returns {Record<string, string>} matches The decoded application page arguments.
+	 * @param {Record< string, string >} encodedApplicationPageArguments The encoded application page arguments.
+	 * @returns {Record< string, string >} The decoded application page arguments.
 	 */
 	#decodeApplicationPageArguments( encodedApplicationPageArguments )
 	{

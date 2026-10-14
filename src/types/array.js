@@ -161,11 +161,11 @@ Object.defineProperty(
 );
 
 /**
- * Replaces the first occurences of a variadic amount of elements in the array with a specified element.
+ * Replaces the first occurrences of a variadic amount of elements in the array with a specified element.
  * @method replace
  * @memberOf Array.prototype
  * @param {any} elementReplacement The new element to replace the element with.
- * @param {...any} elements The elements which has to be replaced.
+ * @param {...any} elements The elements that have to be replaced.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -189,7 +189,7 @@ Object.defineProperty(
 );
 
 /**
- * Replaces the first occurences of elements in the array specified by a variadic amount of predicate handlers with a specified element.
+ * Replaces the first occurrences of elements in the array specified by a variadic amount of predicate handlers with a specified element.
  * @method replaceBy
  * @memberOf Array.prototype
  * @param {any} elementReplacement The new element to replace the element with.
@@ -216,7 +216,7 @@ Object.defineProperty(
  * @method replaceAll
  * @memberOf Array.prototype
  * @param {any} elementReplacement The new element to replace the elements with.
- * @param {...any} elements The elements which has to be replaced.
+ * @param {...any} elements The elements that have to be replaced.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -233,7 +233,7 @@ Object.defineProperty(
 );
 
 /**
- * Replaces all occurences of an element in the array specified by a variadic amount of predicate handlers.
+ * Replaces all occurrences of an element in the array specified by a variadic amount of predicate handlers.
  * @method replaceAllBy
  * @memberOf Array.prototype
  * @param {any} elementReplacement The new element to replace the elements with.
@@ -257,7 +257,7 @@ Object.defineProperty(
  * Removes elements from the array specified by a variadic amount of their indices.
  * @method removeAt
  * @memberOf Array.prototype
- * @param {...number} indices The index of the element to remove.
+ * @param {...number} indices The indices of the elements to remove.
  * @throws {InvalidIndexException} An index is invalid.
  */
 Object.defineProperty(
@@ -287,7 +287,7 @@ Object.defineProperty(
 );
 
 /**
- * Removes the first occurences of a variadic amount of elements from the array.
+ * Removes the first occurrences of a variadic amount of elements from the array.
  * @method remove
  * @memberOf Array.prototype
  * @param {...any} elements The elements to remove.
@@ -316,7 +316,7 @@ Object.defineProperty(
 );
 
 /**
- * Removes the first occurence of an element from the array specified by a variadic amount of predicate handlers.
+ * Removes the first occurrence of an element from the array specified by a variadic amount of predicate handlers.
  * @method removeBy
  * @memberOf Array.prototype
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the element.
@@ -350,7 +350,7 @@ Object.defineProperty(
 );
 
 /**
- * Removes all occurences of a variadic amount of elements from the array.
+ * Removes all occurrences of a variadic amount of elements from the array.
  * @method removeAll
  * @memberOf Array.prototype
  * @param {...any} elements The elements to remove.
@@ -381,7 +381,7 @@ Object.defineProperty(
 );
 
 /**
- * Removes all occurences of elements from the array specified by a variadic amount of predicate handlers.
+ * Removes all occurrences of elements from the array specified by a variadic amount of predicate handlers.
  * @method removeAllBy
  * @memberOf Array.prototype
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the elements.
@@ -529,7 +529,7 @@ Object.defineProperty(
  * @method findAllIndicesOf
  * @memberOf Array.prototype
  * @param {...any} elements The elements to determine their indices.
- * @returns {Array<number>} The indices of the elements, if found, otherwise an empty array.
+ * @returns {Array< number >} The indices of the elements, if found, otherwise an empty array.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -555,11 +555,11 @@ Object.defineProperty(
 );
 
 /**
- * Gets the indices of all occurences of any element specified by a variadic amount of predicate handlers.
+ * Gets the indices of all occurrences of any element specified by a variadic amount of predicate handlers.
  * @method findAllIndicesOfBy
  * @memberOf Array.prototype
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the elements.
- * @returns {Array<number>} The indices of the elements, if found, otherwise an empty array.
+ * @returns {Array< number >} The indices of the elements, if found, otherwise an empty array.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -685,7 +685,7 @@ Object.defineProperty(
  * @method findAllBy
  * @memberOf Array.prototype
  * @param {...Array_ElementPredicateHandler} predicateHandlers The predicate handlers to determine the elements.
- * @returns {Array} The elements, if found, otherwise an empty array.
+ * @returns {Array< any >} The elements, if found, otherwise an empty array.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -721,7 +721,7 @@ Object.defineProperty(
  * Sorts the numeric array by natural numeric order. The array will not be sorted in place.
  * @method sortNumeric
  * @memberOf Array.prototype
- * @returns {Array<number>} The sorted array.
+ * @returns {Array< number >} The sorted array.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -744,7 +744,7 @@ Object.defineProperty(
  * @method sortBy
  * @memberOf Array.prototype
  * @param {Array_ElementComparisonHandler} comparisonHandler The comparison handler used to compare the elements.
- * @returns {Array} The sorted array.
+ * @returns {Array< any >} The sorted array.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -762,7 +762,7 @@ Object.defineProperty(
  * @method mapBy
  * @memberOf Array.prototype
  * @param {...Array_ElementTransformationHandler} transformationHandlers The transformation handlers used to transform the elements.
- * @returns {Array} The mapped array.
+ * @returns {Array< any >} The mapped array.
  */
 Object.defineProperty(
 	Array.prototype,
@@ -840,7 +840,7 @@ Object.defineProperty(
  * Gets the JSON representation of the array.
  * @method toJSON
  * @memberOf Array.prototype
- * @returns {Array} The JSON representation of the array.
+ * @returns {Array< any >} The JSON representation of the array.
  */
 Object.defineProperty(
 	Array.prototype,

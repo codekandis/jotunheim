@@ -18,7 +18,7 @@ export class DataBindings extends Abstract
 
 	/**
 	 * Stores the internal list of data bindings.
-	 * @type {Array}
+	 * @type {Array< DataBinding >}
 	 */
 	#_bindings = [];
 

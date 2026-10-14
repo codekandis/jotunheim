@@ -16,8 +16,8 @@
 /**
  * Represents the handler of any header comparison.
  * @callback Headers_HeaderComparisonHandler
- * @param {Array.<string, string>} header_1 The first header to compare.
- * @param {Array.<string, string>} header_2 The second header to compare.
+ * @param {Array< string >} header_1 The first header to compare.
+ * @param {Array< string >} header_2 The second header to compare.
  * @returns {number} -1 if the first header is lower than the second header, 0 if the first header is equal to the second header and 1 if the first header is greater than the second header.
  */
 
@@ -59,7 +59,7 @@ Object.defineProperty(
  * @method map
  * @memberOf Headers.prototype
  * @param {Headers_HeaderTransformationHandler} transformationHandler The transformation handler used to map the headers.
- * @returns {Array} The array containing the transformed headers.
+ * @returns {Array< any >} The array containing the transformed headers.
  */
 Object.defineProperty(
 	Headers.prototype,

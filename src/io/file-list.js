@@ -57,7 +57,7 @@ Object.defineProperty(
  * @method map
  * @memberOf FileList.prototype
  * @param {FileList_FileTransformationHandler} transformationHandler The transformation handler used to map the files.
- * @returns {Array} The array containing the transformed files.
+ * @returns {Array< any >} The array containing the transformed files.
  */
 Object.defineProperty(
 	FileList.prototype,

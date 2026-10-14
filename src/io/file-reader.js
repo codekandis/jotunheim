@@ -15,9 +15,9 @@ import { EventManager } from '../types/event-manager.js';
 
 /**
  * Gets the abort event.
- * @property {Function} abortEvent
+ * @property {EventManager_Event} abortEvent
  * @memberOf FileReader.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	FileReader.prototype,
@@ -32,9 +32,9 @@ Object.defineProperty(
 
 /**
  * Gets the error event.
- * @property {Function} errorEvent
+ * @property {EventManager_Event} errorEvent
  * @memberOf FileReader.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	FileReader.prototype,
@@ -49,9 +49,9 @@ Object.defineProperty(
 
 /**
  * Gets the load event.
- * @property {Function} loadEvent
+ * @property {EventManager_Event} loadEvent
  * @memberOf FileReader.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	FileReader.prototype,
@@ -66,9 +66,9 @@ Object.defineProperty(
 
 /**
  * Gets the load end event.
- * @property {Function} loadEndEvent
+ * @property {EventManager_Event} loadEndEvent
  * @memberOf FileReader.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	FileReader.prototype,
@@ -83,9 +83,9 @@ Object.defineProperty(
 
 /**
  * Gets the load start event.
- * @property {Function} loadStartEvent
+ * @property {EventManager_Event} loadStartEvent
  * @memberOf FileReader.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	FileReader.prototype,
@@ -100,9 +100,9 @@ Object.defineProperty(
 
 /**
  * Gets the progress event.
- * @property {Function} progressEvent
+ * @property {EventManager_Event} progressEvent
  * @memberOf FileReader.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	FileReader.prototype,

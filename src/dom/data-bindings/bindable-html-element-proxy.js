@@ -13,7 +13,7 @@ export class BindableHtmlElementProxy extends BindableProxy
 	/**
 	 * Constructor method.
 	 * @param {HTMLElement} formField The HTML element to proxy.
-	 * @param {number} bindableEvents The CSS selector specifying the HTML element to proxy.
+	 * @param {number} bindableEvents The events to bind to the HTML element.
 	 */
 	constructor( formField, bindableEvents = BindableHtmlElementProxyEvents.INPUT )
 	{
@@ -23,7 +23,7 @@ export class BindableHtmlElementProxy extends BindableProxy
 	/**
 	 * Static constructor method.
 	 * @param {string} selector The CSS selector specifying the HTML element to proxy.
-	 * @param {number} bindableEvents The CSS selector specifying the HTML element to proxy.
+	 * @param {number} bindableEvents The events to bind to the HTML element.
 	 * @returns {BindableHtmlElementProxy}
 	 * @constructor
 	 */
@@ -37,14 +37,14 @@ export class BindableHtmlElementProxy extends BindableProxy
 
 	/**
 	 * Gets the initializing callback.
-	 * @param {number} bindableEvents The CSS selector specifying the HTML element to proxy.
-	 * @returns {Function} The initializing callback.
+	 * @param {number} bindableEvents The events to bind to the HTML element.
+	 * @returns {BindableProxy_InstantiationCallack} The initializing callback.
 	 */
 	static #getInitializingCallback( bindableEvents )
 	{
 		/**
 		 * Will be invoked after the instantiation of the bindable proxy.
-		 * @param bindableProxy The instantiated bindable proxy.
+		 * @param {BindableProxy} bindableProxy The instantiated bindable proxy.
 		 */
 		const initializer = ( bindableProxy ) =>
 		{

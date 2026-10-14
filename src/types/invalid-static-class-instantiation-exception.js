@@ -3,14 +3,14 @@
 import { LogicException } from './logic-exception.js';
 
 /**
- * Represents the exception if an attempt to instanciate a static class has been made.
+ * Represents the exception if an attempt to instantiate a static class has been made.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class InvalidStaticClassInstantiationException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {string} className The name of the class which has been tried to instantiate.
+	 * @param {string} className The name of the class that was attempted to be instantiated.
 	 * @returns {InvalidStaticClassInstantiationException}
 	 * @constructor
 	 */
@@ -23,7 +23,7 @@ export class InvalidStaticClassInstantiationException extends LogicException
 
 	/**
 	 * Static constructor method.
-	 * @param {object} object The object which has been tried to instantiate.
+	 * @param {object} object The object that was attempted to be instantiated.
 	 * @returns {InvalidStaticClassInstantiationException}
 	 * @constructor
 	 */

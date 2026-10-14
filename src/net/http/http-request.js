@@ -425,7 +425,7 @@ export class HttpRequest extends Abstract
 
 	/**
 	 * Sends the request.
-	 * @returns {HttpRequestResult} The result of the request.
+	 * @returns {Promise< HttpRequestResult >} The result of the request.
 	 */
 	async send()
 	{

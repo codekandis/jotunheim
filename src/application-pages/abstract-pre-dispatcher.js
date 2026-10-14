@@ -11,7 +11,7 @@ export class AbstractPreDispatcher extends Abstract
 {
 	/**
 	 * Executes the pre-dispatcher.
-	 * @param {URL} requestedUri The reuqested URI of the client.
+	 * @param {URL} requestedUri The requested URI of the client.
 	 * @param {PreDispatchmentState} dispatchmentState The dispatchment state.
 	 */
 	preDispatch( requestedUri, dispatchmentState )

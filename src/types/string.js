@@ -206,7 +206,7 @@ Object.defineProperty(
  * Compares the string against another compare string in a strict way.
  * @method strictCompare
  * @memberOf String.prototype
- * @param {string} compareString The string which against to compare.
+ * @param {string} compareString The string to compare against.
  * @returns {number} -1 if the string comes before the compare string, 0 if the string is equal to the compare string in the sort order and 1 if the string comes after the compare string.
  */
 Object.defineProperty(
@@ -231,7 +231,7 @@ Object.defineProperty(
  * Determines if the string is equal to a compare string in a strict way.
  * @method isEqualTo
  * @memberOf String.prototype
- * @param {string} compareString The string which against to compare.
+ * @param {string} compareString The string to compare against.
  * @returns {boolean} True if the string is equal to the compare string, otherwise false.
  */
 Object.defineProperty(
@@ -249,7 +249,7 @@ Object.defineProperty(
  * Determines if the string is lower than a compare string in a strict way.
  * @method isLowerThan
  * @memberOf String.prototype
- * @param {string} compareString The string which against to compare.
+ * @param {string} compareString The string to compare against.
  * @returns {boolean} True if the string is lower than the compare string, otherwise false.
  */
 Object.defineProperty(
@@ -267,7 +267,7 @@ Object.defineProperty(
  * Determines if the string is lower than or equal to a compare string in a strict way.
  * @method isLowerThanOrEqualTo
  * @memberOf String.prototype
- * @param {string} compareString The string which against to compare.
+ * @param {string} compareString The string to compare against.
  * @returns {boolean} True if the string is lower than or equal to the compare string, otherwise false.
  */
 Object.defineProperty(
@@ -285,7 +285,7 @@ Object.defineProperty(
  * Determines if the string is greater than a compare string in a strict way.
  * @method isGreaterThan
  * @memberOf String.prototype
- * @param {string} compareString The string which against to compare.
+ * @param {string} compareString The string to compare against.
  * @returns {boolean} True if the string is greater than the compare string, otherwise false.
  */
 Object.defineProperty(
@@ -303,7 +303,7 @@ Object.defineProperty(
  * Determines if the string is greater than or equal to a compare string in a strict way.
  * @method isGreaterThanOrEqualTo
  * @memberOf String.prototype
- * @param {string} compareString The string which against to compare.
+ * @param {string} compareString The string to compare against.
  * @returns {boolean} True if the string is greater than or equal to the compare string, otherwise false.
  */
 Object.defineProperty(

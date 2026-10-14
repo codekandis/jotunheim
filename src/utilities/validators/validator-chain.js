@@ -26,19 +26,19 @@ export class ValidatorChain extends AbstractValidator
 {
 	/**
 	 * Stores the validators of the validator chain.
-	 * @type {Array<AbstractValidator>}
+	 * @type {Array< AbstractValidator >}
 	 */
 	#_validators = [];
 
 	/**
 	 * Stores the error messages of the validation.
-	 * @type {Collection<string>}
+	 * @type {Collection< string >}
 	 */
 	#_errorMessages = new Collection();
 
 	/**
 	 * Constructor method.
-	 * @param {...AbstractValidator} validators The initital validators of the validator chain.
+	 * @param {...AbstractValidator} validators The initial validators of the validator chain.
 	 */
 	constructor( ...validators )
 	{
@@ -66,7 +66,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Gets the validation failed event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get validationFailedEvent()
 	{
@@ -75,7 +75,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Gets the validation succeeded event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get validationSucceededEvent()
 	{
@@ -84,7 +84,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Gets the validations failed event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get validationsFailedEvent()
 	{
@@ -93,7 +93,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Gets the validations succeeded event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get validationsSucceededEvent()
 	{
@@ -102,7 +102,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Gets the iterator to iterate over any validator chain's validator.
-	 * @returns {IterableIterator<any>} The iterator to iterate over any validator chain's validator.
+	 * @returns {IterableIterator< any >} The iterator to iterate over any validator chain's validator.
 	 */
 	* #validators()
 	{
@@ -115,7 +115,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Gets the iterator to iterate over any validator chain's item.
-	 * @returns {IterableIterator<any>} The iterator to iterate over any validator chain's item.
+	 * @returns {IterableIterator< any >} The iterator to iterate over any validator chain's item.
 	 */
 	[ Symbol.iterator ]()
 	{
@@ -124,7 +124,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Static constructor method.
-	 * @param {...Array<AbstractValidator>} arrays The arrays to create the validator chain from.
+	 * @param {...Array< AbstractValidator >} arrays The arrays to create the validator chain from.
 	 * @returns {ValidatorChain} The created validator chain.
 	 * @throws {InvalidTypeException} The type of at least one of the passed arrays is not `array`.
 	 * @constructor

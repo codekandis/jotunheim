@@ -35,7 +35,7 @@ import { WheelEvent } from './wheel-event.js';
 
 /**
  * Stores arbitrary data related to the HTML element.
- * @property {any} #_data
+ * @property {any} data
  * @memberOf HTMLElement.prototype
  */
 Object.defineProperty(
@@ -97,9 +97,9 @@ Object.defineProperty(
 
 /**
  * Gets the before input event.
- * @property {Function} beforeInputEvent
+ * @property {EventManager_Event} beforeInputEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -114,9 +114,9 @@ Object.defineProperty(
 
 /**
  * Gets the input event.
- * @property {Function} inputEvent
+ * @property {EventManager_Event} inputEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -131,9 +131,9 @@ Object.defineProperty(
 
 /**
  * Gets the change event.
- * @property {Function} changeEvent
+ * @property {EventManager_Event} changeEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -148,9 +148,9 @@ Object.defineProperty(
 
 /**
  * Gets the drag end event.
- * @property {Function} dragEndEvent
+ * @property {EventManager_Event} dragEndEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -165,9 +165,9 @@ Object.defineProperty(
 
 /**
  * Gets the drag enter event.
- * @property {Function} dragEnterEvent
+ * @property {EventManager_Event} dragEnterEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -182,9 +182,9 @@ Object.defineProperty(
 
 /**
  * Gets the drag event.
- * @property {Function} dragEvent
+ * @property {EventManager_Event} dragEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -199,9 +199,9 @@ Object.defineProperty(
 
 /**
  * Gets the drag leave event.
- * @property {Function} dragLeaveEvent
+ * @property {EventManager_Event} dragLeaveEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -216,9 +216,9 @@ Object.defineProperty(
 
 /**
  * Gets the drag over event.
- * @property {Function} dragOverEvent
+ * @property {EventManager_Event} dragOverEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -233,9 +233,9 @@ Object.defineProperty(
 
 /**
  * Gets the drag start event.
- * @property {Function} dragStartEvent
+ * @property {EventManager_Event} dragStartEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -250,9 +250,9 @@ Object.defineProperty(
 
 /**
  * Gets the drop event.
- * @property {Function} dropEvent
+ * @property {EventManager_Event} dropEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -267,9 +267,9 @@ Object.defineProperty(
 
 /**
  * Gets the blur event.
- * @property {Function} blurEvent
+ * @property {EventManager_Event} blurEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -284,9 +284,9 @@ Object.defineProperty(
 
 /**
  * Gets the focus event.
- * @property {Function} focusEvent
+ * @property {EventManager_Event} focusEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -301,9 +301,9 @@ Object.defineProperty(
 
 /**
  * Gets the focus in event.
- * @property {Function} focusInEvent
+ * @property {EventManager_Event} focusInEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -318,9 +318,9 @@ Object.defineProperty(
 
 /**
  * Gets the focus out event.
- * @property {Function} focusOutEvent
+ * @property {EventManager_Event} focusOutEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -335,9 +335,9 @@ Object.defineProperty(
 
 /**
  * Gets the key down event.
- * @property {Function} keyDownEvent
+ * @property {EventManager_Event} keyDownEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -352,9 +352,9 @@ Object.defineProperty(
 
 /**
  * Gets the key up event.
- * @property {Function} keyUpEvent
+ * @property {EventManager_Event} keyUpEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -369,9 +369,9 @@ Object.defineProperty(
 
 /**
  * Gets the click event.
- * @property {Function} clickEvent
+ * @property {EventManager_Event} clickEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -386,9 +386,9 @@ Object.defineProperty(
 
 /**
  * Gets the double click event.
- * @property {Function} doubleClickEvent
+ * @property {EventManager_Event} doubleClickEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -403,9 +403,9 @@ Object.defineProperty(
 
 /**
  * Gets the mouse down event.
- * @property {Function} mouseDownEvent
+ * @property {EventManager_Event} mouseDownEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -420,9 +420,9 @@ Object.defineProperty(
 
 /**
  * Gets the mouse up event.
- * @property {Function} mouseUpEvent
+ * @property {EventManager_Event} mouseUpEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -437,9 +437,9 @@ Object.defineProperty(
 
 /**
  * Gets the mouse enter event.
- * @property {Function} mouseEnterEvent
+ * @property {EventManager_Event} mouseEnterEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -454,9 +454,9 @@ Object.defineProperty(
 
 /**
  * Gets the mouse move event.
- * @property {Function} mouseMoveEvent
+ * @property {EventManager_Event} mouseMoveEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -471,9 +471,9 @@ Object.defineProperty(
 
 /**
  * Gets the mouse leave event.
- * @property {Function} mouseLeaveEvent
+ * @property {EventManager_Event} mouseLeaveEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -488,9 +488,9 @@ Object.defineProperty(
 
 /**
  * Gets the mouse over event.
- * @property {Function} mouseOverEvent
+ * @property {EventManager_Event} mouseOverEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -505,9 +505,9 @@ Object.defineProperty(
 
 /**
  * Gets the mouse out event.
- * @property {Function} mouseOutEvent
+ * @property {EventManager_Event} mouseOutEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,
@@ -522,9 +522,9 @@ Object.defineProperty(
 
 /**
  * Gets the wheel event.
- * @property {Function} wheelEvent
+ * @property {EventManager_Event} wheelEvent
  * @memberOf HTMLElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLElement.prototype,

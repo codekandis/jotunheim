@@ -22,7 +22,7 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Stores the proxy to the delegated object.
-	 * @type {Proxy}
+	 * @type {BindableProxy}
 	 */
 	#_proxy;
 
@@ -60,7 +60,7 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Gets the proxy to the delegated object.
-	 * @returns {object} The proxy to the delegated object.
+	 * @returns {BindableProxy} The proxy to the delegated object.
 	 */
 	get proxy()
 	{
@@ -89,9 +89,9 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Gets the value of the bindable proxy's or the proxied delegate's member specified by their member name.
-	 * @param {object} bindableProxy The bindable proxy.
-	 * @param {string} memberName The name of the member to get its value.
-	 * @param {Proxy} proxy The proxy which triggered get handler.
+	 * @param {BindableProxy} bindableProxy The bindable proxy.
+	 * @param {string|symbol} memberName The name of the member to get its value.
+	 * @param {any} proxy The receiver of the property access.
 	 * @returns {any} The value of the bindable proxy's member, if it exists, otherwise the proxied delegate's value will be returned.
 	 */
 	#proxy_getHandler = ( bindableProxy, memberName, proxy ) =>
@@ -120,10 +120,10 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Sets the value of the bindable proxy's or the proxied delegate's member specified by their member name.
-	 * @param {object} bindableProxy The bindable proxy.
-	 * @param {string} memberName The name of the member to get its value.
+	 * @param {BindableProxy} bindableProxy The bindable proxy.
+	 * @param {string|symbol} memberName The name of the member to get its value.
 	 * @param {any} memberValue The value of the bindable proxy's member.
-	 * @param {Proxy} proxy The proxy which triggered get handler.
+	 * @param {any} proxy The receiver of the property assignment.
 	 * @returns {boolean} True!
 	 */
 	#proxy_setHandler = ( bindableProxy, memberName, memberValue, proxy ) =>

@@ -6,17 +6,19 @@
  */
 
 /**
- * Represents the handler of any node list node iteration.
- * @callback NodeList_NodeIterationHandler
+ * Represents the handler of any node list node transformation.
+ * @callback NodeList_NodeTransformationHandler
  * @param {Node} nodeValue The value of the currently iterated node.
  * @param {number} nodeIndex The index of the currently iterated node.
+ * @returns {any} The transformed node.
  */
 
 /**
- * Invokes a specific iteration handler on every node list's node.
+ * Maps a specific transformation handler over every node in the node list.
  * @method map
  * @memberOf NodeList.prototype
- * @param {NodeList_NodeIterationHandler} iterationHandler The iteration handler to invoke.
+ * @param {NodeList_NodeTransformationHandler} iterationHandler The transformation handler to invoke.
+ * @returns {Array< any >} The array containing the transformed nodes.
  */
 Object.defineProperty(
 	NodeList.prototype,
