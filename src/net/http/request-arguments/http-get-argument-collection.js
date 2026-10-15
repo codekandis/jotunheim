@@ -405,7 +405,9 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	 */
 	findAllBy( ...predicateHandlers )
 	{
-		return super.findAllBy( ...predicateHandlers );
+		return new HttpGetArgumentCollection(
+			...super.findAllBy( ...predicateHandlers )
+		);
 	}
 
 	/**

@@ -396,7 +396,9 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	 */
 	findAllBy( ...predicateHandlers )
 	{
-		return super.findAllBy( ...predicateHandlers );
+		return new HttpRequestHeaderCollection(
+			...super.findAllBy( ...predicateHandlers )
+		);
 	}
 
 	/**
