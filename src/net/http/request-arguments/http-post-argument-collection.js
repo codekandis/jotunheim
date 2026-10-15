@@ -67,26 +67,6 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Creates a predicate that checks whether an HTTP POST argument's name matches the name of any of the specified HTTP POST arguments.
-	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST arguments to match by name.
-	 * @returns {HttpArgumentCollection_HttpArgumentPredicateHandler} The HTTP POST argument name equality predicate.
-	 */
-	_createArgumentNameEqualityPredicate( ...httpPostArguments )
-	{
-		return super._createArgumentNameEqualityPredicate( ...httpPostArguments );
-	}
-
-	/**
-	 * Creates a predicate that checks whether an HTTP POST argument's name matches any of the specified HTTP POST argument names.
-	 * @param {...string} httpPostArgumentNames The HTTP POST argument names to match.
-	 * @returns {HttpArgumentCollection_HttpArgumentPredicateHandler} The HTTP POST argument name equality predicate.
-	 */
-	_createArgumentNameEqualityPredicateFromArgumentNames( ...httpPostArgumentNames )
-	{
-		return super._createArgumentNameEqualityPredicateFromArgumentNames( ...httpPostArgumentNames );
-	}
-
-	/**
 	 * Invokes a specific iteration handler on every collection's HTTP POST argument.
 	 * @param {HttpArgumentCollection_HttpArgumentIterationHandler} iterationHandler The iteration handler to invoke.
 	 */

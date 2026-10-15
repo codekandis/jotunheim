@@ -58,26 +58,6 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Creates a predicate that checks whether an HTTP request header's name matches the name of any of the specified HTTP request headers.
-	 * @param {...HttpRequestHeader} httpRequestHeaders The HTTP request headers to match by name.
-	 * @returns {HttpHeaderCollection_HttpHeaderPredicateHandler} The HTTP request header name equality predicate.
-	 */
-	_createHeaderNameEqualityPredicate( ...httpRequestHeaders )
-	{
-		return super._createHeaderNameEqualityPredicate( ...httpRequestHeaders );
-	}
-
-	/**
-	 * Creates a predicate that checks whether an HTTP request header's name matches any of the specified HTTP request header names.
-	 * @param {...string} httpRequestHeaderNames The HTTP request header names to match.
-	 * @returns {HttpHeaderCollection_HttpHeaderPredicateHandler} The HTTP request header name equality predicate.
-	 */
-	_createHeaderNameEqualityPredicateFromHeaderNames( ...httpRequestHeaderNames )
-	{
-		return super._createHeaderNameEqualityPredicateFromHeaderNames( ...httpRequestHeaderNames );
-	}
-
-	/**
 	 * Invokes a specific iteration handler on every collection's HTTP request header.
 	 * @param {HttpHeaderCollection_HttpHeaderIterationHandler} iterationHandler The iteration handler to invoke.
 	 */

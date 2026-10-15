@@ -67,26 +67,6 @@ export class HttpGetArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Creates a predicate that checks whether an HTTP GET argument's name matches the name of any of the specified HTTP GET arguments.
-	 * @param {...HttpGetArgument} httpGetArguments The HTTP GET arguments to match by name.
-	 * @returns {HttpArgumentCollection_HttpArgumentPredicateHandler} The HTTP GET argument name equality predicate.
-	 */
-	_createArgumentNameEqualityPredicate( ...httpGetArguments )
-	{
-		return super._createArgumentNameEqualityPredicate( ...httpGetArguments );
-	}
-
-	/**
-	 * Creates a predicate that checks whether an HTTP GET argument's name matches any of the specified HTTP GET argument names.
-	 * @param {...string} httpGetArgumentNames The HTTP GET argument names to match.
-	 * @returns {HttpArgumentCollection_HttpArgumentPredicateHandler} The HTTP GET argument name equality predicate.
-	 */
-	_createArgumentNameEqualityPredicateFromArgumentNames( ...httpGetArgumentNames )
-	{
-		return super._createArgumentNameEqualityPredicateFromArgumentNames( ...httpGetArgumentNames );
-	}
-
-	/**
 	 * Invokes a specific iteration handler on every collection's HTTP GET argument.
 	 * @param {HttpArgumentCollection_HttpArgumentIterationHandler} iterationHandler The iteration handler to invoke.
 	 */
