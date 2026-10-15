@@ -1,0 +1,25 @@
+{
+	"name": "@codekandis/jotunheim",
+	"version": "development",
+	"private": true,
+	"type": "module",
+	"main": "./dist/jotunheim.js",
+	"scripts": {
+		"typecheck": "tsc --noEmit --project tsconfig.json",
+		"lint": "eslint --no-error-on-unmatched-pattern \"src/**/*.ts\" \"scripts/**/*.ts\"",
+		"bundle": "node ./scripts/build.ts",
+		"watch": "node ./scripts/build.ts --watch",
+		"build": "npm run typecheck && npm run lint && npm run bundle"
+	},
+	"devDependencies": {
+		"@eslint/js": "10.0.1",
+		"@types/node": "22.18.13",
+		"esbuild": "~0.28.2",
+		"eslint": "^10.12.0",
+		"typescript": "~6.0.3",
+		"typescript-eslint": "8.71.2"
+	},
+	"engines": {
+		"node": ">=22.18.0"
+	}
+}

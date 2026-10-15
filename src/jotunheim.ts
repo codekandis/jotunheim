@@ -18,18 +18,3 @@ import './types/generator.js';
 import './types/number.js';
 import './types/object.js';
 import './types/string.js';
-import { Abstract } from './types/abstract.js';
-
-/**
- * Represents the bootstrap class of the library.
- * @author Christian Ramelow <info@codekandis.net>
- */
-export class Jotunheim extends Abstract
-{
-	/**
-	 * Loads the library.
-	 */
-	load()
-	{
-	}
-}
