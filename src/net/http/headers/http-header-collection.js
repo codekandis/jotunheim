@@ -67,7 +67,7 @@ export class HttpHeaderCollection extends Collection
 	{
 		return ( fetchedHttpHeader ) =>
 		{
-			return httpHeaders.every(
+			return httpHeaders.some(
 				( fetchedPassedHttpHeader ) =>
 				{
 					return fetchedPassedHttpHeader.name === fetchedHttpHeader.name;
@@ -87,7 +87,7 @@ export class HttpHeaderCollection extends Collection
 
 		return ( fetchedHttpHeader ) =>
 		{
-			return httpHeaderNames.every(
+			return httpHeaderNames.some(
 				( fetchedHttpHeaderName ) =>
 				{
 					const preparedHttpHeaderName = httpHeaderNamePreparator.prepare( fetchedHttpHeaderName );

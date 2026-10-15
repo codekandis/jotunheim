@@ -67,7 +67,7 @@ export class HttpPostFileCollection extends Collection
 	{
 		return ( fetchedHttpPostFile ) =>
 		{
-			return httpPostFiles.every(
+			return httpPostFiles.some(
 				( fetchedPassedHttpPostFile ) =>
 				{
 					return fetchedPassedHttpPostFile.name === fetchedHttpPostFile.name;
@@ -87,7 +87,7 @@ export class HttpPostFileCollection extends Collection
 
 		return ( fetchedHttpPostFile ) =>
 		{
-			return httpPostFileNames.every(
+			return httpPostFileNames.some(
 				( fetchedHttpPostFileName ) =>
 				{
 					const preparedHttpPostFileName = httpPostFileNamePreparator.prepare( fetchedHttpPostFileName );

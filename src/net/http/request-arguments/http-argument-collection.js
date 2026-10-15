@@ -67,7 +67,7 @@ export class HttpArgumentCollection extends Collection
 	{
 		return ( fetchedHttpArgument ) =>
 		{
-			return httpArguments.every(
+			return httpArguments.some(
 				( fetchedPassedHttpArgument ) =>
 				{
 					return fetchedPassedHttpArgument.name === fetchedHttpArgument.name;
@@ -87,7 +87,7 @@ export class HttpArgumentCollection extends Collection
 
 		return ( fetchedHttpArgument ) =>
 		{
-			return httpArgumentNames.every(
+			return httpArgumentNames.some(
 				( fetchedHttpArgumentName ) =>
 				{
 					const preparedHttpArgumentName = httpArgumentNamePreparator.prepare( fetchedHttpArgumentName );
