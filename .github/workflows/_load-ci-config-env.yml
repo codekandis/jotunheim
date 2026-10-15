@@ -16,7 +16,7 @@ jobs:
       CI_CONFIG_ENV: ${{ steps.unpack-ci-config-env.outputs.ciConfigEnv }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Unpack all CI env variables
         id: unpack-ci-config-env
