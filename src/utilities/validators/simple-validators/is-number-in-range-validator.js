@@ -104,7 +104,7 @@ export class IsNumberInRangeValidator extends AbstractValidator
 							: value <= this.#_maxValue
 					)
 			);
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}

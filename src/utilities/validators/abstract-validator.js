@@ -64,7 +64,7 @@ export class AbstractValidator extends Abstract
 	 * @param {string} expectedConstraint The expected constraint.
 	 * @param {any} value The validated value.
 	 */
-	__dispatchValidationEvent( isValid, expectedConstraint, value = undefined )
+	_dispatchValidationEvent( isValid, expectedConstraint, value = undefined )
 	{
 		if ( false === isValid )
 		{

@@ -25,7 +25,7 @@ export class IsNonEmptyStringValidator extends AbstractValidator
 	{
 		const isValid = 'string' === typeof value
 			&& String.empty !== value;
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}

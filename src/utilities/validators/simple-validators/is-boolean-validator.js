@@ -24,7 +24,7 @@ export class IsBooleanValidator extends AbstractValidator
 	validate( value )
 	{
 		const isValid = 'boolean' === typeof value;
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}

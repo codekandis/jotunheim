@@ -27,7 +27,7 @@ export class IsDateStringValidator extends AbstractValidator
 			&& false === window.isNaN(
 				Date.parse( value )
 			);
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}

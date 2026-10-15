@@ -25,7 +25,7 @@ export class IsUnsignedFloatValidator extends AbstractValidator
 	{
 		const isValid = 'number' === typeof value
 			&& 0 <= value;
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}

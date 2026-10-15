@@ -24,7 +24,7 @@ export class IsFloatValidator extends AbstractValidator
 	validate( value )
 	{
 		const isValid = 'number' === typeof value;
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}

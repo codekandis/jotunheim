@@ -104,7 +104,7 @@ export class IsStringInRangeValidator extends AbstractValidator
 							: true === value.isGreaterThanOrEqualTo( this.#_maxValue )
 					)
 			);
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}

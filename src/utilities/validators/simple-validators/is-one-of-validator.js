@@ -70,7 +70,7 @@ export class IsOneOfValidator extends AbstractValidator
 					return value === fetchedValidValue;
 				}
 			);
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}
