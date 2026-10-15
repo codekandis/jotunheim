@@ -9,7 +9,7 @@
 common purposes.
 
 
-[xtlink-version-badge]: https://img.shields.io/badge/version-0.11.0-blue.svg
+[xtlink-version-badge]: https://img.shields.io/badge/version-0.11.1-blue.svg
 [xtlink-license-badge]: https://img.shields.io/badge/license-MIT-yellow.svg
 [xtlink-es-version-badge]: https://img.shields.io/badge/es-%3E%3D%202022-F0DB4F.svg
 [xtlink-code-coverage-badge]: https://img.shields.io/badge/coverage-0%25-red.svg

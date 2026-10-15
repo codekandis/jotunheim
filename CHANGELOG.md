@@ -5,6 +5,36 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.11.1] - 2026-10-15
+
+### Added
+
+* Git archive export exclusions
+  * development and repository-specific files
+
+### Changed
+
+* GitHub workflows
+  * updated `actions/checkout` to v6
+  * replaced `softprops/action-gh-release` with GitHub CLI
+    * create or update releases with changelog notes
+* `CODE_OF_CONDUCT.md`
+  * moved to repository root
+  * upgraded Contributor Covenant from 1.4 to 3.0
+* `README.md`
+  * corrected ECMAScript version badge description
+  * updated badge color to `#F0DB4F`
+
+### Fixed
+
+* GitHub release workflow
+  * changelog parsing to preserve whitespace
+  * multiline changelog output handling
+
+[0.11.1]: https://github.com/codekandis/jotunheim/compare/0.11.0..0.11.1
+
+---
+
 ## [0.11.0] - 2026-10-13
 
 ### Added
@@ -32,15 +62,17 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.11.0]: https://github.com/codekandis/jotunheim/compare/0.10.0..0.11.0
 
 ---
+
 ## [0.10.0] - 2025-11-02
 
 ### Changed
 
-* enabled execution of multiple application pages on overlapping routes 
+* enabled execution of multiple application pages on overlapping routes
 
 [0.10.0]: https://github.com/codekandis/jotunheim/compare/0.9.2..0.10.0
 
 ---
+
 ## [0.9.2] - 2025-10-29
 
 ### Fixed
@@ -50,6 +82,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.9.2]: https://github.com/codekandis/jotunheim/compare/0.9.1..0.9.2
 
 ---
+
 ## [0.9.1] - 2025-10-21
 
 ### Fixed
@@ -59,6 +92,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.9.1]: https://github.com/codekandis/jotunheim/compare/0.9.0..0.9.1
 
 ---
+
 ## [0.9.0] - 2025-07-13
 
 ### Fixed
@@ -68,6 +102,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.9.0]: https://github.com/codekandis/jotunheim/compare/0.8.0..0.9.0
 
 ---
+
 ## [0.8.0] - 2024-11-16
 
 ### Added
@@ -77,6 +112,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.8.0]: https://github.com/codekandis/jotunheim/compare/0.7.0..0.8.0
 
 ---
+
 ## [0.7.0] - 2024-11-13
 
 ### Fixed
@@ -86,6 +122,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.7.0]: https://github.com/codekandis/jotunheim/compare/0.6.1..0.7.0
 
 ---
+
 ## [0.6.1] - 2024-10-28
 
 ### Fixed
@@ -95,6 +132,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.6.1]: https://github.com/codekandis/jotunheim/compare/0.6.0..0.6.1
 
 ---
+
 ## [0.6.0] - 2023-09-13
 
 ### Fixed
@@ -108,7 +146,9 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 
 ### Added
 
-* `String.prototype.strictCompare()`, `String.prototype.isEqualTo()`, `String.prototype.isLowerThan()`, `String.prototype.isLowerThanOrEqualTo()`, `String.prototype.isGreaterThan()`, `String.prototype.isGreaterThanOrEqualTo()`
+* `String.prototype.strictCompare()`, `String.prototype.isEqualTo()`, `String.prototype.isLowerThan()`,
+  `String.prototype.isLowerThanOrEqualTo()`, `String.prototype.isGreaterThan()`,
+  `String.prototype.isGreaterThanOrEqualTo()`
 * `InvalidArgumentException`
 * validators
   * simple validators
@@ -124,6 +164,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.6.0]: https://github.com/codekandis/jotunheim/compare/0.5.0..0.6.0
 
 ---
+
 ## [0.5.0] - 2023-09-11
 
 ### Fixed
@@ -149,6 +190,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.5.0]: https://github.com/codekandis/jotunheim/compare/0.4.1..0.5.0
 
 ---
+
 ## [0.4.1] - 2023-08-15
 
 ### Fixed
@@ -158,6 +200,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.4.1]: https://github.com/codekandis/jotunheim/compare/0.4.0..0.4.1
 
 ---
+
 ## [0.4.0] - 2023-08-12
 
 ### Added
@@ -167,6 +210,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.4.0]: https://github.com/codekandis/jotunheim/compare/0.3.1..0.4.0
 
 ---
+
 ## [0.3.1] - 2023-08-07
 
 ### Fixed
@@ -176,6 +220,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.3.1]: https://github.com/codekandis/jotunheim/compare/0.3.0..0.3.1
 
 ---
+
 ## [0.3.0] - 2023-08-06
 
 ### Fixed
@@ -185,6 +230,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.3.0]: https://github.com/codekandis/jotunheim/compare/0.2.0..0.3.0
 
 ---
+
 ## [0.2.0] - 2023-08-05
 
 ### Fixed
@@ -202,6 +248,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.2.0]: https://github.com/codekandis/jotunheim/compare/0.1.1..0.2.0
 
 ---
+
 ## [0.1.1] - 2023-07-31
 
 ### Fixed
@@ -212,6 +259,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 [0.1.1]: https://github.com/codekandis/jotunheim/compare/0.1.0..0.1.1
 
 ---
+
 ## [0.1.0] - 2023-07-21
 
 ### Added
@@ -257,15 +305,14 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
   * HTTP redirector
   * URI builder
 * controls
-    * file drop zone control
-    * tab control
+  * file drop zone control
+  * tab control
 * `CODE_OF_CONDUCT.md`
 * `LICENSE`
 * `README.md`
 * `CHANGELOG.md`
 
 [0.1.0]: https://github.com/codekandis/jotunheim/tree/0.1.0
-
 
 
 [xtlink-keep-a-changelog]: http://keepachangelog.com/en/1.1.0/
