@@ -74,7 +74,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	 */
 	_createHeaderNameEqualityPredicateFromHeaderNames( ...httpRequestHeaderNames )
 	{
-		return super._createHeaderNameEqualityPredicateFromHeaderNames( httpRequestHeaderNames );
+		return super._createHeaderNameEqualityPredicateFromHeaderNames( ...httpRequestHeaderNames );
 	}
 
 	/**

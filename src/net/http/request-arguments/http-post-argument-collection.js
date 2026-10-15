@@ -83,7 +83,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	 */
 	_createArgumentNameEqualityPredicateFromArgumentNames( ...httpPostArgumentNames )
 	{
-		return super._createArgumentNameEqualityPredicateFromArgumentNames( httpPostArgumentNames );
+		return super._createArgumentNameEqualityPredicateFromArgumentNames( ...httpPostArgumentNames );
 	}
 
 	/**
