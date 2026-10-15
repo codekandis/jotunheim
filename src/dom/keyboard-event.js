@@ -7,7 +7,7 @@
 
 /**
  * Determines if any modifier key has been pressed.
- * @property {Function} beforeInputEvent
+ * @property {boolean} isModified
  * @memberOf KeyboardEvent.prototype
  * @returns {boolean} True if any modifier key has been pressed, otherwise false.
  */

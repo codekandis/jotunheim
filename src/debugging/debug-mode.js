@@ -35,7 +35,7 @@ export class DebugMode extends AbstractStatic
 
 	/**
 	 * Stores any valid debug mode.
-	 * @type {Array<string>}
+	 * @type {Array< string >}
 	 */
 	static #_validDebugModes = [
 		this.DISABLED,

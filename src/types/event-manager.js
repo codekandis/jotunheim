@@ -5,6 +5,31 @@ import { Abstract } from './abstract.js';
 import { EventHandlerMapping } from './event-handler-mapping.js';
 
 /**
+ * Represents a function registering or removing event handlers.
+ * @typedef {
+ *     (...eventHandlers: Event_EventHandler[]) => void
+ * } EventManager_EventHandlerAction
+ */
+
+/**
+ * Represents a callable event manager with event management operations.
+ * @typedef {
+ *     EventManager_EventHandlerAction
+ *     & {
+ *         dispatch: (eventArguments?: ?EventArguments) => void,
+ *         remove: EventManager_EventHandlerAction
+ *     }
+ * } EventManager_Event
+ */
+
+/**
+ * Represents the class of a managed event.
+ * @typedef {
+ *      Function & { EVENT_NAME: string }
+ * } EventManager_EventClass
+ */
+
+/**
  * Represents an event manager managing event handlers for a specific event.
  * @author Christian Ramelow <info@codekandis.net>
  */
@@ -12,7 +37,7 @@ export class EventManager extends Abstract
 {
 	/**
 	 * Stores the class reference of the managed event.
-	 * @type {Function} The class reference of the managed event.
+	 * @type {EventManager_EventClass} The class reference of the managed event.
 	 */
 	#_eventClass;
 
@@ -24,9 +49,9 @@ export class EventManager extends Abstract
 
 	/**
 	 * Constructor method.
-	 * @param {Function} eventClass The class of the managed event.
+	 * @param {EventManager_EventClass} eventClass The class of the managed event.
 	 * @param {object} sender The object which will dispatch the event.
-	 * @returns {Function} The event managing function.
+	 * @returns {EventManager_Event} The event managing function.
 	 */
 	constructor( eventClass, sender )
 	{
@@ -51,7 +76,7 @@ export class EventManager extends Abstract
 
 	/**
 	 * Adds a variadic amount of event handlers to the managed event.
-	 * @param {...Function<Event>} eventHandlers The event handlers to add.
+	 * @param {...Event_EventHandler} eventHandlers The event handlers to add.
 	 */
 	#addEventHandlers = ( ...eventHandlers ) =>
 	{
@@ -63,7 +88,7 @@ export class EventManager extends Abstract
 
 	/**
 	 * Removes a variadic amount of event handlers from a managed event.
-	 * @param {...Function<Event>} eventHandlers The event handlers to remove.
+	 * @param {...Event_EventHandler} eventHandlers The event handlers to remove.
 	 */
 	#remove = ( ...eventHandlers ) =>
 	{
@@ -75,11 +100,11 @@ export class EventManager extends Abstract
 
 	/**
 	 * Dispatches the managed event.
-	 * @param {?EventArguments} eventArguments The arguments of the managed event.
+	 * @param {?EventArguments} [eventArguments] The arguments of the managed event.
 	 */
 	#dispatch = ( eventArguments ) =>
 	{
-		( new this.#_eventClass( this.#_sender, eventArguments ) )
+		new this.#_eventClass( this.#_sender, eventArguments )
 			.dispatch();
 	}
 }

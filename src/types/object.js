@@ -83,7 +83,7 @@ Object.defineProperty(
  * Gets the keys of the object.
  * @method keys
  * @memberOf Object.prototype
- * @returns {Array<string>} The keys of the object.
+ * @returns {Array< string >} The keys of the object.
  */
 Object.defineProperty(
 	Object.prototype,
@@ -100,7 +100,7 @@ Object.defineProperty(
  * Gets the values of the object's properties.
  * @method values
  * @memberOf Object.prototype
- * @returns {Array} The values of the object's properties.
+ * @returns {Array< any >} The values of the object's properties.
  */
 Object.defineProperty(
 	Object.prototype,
@@ -181,8 +181,8 @@ Object.defineProperty(
  * Binds the object to a variadic amount of functions / methods.
  * @method bindToAll
  * @memberOf Object.prototype
- * @param {Array<Function>} methods The functions / methods to bind the object to.
- * @returns {Array<Function>}} The bound functions / methods.
+ * @param {Array< Function >} methods The functions / methods to bind the object to.
+ * @returns {Array< Function >}} The bound functions / methods.
  */
 Object.defineProperty(
 	Object.prototype,
@@ -204,7 +204,7 @@ Object.defineProperty(
  * Merges a variadic amount of objects into the object. The object itself will be mutated.
  * @method merge
  * @memberOf Object.prototype
- * @param {Array<object>} objects The objects to merge.
+ * @param {...object} objects The objects to merge.
  * @returns {this} The merged object.
  */
 Object.defineProperty(

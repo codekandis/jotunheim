@@ -10,13 +10,13 @@ export class HtmlElementValidationsSucceededEventArguments extends EventArgument
 {
 	/**
 	 * Stores the validated HTML elements.
-	 * @type {Collection<HTMLElement>}
+	 * @type {Collection< HTMLElement >}
 	 */
 	#_htmlElements;
 
 	/**
 	 * Constructor method.
-	 * @param {Collection<HTMLElement>} htmlElements The validated HTML elements.
+	 * @param {Collection< HTMLElement >} htmlElements The validated HTML elements.
 	 */
 	constructor( htmlElements )
 	{
@@ -27,7 +27,7 @@ export class HtmlElementValidationsSucceededEventArguments extends EventArgument
 
 	/**
 	 * Gets the validated HTML elements.
-	 * @returns {Collection<HTMLElement>} The validated HTML elements.
+	 * @returns {Collection< HTMLElement >} The validated HTML elements.
 	 */
 	get htmlElements()
 	{

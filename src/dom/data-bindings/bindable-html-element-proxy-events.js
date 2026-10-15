@@ -3,7 +3,7 @@
 import { AbstractStatic } from '../../types/abstract-static.js';
 
 /**
- * Represents a flagable enumeration of bindable HTML element proxy events.
+ * Represents a flag-based enumeration of bindable HTML element proxy events.
  * @author Christian Ramelow <info@codekandis.net>
  */
 export class BindableHtmlElementProxyEvents extends AbstractStatic

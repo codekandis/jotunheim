@@ -29,7 +29,7 @@ export class FileListToHttpPostFilesConverter extends Abstract
 	/**
 	 * Converts a file list into an array of HTTP POST files.
 	 * @param {FileList} fileList The file list to convert.
-	 * @returns {Array<HttpPostFile>} The array of HTTP POST files.
+	 * @returns {Array< HttpPostFile >} The array of HTTP POST files.
 	 */
 	convert( fileList )
 	{

@@ -25,7 +25,7 @@ export class IsUnsignedFloatStringValidator extends AbstractValidator
 	{
 		const isValid = 'string' === typeof value
 			&& true === /^[0-9]+(?:\.[0-9]+)?$/.test( value );
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}

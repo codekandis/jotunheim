@@ -32,7 +32,7 @@ export class AbstractValidator extends Abstract
 	}
 
 	/**
-	 * Gets the constaint of the validation.
+	 * Gets the constraint of the validation.
 	 * @returns {string} The constraint of the validation.
 	 */
 	get constraint()
@@ -42,7 +42,7 @@ export class AbstractValidator extends Abstract
 
 	/**
 	 * Gets the validation failed event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get validationFailedEvent()
 	{
@@ -51,7 +51,7 @@ export class AbstractValidator extends Abstract
 
 	/**
 	 * Gets the validation succeeded event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get validationSucceededEvent()
 	{
@@ -64,7 +64,7 @@ export class AbstractValidator extends Abstract
 	 * @param {string} expectedConstraint The expected constraint.
 	 * @param {any} value The validated value.
 	 */
-	__dispatchValidationEvent( isValid, expectedConstraint, value = undefined )
+	_dispatchValidationEvent( isValid, expectedConstraint, value = undefined )
 	{
 		if ( false === isValid )
 		{

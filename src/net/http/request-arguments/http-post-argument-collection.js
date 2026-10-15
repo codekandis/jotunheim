@@ -41,7 +41,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 {
 	/**
 	 * Constructor method.
-	 * @param {...HttpPostArgument} httpPostArguments The initital HTTP POST arguments of the collection.
+	 * @param {...HttpPostArgument} httpPostArguments The initial HTTP POST arguments of the collection.
 	 */
 	constructor( ...httpPostArguments )
 	{
@@ -49,7 +49,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the number of HTTP POST arguments in the collection.
+	 * Gets the number of HTTP POST arguments in the collection.
 	 * @returns {number} The number of HTTP POST arguments in the collection.
 	 */
 	get length()
@@ -58,32 +58,12 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts all HTTP POST arguments of the collection as a full URL encoded query string.
+	 * Gets all HTTP POST arguments of the collection as a full URL encoded query string.
 	 * @returns {string} The HTTP POST arguments of the collection as a full URL encoded query string.
 	 */
 	get fullHttpPostArgumentsString()
 	{
 		return super.fullHttpPostArgumentsString;
-	}
-
-	/**
-	 * Creates the default predicate to compare specified HTTP POST arguments with a fetched HTTP POST argument of the HTTP POST argument collection for equality by their HTTP POST argument names.
-	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST argument to compare the fetched HTTP POST argument with.
-	 * @returns {HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} The HTTP POST argument name equality predicate handlers.
-	 */
-	_createArgumentNameEqualityPredicate( ...httpPostArguments )
-	{
-		return super._createArgumentNameEqualityPredicate( ...httpPostArguments );
-	}
-
-	/**
-	 * Creates the default predicate to compare specified HTTP POST argument names with a fetched HTTP POST argument of the HTTP POST argument collection for equality by their HTTP POST argument names.
-	 * @param {...string} httpPostArgumentNames The HTTP POST argument names to compare the fetched HTTP POST arguments with.
-	 * @returns {HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} The HTTP POST argument name equality predicate handlers.
-	 */
-	_createArgumentNameEqualityPredicateFromArgumentNames( ...httpPostArgumentNames )
-	{
-		return super._createArgumentNameEqualityPredicateFromArgumentNames( httpPostArgumentNames );
 	}
 
 	/**
@@ -98,7 +78,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Determines if the HTTP POST argument collection includes a specific HTTP POST argument.
 	 * @param {HttpPostArgument} httpPostArgument The HTTP POST argument to search for.
-	 * @returns {boolean} True if the HTTP POST arguments is included in the HTTP POST argument collection, otherwise false.
+	 * @returns {boolean} True if the HTTP POST argument is included in the HTTP POST argument collection, otherwise false.
 	 */
 	includes( httpPostArgument )
 	{
@@ -146,9 +126,9 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Replaces the first occurences of a variadic amount of HTTP POST arguments in the HTTP POST argument collection with a specified HTTP POST argument.
+	 * Replaces the first occurrences of a variadic amount of HTTP POST arguments in the HTTP POST argument collection with a specified HTTP POST argument.
 	 * @param {HttpPostArgument} httpPostArgumentReplacement The new HTTP POST argument to replace the HTTP POST argument with.
-	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST arguments which has to be replaced.
+	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST arguments that have to be replaced.
 	 */
 	replace( httpPostArgumentReplacement, ...httpPostArguments )
 	{
@@ -156,7 +136,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Replaces the first occurences of HTTP POST arguments in the HTTP POST argument collection specified by a variadic amount of predicate handlers with a specified HTTP POST argument.
+	 * Replaces the first occurrences of HTTP POST arguments in the HTTP POST argument collection specified by a variadic amount of predicate handlers with a specified HTTP POST argument.
 	 * @param {HttpPostArgument} httpPostArgumentReplacement The new HTTP POST argument to replace the HTTP POST argument with.
 	 * @param {...HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST argument.
 	 */
@@ -168,7 +148,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Replaces a variadic amount of HTTP POST arguments in the HTTP POST argument collection with a specified HTTP POST argument.
 	 * @param {HttpPostArgument} httpPostArgumentReplacement The new HTTP POST argument to replace the HTTP POST arguments with.
-	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST arguments which has to be replaced.
+	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST arguments that have to be replaced.
 	 */
 	replaceAll( httpPostArgumentReplacement, ...httpPostArguments )
 	{
@@ -176,7 +156,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Replaces all occurences of an HTTP POST argument in the HTTP POST argument collection specified by a variadic amount of predicate handlers.
+	 * Replaces all occurrences of an HTTP POST argument in the HTTP POST argument collection specified by a variadic amount of predicate handlers.
 	 * @param {HttpPostArgument} httpPostArgumentReplacement The new HTTP POST argument to replace the HTTP POST arguments with.
 	 * @param {...HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST arguments.
 	 */
@@ -186,7 +166,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Adds or replaces a variadic amount of HTTP POST arguments to / in the list. If an HTTP POST argument will be added if it does not exist. Otherwise it will be replaced.
+	 * Adds HTTP POST arguments to the collection or replaces existing arguments with matching names.
 	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST arguments to add or replace.
 	 */
 	addOrReplace( ...httpPostArguments )
@@ -196,7 +176,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 
 	/**
 	 * Removes HTTP POST arguments from the HTTP POST argument collection specified by a variadic amount of their indices.
-	 * @param {...number} indices The index of the HTTP POST argument to remove.
+	 * @param {...number} indices The indices of the HTTP POST arguments to remove.
 	 * @throws {InvalidIndexException} An index is invalid.
 	 */
 	removeAt( ...indices )
@@ -205,7 +185,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Removes the first occurences of a variadic amount of HTTP POST arguments from the HTTP POST argument collection.
+	 * Removes the first HTTP POST argument whose name matches any of the specified HTTP POST arguments.
 	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST arguments to remove.
 	 */
 	remove( ...httpPostArguments )
@@ -214,7 +194,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Removes the first occurence of an HTTP POST argument from the HTTP POST argument collection specified by a variadic amount of predicate handlers.
+	 * Removes the first occurrence of an HTTP POST argument from the HTTP POST argument collection specified by a variadic amount of predicate handlers.
 	 * @param {...HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST argument.
 	 */
 	removeBy( ...predicateHandlers )
@@ -223,7 +203,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Removes the first occurence of an HTTP POST argument specified by their HTTP POST argument names.
+	 * Removes the first HTTP POST argument whose name matches any of the specified names.
 	 * @param {...string} httpPostArgumentNames The names of the HTTP POST arguments to remove.
 	 */
 	removeByArgumentNames( ...httpPostArgumentNames )
@@ -232,7 +212,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Removes all occurences of a variadic amount of HTTP POST arguments from the HTTP POST argument collection.
+	 * Removes all occurrences of a variadic amount of HTTP POST arguments from the HTTP POST argument collection.
 	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST arguments to remove.
 	 */
 	removeAll( ...httpPostArguments )
@@ -241,7 +221,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Removes all occurences of HTTP POST arguments from the HTTP POST argument collection specified by a variadic amount of predicate handlers.
+	 * Removes all occurrences of HTTP POST arguments from the HTTP POST argument collection specified by a variadic amount of predicate handlers.
 	 * @param {...HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST arguments.
 	 */
 	removeAllBy( ...predicateHandlers )
@@ -250,7 +230,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Removes all occurences of HTTP POST arguments specified by their HTTP POST argument names.
+	 * Removes all HTTP POST arguments matching any of the specified names.
 	 * @param {...string} httpPostArgumentNames The names of the HTTP POST arguments to remove.
 	 */
 	removeAllByArgumentName( ...httpPostArgumentNames )
@@ -259,7 +239,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the first index of an HTTP POST argument.
+	 * Gets the first index of an HTTP POST argument.
 	 * @param {HttpPostArgument} httpPostArgument The HTTP POST argument to determine its first index.
 	 * @returns {undefined|number} The first index of the HTTP POST argument, if found, otherwise undefined.
 	 */
@@ -269,7 +249,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the first index of an HTTP POST argument specified by a variadic amount of predicate handlers.
+	 * Gets the first index of an HTTP POST argument specified by a variadic amount of predicate handlers.
 	 * @param {...HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST argument.
 	 * @returns {undefined|number} The first index of the HTTP POST argument, if found, otherwise undefined.
 	 */
@@ -279,7 +259,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the first index of an HTTP POST argument specified by its HTTP POST argument name.
+	 * Gets the first index of an HTTP POST argument specified by its HTTP POST argument name.
 	 * @param {string} httpPostArgumentName The HTTP POST argument name of the HTTP POST argument.
 	 * @returns {undefined|number} The first index of the HTTP POST argument, if found, otherwise undefined.
 	 */
@@ -289,7 +269,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the last index of an HTTP POST argument.
+	 * Gets the last index of an HTTP POST argument.
 	 * @param {HttpPostArgument} httpPostArgument The HTTP POST argument to determine its last index.
 	 * @returns {undefined|number} The last index of the HTTP POST argument, if found, otherwise undefined.
 	 */
@@ -299,7 +279,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the last index of an HTTP POST argument specified by a variadic amount of predicate handlers.
+	 * Gets the last index of an HTTP POST argument specified by a variadic amount of predicate handlers.
 	 * @param {...HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST argument.
 	 * @returns {undefined|number} The last index of the HTTP POST argument, if found, otherwise undefined.
 	 */
@@ -309,7 +289,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the last index of an HTTP POST argument specified by its HTTP POST argument names.
+	 * Gets the last index of an HTTP POST argument specified by its HTTP POST argument name.
 	 * @param {string} httpPostArgumentName The HTTP POST argument name of the HTTP POST argument.
 	 * @returns {undefined|number} The last index of the HTTP POST argument, if found, otherwise undefined.
 	 */
@@ -319,9 +299,9 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts all indices of specific HTTP POST arguments.
+	 * Gets all indices of specific HTTP POST arguments.
 	 * @param {...HttpPostArgument} httpPostArguments The HTTP POST arguments to determine their indices.
-	 * @returns {Collection<number>} The indices of the HTTP POST arguments, if found, otherwise an empty collection.
+	 * @returns {Collection< number >} The indices of the HTTP POST arguments, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOf( ...httpPostArguments )
 	{
@@ -329,9 +309,9 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the indices of all occurences of any HTTP POST argument specified by a variadic amount of predicate handlers.
+	 * Gets the indices of all occurrences of any HTTP POST argument specified by a variadic amount of predicate handlers.
 	 * @param {...HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST arguments.
-	 * @returns {Collection<number>} The indices of the HTTP POST arguments, if found, otherwise an empty collection.
+	 * @returns {Collection< number >} The indices of the HTTP POST arguments, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOfBy( ...predicateHandlers )
 	{
@@ -339,9 +319,9 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the indices of all occurences of any HTTP POST argument specified by a variadic amount of HTTP POST argument names.
+	 * Gets the indices of all occurrences of any HTTP POST argument specified by a variadic amount of HTTP POST argument names.
 	 * @param {...string} httpPostArgumentNames The HTTP POST argument names to determine the HTTP POST arguments.
-	 * @returns {Collection<number>} The indices of the HTTP POST arguments, if found, otherwise an empty collection.
+	 * @returns {Collection< number >} The indices of the HTTP POST arguments, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOfByArgumentNames( ...httpPostArgumentNames )
 	{
@@ -349,7 +329,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts an HTTP POST argument from the HTTP POST argument collection specified by its index.
+	 * Gets an HTTP POST argument from the HTTP POST argument collection specified by its index.
 	 * @param {number} index The index of the HTTP POST argument.
 	 * @returns {undefined|HttpPostArgument} The HTTP POST argument, if found.
 	 */
@@ -359,7 +339,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the first HTTP POST argument from the HTTP POST argument collection specified by a variadic amount of predicate handlers.
+	 * Gets the first HTTP POST argument from the HTTP POST argument collection specified by a variadic amount of predicate handlers.
 	 * @param {...HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST argument.
 	 * @returns {undefined|HttpPostArgument} The first HTTP POST argument, if found, otherwise undefined.
 	 */
@@ -369,7 +349,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the first HTTP POST argument from the HTTP POST argument collection specified by its HTTP POST argument name.
+	 * Gets the first HTTP POST argument from the HTTP POST argument collection specified by its HTTP POST argument name.
 	 * @param {string} httpPostArgumentName The HTTP POST argument name to determine the HTTP POST argument.
 	 * @returns {undefined|HttpPostArgument} The first HTTP POST argument, if found, otherwise undefined.
 	 */
@@ -379,7 +359,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the last HTTP POST argument from the HTTP POST argument collection specified by a variadic amount of predicate handlers.
+	 * Gets the last HTTP POST argument from the HTTP POST argument collection specified by a variadic amount of predicate handlers.
 	 * @param {...HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST argument.
 	 * @returns {undefined|HttpPostArgument} The last HTTP POST argument, if found, otherwise undefined.
 	 */
@@ -389,7 +369,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the last HTTP POST argument from the HTTP POST argument collection specified by its HTTP POST argument name.
+	 * Gets the last HTTP POST argument from the HTTP POST argument collection specified by its HTTP POST argument name.
 	 * @param {string} httpPostArgumentName The HTTP POST argument name to determine the HTTP POST argument.
 	 * @returns {undefined|HttpPostArgument} The last HTTP POST argument, if found, otherwise undefined.
 	 */
@@ -399,19 +379,21 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts all HTTP POST arguments from the HTTP POST argument collection specified by a variadic amount of predicate handlers.
+	 * Gets all HTTP POST arguments from the HTTP POST argument collection specified by a variadic amount of predicate handlers.
 	 * @param {...HttpPostArgumentCollection_HttpPostArgumentPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP POST arguments.
-	 * @returns {HttpPostArgumentCollection<HttpPostArgument>} The HTTP POST arguments, if found, otherwise an empty HTTP POST argument collection.
+	 * @returns {HttpPostArgumentCollection< HttpPostArgument >} The HTTP POST arguments, if found, otherwise an empty HTTP POST argument collection.
 	 */
 	findAllBy( ...predicateHandlers )
 	{
-		return super.findAllBy( ...predicateHandlers );
+		return new HttpPostArgumentCollection(
+			...super.findAllBy( ...predicateHandlers )
+		);
 	}
 
 	/**
-	 * Posts all HTTP POST arguments from the HTTP POST argument collection specified by their HTTP POST argument names.
+	 * Gets all HTTP POST arguments from the HTTP POST argument collection specified by their HTTP POST argument names.
 	 * @param {...string} httpPostArgumentNames The HTTP POST argument names to determine the HTTP POST arguments.
-	 * @returns {HttpPostArgumentCollection<HttpPostArgument>} The HTTP POST arguments, if found, otherwise an empty HTTP POST argument collection.
+	 * @returns {HttpPostArgumentCollection< HttpPostArgument >} The HTTP POST arguments, if found, otherwise an empty HTTP POST argument collection.
 	 */
 	findAllByArgumentNames( ...httpPostArgumentNames )
 	{
@@ -438,7 +420,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Maps all HTTP POST arguments of the HTTP POST argument collection into a new collection.
 	 * @param {HttpPostArgumentCollection_HttpPostArgumentTransformationHandler} transformationHandler The transformation handler used to map the HTTP POST argument collection.
-	 * @returns {Collection<any>} The collection containing the transformed HTTP POST arguments.
+	 * @returns {Collection< any >} The collection containing the transformed HTTP POST arguments.
 	 */
 	map( transformationHandler )
 	{
@@ -448,7 +430,7 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	/**
 	 * Maps all HTTP POST arguments of the collection into a new collection by a variadic amount of transformation handlers.
 	 * @param {...HttpPostArgumentCollection_HttpPostArgumentTransformationHandler} transformationHandlers The transformation handlers used to map the HTTP POST argument collection.
-	 * @returns {Collection<any>} The collection containing the transformed HTTP POST arguments.
+	 * @returns {Collection< any >} The collection containing the transformed HTTP POST arguments.
 	 */
 	mapBy( ...transformationHandlers )
 	{
@@ -490,8 +472,8 @@ export class HttpPostArgumentCollection extends HttpArgumentCollection
 	}
 
 	/**
-	 * Posts the array representation of the HTTP POST argument collection.
-	 * @returns {Array<HttpPostArgument>} The array representation of the HTTP POST argument collection.
+	 * Gets the array representation of the HTTP POST argument collection.
+	 * @returns {Array< HttpPostArgument >} The array representation of the HTTP POST argument collection.
 	 */
 	toArray()
 	{

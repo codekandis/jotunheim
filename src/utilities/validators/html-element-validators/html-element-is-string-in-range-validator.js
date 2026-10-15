@@ -14,8 +14,8 @@ export class HtmlElementIsStringInRangeValidator extends HtmlElementWithInnerVal
 	 * Constructor method.
 	 * @param {HTMLElement} htmlElement The HTML element to validate.
 	 * @param {string} propertyName The name of the HTML element's property to validate.
-	 * @param {?string} minValue The minimum value of the range. If set to null only the maximum value will be consifered during validation.
-	 * @param {?string} maxValue The maximum value of the range. If set to null only the minimum value will be consifered during validation.
+	 * @param {?string} minValue The minimum value of the range. If set to null, only the maximum value will be considered during validation.
+	 * @param {?string} maxValue The maximum value of the range. If set to null, only the minimum value will be considered during validation.
 	 * @param {boolean} isInclusive True if the minimum and maximum values are included in the range, otherwise false.
 	 * @throws {InvalidPropertyException} The HTML element's property does not exist.
 	 * @throws InvalidArgumentException Either one of `minValue` or `maxValue` can be null.

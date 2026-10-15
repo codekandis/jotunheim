@@ -17,7 +17,7 @@ export class EventHandlerMapping extends Abstract
 
 	/**
 	 * Stores the event handlers.
-	 * @type {Collection<Event_EventHandler>}
+	 * @type {Collection< Event_EventHandler >}
 	 */
 	#_eventHandlers;
 
@@ -45,7 +45,7 @@ export class EventHandlerMapping extends Abstract
 
 	/**
 	 * Gets the event handlers.
-	 * @returns {Collection<Event_EventHandler>} The event handlers.
+	 * @returns {Collection< Event_EventHandler >} The event handlers.
 	 */
 	get eventHandlers()
 	{

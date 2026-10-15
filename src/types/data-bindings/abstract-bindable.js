@@ -40,7 +40,7 @@ export class AbstractBindable extends Abstract
 
 	/**
 	 * Gets the property changing event.
-	 * @returns {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get propertyChangingEvent()
 	{
@@ -49,7 +49,7 @@ export class AbstractBindable extends Abstract
 
 	/**
 	 * Gets the property changed event.
-	 * @returns {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get propertyChangedEvent()
 	{
@@ -59,7 +59,7 @@ export class AbstractBindable extends Abstract
 	/**
 	 * Invokes the property changing event for a property specified by its name.
 	 * @param {string} propertyName The name of the property.
-	 * @param {object} proxy The proxy that will be used as the object containing the property.
+	 * @param {AbstractBindable} proxy The bindable object containing the property.
 	 */
 	_dispatchPropertyChangingEvent( propertyName, proxy = this )
 	{
@@ -71,7 +71,7 @@ export class AbstractBindable extends Abstract
 	/**
 	 * Invokes the property changed event for a property specified by its name.
 	 * @param {string} propertyName The name of the property.
-	 * @param {object} proxy The proxy that will be used as the object containing the property.
+	 * @param {AbstractBindable} proxy The bindable object containing the property.
 	 */
 	_dispatchPropertyChangedEvent( propertyName, proxy = this )
 	{

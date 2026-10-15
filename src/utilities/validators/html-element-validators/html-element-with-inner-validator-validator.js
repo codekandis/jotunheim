@@ -38,7 +38,7 @@ export class HtmlElementWithInnerValidatorValidator extends AbstractHtmlElementV
 		const value   = this._htmlElement[ this._propertyName ];
 		const isValid = this.#_innerValidator.validate( value );
 
-		this.__dispatchValidationEvent( isValid, this.#_innerValidator.constraint, value );
+		this._dispatchValidationEvent( isValid, this.#_innerValidator.constraint, value );
 
 		return isValid;
 	}

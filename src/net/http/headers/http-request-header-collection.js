@@ -41,7 +41,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 {
 	/**
 	 * Constructor method.
-	 * @param {...HttpRequestHeader} httpRequestHeaders The initital HTTP request headers of the collection.
+	 * @param {...HttpRequestHeader} httpRequestHeaders The initial HTTP request headers of the collection.
 	 */
 	constructor( ...httpRequestHeaders )
 	{
@@ -58,26 +58,6 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Creates the default predicate to compare specified HTTP request headers with a fetched HTTP request header of the HTTP request header collection for equality by their HTTP request header names.
-	 * @param {...HttpRequestHeader} httpRequestHeaders The HTTP request header to compare the fetched HTTP request header with.
-	 * @returns {HttpRequestHeaderCollection_HttpRequestHeaderPredicateHandler} The HTTP request header name equality predicate handlers.
-	 */
-	_createHeaderNameEqualityPredicate( ...httpRequestHeaders )
-	{
-		return super._createHeaderNameEqualityPredicate( ...httpRequestHeaders );
-	}
-
-	/**
-	 * Creates the default predicate to compare specified HTTP request header names with a fetched HTTP request header of the HTTP request header collection for equality by their HTTP request header names.
-	 * @param {...string} httpRequestHeaderNames The HTTP request header names to compare the fetched HTTP request headers with.
-	 * @returns {HttpRequestHeaderCollection_HttpRequestHeaderPredicateHandler} The HTTP request header name equality predicate handlers.
-	 */
-	_createHeaderNameEqualityPredicateFromHeaderNames( ...httpRequestHeaderNames )
-	{
-		return super._createHeaderNameEqualityPredicateFromHeaderNames( httpRequestHeaderNames );
-	}
-
-	/**
 	 * Invokes a specific iteration handler on every collection's HTTP request header.
 	 * @param {HttpHeaderCollection_HttpHeaderIterationHandler} iterationHandler The iteration handler to invoke.
 	 */
@@ -89,7 +69,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	/**
 	 * Determines if the HTTP request header collection includes a specific HTTP request header.
 	 * @param {HttpRequestHeader} httpRequestHeader The HTTP request header to search for.
-	 * @returns {boolean} True if the HTTP request headers is included in the HTTP request header collection, otherwise false.
+	 * @returns {boolean} True if the HTTP request header is included in the HTTP request header collection, otherwise false.
 	 */
 	includes( httpRequestHeader )
 	{
@@ -137,9 +117,9 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Replaces the first occurences of a variadic amount of HTTP request headers in the HTTP request header collection with a specified HTTP request header.
+	 * Replaces the first occurrences of a variadic amount of HTTP request headers in the HTTP request header collection with a specified HTTP request header.
 	 * @param {HttpRequestHeader} httpRequestHeaderReplacement The new HTTP request header to replace the HTTP request header with.
-	 * @param {...HttpRequestHeader} httpRequestHeaders The HTTP request headers which has to be replaced.
+	 * @param {...HttpRequestHeader} httpRequestHeaders The HTTP request headers that have to be replaced.
 	 */
 	replace( httpRequestHeaderReplacement, ...httpRequestHeaders )
 	{
@@ -147,7 +127,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Replaces the first occurences of HTTP request headers in the HTTP request header collection specified by a variadic amount of predicate handlers with a specified HTTP request header.
+	 * Replaces the first occurrences of HTTP request headers in the HTTP request header collection specified by a variadic amount of predicate handlers with a specified HTTP request header.
 	 * @param {HttpRequestHeader} httpRequestHeaderReplacement The new HTTP request header to replace the HTTP request header with.
 	 * @param {...HttpRequestHeaderCollection_HttpRequestHeaderPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP request header.
 	 */
@@ -159,7 +139,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	/**
 	 * Replaces a variadic amount of HTTP request headers in the HTTP request header collection with a specified HTTP request header.
 	 * @param {HttpRequestHeader} httpRequestHeaderReplacement The new HTTP request header to replace the HTTP request headers with.
-	 * @param {...HttpRequestHeader} httpRequestHeaders The HTTP request headers which has to be replaced.
+	 * @param {...HttpRequestHeader} httpRequestHeaders The HTTP request headers that have to be replaced.
 	 */
 	replaceAll( httpRequestHeaderReplacement, ...httpRequestHeaders )
 	{
@@ -167,7 +147,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Replaces all occurences of an HTTP request header in the HTTP request header collection specified by a variadic amount of predicate handlers.
+	 * Replaces all occurrences of an HTTP request header in the HTTP request header collection specified by a variadic amount of predicate handlers.
 	 * @param {HttpRequestHeader} httpRequestHeaderReplacement The new HTTP request header to replace the HTTP request headers with.
 	 * @param {...HttpRequestHeaderCollection_HttpRequestHeaderPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP request headers.
 	 */
@@ -177,7 +157,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Adds or replaces a variadic amount of HTTP request headers to / in the list. If an HTTP request header will be added if it does not exist. Otherwise it will be replaced.
+	 * Adds HTTP request headers to the collection or replaces existing headers with matching names.
 	 * @param {...HttpRequestHeader} httpRequestHeaders The HTTP request headers to add or replace.
 	 */
 	addOrReplace( ...httpRequestHeaders )
@@ -187,7 +167,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 
 	/**
 	 * Removes HTTP request headers from the HTTP request header collection specified by a variadic amount of their indices.
-	 * @param {...number} indices The index of the HTTP request header to remove.
+	 * @param {...number} indices The indices of the HTTP request headers to remove.
 	 * @throws {InvalidIndexException} An index is invalid.
 	 */
 	removeAt( ...indices )
@@ -196,7 +176,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Removes the first occurences of a variadic amount of HTTP request headers from the HTTP request header collection.
+	 * Removes the first HTTP request header whose name matches any of the specified HTTP request headers.
 	 * @param {...HttpRequestHeader} httpRequestHeaders The HTTP request headers to remove.
 	 */
 	remove( ...httpRequestHeaders )
@@ -205,7 +185,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Removes the first occurence of an HTTP request header from the HTTP request header collection specified by a variadic amount of predicate handlers.
+	 * Removes the first occurrence of an HTTP request header from the HTTP request header collection specified by a variadic amount of predicate handlers.
 	 * @param {...HttpRequestHeaderCollection_HttpRequestHeaderPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP request header.
 	 */
 	removeBy( ...predicateHandlers )
@@ -214,7 +194,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Removes the first occurence of an HTTP request header specified by their HTTP request header names.
+	 * Removes the first HTTP request header whose name matches any of the specified names.
 	 * @param {...string} httpRequestHeaderNames The names of the HTTP request headers to remove.
 	 */
 	removeByHeaderNames( ...httpRequestHeaderNames )
@@ -223,7 +203,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Removes all occurences of a variadic amount of HTTP request headers from the HTTP request header collection.
+	 * Removes all occurrences of a variadic amount of HTTP request headers from the HTTP request header collection.
 	 * @param {...HttpRequestHeader} httpRequestHeaders The HTTP request headers to remove.
 	 */
 	removeAll( ...httpRequestHeaders )
@@ -232,7 +212,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Removes all occurences of HTTP request headers from the HTTP request header collection specified by a variadic amount of predicate handlers.
+	 * Removes all occurrences of HTTP request headers from the HTTP request header collection specified by a variadic amount of predicate handlers.
 	 * @param {...HttpRequestHeaderCollection_HttpRequestHeaderPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP request headers.
 	 */
 	removeAllBy( ...predicateHandlers )
@@ -241,7 +221,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Removes all occurences of HTTP request headers specified by their HTTP request header names.
+	 * Removes all HTTP request headers matching any of the specified names.
 	 * @param {...string} httpRequestHeaderNames The names of the HTTP request headers to remove.
 	 */
 	removeAllByHeaderName( ...httpRequestHeaderNames )
@@ -300,7 +280,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Gets the last index of an HTTP request header specified by its HTTP request header names.
+	 * Gets the last index of an HTTP request header specified by its HTTP request header name.
 	 * @param {string} httpRequestHeaderName The HTTP request header name of the HTTP request header.
 	 * @returns {undefined|number} The last index of the HTTP request header, if found, otherwise undefined.
 	 */
@@ -312,7 +292,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	/**
 	 * Gets all indices of specific HTTP request headers.
 	 * @param {...HttpRequestHeader} httpRequestHeaders The HTTP request headers to determine their indices.
-	 * @returns {Collection<number>} The indices of the HTTP request headers, if found, otherwise an empty collection.
+	 * @returns {Collection< number >} The indices of the HTTP request headers, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOf( ...httpRequestHeaders )
 	{
@@ -320,9 +300,9 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP request header specified by a variadic amount of predicate handlers.
+	 * Gets the indices of all occurrences of any HTTP request header specified by a variadic amount of predicate handlers.
 	 * @param {...HttpRequestHeaderCollection_HttpRequestHeaderPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP request headers.
-	 * @returns {Collection<number>} The indices of the HTTP request headers, if found, otherwise an empty collection.
+	 * @returns {Collection< number >} The indices of the HTTP request headers, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOfBy( ...predicateHandlers )
 	{
@@ -330,9 +310,9 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	}
 
 	/**
-	 * Gets the indices of all occurences of any HTTP request header specified by a variadic amount of HTTP request header names.
+	 * Gets the indices of all occurrences of any HTTP request header specified by a variadic amount of HTTP request header names.
 	 * @param {...string} httpRequestHeaderNames The HTTP request header names to determine the HTTP request headers.
-	 * @returns {Collection<number>} The indices of the HTTP request headers, if found, otherwise an empty collection.
+	 * @returns {Collection< number >} The indices of the HTTP request headers, if found, otherwise an empty collection.
 	 */
 	findAllIndicesOfByHeaderNames( ...httpRequestHeaderNames )
 	{
@@ -392,17 +372,19 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	/**
 	 * Gets all HTTP request headers from the HTTP request header collection specified by a variadic amount of predicate handlers.
 	 * @param {...HttpRequestHeaderCollection_HttpRequestHeaderPredicateHandler} predicateHandlers The predicate handlers to determine the HTTP request headers.
-	 * @returns {HttpRequestHeaderCollection<HttpRequestHeader>} The HTTP request headers, if found, otherwise an empty HTTP request header collection.
+	 * @returns {HttpRequestHeaderCollection< HttpRequestHeader >} The HTTP request headers, if found, otherwise an empty HTTP request header collection.
 	 */
 	findAllBy( ...predicateHandlers )
 	{
-		return super.findAllBy( ...predicateHandlers );
+		return new HttpRequestHeaderCollection(
+			...super.findAllBy( ...predicateHandlers )
+		);
 	}
 
 	/**
 	 * Gets all HTTP request headers from the HTTP request header collection specified by their HTTP request header names.
 	 * @param {...string} httpRequestHeaderNames The HTTP request header names to determine the HTTP request headers.
-	 * @returns {HttpRequestHeaderCollection<HttpRequestHeader>} The HTTP request headers, if found, otherwise an empty HTTP request header collection.
+	 * @returns {HttpRequestHeaderCollection< HttpRequestHeader >} The HTTP request headers, if found, otherwise an empty HTTP request header collection.
 	 */
 	findAllByHeaderNames( ...httpRequestHeaderNames )
 	{
@@ -429,7 +411,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	/**
 	 * Maps all HTTP request headers of the HTTP request header collection into a new collection.
 	 * @param {HttpRequestHeaderCollection_HttpRequestHeaderTransformationHandler} transformationHandler The transformation handler used to map the HTTP request header collection.
-	 * @returns {Collection<any>} The collection containing the transformed HTTP request headers.
+	 * @returns {Collection< any >} The collection containing the transformed HTTP request headers.
 	 */
 	map( transformationHandler )
 	{
@@ -439,7 +421,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 	/**
 	 * Maps all HTTP request headers of the collection into a new collection by a variadic amount of transformation handlers.
 	 * @param {...HttpRequestHeaderCollection_HttpRequestHeaderTransformationHandler} transformationHandlers The transformation handlers used to map the HTTP request header collection.
-	 * @returns {Collection<any>} The collection containing the transformed HTTP request headers.
+	 * @returns {Collection< any >} The collection containing the transformed HTTP request headers.
 	 */
 	mapBy( ...transformationHandlers )
 	{
@@ -482,7 +464,7 @@ export class HttpRequestHeaderCollection extends HttpHeaderCollection
 
 	/**
 	 * Gets the array representation of the HTTP request header collection.
-	 * @returns {Array<HttpRequestHeader>} The array representation of the HTTP request header collection.
+	 * @returns {Array< HttpRequestHeader >} The array representation of the HTTP request header collection.
 	 */
 	toArray()
 	{

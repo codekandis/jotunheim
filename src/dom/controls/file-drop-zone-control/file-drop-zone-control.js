@@ -49,7 +49,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Represents the styles of the control.
-	 * @returns {Array<string>}
+	 * @returns {Array< string >}
 	 */
 	static get #FILE_SELECTION_DIALOG_CONTROL_STYLES()
 	{
@@ -66,25 +66,25 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Stores the multiple files dropped on or selected with the file drop zone while multiple files are disallowed.
-	 * @type {Collection<File>}
+	 * @type {Collection< File >}
 	 */
 	#_rejectedMultipleFiles = new Collection();
 
 	/**
 	 * Stores the invalid files dropped on or selected with the file drop zone.
-	 * @type {Collection<File>}
+	 * @type {Collection< File >}
 	 */
 	#_invalidSelectedFiles = new Collection();
 
 	/**
 	 * Stores the valid files dropped on or selected with the file drop zone.
-	 * @type {Collection<File>}
+	 * @type {Collection< File >}
 	 */
 	#_validSelectedFiles = new Collection();
 
 	/**
 	 * Stores the accepted file and types. If empty any file is accepted.
-	 * @type {Array<string>}
+	 * @type {Array< string >}
 	 */
 	#_acceptedFileTypes;
 
@@ -113,7 +113,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the multiple files dropped on or selected with the file drop zone while multiple files are disallowed.
-	 * @type {Collection<File>}
+	 * @type {Collection< File >}
 	 */
 	get rejectedMultipleFiles()
 	{
@@ -122,7 +122,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the invalid files dropped on or selected with the file drop zone.
-	 * @type {Collection<File>}
+	 * @type {Collection< File >}
 	 */
 	get invalidSelectedFiles()
 	{
@@ -131,7 +131,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the valid files dropped on or selected with the file drop zone.
-	 * @type {Collection<File>}
+	 * @type {Collection< File >}
 	 */
 	get validSelectedFiles()
 	{
@@ -140,7 +140,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the accepted file types.
-	 * @returns {Array<string>} The accepted file types.
+	 * @returns {Array< string >} The accepted file types.
 	 */
 	get acceptedFileTypes()
 	{
@@ -158,7 +158,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the multiple file rejected event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get multipleFileRejectedEvent()
 	{
@@ -167,7 +167,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the invalid file selected event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get invalidFileSelectedEvent()
 	{
@@ -176,7 +176,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the multiple file rejected event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get validFileSelectedEvent()
 	{
@@ -298,7 +298,7 @@ export class FileDropZoneControl extends Abstract
 		this.#_validSelectedFiles    = new Collection();
 
 		/**
-		 * @type {Collection<File>}
+		 * @type {Collection< File >}
 		 */
 		const preparedFiles = new Collection();
 

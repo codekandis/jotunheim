@@ -29,8 +29,8 @@ export class IsNumberInRangeValidator extends AbstractValidator
 
 	/**
 	 * Constructor method.
-	 * @param {?number} minValue The minimum value of the range. If set to null only the maximum value will be consifered during validation.
-	 * @param {?number} maxValue The maximum value of the range. If set to null only the minimum value will be consifered during validation.
+	 * @param {?number} minValue The minimum value of the range. If set to null, only the maximum value will be considered during validation.
+	 * @param {?number} maxValue The maximum value of the range. If set to null, only the minimum value will be considered during validation.
 	 * @param {boolean} isInclusive True if the minimum and maximum values are included in the range, otherwise false.
 	 * @throws InvalidArgumentException Either one of `minValue` or `maxValue` can be null.
 	 * @throws InvalidArgumentException `minValue` cannot be greater than `maxValue`.
@@ -104,7 +104,7 @@ export class IsNumberInRangeValidator extends AbstractValidator
 							: value <= this.#_maxValue
 					)
 			);
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}

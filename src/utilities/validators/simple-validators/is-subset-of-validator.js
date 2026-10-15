@@ -41,7 +41,7 @@ export class IsSubsetOfValidator extends AbstractValidator
 
 	/**
 	 * Stores the valid values.
-	 * @type {Collection<any>}
+	 * @type {Collection< any >}
 	 */
 	#_validValues;
 
@@ -76,7 +76,7 @@ export class IsSubsetOfValidator extends AbstractValidator
 			);
 		}
 
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}

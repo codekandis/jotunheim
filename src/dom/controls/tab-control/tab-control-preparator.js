@@ -13,7 +13,7 @@ export class TabControlPreparator extends Abstract
 {
 	/**
 	 * Stores the tab controls.
-	 * @type {Array<HTMLElement>}
+	 * @type {NodeListOf< Element >}
 	 */
 	#_tabControls;
 
@@ -36,7 +36,7 @@ export class TabControlPreparator extends Abstract
 	}
 
 	/**
-	 * Initilizes a tab control header.
+	 * Initializes a tab control header.
 	 * @param {HTMLElement} header The header to initialize.
 	 */
 	#initializeHeader( header )

@@ -10,9 +10,9 @@ import { CancelEvent } from './cancel-event.js';
 
 /**
  * Gets the cancel event.
- * @property {Function} inputEvent
+ * @property {EventManager_Event} cancelEvent
  * @memberOf HTMLDialogElement.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	HTMLDialogElement.prototype,

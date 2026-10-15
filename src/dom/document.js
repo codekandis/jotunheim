@@ -10,9 +10,9 @@ import { DomContentLoadedEvent } from './dom-content-loaded-event.js';
 
 /**
  * Gets the DOM content loaded event.
- * @property {Function} domContentLoadedEvent
+ * @property {EventManager_Event} domContentLoadedEvent
  * @memberOf Document.prototype
- * @type {Function}
+ * @type {EventManager_Event}
  */
 Object.defineProperty(
 	Document.prototype,

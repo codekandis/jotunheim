@@ -49,7 +49,7 @@ export class IsBooleanLiteralStringValidator extends AbstractValidator
 					? /^(true|false)$/.test( value )
 					: /^(true|false)$/i.test( value )
 			);
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}

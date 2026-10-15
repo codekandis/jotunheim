@@ -30,19 +30,19 @@ export class HtmlElementValidatorChain extends Abstract
 {
 	/**
 	 * Stores the HTML element validators of the HTML element validator chain.
-	 * @type {Array<AbstractHtmlElementValidator>}
+	 * @type {Array< AbstractHtmlElementValidator >}
 	 */
 	#_htmlElementValidators = [];
 
 	/**
 	 * Stores the mappings of validated HTML elements and validation error messages.
-	 * @type {Collection<HtmlElementErrorMessagesMapping>}
+	 * @type {Collection< HtmlElementErrorMessagesMapping >}
 	 */
 	#_htmlElementErrorMessagesMappings = new Collection();
 
 	/**
 	 * Constructor method.
-	 * @param {...AbstractHtmlElementValidator} validators The initital HTML element validators of the HTML element validator chain.
+	 * @param {...AbstractHtmlElementValidator} validators The initial HTML element validators of the HTML element validator chain.
 	 */
 	constructor( ...validators )
 	{
@@ -53,7 +53,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Gets the validation failed event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get validationFailedEvent()
 	{
@@ -62,7 +62,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Gets the validation succeeded event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get validationSucceededEvent()
 	{
@@ -71,7 +71,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Gets the validations failed event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get validationsFailedEvent()
 	{
@@ -80,7 +80,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Gets the validations succeeded event.
-	 * @type {Function}
+	 * @returns {EventManager_Event}
 	 */
 	get validationsSucceededEvent()
 	{
@@ -89,7 +89,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Gets the iterator to iterate over any HTML element validator chain's HTML element validator.
-	 * @returns {IterableIterator<any>} The iterator to iterate over any HTML element validator chain's HTML element validator.
+	 * @returns {IterableIterator< any >} The iterator to iterate over any HTML element validator chain's HTML element validator.
 	 */
 	* #validators()
 	{
@@ -102,7 +102,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Gets the iterator to iterate over any HTML element validator chain's item.
-	 * @returns {IterableIterator<any>} The iterator to iterate over any HTML element validator chain's item.
+	 * @returns {IterableIterator< any >} The iterator to iterate over any HTML element validator chain's item.
 	 */
 	[ Symbol.iterator ]()
 	{
@@ -111,7 +111,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Static constructor method.
-	 * @param {...Array<AbstractHtmlElementValidator>} arrays The arrays to create the HTML element validator chain from.
+	 * @param {...Array< AbstractHtmlElementValidator >} arrays The arrays to create the HTML element validator chain from.
 	 * @returns {HtmlElementValidatorChain} The created HTML element validator chain.
 	 * @throws {InvalidTypeException} The type of at least one of the passed arrays is not `array`.
 	 * @constructor

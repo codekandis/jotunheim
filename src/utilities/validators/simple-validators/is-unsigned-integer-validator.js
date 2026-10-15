@@ -26,7 +26,7 @@ export class IsUnsignedIntegerValidator extends AbstractValidator
 		const isValid = 'number' === typeof value
 			&& true === Number.isSafeInteger( value )
 			&& 0 <= value;
-		this.__dispatchValidationEvent( isValid, this.constraint, value );
+		this._dispatchValidationEvent( isValid, this.constraint, value );
 
 		return isValid;
 	}

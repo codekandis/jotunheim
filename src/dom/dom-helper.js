@@ -59,8 +59,8 @@ export class DomHelper extends AbstractStatic
 	 * Queries all HTML elements matching a given CSS selector.
 	 * @param {string} selector The CSS selector specifying the HTML elements to query.
 	 * @param {?Document|?HTMLElement} context The document or HTML element the queried HTML elements must be children of.
-	 * @param {boolean} throwExceptions True if an exception must be thrown if no HTML elements has been found, otherwise false.
-	 * @returns {Array<HTMLElement>} The HTML elements, if found, otherwise an empty array.
+	 * @param {boolean} throwExceptions True if an exception must be thrown if no HTML elements have been found, otherwise false.
+	 * @returns {NodeListOf< Element >} The HTML elements, if found, otherwise an empty node list.
 	 * @throws {DomElementNotFoundException} No HTML element has been found.
 	 */
 	static querySelectorAll( selector, context = null, throwExceptions = true )
@@ -78,10 +78,10 @@ export class DomHelper extends AbstractStatic
 	}
 
 	/**
-	 * Creates an HTML element from an HTML string. If the HTML string contains multiple HTML element only the first one will be returned.
+	 * Creates an HTML element from an HTML string. If the HTML string contains multiple HTML elements, only the first one will be returned.
 	 * @param {string} htmlString The HTML string to create the HTML element from.
-	 * @param {string} id The ID of the HTML element.
-	 * @param {string} classNames The class names of the HTML element.
+	 * @param {?string} id The ID of the HTML element.
+	 * @param {?string} classNames The class names of the HTML element.
 	 * @returns {HTMLElement} The created HTML element.
 	 */
 	static createElementFromString( htmlString, id = null, classNames = null )
@@ -337,7 +337,7 @@ export class DomHelper extends AbstractStatic
 
 	/**
 	 * Inserts a variadic amount of HTML elements before or after an HTML element specified by its position.
-	 * @param {HTMLElement} element The HTML element to insert the new HTML elements befor or after.
+	 * @param {HTMLElement} element The HTML element to insert the new HTML elements before or after.
 	 * @param {string} position The position of the inserted HTML elements.
 	 * @param {...HTMLElement} insertions The HTML elements to insert.
 	 */

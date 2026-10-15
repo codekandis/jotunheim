@@ -34,7 +34,7 @@ export class AbstractUriMappings extends Abstract
 
 	/**
 	 * Stores the relative URI templates of the mapped URIs.
-	 * @type {Record<string, String_ReplacementHandler>}
+	 * @type {Record< string, String_ReplacementHandler >}
 	 */
 	__relativeUriTemplates = {};
 
@@ -76,7 +76,7 @@ export class AbstractUriMappings extends Abstract
 
 	/**
 	 * Gets the relative URI templates of the mapped URIs.
-	 * @returns {Record<string, String_ReplacementHandler>} The relative URI templates of the mapped URIs.
+	 * @returns {Record< string, String_ReplacementHandler >} The relative URI templates of the mapped URIs.
 	 */
 	get relativeUriTemplates()
 	{

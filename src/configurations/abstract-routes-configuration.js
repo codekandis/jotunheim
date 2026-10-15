@@ -16,7 +16,7 @@ export class AbstractRoutesConfiguration extends Abstract
 
 	/**
 	 * Stores the routes of the application.
-	 * @type {Record<string, Class>}
+	 * @type {Record< string, Class >}
 	 */
 	__routes = {};
 
@@ -31,7 +31,7 @@ export class AbstractRoutesConfiguration extends Abstract
 
 	/**
 	 * Gets the routes of the application.
-	 * @returns {Record<string, Class>} The routes of the application.
+	 * @returns {Record< string, Class >} The routes of the application.
 	 */
 	get routes()
 	{

@@ -10,13 +10,13 @@ export class HtmlElementValidationsFailedEventArguments extends EventArguments
 {
 	/**
 	 * Stores the mappings of validated HTML elements and validation error messages.
-	 * @type {Collection<HtmlElementErrorMessagesMapping>}
+	 * @type {Collection< HtmlElementErrorMessagesMapping >}
 	 */
 	#_htmlElementErrorMessagesMappings;
 
 	/**
 	 * Constructor method.
-	 * @param {Collection<HtmlElementErrorMessagesMapping>} htmlElementErrorMessagesMappings The mappings of validated HTML elements and validation error messages.
+	 * @param {Collection< HtmlElementErrorMessagesMapping >} htmlElementErrorMessagesMappings The mappings of validated HTML elements and validation error messages.
 	 */
 	constructor( htmlElementErrorMessagesMappings )
 	{
@@ -27,7 +27,7 @@ export class HtmlElementValidationsFailedEventArguments extends EventArguments
 
 	/**
 	 * Gets the mappings of validated HTML elements and validation error messages.
-	 * @returns {Collection<HtmlElementErrorMessagesMapping>} The mappings of validated HTML elements and validation error messages.
+	 * @returns {Collection< HtmlElementErrorMessagesMapping >} The mappings of validated HTML elements and validation error messages.
 	 */
 	get htmlElementErrorMessagesMappings()
 	{
