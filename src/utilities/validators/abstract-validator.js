@@ -42,7 +42,7 @@ export class AbstractValidator extends Abstract
 
 	/**
 	 * Gets the validation failed event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof ValidationFailedEvent>}
 	 */
 	get validationFailedEvent()
 	{
@@ -51,7 +51,7 @@ export class AbstractValidator extends Abstract
 
 	/**
 	 * Gets the validation succeeded event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof ValidationSucceededEvent>}
 	 */
 	get validationSucceededEvent()
 	{

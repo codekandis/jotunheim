@@ -66,7 +66,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Gets the validation failed event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof ValidationFailedEvent>}
 	 */
 	get validationFailedEvent()
 	{
@@ -75,7 +75,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Gets the validation succeeded event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof ValidationSucceededEvent>}
 	 */
 	get validationSucceededEvent()
 	{
@@ -84,7 +84,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Gets the validations failed event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof ValidationsFailedEvent>}
 	 */
 	get validationsFailedEvent()
 	{
@@ -93,7 +93,7 @@ export class ValidatorChain extends AbstractValidator
 
 	/**
 	 * Gets the validations succeeded event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof ValidationsSucceededEvent>}
 	 */
 	get validationsSucceededEvent()
 	{
@@ -183,8 +183,8 @@ export class ValidatorChain extends AbstractValidator
 		this.#_validators.forEach(
 			( fetchedValidator ) =>
 			{
-				fetchedValidator.validationFailedEvent( this.#validator_validationFailed );
-				fetchedValidator.validationSucceededEvent( this.#validator_validationSucceeded );
+				fetchedValidator.validationFailedEvent.add( this.#validator_validationFailed );
+				fetchedValidator.validationSucceededEvent.add( this.#validator_validationSucceeded );
 
 				isValid = fetchedValidator.validate( value ) && isValid;
 

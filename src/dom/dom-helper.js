@@ -5,6 +5,8 @@ import { DomElementNotFoundException } from './dom-element-not-found-exception.j
 import { DomInsertPosition } from './dom-insert-position.js';
 import { DomSelectorNotResolvableException } from './dom-selector-not-resolvable-exception.js';
 
+/** @import { EventHandler } from '../types/event-handler.js'; */
+
 /**
  * Represents a DOM helper providing various methods to iterate and manipulate the DOM.
  * @author Christian Ramelow <info@codekandis.net>
@@ -162,7 +164,7 @@ export class DomHelper extends AbstractStatic
 	 * Adds an event handler to an HTML element.
 	 * @param {object} element The HTML element to add the event handler to.
 	 * @param {string} eventName The name of the event to add the event handler to.
-	 * @param {Event_EventHandler} eventHandler The event handler to add.
+	 * @param {EventHandler} eventHandler The event handler to add.
 	 */
 	static addEventHandler( element, eventName, eventHandler )
 	{
@@ -193,7 +195,7 @@ export class DomHelper extends AbstractStatic
 	 * Adds an event handler to all HTML elements specified by a CSS selector.
 	 * @param {string} selector The CSS selector specifying the HTML elements to add the event handlers to.
 	 * @param {string} eventName The name of the event to add the event handler to.
-	 * @param {Event_EventHandler} eventHandler The event handler to add.
+	 * @param {EventHandler} eventHandler The event handler to add.
 	 */
 	static addEventHandlerBySelector( selector, eventName, eventHandler )
 	{
@@ -228,7 +230,7 @@ export class DomHelper extends AbstractStatic
 	 * Removes an event handler from an HTML element.
 	 * @param {object} element The HTML element to remove the event handler from.
 	 * @param {string} eventName The name of the event to remove the event handler from.
-	 * @param {Event_EventHandler} eventHandler The event handler to remove.
+	 * @param {EventHandler} eventHandler The event handler to remove.
 	 */
 	static removeEventHandler( element, eventName, eventHandler )
 	{
@@ -259,7 +261,7 @@ export class DomHelper extends AbstractStatic
 	 * Removes an event handler from all HTML elements specified by a CSS selector.
 	 * @param {string} selector The CSS selector specifying the HTML elements to remove the event handlers from.
 	 * @param {string} eventName The name of the event to remove the event handler from.
-	 * @param {Event_EventHandler} eventHandler The event handler to remove.
+	 * @param {EventHandler} eventHandler The event handler to remove.
 	 */
 	static removeEventHandlerBySelector( selector, eventName, eventHandler )
 	{

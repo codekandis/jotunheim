@@ -116,7 +116,7 @@ export class BindableProxy extends AbstractBindable
 		}
 
 		return targetValue;
-	}
+	};
 
 	/**
 	 * Sets the value of the bindable proxy's or the proxied delegate's member specified by their member name.
@@ -132,5 +132,5 @@ export class BindableProxy extends AbstractBindable
 		this._dispatchPropertyChangedEvent( memberName, this.#_proxy );
 
 		return true;
-	}
+	};
 }

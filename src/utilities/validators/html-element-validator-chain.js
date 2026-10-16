@@ -53,7 +53,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Gets the validation failed event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof HtmlElementValidationFailedEvent>}
 	 */
 	get validationFailedEvent()
 	{
@@ -62,7 +62,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Gets the validation succeeded event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof HtmlElementValidationSucceededEvent>}
 	 */
 	get validationSucceededEvent()
 	{
@@ -71,7 +71,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Gets the validations failed event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof HtmlElementValidationsFailedEvent>}
 	 */
 	get validationsFailedEvent()
 	{
@@ -80,7 +80,7 @@ export class HtmlElementValidatorChain extends Abstract
 
 	/**
 	 * Gets the validations succeeded event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof HtmlElementValidationsSucceededEvent>}
 	 */
 	get validationsSucceededEvent()
 	{
@@ -169,8 +169,8 @@ export class HtmlElementValidatorChain extends Abstract
 		this.#_htmlElementValidators.forEach(
 			( fetchedValidator ) =>
 			{
-				fetchedValidator.validationFailedEvent( this.#htmlElementValidator_validationFailed );
-				fetchedValidator.validationSucceededEvent( this.#htmlElementValidator_validationSucceeded );
+				fetchedValidator.validationFailedEvent.add( this.#htmlElementValidator_validationFailed );
+				fetchedValidator.validationSucceededEvent.add( this.#htmlElementValidator_validationSucceeded );
 
 				isValid = fetchedValidator.validate() && isValid;
 

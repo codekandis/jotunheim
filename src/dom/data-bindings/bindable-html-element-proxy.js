@@ -75,11 +75,11 @@ export class BindableHtmlElementProxy extends BindableProxy
 
 			if ( 0 !== ( bindableEvents & BindableHtmlElementProxyEvents.INPUT ) )
 			{
-				bindableProxy.delegatedObject.inputEvent( eventHandler );
+				bindableProxy.delegatedObject.inputEvent.add( eventHandler );
 			}
 			if ( 0 !== ( bindableEvents & BindableHtmlElementProxyEvents.CHANGE ) )
 			{
-				bindableProxy.delegatedObject.changeEvent( eventHandler );
+				bindableProxy.delegatedObject.changeEvent.add( eventHandler );
 			}
 		};
 

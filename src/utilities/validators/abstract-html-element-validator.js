@@ -94,7 +94,7 @@ export class AbstractHtmlElementValidator extends Abstract
 
 	/**
 	 * Gets the validation failed event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof HtmlElementValidationFailedEvent>}
 	 */
 	get validationFailedEvent()
 	{
@@ -103,7 +103,7 @@ export class AbstractHtmlElementValidator extends Abstract
 
 	/**
 	 * Gets the validation succeeded event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof HtmlElementValidationSucceededEvent>}
 	 */
 	get validationSucceededEvent()
 	{

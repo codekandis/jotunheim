@@ -779,7 +779,7 @@ Object.defineProperty(
 							       {
 								       fetchedItem = fetchedTransformationHandler( fetchedItem );
 							       }
-						       )
+						       );
 
 						       return fetchedItem;
 					       }

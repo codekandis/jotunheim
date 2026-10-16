@@ -47,7 +47,7 @@ export class TabControlPreparator extends Abstract
 			header.setAttribute( 'data-is-activated', BooleanString.FALSE );
 		}
 
-		header.clickEvent(
+		header.clickEvent.add(
 			( event ) =>
 			{
 				DomHelper
@@ -62,7 +62,7 @@ export class TabControlPreparator extends Abstract
 									: BooleanString.TRUE
 							);
 						}
-					)
+					);
 			}
 		);
 	}

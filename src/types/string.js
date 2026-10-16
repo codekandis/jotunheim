@@ -184,11 +184,11 @@ Object.defineProperty(
 		value: function ()
 		       {
 			       const map = {
-				       '&': '&amp;',
-				       '<': '&lt;',
-				       '>': '&gt;',
-				       '"': '&quot;',
-				       "'": '&#039;'
+				       '&':  '&amp;',
+				       '<':  '&lt;',
+				       '>':  '&gt;',
+				       '"':  '&quot;',
+				       '\'': '&#039;'
 			       };
 
 			       return this.replace(
@@ -222,7 +222,7 @@ Object.defineProperty(
 				       {
 					       numeric: true
 				       }
-			       )
+			       );
 		       }
 	}
 );

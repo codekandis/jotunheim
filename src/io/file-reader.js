@@ -15,9 +15,9 @@ import { EventManager } from '../types/event-manager.js';
 
 /**
  * Gets the abort event.
- * @property {EventManager_Event} abortEvent
+ * @property {EventManager<typeof AbortEvent>} abortEvent
  * @memberOf FileReader.prototype
- * @type {EventManager_Event}
+ * @type {EventManager<typeof AbortEvent>}
  */
 Object.defineProperty(
 	FileReader.prototype,
@@ -32,9 +32,9 @@ Object.defineProperty(
 
 /**
  * Gets the error event.
- * @property {EventManager_Event} errorEvent
+ * @property {EventManager<typeof ErrorEvent>} errorEvent
  * @memberOf FileReader.prototype
- * @type {EventManager_Event}
+ * @type {EventManager<typeof ErrorEvent>}
  */
 Object.defineProperty(
 	FileReader.prototype,
@@ -49,9 +49,9 @@ Object.defineProperty(
 
 /**
  * Gets the load event.
- * @property {EventManager_Event} loadEvent
+ * @property {EventManager<typeof LoadEvent>} loadEvent
  * @memberOf FileReader.prototype
- * @type {EventManager_Event}
+ * @type {EventManager<typeof LoadEvent>}
  */
 Object.defineProperty(
 	FileReader.prototype,
@@ -66,9 +66,9 @@ Object.defineProperty(
 
 /**
  * Gets the load end event.
- * @property {EventManager_Event} loadEndEvent
+ * @property {EventManager<typeof LoadEndEvent>} loadEndEvent
  * @memberOf FileReader.prototype
- * @type {EventManager_Event}
+ * @type {EventManager<typeof LoadEndEvent>}
  */
 Object.defineProperty(
 	FileReader.prototype,
@@ -83,9 +83,9 @@ Object.defineProperty(
 
 /**
  * Gets the load start event.
- * @property {EventManager_Event} loadStartEvent
+ * @property {EventManager<typeof LoadStartEvent>} loadStartEvent
  * @memberOf FileReader.prototype
- * @type {EventManager_Event}
+ * @type {EventManager<typeof LoadStartEvent>}
  */
 Object.defineProperty(
 	FileReader.prototype,
@@ -100,9 +100,9 @@ Object.defineProperty(
 
 /**
  * Gets the progress event.
- * @property {EventManager_Event} progressEvent
+ * @property {EventManager<typeof ProgressEvent>} progressEvent
  * @memberOf FileReader.prototype
- * @type {EventManager_Event}
+ * @type {EventManager<typeof ProgressEvent>}
  */
 Object.defineProperty(
 	FileReader.prototype,

@@ -141,8 +141,8 @@ export class DataBinding extends Abstract
 	 */
 	#initialize()
 	{
-		this.#_binder.propertyChangedEvent( this.#binder_propertyChanged );
-		this.#_bindable.propertyChangedEvent( this.#bindable_propertyChanged );
+		this.#_binder.propertyChangedEvent.add( this.#binder_propertyChanged );
+		this.#_bindable.propertyChangedEvent.add( this.#bindable_propertyChanged );
 
 		switch ( this.#_initializiationDirection )
 		{
@@ -243,7 +243,7 @@ export class DataBinding extends Abstract
 		}
 
 		this.#updateBindableProperty();
-	}
+	};
 
 	/**
 	 * Will be invoked when the bindable's property changed event will be dispatched.
@@ -261,5 +261,5 @@ export class DataBinding extends Abstract
 		}
 
 		this.#updateBinderProperty();
-	}
+	};
 }

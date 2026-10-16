@@ -19,7 +19,7 @@ export class MethodIsAbstractException extends LogicException
 	{
 		return new this(
 			String.format`The method \`${ 0 }::${ 1 }()\` is declared abstract and therefore must be defined.`( className, methodName )
-		)
+		);
 	}
 
 	/**

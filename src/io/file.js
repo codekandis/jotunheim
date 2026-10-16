@@ -23,13 +23,13 @@ Object.defineProperty(
 				       ( resolve, reject ) =>
 				       {
 					       const fileReader = new FileReader();
-					       fileReader.loadEvent(
+					       fileReader.loadEvent.add(
 						       ( event ) =>
 						       {
 							       resolve( fileReader.result );
 						       }
 					       );
-					       fileReader.errorEvent(
+					       fileReader.errorEvent.add(
 						       ( event ) =>
 						       {
 							       reject(

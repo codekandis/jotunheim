@@ -158,7 +158,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the multiple file rejected event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof MultipleFileRejectedEvent>}
 	 */
 	get multipleFileRejectedEvent()
 	{
@@ -167,7 +167,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the invalid file selected event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof InvalidFileSelectedEvent>}
 	 */
 	get invalidFileSelectedEvent()
 	{
@@ -176,7 +176,7 @@ export class FileDropZoneControl extends Abstract
 
 	/**
 	 * Gets the multiple file rejected event.
-	 * @returns {EventManager_Event}
+	 * @returns {EventManager<typeof ValidFileSelectedEvent>}
 	 */
 	get validFileSelectedEvent()
 	{
@@ -264,19 +264,19 @@ export class FileDropZoneControl extends Abstract
 			this.#addSelectedFiles( event.target.files );
 		};
 
-		this.#_fileDropZone.dragEvent( propagationStoppingEventHandler );
-		this.#_fileDropZone.dragStartEvent( propagationStoppingEventHandler );
-		this.#_fileDropZone.dragEndEvent( propagationStoppingEventHandler, settingIsNotDraggedOverEventHandler );
-		this.#_fileDropZone.dragOverEvent( propagationStoppingEventHandler, settingIsDraggedOverEventHandler );
-		this.#_fileDropZone.dragEnterEvent( propagationStoppingEventHandler, settingIsDraggedOverEventHandler );
-		this.#_fileDropZone.dragLeaveEvent( propagationStoppingEventHandler, settingIsNotDraggedOverEventHandler );
-		this.#_fileDropZone.dropEvent(
+		this.#_fileDropZone.dragEvent.add( propagationStoppingEventHandler );
+		this.#_fileDropZone.dragStartEvent.add( propagationStoppingEventHandler );
+		this.#_fileDropZone.dragEndEvent.add( propagationStoppingEventHandler, settingIsNotDraggedOverEventHandler );
+		this.#_fileDropZone.dragOverEvent.add( propagationStoppingEventHandler, settingIsDraggedOverEventHandler );
+		this.#_fileDropZone.dragEnterEvent.add( propagationStoppingEventHandler, settingIsDraggedOverEventHandler );
+		this.#_fileDropZone.dragLeaveEvent.add( propagationStoppingEventHandler, settingIsNotDraggedOverEventHandler );
+		this.#_fileDropZone.dropEvent.add(
 			propagationStoppingEventHandler,
 			settingIsNotDraggedOverEventHandler,
 			determineDroppedFilesEventHandler
 		);
-		this.#_fileDropZone.clickEvent( propagationStoppingEventHandler, openSelectionDialogEventHandler );
-		this.#_fileSelectionDialog.changeEvent( determineDialogFilesEventHandler );
+		this.#_fileDropZone.clickEvent.add( propagationStoppingEventHandler, openSelectionDialogEventHandler );
+		this.#_fileSelectionDialog.changeEvent.add( determineDialogFilesEventHandler );
 	}
 
 	/**

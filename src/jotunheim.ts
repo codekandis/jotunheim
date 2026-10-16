@@ -12,7 +12,6 @@ import './net/http/headers/headers.js';
 import './net/url.js';
 import './types/array.js';
 import './types/date.js';
-import './types/event.js';
 import './types/function.js';
 import './types/generator.js';
 import './types/number.js';

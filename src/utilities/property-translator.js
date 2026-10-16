@@ -65,7 +65,7 @@ export class PropertyTranslator extends Abstract
 
 		if ( undefined === inputClassPropertyName )
 		{
-			throw PropertyValueNotFoundException.with_propertyValue( propertyValue )
+			throw PropertyValueNotFoundException.with_propertyValue( propertyValue );
 		}
 
 		const outputClassPropertyDescriptors = Object.getOwnPropertyDescriptors( this.#_outputClass );
@@ -80,7 +80,7 @@ export class PropertyTranslator extends Abstract
 
 		if ( undefined === outputClassPropertyName )
 		{
-			throw PropertyValueNotFoundException.with_propertyValue( propertyValue )
+			throw PropertyValueNotFoundException.with_propertyValue( propertyValue );
 		}
 
 		return this.#_outputClass[ outputClassPropertyName ];
