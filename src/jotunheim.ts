@@ -13,7 +13,7 @@ import './net/url.js';
 import './types/array.js';
 import './types/date.js';
 import './types/function.js';
-import './types/generator.js';
+import './types/generator-function-prototype.js';
 import './types/number.js';
 import './types/object.js';
 import './types/string.js';
