@@ -6,11 +6,11 @@ import { InvalidStaticClassInstantiationException } from './invalid-static-class
  * Represents the base class of any static class.
  * @author Christian Ramelow <info@codekandis.net>
  */
-export class AbstractStatic
+export abstract class AbstractStatic
 {
 	/**
 	 * Constructor method.
-	 * @throws {InvalidStaticClassInstantiationException} The non-static class must not be instantiated.
+	 * @throws {InvalidStaticClassInstantiationException} A static class must not be instantiated.
 	 */
 	constructor()
 	{
