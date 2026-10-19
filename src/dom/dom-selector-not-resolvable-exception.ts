@@ -10,11 +10,10 @@ export class DomSelectorNotResolvableException extends Exception
 {
 	/**
 	 * Static constructor method.
-	 * @param {string} selector The selector which cannot be resolved.
-	 * @returns {DomSelectorNotResolvableException}
-	 * @constructor
+	 * @param selector The selector which cannot be resolved.
+	 * @returns The created exception.
 	 */
-	static with_selector( selector )
+	static with_selector( selector: string ): DomSelectorNotResolvableException
 	{
 		return new this(
 			String.format`The selector \`${ 0 }\` cannot be resolved.`( selector )

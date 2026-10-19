@@ -10,11 +10,10 @@ export class InvalidPropertyException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {any} property The property which is invalid.
-	 * @returns {InvalidPropertyException}
-	 * @constructor
+	 * @param property The property which is invalid.
+	 * @returns The created exception.
 	 */
-	static with_property( property )
+	static with_property( property: unknown ): InvalidPropertyException
 	{
 		return new this(
 			String.format`The property \`${ 0 }\` is invalid.`( property )

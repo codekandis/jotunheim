@@ -8,15 +8,14 @@ export class Exception extends Error
 {
 	/**
 	 * Stores the message of the exception.
-	 * @type {string}
 	 */
-	#_message;
+	#_message: string;
 
 	/**
 	 * Constructor method.
-	 * @param {string} message The message of the exception.
+	 * @param message The message of the exception.
 	 */
-	constructor( message )
+	constructor( message: string )
 	{
 		super( message );
 

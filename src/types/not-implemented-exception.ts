@@ -10,12 +10,11 @@ export class NotImplementedException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {object} object The object containing the abstract constant.
-	 * @param {string} constantName The name of the constant which is abstract.
-	 * @returns {NotImplementedException}
-	 * @constructor
+	 * @param object The object containing the abstract constant.
+	 * @param constantName The name of the constant which is abstract.
+	 * @returns The created exception.
 	 */
-	static with_abstractConstant( object, constantName )
+	static with_abstractConstant( object: object, constantName: string ): NotImplementedException
 	{
 		return new this(
 			String.format`The constant \`${ 0 }::${ 1 }\` is abstract and therefore must be implemented.`(
@@ -27,12 +26,11 @@ export class NotImplementedException extends LogicException
 
 	/**
 	 * Static constructor method.
-	 * @param {object} object The object containing the abstract property.
-	 * @param {string} propertyName The name of the property which is abstract.
-	 * @returns {NotImplementedException}
-	 * @constructor
+	 * @param object The object containing the abstract property.
+	 * @param propertyName The name of the property which is abstract.
+	 * @returns The created exception.
 	 */
-	static with_abstractProperty( object, propertyName )
+	static with_abstractProperty( object: object, propertyName: string ): NotImplementedException
 	{
 		return new this(
 			String.format`The property \`${ 0 }::${ 1 }\` is abstract and therefore must be implemented.`(
@@ -44,12 +42,11 @@ export class NotImplementedException extends LogicException
 
 	/**
 	 * Static constructor method.
-	 * @param {object} object The object containing the abstract method.
-	 * @param {string} methodName The name of the method which is abstract.
-	 * @returns {NotImplementedException}
-	 * @constructor
+	 * @param object The object containing the abstract method.
+	 * @param methodName The name of the method which is abstract.
+	 * @returns The created exception.
 	 */
-	static with_abstractMethod( object, methodName )
+	static with_abstractMethod( object: object, methodName: string ): NotImplementedException
 	{
 		return new this(
 			String.format`The method \`${ 0 }::${ 1 }()\` is abstract and therefore must be implemented.`(

@@ -10,12 +10,11 @@ export class InvalidArgumentException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {string} name The name of the argument which is invalid.
-	 * @param {any} argument The argument which is invalid.
-	 * @returns {InvalidArgumentException}
-	 * @constructor
+	 * @param name The name of the argument which is invalid.
+	 * @param argument The argument which is invalid.
+	 * @returns The created exception.
 	 */
-	static with_argument( name, argument )
+	static with_argument( name: string, argument: unknown ): InvalidArgumentException
 	{
 		return new this(
 			String.format`The argument \`${ 0 }\` with the value \`${ 1 }\` is invalid.`( argument )

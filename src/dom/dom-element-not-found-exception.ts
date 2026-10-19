@@ -10,11 +10,10 @@ export class DomElementNotFoundException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {string} selector The selector which cannot be resolved.
-	 * @returns {DomElementNotFoundException}
-	 * @constructor
+	 * @param selector The selector which cannot be resolved.
+	 * @returns The created exception.
 	 */
-	static with_unresolvableSelector( selector )
+	static with_unresolvableSelector( selector: string ): DomElementNotFoundException
 	{
 		return new this(
 			String.format`The selector \`${ 0 }\` cannot be resolved.`( selector )
@@ -23,11 +22,10 @@ export class DomElementNotFoundException extends LogicException
 
 	/**
 	 * Static constructor method.
-	 * @param {HTMLElement} element The element which does not exist.
-	 * @returns {DomElementNotFoundException}
-	 * @constructor
+	 * @param element The element which does not exist.
+	 * @returns The created exception.
 	 */
-	static with_element( element )
+	static with_element( element: HTMLElement ): DomElementNotFoundException
 	{
 		return new this(
 			String.format`The element \`${ 0 }\` does not exist.`( element )

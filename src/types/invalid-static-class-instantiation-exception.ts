@@ -10,11 +10,10 @@ export class InvalidStaticClassInstantiationException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {string} className The name of the class that was attempted to be instantiated.
-	 * @returns {InvalidStaticClassInstantiationException}
-	 * @constructor
+	 * @param className The name of the class that was attempted to be instantiated.
+	 * @returns The created exception.
 	 */
-	static with_className( className )
+	static with_className( className: string ): InvalidStaticClassInstantiationException
 	{
 		return new this(
 			String.format`The static class \`${ 0 }\` cannot be instantiated.`( className )
@@ -23,11 +22,10 @@ export class InvalidStaticClassInstantiationException extends LogicException
 
 	/**
 	 * Static constructor method.
-	 * @param {object} object The object that was attempted to be instantiated.
-	 * @returns {InvalidStaticClassInstantiationException}
-	 * @constructor
+	 * @param object The object that was attempted to be instantiated.
+	 * @returns The created exception.
 	 */
-	static with_object( object )
+	static with_object( object: object ): InvalidStaticClassInstantiationException
 	{
 		return this.with_className( object.__proto__.constructor.name );
 	}

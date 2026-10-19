@@ -10,11 +10,10 @@ export class InvalidDebugModeException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {string} debugMode The invalid debug mode.
-	 * @returns {InvalidDebugModeException}
-	 * @constructor
+	 * @param debugMode The invalid debug mode.
+	 * @returns The created exception.
 	 */
-	static with_debugMode( debugMode )
+	static with_debugMode( debugMode: string ): InvalidDebugModeException
 	{
 		return new this(
 			String.format`The debug mode \`${ 0 }\` is invalid.`( debugMode )

@@ -10,11 +10,10 @@ export class InvalidIndexException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {number|string} index The index which is invalid.
-	 * @returns {InvalidIndexException}
-	 * @constructor
+	 * @param index The index which is invalid.
+	 * @returns The created exception.
 	 */
-	static with_index( index )
+	static with_index( index: number | string ): InvalidIndexException
 	{
 		return new this(
 			String.format`The index \`${ 0 }\` is invalid.`( index )

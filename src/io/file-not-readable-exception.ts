@@ -10,11 +10,10 @@ export class FileNotReadableException extends IoException
 {
 	/**
 	 * Static constructor method.
-	 * @param {File} file The file which is not readable.
-	 * @returns {FileNotReadableException}
-	 * @constructor
+	 * @param file The file which is not readable.
+	 * @returns The created exception.
 	 */
-	static with_file( file )
+	static with_file( file: File ): FileNotReadableException
 	{
 		return new this(
 			String.format`The file \`${ 0 }\` is not readable.`( file.name )

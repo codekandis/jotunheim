@@ -10,11 +10,10 @@ export class PropertyValueNotFoundException extends Exception
 {
 	/**
 	 * Static constructor method.
-	 * @param {any} propertyValue The property value which does not exist.
-	 * @returns {PropertyValueNotFoundException}
-	 * @constructor
+	 * @param propertyValue The property value which does not exist.
+	 * @returns The created exception.
 	 */
-	static with_propertyValue( propertyValue )
+	static with_propertyValue( propertyValue: unknown ): PropertyValueNotFoundException
 	{
 		return new this(
 			String.format`The property value \`${ 0 }\` does not exist.`( propertyValue )

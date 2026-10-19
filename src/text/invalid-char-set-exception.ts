@@ -10,11 +10,10 @@ export class InvalidCharSetException extends Exception
 {
 	/**
 	 * Static constructor method.
-	 * @param {string} charset The charset which is invalid.
-	 * @returns {InvalidCharSetException}
-	 * @constructor
+	 * @param charset The charset which is invalid.
+	 * @returns The created exception.
 	 */
-	static with_charset( charset )
+	static with_charset( charset: string ): InvalidCharSetException
 	{
 		return new this(
 			String.format`The charset \`${ 0 }\` is invalid.`( charset )

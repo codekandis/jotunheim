@@ -10,11 +10,10 @@ export class InvalidElementException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {any} element The element which is invalid.
-	 * @returns {InvalidElementException}
-	 * @constructor
+	 * @param element The element which is invalid.
+	 * @returns The created exception.
 	 */
-	static with_element( element )
+	static with_element( element: unknown ): InvalidElementException
 	{
 		return new this(
 			String.format`The element \`${ 0 }\` is invalid.`( element )

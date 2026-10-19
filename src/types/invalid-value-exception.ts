@@ -10,11 +10,10 @@ export class InvalidValueException extends LogicException
 {
 	/**
 	 * Static constructor method.
-	 * @param {any} value The value which is invalid.
-	 * @returns {InvalidValueException}
-	 * @constructor
+	 * @param value The value which is invalid.
+	 * @returns The created exception.
 	 */
-	static with_value( value )
+	static with_value( value: unknown ): InvalidValueException
 	{
 		return new this(
 			String.format`The value \`${ 0 }\` is invalid.`( value )
