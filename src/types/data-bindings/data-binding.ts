@@ -3,7 +3,7 @@
 import { Abstract } from '../abstract.js';
 import { InvalidPropertyException } from '../invalid-property-exception.js';
 import { DataBindingInitializationDirection } from './data-binding-initialization-direction.js';
-import { PropertyChangedEvent } from './property-changed-event.js';
+import type { PropertyChangedEvent } from './property-changed-event.js';
 
 /**
  * Represents a data binding.
@@ -13,57 +13,50 @@ export class DataBinding extends Abstract
 {
 	/**
 	 * Stores the binder.
-	 * @type {object}
 	 */
-	#_binder;
+	#_binder: object;
 
 	/**
 	 * Stores the name of the binder's bound property.
-	 * @type {string}
 	 */
-	#_binderPropertyName;
+	#_binderPropertyName: string;
 
 	/**
 	 * Stores the bindable.
-	 * @type {object}
 	 */
-	#_bindable;
+	#_bindable: object;
 
 	/**
 	 * Stores the name of the bindable's bound property.
-	 * @type {string}
 	 */
-	#_bindablePropertyName;
+	#_bindablePropertyName: string;
 
 	/**
 	 * Stores the direction of the initial property update.
-	 * @type {string}
 	 */
-	#_initializiationDirection;
+	#_initializiationDirection: DataBindingInitializationDirection;
 
 	/**
 	 * Stores true if the binder is locked against any property change event, otherwise false.
-	 * @type {boolean}
 	 */
 	#_isBinderPropertyChangeLocked = false;
 
 	/**
 	 * Stores true if the bindable is locked against any property change event, otherwise false.
-	 * @type {boolean}
 	 */
 	#_isBindablePropertyChangeLocked = false;
 
 	/**
 	 * Constructor method.
-	 * @param {object} binder The binder.
-	 * @param {string} binderPropertyName The name of the binder's bound property.
-	 * @param {object} bindable The bindable.
-	 * @param {string} bindablePropertyName The name of the bindable's bound property.
-	 * @param {string} initializationDirection The direction of the initial property update.
+	 * @param binder The binder.
+	 * @param binderPropertyName The name of the binder's bound property.
+	 * @param bindable The bindable.
+	 * @param bindablePropertyName The name of the bindable's bound property.
+	 * @param initializationDirection The direction of the initial property update.
 	 * @throws {InvalidPropertyException} The property of the binder does not exist.
 	 * @throws {InvalidPropertyException} The property of the bindable does not exist.
 	 */
-	constructor( binder, binderPropertyName, bindable, bindablePropertyName, initializationDirection = DataBindingInitializationDirection.BINDER )
+	constructor( binder: object, binderPropertyName: string, bindable: object, bindablePropertyName: string, initializationDirection: DataBindingInitializationDirection = DataBindingInitializationDirection.BINDER )
 	{
 		super();
 
@@ -80,50 +73,50 @@ export class DataBinding extends Abstract
 
 	/**
 	 * Gets the binder.
-	 * @returns {object} The binder.
+	 * @returns The binder.
 	 */
-	get binder()
+	get binder(): object
 	{
 		return this.#_binder;
 	}
 
 	/**
 	 * Gets the name of the binder's bound property.
-	 * @returns {string} The name of the binder's bound property.
+	 * @returns The name of the binder's bound property.
 	 */
-	get binderPropertyName()
+	get binderPropertyName(): string
 	{
 		return this.#_binderPropertyName;
 	}
 
 	/**
 	 * Gets the bindable.
-	 * @returns {object} The bindable.
+	 * @returns The bindable.
 	 */
-	get bindable()
+	get bindable(): object
 	{
 		return this.#_bindable;
 	}
 
 	/**
 	 * Gets the name of the bindable's bound property.
-	 * @returns {string} The name of the bindable's bound property.
+	 * @returns The name of the bindable's bound property.
 	 */
-	get bindablePropertyName()
+	get bindablePropertyName(): string
 	{
 		return this.#_bindablePropertyName;
 	}
 
 	/**
 	 * Guards if all specified properties exist.
-	 * @param {object} binder The binder.
-	 * @param {string} binderPropertyName The name of the binder's bound property.
-	 * @param {object} bindable The bindable.
-	 * @param {string} bindablePropertyName The name of the bindable's bound property.
+	 * @param binder The binder.
+	 * @param binderPropertyName The name of the binder's bound property.
+	 * @param bindable The bindable.
+	 * @param bindablePropertyName The name of the bindable's bound property.
 	 * @throws {InvalidPropertyException} The property of the binder does not exist.
 	 * @throws {InvalidPropertyException} The property of the bindable does not exist.
 	 */
-	guard( binder, binderPropertyName, bindable, bindablePropertyName )
+	guard( binder: object, binderPropertyName: string, bindable: object, bindablePropertyName: string ): void
 	{
 		if ( false === binder.hasProperty( binderPropertyName ) )
 		{
@@ -139,7 +132,7 @@ export class DataBinding extends Abstract
 	/**
 	 * Initializes the data binding.
 	 */
-	#initialize()
+	#initialize(): void
 	{
 		this.#_binder.propertyChangedEvent.add( this.#binder_propertyChanged );
 		this.#_bindable.propertyChangedEvent.add( this.#bindable_propertyChanged );
@@ -164,7 +157,7 @@ export class DataBinding extends Abstract
 	/**
 	 * Locks the binder against any property change event.
 	 */
-	#lockBinderPropertyChange()
+	#lockBinderPropertyChange(): void
 	{
 		this.#_isBinderPropertyChangeLocked = true;
 	}
@@ -172,7 +165,7 @@ export class DataBinding extends Abstract
 	/**
 	 * Unlocks the binder from any property change event.
 	 */
-	#unlockBinderPropertyChange()
+	#unlockBinderPropertyChange(): void
 	{
 		this.#_isBinderPropertyChangeLocked = false;
 	}
@@ -180,7 +173,7 @@ export class DataBinding extends Abstract
 	/**
 	 * Locks the bindable against any property change event.
 	 */
-	#lockBindablePropertyChange()
+	#lockBindablePropertyChange(): void
 	{
 		this.#_isBindablePropertyChangeLocked = true;
 	}
@@ -188,7 +181,7 @@ export class DataBinding extends Abstract
 	/**
 	 * Unlocks the bindable from any property change event.
 	 */
-	#unlockBindablePropertyChange()
+	#unlockBindablePropertyChange(): void
 	{
 		this.#_isBindablePropertyChangeLocked = false;
 	}
@@ -196,7 +189,7 @@ export class DataBinding extends Abstract
 	/**
 	 * Updates the binder's property.
 	 */
-	#updateBinderProperty()
+	#updateBinderProperty(): void
 	{
 		if ( true === this.#_isBinderPropertyChangeLocked )
 		{
@@ -213,7 +206,7 @@ export class DataBinding extends Abstract
 	/**
 	 * Updates the bindable's property.
 	 */
-	#updateBindableProperty()
+	#updateBindableProperty(): void
 	{
 		if ( true === this.#_isBindablePropertyChangeLocked )
 		{
@@ -229,10 +222,9 @@ export class DataBinding extends Abstract
 
 	/**
 	 * Will be invoked when the binder's property changed event will be dispatched.
-	 * @param {PropertyChangedEvent} propertyChangedEvent The binder's dispatched property changed event.
-	 * @param {PropertyEventArguments} propertyChangedEvent.detail.eventArguments
+	 * @param propertyChangedEvent The binder's dispatched property changed event.
 	 */
-	#binder_propertyChanged = ( propertyChangedEvent ) =>
+	#binder_propertyChanged = ( propertyChangedEvent: PropertyChangedEvent ): void =>
 	{
 		if (
 			this.#_binder !== propertyChangedEvent.detail.eventArguments.object
@@ -247,10 +239,9 @@ export class DataBinding extends Abstract
 
 	/**
 	 * Will be invoked when the bindable's property changed event will be dispatched.
-	 * @param {PropertyChangedEvent} propertyChangedEvent The bindable's dispatched property changed event.
-	 * @param {PropertyEventArguments} propertyChangedEvent.detail.eventArguments
+	 * @param propertyChangedEvent The bindable's dispatched property changed event.
 	 */
-	#bindable_propertyChanged = ( propertyChangedEvent ) =>
+	#bindable_propertyChanged = ( propertyChangedEvent: PropertyChangedEvent ): void =>
 	{
 		if (
 			this.#_bindable !== propertyChangedEvent.detail.eventArguments.object

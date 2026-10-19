@@ -4,9 +4,9 @@ import { AbstractBindable } from './abstract-bindable.js';
 
 /**
  * Represents the callback of any bindable proxy instantiation.
- * @callback BindableProxy_InstantiationCallack
- * @param {BindableProxy} bindableProxy The instantiated bindable proxy.
+ * @param bindableProxy The instantiated bindable proxy.
  */
+export type BindableProxy_InstantiationCallack = ( bindableProxy: BindableProxy ) => void;
 
 /**
  * Represents a bindable proxy.
@@ -16,22 +16,20 @@ export class BindableProxy extends AbstractBindable
 {
 	/**
 	 * Stores the delegated object which is proxied.
-	 * @type {object}
 	 */
-	#_delegatedObject;
+	#_delegatedObject: object;
 
 	/**
 	 * Stores the proxy to the delegated object.
-	 * @type {BindableProxy}
 	 */
-	#_proxy;
+	#_proxy: BindableProxy;
 
 	/**
 	 * Constructor method.
-	 * @param {object} object The object to proxy.
-	 * @param {BindableProxy_InstantiationCallack} initializingCallback The callback to invoke after instantiation.
+	 * @param object The object to proxy.
+	 * @param initializingCallback The callback to invoke after instantiation.
 	 */
-	constructor( object, initializingCallback )
+	constructor( object: object, initializingCallback: BindableProxy_InstantiationCallack )
 	{
 		super();
 
@@ -51,50 +49,49 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Gets the delegated object which is proxied.
-	 * @returns {object} The delegated object which is proxied.
+	 * @returns The delegated object which is proxied.
 	 */
-	get delegatedObject()
+	get delegatedObject(): object
 	{
 		return this.#_delegatedObject;
 	}
 
 	/**
 	 * Gets the proxy to the delegated object.
-	 * @returns {BindableProxy} The proxy to the delegated object.
+	 * @returns The proxy to the delegated object.
 	 */
-	get proxy()
+	get proxy(): BindableProxy
 	{
 		return this.#_proxy;
 	}
 
 	/**
 	 * Determines if a property exists in the object. The determination is based on the type of the given member. The type must not be `symbol`, `function` and `undefined`.
-	 * @param {string} name The name of the property.
-	 * @returns {boolean} True if the property exists, otherwise false.
+	 * @param name The name of the property.
+	 * @returns True if the property exists, otherwise false.
 	 */
-	hasProperty( name )
+	override hasProperty( name: string ): boolean
 	{
 		return this.#_delegatedObject.hasProperty( name );
 	}
 
 	/**
 	 * Determines if a method exists in the object. The determination is based on the type of the given member. The type must be `function`.
-	 * @param {string} name The name of the method.
-	 * @returns {boolean} True if the method exists, otherwise false.
+	 * @param name The name of the method.
+	 * @returns True if the method exists, otherwise false.
 	 */
-	hasMethod( name )
+	override hasMethod( name: string ): boolean
 	{
 		return this.#_delegatedObject.hasMethod( name );
 	}
 
 	/**
 	 * Gets the value of the bindable proxy's or the proxied delegate's member specified by their member name.
-	 * @param {BindableProxy} bindableProxy The bindable proxy.
-	 * @param {string|symbol} memberName The name of the member to get its value.
-	 * @param {any} proxy The receiver of the property access.
-	 * @returns {any} The value of the bindable proxy's member, if it exists, otherwise the proxied delegate's value will be returned.
+	 * @param _bindableProxy The bindable proxy.
+	 * @param memberName The name of the member to get its value.
+	 * @returns The value of the bindable proxy's member, if it exists, otherwise the proxied delegate's value will be returned.
 	 */
-	#proxy_getHandler = ( bindableProxy, memberName, proxy ) =>
+	#proxy_getHandler = ( _bindableProxy: BindableProxy, memberName: string | symbol ): unknown =>
 	{
 		const proxyValue = this[ memberName ];
 
@@ -120,13 +117,12 @@ export class BindableProxy extends AbstractBindable
 
 	/**
 	 * Sets the value of the bindable proxy's or the proxied delegate's member specified by their member name.
-	 * @param {BindableProxy} bindableProxy The bindable proxy.
-	 * @param {string|symbol} memberName The name of the member to get its value.
-	 * @param {any} memberValue The value of the bindable proxy's member.
-	 * @param {any} proxy The receiver of the property assignment.
-	 * @returns {boolean} True!
+	 * @param _bindableProxy The bindable proxy.
+	 * @param memberName The name of the member to get its value.
+	 * @param memberValue The value of the bindable proxy's member.
+	 * @returns True!
 	 */
-	#proxy_setHandler = ( bindableProxy, memberName, memberValue, proxy ) =>
+	#proxy_setHandler = ( _bindableProxy: BindableProxy, memberName: string | symbol, memberValue: unknown ): boolean =>
 	{
 		this.#_delegatedObject[ memberName ] = memberValue;
 		this._dispatchPropertyChangedEvent( memberName, this.#_proxy );

@@ -12,21 +12,19 @@ export class DataBindings extends Abstract
 {
 	/**
 	 * Stores the object whose properties will be bound.
-	 * @type {object}
 	 */
-	#_binder;
+	#_binder: object;
 
 	/**
 	 * Stores the internal list of data bindings.
-	 * @type {Array< DataBinding >}
 	 */
-	#_bindings = [];
+	#_bindings: DataBinding[] = [];
 
 	/**
 	 * Constructor method.
-	 * @param {object} binder The object whose properties will be bound.
+	 * @param binder The object whose properties will be bound.
 	 */
-	constructor( binder )
+	constructor( binder: object )
 	{
 		super();
 
@@ -35,12 +33,12 @@ export class DataBindings extends Abstract
 
 	/**
 	 * Adds a data binding.
-	 * @param {string} propertyName The name of the binder's property.
-	 * @param {object} bindable The object whose property will be bound to the binder.
-	 * @param {string} bindablePropertyName The name of the property which will be bound to the binder.
-	 * @param {string} initializationDirection The direction of the initial property update.
+	 * @param propertyName The name of the binder's property.
+	 * @param bindable The object whose property will be bound to the binder.
+	 * @param bindablePropertyName The name of the property which will be bound to the binder.
+	 * @param initializationDirection The direction of the initial property update.
 	 */
-	add( propertyName, bindable, bindablePropertyName, initializationDirection = DataBindingInitializationDirection.BINDER )
+	add( propertyName: string, bindable: object, bindablePropertyName: string, initializationDirection: DataBindingInitializationDirection = DataBindingInitializationDirection.BINDER ): void
 	{
 		this.#_bindings.add(
 			new DataBinding( this.#_binder, propertyName, bindable, bindablePropertyName, initializationDirection )

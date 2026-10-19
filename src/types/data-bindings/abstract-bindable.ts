@@ -11,7 +11,7 @@ import { PropertyEventArguments } from './property-event-arguments.js';
  * Represents the base class of any bindable.
  * @author Christian Ramelow <info@codekandis.net>
  */
-export class AbstractBindable extends Abstract
+export abstract class AbstractBindable extends Abstract
 {
 	/**
 	 * Stores the data bindings of the bindable.
