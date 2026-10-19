@@ -1,5 +1,6 @@
 'use strict';
 
+import type { BindableProxy_InstantiationCallack } from '../../types/data-bindings/bindable-proxy.js';
 import { BindableProxy } from '../../types/data-bindings/bindable-proxy.js';
 import { DomHelper } from '../dom-helper.js';
 import { BindableHtmlElementProxyEvents } from './bindable-html-element-proxy-events.js';
@@ -12,22 +13,21 @@ export class BindableHtmlElementProxy extends BindableProxy
 {
 	/**
 	 * Constructor method.
-	 * @param {HTMLElement} formField The HTML element to proxy.
-	 * @param {number} bindableEvents The events to bind to the HTML element.
+	 * @param formField The HTML element to proxy.
+	 * @param bindableEvents The events to bind to the HTML element.
 	 */
-	constructor( formField, bindableEvents = BindableHtmlElementProxyEvents.INPUT )
+	constructor( formField: HTMLElement, bindableEvents: number = BindableHtmlElementProxyEvents.INPUT )
 	{
 		super( formField, BindableHtmlElementProxy.#getInitializingCallback( bindableEvents ) );
 	}
 
 	/**
 	 * Static constructor method.
-	 * @param {string} selector The CSS selector specifying the HTML element to proxy.
-	 * @param {number} bindableEvents The events to bind to the HTML element.
-	 * @returns {BindableHtmlElementProxy}
-	 * @constructor
+	 * @param selector The CSS selector specifying the HTML element to proxy.
+	 * @param bindableEvents The events to bind to the HTML element.
+	 * @returns The bindable HTML element proxy.
 	 */
-	static with_selector( selector, bindableEvents = BindableHtmlElementProxyEvents.INPUT )
+	static with_selector( selector: string, bindableEvents: number = BindableHtmlElementProxyEvents.INPUT ): BindableHtmlElementProxy
 	{
 		return new this(
 			DomHelper.querySelector( selector ),
@@ -37,18 +37,18 @@ export class BindableHtmlElementProxy extends BindableProxy
 
 	/**
 	 * Gets the initializing callback.
-	 * @param {number} bindableEvents The events to bind to the HTML element.
-	 * @returns {BindableProxy_InstantiationCallack} The initializing callback.
+	 * @param bindableEvents The events to bind to the HTML element.
+	 * @returns The initializing callback.
 	 */
-	static #getInitializingCallback( bindableEvents )
+	static #getInitializingCallback( bindableEvents: number ): BindableProxy_InstantiationCallack
 	{
 		/**
 		 * Will be invoked after the instantiation of the bindable proxy.
-		 * @param {BindableProxy} bindableProxy The instantiated bindable proxy.
+		 * @param bindableProxy The instantiated bindable proxy.
 		 */
-		const initializer = ( bindableProxy ) =>
+		const initializer = ( bindableProxy: BindableProxy ): void =>
 		{
-			const eventHandler = ( event ) =>
+			const eventHandler = (): void =>
 			{
 				let propertyName = 'value';
 
