@@ -1,8 +1,7 @@
 'use strict';
 
 import { AbstractStatic } from '../types/abstract-static.js';
-
-/** @import { EventHandler } from '../types/event-handler.js'; */
+import type { EventHandler } from '../types/event-handler.js';
 
 /**
  * Represents a DOM document wrapper.
@@ -12,9 +11,9 @@ export class DomDocument extends AbstractStatic
 {
 	/**
 	 * Adds an event handler to the DOM content loaded event of the document.
-	 * @param {EventHandler} eventHandler The event handler to add.
+	 * @param eventHandler The event handler to add.
 	 */
-	static load( eventHandler )
+	static load( eventHandler: EventHandler ): void
 	{
 		document.domContentLoadedEvent.add( eventHandler );
 	}
